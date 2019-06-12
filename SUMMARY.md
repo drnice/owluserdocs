@@ -34,6 +34,11 @@
 * [Dataset Scorecard](scorecards/dataset-scorecard.md)
 * [Group Scorecard](scorecards/group-scorecard.md)
 
+## Connecting to DBs in Owl Web
+
+* [Owl DB Connection](connecting-to-dbs-in-owl-web/owl-db-connection/README.md)
+  * [Connecting to CDH 5.16 Hive SSL/TLS/Kerberos Setup](connecting-to-dbs-in-owl-web/owl-db-connection/connecting-to-cdh-5.16-hive-ssl-tls-kerberos-setup.md)
+
 ## DQ Visuals
 
 * [Outliers](dq-visuals/outliers.md)
