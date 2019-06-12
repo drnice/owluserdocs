@@ -14,17 +14,17 @@ jdbc:hive2://cdh-instance1.us-east1-b.c.owl-hadoop-cdh.internal:10000/default;Au
 
 **Kerberos Hive Server FQDN** **=** KrbHostFQDN=cdh-instance1.us-east1-b.c.owl-hadoop-cdh.internal
 
-**Kerberos Realm used =** KrbRealm=CW.COM
+**Kerberos Realm used =** KrbRealm=CW.COM _\(Not necessarily needed\)_
 
 **Kerberos Service name =** KrbServiceName=hive
 
 **Enabling SSL =** SSL=1
 
-**The SSL KeyStore to be used to =** SSLKeyStore=/opt/cloudera/security/pki/cdh-instance1.us-east1-b.c.owl-hadoop-cdh.internal-server.jks
+**The SSL KeyStore to be used to =** SSLKeyStore=/opt/cloudera/security/pki/cdh-instance1.us-east1-b.c.owl-hadoop-cdh.internal-server.jks _\(Could use SSLTrustStore also\)_
 
 **Allow for Self Signed certifications to be OK =** AllowSelfSignedCerts=1 \(our environment used self signed certs\)
 
-**Password to the KeyStore =** SSLKeyStorePwd=password
+**Password to the KeyStore =** SSLKeyStorePwd=password _\(Not necessarily needed\)_
 
 **Kerberos Principal to use to Authenticate with =** principal=hive/cdh-instance1.us-east1-b.c.owl-hadoop-cdh.internal@CW.COM
 
