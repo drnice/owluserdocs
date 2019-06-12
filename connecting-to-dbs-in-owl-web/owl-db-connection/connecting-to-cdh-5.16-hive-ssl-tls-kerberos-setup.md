@@ -22,7 +22,7 @@ jdbc:hive2://cdh-instance1.us-east1-b.c.owl-hadoop-cdh.internal:10000/default;Au
 
 **The SSL KeyStore to be used to =** SSLKeyStore=/opt/cloudera/security/pki/cdh-instance1.us-east1-b.c.owl-hadoop-cdh.internal-server.jks _\(Could use SSLTrustStore also\)_
 
-**Allow for Self Signed certifications to be OK =** AllowSelfSignedCerts=1 \(our environment used self signed certs\)
+**Allow for Self Signed certifications to be OK =** AllowSelfSignedCerts=1 _\(our environment used self signed certs\)_
 
 **Password to the KeyStore =** SSLKeyStorePwd=password _\(Not necessarily needed\)_
 
