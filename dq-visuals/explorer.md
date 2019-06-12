@@ -12,7 +12,7 @@ Below you will see 3/3 database tables have been cataloged with Owl but only 2/3
 
 As you add more datasets to Owl you will see your bar chart increasing over time as well as the donut chart fill in with more coverage.
 
-### Auto Estimator
+### Job Estimator
 
 Before firing off a large ML job it can be helpful to understand the amount of cores and ram that the job requires to run efficiently.  Right sizing jobs is often the best way to get the best performance out of each run.  Click the \[Auto Estimate\] button for quick stats for both sizing and estimated runtime information.
 
