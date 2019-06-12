@@ -83,8 +83,6 @@
 
 * [Email Alerts](alerts/email-alerts.md)
 
-## Rules
-
 ## Troubleshooting
 
 * [Cloudera CLASSPATH](troubleshooting/cloudera-classpath.md)
