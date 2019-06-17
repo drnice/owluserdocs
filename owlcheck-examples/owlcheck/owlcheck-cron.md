@@ -36,3 +36,12 @@ echo "password" | kinit  userabc@CW.COM
 -loglevel DEBUG
 ```
 
+### Template
+
+You can also use -template to use Owl as a service hook and remove the need to pass in almost anything.  In this case Owl will look up the template automatically from either a previous run or if you've saved a template, and use these variables.  Any variable at the cmdline will override and win/replace. 
+
+```bash
+%sh
+~/owl/bin/owlcheck -template -rd $run_date
+```
+
