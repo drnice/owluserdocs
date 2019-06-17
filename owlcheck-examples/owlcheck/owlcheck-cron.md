@@ -38,7 +38,7 @@ echo "password" | kinit  userabc@CW.COM
 
 ### Template
 
-You can also use -template to use Owl as a service hook and remove the need to pass in almost anything.  In this case Owl will look up the template automatically from either a previous run or if you've saved a template, and use these variables.  Any variable at the cmdline will override and win/replace. 
+You can also use -template to use Owl as a service hook and remove the need to pass in almost anything.  In this case Owl will look up the template automatically from either a previous run or if you've saved a template, and use these variables.  Any variable at the cmdline will override and win/replace.  This is a great way to remove connection and other information from being hard coded into the job control framework and allows edit ability from Owl Webapp.  
 
 ```bash
 %sh
