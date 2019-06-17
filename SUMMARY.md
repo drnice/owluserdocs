@@ -16,6 +16,7 @@
 ## OwlCheck Examples
 
 * [OwlCheck](owlcheck-examples/owlcheck/README.md)
+  * [OwlCheck Zeppelin](owlcheck-examples/owlcheck/owlcheck-zeppelin.md)
   * [OwlCheck Files](owlcheck-examples/owlcheck/owlcheck-files.md)
   * [OwlCheck Cron](owlcheck-examples/owlcheck/owlcheck-cron.md)
   * [OwlCheck S3](owlcheck-examples/owlcheck/owlcheck-s3.md)
