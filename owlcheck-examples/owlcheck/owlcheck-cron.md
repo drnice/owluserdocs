@@ -22,7 +22,7 @@ echo "password" | kinit  userabc@CW.COM
 ~/owl/bin/owlcheck -q "select * from lake.stock_eod where date = '$run_date' " \
 -u user -p pass \
 -c "jdbc:mysql://owldatalake.chzid9w0hpyi.us-east-1.rds.amazonaws.com:3306" \
--rd $run_date \
+-rd "$run_date" \
 -dc "date" \
 -dl \
 -dllb 7 \
