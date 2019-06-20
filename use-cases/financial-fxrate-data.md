@@ -22,5 +22,16 @@ There are roughly 28,000 currency pairs and the exchange rates change throughout
 
 Even when it is possible to deploy a team of smart guys to build a solution to handle this use-case, the question then becomes but what about all my other data, don't I want similar yet different controls on everything?  Especially since FX Rate data by itself doesn't mean that much and is often combined with a number of other datasets to produce value.  What if those datasets aren't accurate either?  But those datasets have very different columns, different relationships and different time windows.  Owl takes an auto-learning approach whereby it interrogates and runs fitness tests against each dataset individually to devise the best statistical and learning approach.  The goal being to provide an automated and elegant way to have consistent controls across all your datasets.     
 
+#### Auto Adapting OwlCheck for FxRate Data
+
+```bash
+-ds fx_rate \
+-rd $rd \
+-dl \
+-dlkey TO_CURR,FROM_CURR \
+-q "select * from FX_RATE where date = '${rd}'" \
+-cxn dbConnName
+```
+
          
 

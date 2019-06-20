@@ -64,7 +64,7 @@
 * [Process Dependency](graph/process-dependency.md)
 * [Dataset Dependency](graph/dataset-dependency.md)
 
-## ARTICLES
+## ARTICLES <a id="creating-a-data-quality-pipeline"></a>
 
 * [Creating a Data Quality Pipeline](creating-a-data-quality-pipeline/creating-a-data-quality-pipeline.md)
 
