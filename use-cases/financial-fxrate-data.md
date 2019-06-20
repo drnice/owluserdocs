@@ -30,7 +30,8 @@ Even when it is possible to deploy a team of smart guys to build a solution to h
 -dl \
 -dlkey TO_CURR,FROM_CURR \
 -q "select * from FX_RATE where date = '${rd}'" \
--cxn dbConnName
+-cxn dbConnName \
+-dupe -dupeinc TO_CURR,FROM_CURR -depth 0
 ```
 
 #### What this OwlCheck Does?
@@ -41,6 +42,7 @@ Even when it is possible to deploy a team of smart guys to build a solution to h
 * Currency pair tracking
 * Schema evolution
 * Removes 28K static rules
+* Duplicate detection for redundant currency pairs
 
 
 
