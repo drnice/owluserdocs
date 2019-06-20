@@ -33,5 +33,16 @@ Even when it is possible to deploy a team of smart guys to build a solution to h
 -cxn dbConnName
 ```
 
+#### What this OwlCheck Does?
+
+* Automatic correlation and relationship analysis
+* Histograming and Segmentation analysis
+* Anomaly detection
+* Currency pair tracking
+* Schema evolution
+* Removes 28K static rules
+
+
+
          
 
