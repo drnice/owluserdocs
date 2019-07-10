@@ -47,7 +47,7 @@ You can also use -template to use Owl as a service hook and remove the need to p
 
 ### Owl Scheduler - Built In
 
-A quick option is to use Owl's built in scheduler
+A quick option is to use Owl's built in scheduler. Owl will automatically substitute the runtime variables like ${rd} into the job.  This also gives you control to edit the OwlCheck. 
 
 ![](../../.gitbook/assets/owl-schedule.png)
 
