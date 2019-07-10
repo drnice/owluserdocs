@@ -2,7 +2,7 @@
 description: Replay 30 days of data
 ---
 
-# OwlCheck BackRun
+# OwlCheck Back Run
 
 ### Quickly Replay 30 days of data, -br 30
 

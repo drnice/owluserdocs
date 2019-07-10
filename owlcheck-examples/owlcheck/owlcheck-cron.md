@@ -45,3 +45,9 @@ You can also use -template to use Owl as a service hook and remove the need to p
 ~/owl/bin/owlcheck -template -rd $run_date
 ```
 
+### Owl Scheduler - Built In
+
+A quick option is to use Owl's built in scheduler
+
+![](../../.gitbook/assets/owl-schedule.png)
+
