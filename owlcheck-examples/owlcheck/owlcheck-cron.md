@@ -51,3 +51,7 @@ A quick option is to use Owl's built in scheduler
 
 ![](../../.gitbook/assets/owl-schedule.png)
 
+The schedule is based on the OwlCheck Template.  This way the runtime variables are replaced in each run.  Notice the ${rd} below. 
+
+![](../../.gitbook/assets/owl-template-schedule.png)
+
