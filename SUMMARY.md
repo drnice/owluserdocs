@@ -97,3 +97,15 @@
 * [Performance Tuning](troubleshooting/performance-tuning.md)
 * [Deploy Mode](troubleshooting/deploy-mode.md)
 
+## Advanced
+
+* [Add Date Column](advanced/add-date-column.md)
+* [Behavioral Dimension](advanced/behavioral-dimension.md)
+* [Column Deltas](advanced/column-deltas.md)
+* [File Look Back](advanced/file-lookback.md)
+* [Filter & Filter Not](advanced/filter.md)
+* [Multiple Pattern Relationships](advanced/multiple-pattern-combinations.md)
+* [Nulls in Datasets](advanced/zero-if-null.md)
+* [Reference Checks](advanced/reference-checks.md)
+* [Transform Expressions](advanced/transform.md)
+
