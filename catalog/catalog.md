@@ -6,7 +6,7 @@ While Owl does not pride itself on being a catalog tool it does automatically ma
 
 ### Automatic Sensitive Data \(PII\) Detection
 
-Owl automatically understand the semantic schema of your data such as CREDIT CARD, EMAIL, SSN and much more.  Additionally Owl will label sensitive data with PII and MNPI classifications.
+Owl automatically understands the _semantic_ schema of your data such as CREDIT CARD, EMAIL, SSN and much more.  Additionally Owl will label sensitive data with PII and MNPI classifications.
 
 ![](../.gitbook/assets/owl-catalog-pii%20%281%29.png)
 
