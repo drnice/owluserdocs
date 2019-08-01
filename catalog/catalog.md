@@ -10,3 +10,9 @@ Owl automatically understands the _semantic_ schema of your data such as CREDIT 
 
 ![](../.gitbook/assets/owl-catalog-pii%20%281%29.png)
 
+### Data Table View of PII
+
+Owl applies many labels to the header of a field / column.  These labels be seen in the data preview table with highlighted errors and findings. 
+
+![](../.gitbook/assets/owl-pii.png)
+
