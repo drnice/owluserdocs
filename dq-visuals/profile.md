@@ -18,7 +18,7 @@ Automatically overlay the current view of your data with it's baseline to extrac
 
 Discover hidden relationships and measure the strength of those relationships.
 
-![](../.gitbook/assets/owl-correlation.png)
+![](../.gitbook/assets/owl-relationships.png)
 
 ### Histograms
 
