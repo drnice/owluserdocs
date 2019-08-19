@@ -4,11 +4,11 @@
 
 Kodak Coin!  in 2018 Kodak announced themselves as Kodak coin and witnessed a steep change in their stock price.  Owl automatically captured this event and provided the ability to drill into the item.
 
-![](../.gitbook/assets/owl-outliers.png)
+![](../.gitbook/assets/owl-outlier-numerical.png)
 
 ### Categorical Outliers
 
-A 3 minute read on the topic.
+Categorical Outliers are much different than numerical outliers and require separate techniques to automatically capture meaningful anomalies.  The details regarding Owl's methodology and testing can be found below, 3 minute read on the topic.
 
 {% embed url="https://medium.com/owl-analytics/categorical-outliers-dont-exist-8f4e82070cb2" %}
 
