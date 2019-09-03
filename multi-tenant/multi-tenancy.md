@@ -1,14 +1,24 @@
+---
+description: Divide and conquer your data quality
+---
+
 # Multi-Tenancy
 
 ### Adding and Editing a Tenant
 
-Under a single Owl Software install you can add additional tenants which allows business to organize themselves by department or whatever they define as a tenant. 
+In many cases it may make sense to have isolated environments to check data quality. This need could be driven by a number of factors including data access rights, organization and business models, reporting needs, and/or other security requirements.
 
-![](../.gitbook/assets/owl-tenant-agent%20%281%29.png)
+Regardless of the need, Owl will support dynamically creating tenants via our Owl Hub Management portal as part of the Owl Web Application. That's it, there is nothing else to install, simply enable Multi-Tenant mode in the application configuration properties and you are on your way.
 
-### Agents
+Once enabled you will have a tenant selection screen prior to login where you can chose any of your configured tenants or access the Owl Hub \(with the TENANT\_ADMIN role\)
 
-Each agent is visible and editable as an Admin from the UI.
+![](../.gitbook/assets/screen-shot-2019-09-03-at-11.34.13-am.png)
 
-![](../.gitbook/assets/owl-agent%20%281%29.png)
+After selecting the owlHub tenant, you will have the ability to manage each tenant, as well as create new tenants from the management console.
+
+![](../.gitbook/assets/screen-shot-2019-09-03-at-10.51.28-am.png)
+
+All enabled tenants will be listed in the multi-tenant drop down menu. Access to tenants are handled by the administrator\(s\) within each tenant individually.
+
+
 
