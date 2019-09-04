@@ -20,5 +20,13 @@ After selecting the owlHub tenant, you will have the ability to manage each tena
 
 All enabled tenants will be listed in the multi-tenant drop down menu. Access to tenants are handled by the administrator\(s\) within each tenant individually.
 
+Access to agents are also handled by the administrator\(s\) within each tenant individually.
+
+![](../.gitbook/assets/screen-shot-2019-09-04-at-12.35.34-pm.png)
+
+Each agent is visible and editable as an Admin from the UI.
+
+![](../.gitbook/assets/agent.png)
+
 
 
