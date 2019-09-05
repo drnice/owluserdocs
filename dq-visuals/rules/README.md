@@ -37,3 +37,27 @@ Owl shares all of it's out of the box rules with each user/tenant.  This makes i
 
 ![](../../.gitbook/assets/owl-rule-repo.png)
 
+### Query Builder
+
+Query builder will help generate SQL for more complex rules. You can apply to one or two tables \(Table A on left and Table B on right\). For different joins, you can apply a key or matching condition as well. 
+
+![\(Optional\)  Start by searching for table B on the right, to set a key for the join condition](../../.gitbook/assets/screen-shot-2019-09-04-at-12.39.17-pm.png)
+
+![Input conditions and click SQL statement to generate example syntax](../../.gitbook/assets/screen-shot-2019-09-04-at-12.46.02-pm.png)
+
+### Native SQL
+
+![](../../.gitbook/assets/screen-shot-2019-09-04-at-12.57.24-pm.png)
+
+If you have rules already written in Oracle, Sybase, or DB2 syntax - Copy/Paste the rule directly into the Native SQL section. 
+
+### Quick Tips
+
+If joining more than one data source, make sure both sets of drivers are in the -lib. Or separately supply a -libsrc pointing to the appropriate directory/jar file location.
+
+SQL Freeform uses Spark sql syntax. 
+
+Native SQL uses your native DB syntax. The score is total break records / rows from owlcheck scan. 
+
+
+

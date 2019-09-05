@@ -43,7 +43,7 @@ For every percentage the X condition occurs, deduct Y points from the data quali
 
 Let’s create a simple rule using the below information. The dataset name.
 
-![](http://18.204.201.140:8080/xwiki/bin/download/Documentation/Admin%20Guide/Rules/WebHome/Screen%20Shot%202019-05-07%20at%2010.19.28%20AM.png?width=544&height=249)
+![](../../.gitbook/assets/screen-shot-2019-09-04-at-1.32.15-pm.png)
 
 1. Search for “shape\_example” and click “Load”
 2. Select “Simple Rule”
@@ -55,26 +55,17 @@ Let’s create a simple rule using the below information. The dataset name.
 
 Once the rule has been submitted please find the below list of rules with the new rule we just defined as shown below.
 
-![](../../.gitbook/assets/image%20%2817%29.png)
+![](../../.gitbook/assets/screen-shot-2019-09-04-at-1.29.35-pm.png)
 
 #### **Seeing Your First Rule Get Triggered** <a id="HSeeingYourFirstRuleGetTriggered"></a>
 
-‌Click on the Owl icon ![https://lh4.googleusercontent.com/AAIhzcT5BnElFn6nenaXJWlDb8qAe8jcbStZescfGaULYy2zzgq44\_AZpPQzLbIVKcRVlzm1Fvy7j5Sz9oJyRrsNW5ONiJWLMD02EE22U35AFYS\_YKcR4Gef-P5nXW8eGpTcEYuL](https://lh4.googleusercontent.com/AAIhzcT5BnElFn6nenaXJWlDb8qAe8jcbStZescfGaULYy2zzgq44_AZpPQzLbIVKcRVlzm1Fvy7j5Sz9oJyRrsNW5ONiJWLMD02EE22U35AFYS_YKcR4Gef-P5nXW8eGpTcEYuL)on the top left hand side of the owl-web application. This brings us to the score cards. Now in the “Demo Score Card” select the cell labeled “99“ that intersects “shape\_example” on the y-axis and “2018-10-04” on the x-axis. If you do not have the demo score card please follow along in section entitled “Browsing to the DQ Score Cards” of this document.‌
+Rule scores will appear under the Rule tab on the Hoot page. You can also see more details in the bottom panel of the Rules page under the Rules and Results tabs.
 
-Scroll down to the Actions section and show the panel by clicking the ![https://lh6.googleusercontent.com/nY1mGh2J3Q0WkRvkerLjTOXgjZX37mhny7OFRDVOJKQSpViKhzMIw1fKSZ3L1mFxOwXZx1GemkFooib8GaW65L4ng0bBUCE3t-8a-EPxa30BpkK49NwlPW92cc9gV6gl1\_IBan1h](https://lh6.googleusercontent.com/nY1mGh2J3Q0WkRvkerLjTOXgjZX37mhny7OFRDVOJKQSpViKhzMIw1fKSZ3L1mFxOwXZx1GemkFooib8GaW65L4ng0bBUCE3t-8a-EPxa30BpkK49NwlPW92cc9gV6gl1_IBan1h) symbol. As shown in the below screenshot.
+![Hoot page rule results](../../.gitbook/assets/screen-shot-2019-09-04-at-1.29.54-pm.png)
 
-![](../../.gitbook/assets/image%20%286%29.png)
+![Rule page rule results \(bottom panel\)](../../.gitbook/assets/screen-shot-2019-09-04-at-1.30.07-pm.png)
 
-1. Click history to expose the command used
-2. Copy the history into the Template text box \(everything to the right of the Owlcheck command itself\)
-3. Click Unlock
-4. Click Save \(to save the template. NOTE we didn’t use any Template values. The generic date in the ${rd} textbox is just a greyed out value that will not be used\).
-5. Click Run to execute the Owlcheck.
-6. When complete hit the refresh button on the Browser.
 
-‌
 
-See that the Rule has now been and shows under DQ items as shown below.
 
-![](../../.gitbook/assets/image%20%2814%29.png)
 
