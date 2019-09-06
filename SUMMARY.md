@@ -12,6 +12,7 @@
   * [Role Based Access Control \(RBAC\)](security/owl-security/role-based-access-control-rbac.md)
   * [Connection Security](security/owl-security/connection-security.md)
   * [Dataset Security](security/owl-security/dataset-security.md)
+  * [Dataset Masking](security/owl-security/dataset-masking.md)
 
 ## OwlCheck Examples
 
