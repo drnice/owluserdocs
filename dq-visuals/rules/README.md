@@ -29,7 +29,7 @@ Owl allows a user to define a custom rule and expose it to other users to apply.
 
 ### Rule Templates
 
-Create a rule once using our rule template builder and re-use the rule across any column on any dataset.  Owl will substitute the dataset and column that the rule applies to at runtime.  This commonly saves hundreds of redundant rules that do the same thing but on different column names.
+Create a rule once using our rule template builder and re-use the rule across any column on any dataset.  Owl will substitute the dataset and column that the rule applies to at runtime. This commonly saves hundreds of redundant rules that do the same thing but on different column names.
 
 ### Rule Repository
 

@@ -31,6 +31,14 @@
   * [OwlCheck Back Run](owlcheck-examples/owlcheck/owlcheck-backrun.md)
 * [Data Quality Pipelines](owlcheck-examples/data-quality-pipelines/README.md)
   * [Azure DataBricks - DQ Pipeline](owlcheck-examples/data-quality-pipelines/azure-databricks-dq-pipeline.md)
+  * [Owl Rules - DQ Pipeline](owlcheck-examples/data-quality-pipelines/owl-rules-dq-pipeline/README.md)
+    * [Global rules](owlcheck-examples/data-quality-pipelines/owl-rules-dq-pipeline/global-rules.md)
+    * [SQL based rules](owlcheck-examples/data-quality-pipelines/owl-rules-dq-pipeline/sql-based-rules/README.md)
+      * [Simple rule](owlcheck-examples/data-quality-pipelines/owl-rules-dq-pipeline/sql-based-rules/simple-rule.md)
+      * [Freeform SQL](owlcheck-examples/data-quality-pipelines/owl-rules-dq-pipeline/sql-based-rules/freeform-sql.md)
+      * [Function](owlcheck-examples/data-quality-pipelines/owl-rules-dq-pipeline/sql-based-rules/function.md)
+    * [Data type based rules](owlcheck-examples/data-quality-pipelines/owl-rules-dq-pipeline/data-type-based-rules.md)
+    * [FAQs](owlcheck-examples/data-quality-pipelines/owl-rules-dq-pipeline/frequently-asked-questions.md)
   * [Spark - DQ Pipeline](owlcheck-examples/data-quality-pipelines/spark-dq-pipeline.md)
 
 ## Scorecards
