@@ -12,15 +12,9 @@ In this example you can see how to create a simple SQL rule, with name **simple\
 
 | Code | Description |
 | :--- | :--- |
-| val rule = new Rule\(\) | Instantiating a Rule object |
-| rule.setDataset\(opt.dataset\) | Adding the name of the dataset |
-| rule.setRuleNm\("simple\_sql\_rule"\) | Adding the name of the given rule |
-| rule.setRuleValue\("startDate &lt; '2011-11-01'"\) | Setting the simple _RULE\_EXPRESSION_ |
-| rule.setRuleType\("SQLG"\) | Setting the rule type |
-| rule.setPerc\(1.0\) | Setting the percentage |
-| rule.setPoints\(1\) | Setting the point |
-| rule.setIsActive\(true/false/1/0\)  | Making rule active/inactive |
-| rule.setUserNm\("admin"\) | Adding the owner\(username\) |
+| rule.setRuleNm\("**simple\_sql\_rule**"\) | Adding the name of the given rule |
+| rule.setRuleValue\("**startDate &lt; '2011-11-01'"\)** | Setting the simple SQL expression. No **JOIN** allowed between tables! |
+| rule.setRuleType\("**SQLG**"\) | Setting the rule type |
 
 ## Code
 
