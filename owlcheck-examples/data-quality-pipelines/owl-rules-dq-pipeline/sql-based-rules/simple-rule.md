@@ -118,7 +118,7 @@ In this example you can see how to create a simple SQL with rule with **template
 
 #### Steps
 
-1. Create the rule template  
+1. Create the rule template, where the template column name should be marked with **$colNm** string.  
 
 
    ```scala
@@ -129,7 +129,7 @@ In this example you can see how to create a simple SQL with rule with **template
    )
    ```
 
-2. Create the Rule instance  
+2. Create the Rule instance, where value of **RuleValue** will be used to replace **$colNm** in the template expression.  
 
 
    ```scala
