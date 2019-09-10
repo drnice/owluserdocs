@@ -6,7 +6,7 @@ description: >-
 
 # Owl Rules - DQ Pipeline
 
-## Definition
+## Instantiation
 
 <table>
   <thead>
