@@ -19,8 +19,10 @@ HAVING <having_expression>
 
 The base of the statement is given with **@&lt;dataset\_name&gt;** style. In general the &lt;dataset\_name&gt; is the same, where the rule is attached to, but basically you can use any valid dataset name in the expression.
 
-#### Example **snippet**
+#### Examples
 
+{% tabs %}
+{% tab title="Simple rule expression" %}
 ```scala
 opt.dataset = "example_ds"
 
@@ -33,6 +35,22 @@ rule.setPoints(1)
 rule.setIsActive(1)
 rule.setUserNm("admin")
 ```
+{% endtab %}
+
+{% tab title="Complex rule expression" %}
+```scala
+opt.dataset = "unique_rule_ds"
+
+val rule = RuleBll.createRule(opt.dataset)uniqueRule.setRuleNm("unique_rule")
+rule.setRuleValue("select * from ( select count(*) as cnt, customer_id from @unique_rule_ds group by customer_id ) having cnt > 1")
+rule.setRuleType("SQLF")
+rule.setPerc(1.0)
+rule.setPoints(1)
+rule.setIsActive(1)
+rule.setUserNm("admin")
+```
+{% endtab %}
+{% endtabs %}
 
 ## Join statements
 
@@ -59,14 +77,14 @@ rule.setUserNm("admin")
 
 ### WHERE style
 
-#### Syntax - with look-back 
-
+{% tabs %}
+{% tab title="Look-back dataset" %}
 ```sql
 SELECT * FROM @<dataset_name> <table_alias>, @t1 [<history_table_alias>]
 WHERE <join_expression> AND <filter_expression>
 ```
 
-#### Example **snippet**
+#### Example
 
 ```scala
 opt.dataset = "example_ds"
@@ -75,15 +93,15 @@ val rule = RuleBll.createRule(opt.dataset)
 rule.setRuleValue("select * from @example_ds t, @t1  where t.customer_id = t1.customer_id  and t.card_number <> t1.card_number ")
 rule.setRuleType("SQLF")
 ```
+{% endtab %}
 
-#### Syntax - with different dataset
-
+{% tab title="Different dataset" %}
 ```sql
 SELECT * FROM @<dataset_name> <table_alias>, @<other_dataset_name> [<other_alias>]
 WHERE <join_expression> AND <filter_expression>
 ```
 
-#### Example **snippet**
+#### Example
 
 ```scala
 opt.dataset = "example_ds"
@@ -93,10 +111,23 @@ val rule = RuleBll.createRule(opt.dataset)
 rule.setRuleValue("select * from @example_ds t, @other_ds ds2 where t.customer_id = ds2.customer_id  and t.card_number <> ds2.card_number ")
 rule.setRuleType("SQLF")
 ```
-
-### INNER JOIN
+{% endtab %}
+{% endtabs %}
 
 ### LEFT JOIN
 
-### RIGHT JOIN
+**Example**
+
+```scala
+opt.dataset = "example_ds"
+
+val rule = RuleBll.createRule(opt.dataset)
+rule.setRuleNm("not_back2back_days")
+rule.setRuleValue(" select * from @example_ds A LEFT OUTER JOIN @t1 B ON A.customer_id = B.customer_id where A.customer_id is not null and B.customer_id is null  ")
+rule.setRuleType("SQLF")
+rule.setPerc(1.0)
+rule.setPoints(1)
+rule.setIsActive(1)
+rule.setUserNm("admin")
+```
 

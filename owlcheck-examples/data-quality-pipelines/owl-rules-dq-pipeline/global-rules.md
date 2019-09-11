@@ -1,7 +1,7 @@
 ---
 description: >-
-  List of rules, which shipped with the application by default and you can use
-  them from UI/CLI/Notebooks
+  Distributed with the application by default and you can use them from
+  UI/CLI/Notebooks
 ---
 
 # Global rules
