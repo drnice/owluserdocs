@@ -41,10 +41,26 @@ rule.setUserNm("admin")
 ```scala
 opt.dataset = "unique_rule_ds"
 
-val rule = RuleBll.createRule(opt.dataset)uniqueRule.setRuleNm("unique_rule")
+val rule = RuleBll.createRule(opt.dataset)
+rule.setRuleNm("unique_rule")
 rule.setRuleValue("select * from ( select count(*) as cnt, customer_id from @unique_rule_ds group by customer_id ) having cnt > 1")
 rule.setRuleType("SQLF")
 rule.setPerc(1.0)
+rule.setPoints(1)
+rule.setIsActive(1)
+rule.setUserNm("admin")
+```
+{% endtab %}
+
+{% tab title="RegExp expression" %}
+```scala
+opt.dataset = "regexp_rule_ds"
+
+val rule = RuleBll.createRule(opt.dataset)
+rule.setRuleNm("LIKE_rule")
+rule.setRuleValue("select * from @regexp_rule_ds.SYMBOL rlike '^ABB+'  ")
+rule.setRuleType("SQLG")
+rule.setPerc(0.02)
 rule.setPoints(1)
 rule.setIsActive(1)
 rule.setUserNm("admin")

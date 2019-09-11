@@ -6,6 +6,8 @@ description: >-
 
 # Global rules
 
+## Rule types
+
 * Invalid\_Email\_Check
 * Invalid\_Phone\_Num\_Check
 * Invalid\_Zip\_Code\_Check 
@@ -29,6 +31,4 @@ description: >-
 * Not\_In\_Previous\_run 
 * Not\_In\_Current\_run 
 * Having\_Count\_Greater\_Than\_One
-
-
 
