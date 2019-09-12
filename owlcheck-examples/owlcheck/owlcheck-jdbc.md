@@ -33,6 +33,8 @@ props.connectionProps.put("fetchsize", "3000")
 
 ## Parallel JDBC
 
+For greater performance or moving large datasets across a network Owl supports parallel JDBC.  This can be a 2-5X improvement in many cases.
+
 ```bash
 -lib "/opt/owl/drivers/mysql8/"
 -cxn mysql
