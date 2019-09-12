@@ -1,7 +1,5 @@
 # OwlCheck JDBC
 
-
-
 Connect to any database via JDBC.
 
 ```text
@@ -31,5 +29,20 @@ It is important to consider the drivers fetch size when loading greater than 1 M
 
 ```text
 props.connectionProps.put("fetchsize", "3000")
+```
+
+## Parallel JDBC
+
+```bash
+-lib "/opt/owl/drivers/mysql8/"
+-cxn mysql
+-q "select * from lake.nyse where trade_date = '${rd}' "
+-rd 2018-01-01
+-ds nyse
+-columnname volume
+-numpartitions 4
+-lowerbound "0"
+-upperbound "5000000000"
+-usesql
 ```
 
