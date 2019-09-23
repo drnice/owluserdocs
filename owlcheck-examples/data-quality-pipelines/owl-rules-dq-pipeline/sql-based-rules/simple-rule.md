@@ -83,7 +83,8 @@ def sparkInit(): SparkSession = {
 
   val owl = OwlUtils.OwlContext(df, opt)
     .register(opt)
-    .addRule(rule)
+  
+  OwlUtils.addRule(rule)
 
   // Act
   owl.owlCheck()
@@ -210,8 +211,9 @@ def sparkInit(): SparkSession = {
 
   val owl = OwlUtils.OwlContext(df, opt)
     .register(opt)
-    .addRuleTemplate(ruleTemplate)
-    .addRule(rule)
+  
+  OwlUtils.addRuleTemplate(ruleTemplate)
+  OwlUtils.addRule(rule)
 
   // Act
   owl.owlCheck()
