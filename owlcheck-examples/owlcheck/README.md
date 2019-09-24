@@ -79,6 +79,8 @@ curl -X GET "http://$host/v2/getowlchecktemplate?dataset=lake.loan_customer" \
 -H "accept: application/json"
 ```
 
+The above REST call returns the below OwlCheck.  It is left up to the Job Control to replace the ${rd} with the date from the Job Control system.  You can use Owls built in scheduler to save these steps.
+
 ```bash
 ./owlcheck \
 -lib "/home/danielrice/owl/drivers/mysql/" \
