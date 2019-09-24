@@ -4,13 +4,13 @@ An OwlCheck is bash script that is essentially the launch point for any owl job 
 
 Example Run a Data Quality check on any file by setting the file path.
 
-```text
+```bash
 ./owlcheck -ds stock_trades -rd 2019-02-23 -f /path/to/file.csv -d ,
 ```
 
 Example output below.  A hoot is a valid JSON response
 
-```text
+```bash
 {
   "dataset": "stock_trades",
   "runId": "2019-02-03",
