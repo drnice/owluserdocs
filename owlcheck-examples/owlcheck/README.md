@@ -35,6 +35,8 @@ Example output below.  A hoot is a valid JSON response
 
 ### Monthly Data
 
+Sometimes you may want to run monthly profiles with aggregated data.  In this case the scheduling tool can supply the ${rd} as variable such as $runDate and the end date as $endDate.  1 line examples for bash or shell below.
+
 ```bash
 echo "Hello World Owl"
 
