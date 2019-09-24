@@ -70,3 +70,27 @@ echo $runDate
 -tbin DAY
 ```
 
+### OwlCheck Template with Service Hook
+
+The best practice is to make a generic job that would be repeatable for every OwlCheck.  Below is an example that first hits Owl using a REST call and then runs the response.
+
+```bash
+curl -X GET "http://$host/v2/getowlchecktemplate?dataset=lake.loan_customer" \
+-H "accept: application/json"
+```
+
+```bash
+./owlcheck \
+-lib "/home/danielrice/owl/drivers/mysql/" \
+-cxn mysql \
+-q "select * from lake.loan_customer where load_dt = '${rd}' " \
+-key post_cd_num -ds lake.loan_customer \
+-rd ${rd} \
+-dc load_dt -dl -dlkey usr_name,post_cd_num -dllb 5 \
+-tbin DAY -by DAY -dupe -dupeinc ip_address_home,usr_name -dupecutoff 85 \
+-fpgon -fpgkey usr_name,post_cd_num -fpgdc load_dt -fpglb 5 -fpgtbin DAY \
+-loglevel INFO \
+-h 10.142.0.19:5432/owltrunk \
+-owluser geoff@owl.com 
+```
+
