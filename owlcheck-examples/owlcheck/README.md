@@ -53,3 +53,18 @@ echo $endDate
 -tbin MONTH
 ```
 
+### Daily Data
+
+```bash
+echo "Hello World Owl"
+
+runDate=$(date +"%Y-%m-%d")
+echo $runDate
+
+./owlcheck \
+-q "select * from table where date = '$runDate' " \
+-ds example
+-rd $runDate
+-tbin DAY
+```
+
