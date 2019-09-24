@@ -92,7 +92,7 @@ The above REST call returns the below OwlCheck.  It is left up to the Job Contro
 -tbin DAY -by DAY -dupe -dupeinc ip_address_home,usr_name -dupecutoff 85 \
 -fpgon -fpgkey usr_name,post_cd_num -fpgdc load_dt -fpglb 5 -fpgtbin DAY \
 -loglevel INFO \
--h 10.142.0.19:5432/owltrunk \
+-h $host:5432/owltrunk \
 -owluser geoff@owl.com 
 ```
 
