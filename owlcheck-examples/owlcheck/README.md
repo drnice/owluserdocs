@@ -55,6 +55,8 @@ echo $endDate
 
 ### Daily Data
 
+One of the most common examples is data loading or running once a day. A job control framework can pass in this value or you can pull it from shell.
+
 ```bash
 echo "Hello World Owl"
 
