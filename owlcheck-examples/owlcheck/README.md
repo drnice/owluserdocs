@@ -33,3 +33,21 @@ Example output below.  A hoot is a valid JSON response
 }
 ```
 
+### Monthly Data
+
+```bash
+echo "Hello World Owl"
+
+runDate=$(date +"%Y-%m-%d")
+endDate=$(date -d "$runDate +1 month" +%Y-%m-%d)
+
+echo $runDate
+echo $endDate
+
+./owlcheck \
+-q "select * from table where date >= '$runDate' and date < '$endDate' " \
+-ds example
+-rd $runDate
+-tbin MONTH
+```
+
