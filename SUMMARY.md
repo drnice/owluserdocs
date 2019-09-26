@@ -12,6 +12,7 @@
   * [Role Based Access Control \(RBAC\)](security/owl-security/role-based-access-control-rbac.md)
   * [Connection Security](security/owl-security/connection-security.md)
   * [Dataset Security](security/owl-security/dataset-security.md)
+  * [Dataset Masking](security/owl-security/dataset-masking.md)
 
 ## OwlCheck Examples
 
@@ -30,6 +31,15 @@
   * [OwlCheck Back Run](owlcheck-examples/owlcheck/owlcheck-backrun.md)
 * [Data Quality Pipelines](owlcheck-examples/data-quality-pipelines/README.md)
   * [Azure DataBricks - DQ Pipeline](owlcheck-examples/data-quality-pipelines/azure-databricks-dq-pipeline.md)
+  * [Owl Rules - DQ Pipeline](owlcheck-examples/data-quality-pipelines/owl-rules-dq-pipeline/README.md)
+    * [Global rules](owlcheck-examples/data-quality-pipelines/owl-rules-dq-pipeline/global-rules.md)
+    * [SQL based rules](owlcheck-examples/data-quality-pipelines/owl-rules-dq-pipeline/sql-based-rules/README.md)
+      * [Simple rule](owlcheck-examples/data-quality-pipelines/owl-rules-dq-pipeline/sql-based-rules/simple-rule.md)
+      * [Freeform SQL](owlcheck-examples/data-quality-pipelines/owl-rules-dq-pipeline/sql-based-rules/freeform-sql.md)
+      * [Native SQL](owlcheck-examples/data-quality-pipelines/owl-rules-dq-pipeline/sql-based-rules/native-sql.md)
+      * [Function](owlcheck-examples/data-quality-pipelines/owl-rules-dq-pipeline/sql-based-rules/function.md)
+    * [Data type based rules](owlcheck-examples/data-quality-pipelines/owl-rules-dq-pipeline/data-type-based-rules.md)
+    * [FAQs](owlcheck-examples/data-quality-pipelines/owl-rules-dq-pipeline/frequently-asked-questions.md)
   * [Spark - DQ Pipeline](owlcheck-examples/data-quality-pipelines/spark-dq-pipeline.md)
 
 ## Scorecards
@@ -108,4 +118,17 @@
 * [Nulls in Datasets](advanced/zero-if-null.md)
 * [Reference Checks](advanced/reference-checks.md)
 * [Transform Expressions](advanced/transform.md)
+
+## Multi-Tenant
+
+* [Multi-Tenancy](multi-tenant/multi-tenancy.md)
+
+## Reports
+
+* [Owl Summary Reports](reports/owl-summary-reports.md)
+
+## API
+
+* [JWT](api/jwt.md)
+* [Cookie](api/cookie.md)
 

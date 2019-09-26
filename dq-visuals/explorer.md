@@ -20,3 +20,9 @@ Before firing off a large ML job it can be helpful to understand the amount of c
 
 Many clusters offer the ability to scale up and down job containers.  If Dynamic allocation is turned on you may not need or desire Owl's recommended num-executors or executor-memory.  However in our testing right sizing the job before executing is both faster and a healthy habit.  Faster because their is less orchestration and context switching while the job is doing work; running out of space allocating more then shuffle to the new container.  Healthier, because it give the user realtime feedback on the cost of each feature and the user can control the cost benefit analysis. 
 
+### SQL Editor
+
+Automatically tracks to the connection, database and table in the explorer and provides a quick way to ask the database simple questions like, counts, groupings and specific clauses.
+
+![](../.gitbook/assets/owl-sql-editor.png)
+

@@ -18,9 +18,7 @@ ROLE\_CONNECTION\_MANAGER: Manage Connection to Role Mappings
 
 ROLE\_ADMIN: Access to the administration pages \(Create connections, roles, users, AD, etc.\)
 
-![Owl Core Roles](../../.gitbook/assets/screen-shot-2019-07-17-at-10.55.06-am%20%281%29.png)
-
-
+![](../../.gitbook/assets/screen-shot-2019-07-17-at-10.55.06-am.png)
 
 Custom roles can be added via the Role Management page by navigating to the Admin Console and clicking on the Roles Icon. Custom roles can also be added 'on the fly' during the Active Directory Role Mapping step.
 
