@@ -55,7 +55,7 @@ echo $endDate
 
 ### Monthly BackRun
 
-Owl has 2 convenient features here: 1\) the use of built in ${rd} and ${rdEnd} removes the need for any shell scripting.  2\) -br will replay 20 months of data using this template automatically.   
+Owl has 2 convenient features here: 1\) the use of built in ${rd} and ${rdEnd} removes the need for any shell scripting.  2\) using -br, Owl will replay 20 months of data using this template automatically.   
 
 ```bash
 ./owlcheck \
