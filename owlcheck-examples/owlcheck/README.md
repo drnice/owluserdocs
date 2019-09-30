@@ -97,7 +97,7 @@ echo $runDate
 
 ```bash
 ./owlcheck \
--q "select * from table where date >= '${rd} 00:00:00' and <= '${rd} 23:59:59' " \
+-q "select * from table where TS >= '${rd} 00:00:00' and TS <= '${rd} 23:59:59' " \
 -ds example \
 -rd 2019-03-14
 ```
@@ -106,11 +106,22 @@ echo $runDate
 
 ```bash
 ./owlcheck \
--q "select * from table where date >= '${rd} 00:00:00' and < '${rdEnd} 00:00:00' " \
+-q "select * from table where TS >= '${rd} 00:00:00' and TS < '${rdEnd} 00:00:00' " \
 -ds example \
 -rd 2019-03-14 \
 -rdEnd 2019-03-15 \
 -tbin DAY
+```
+
+### Hourly Data
+
+```bash
+./owlcheck \
+-q "select * from table where TS >= '${rd} ' and TS < '${rdEnd}' " \
+-ds example \
+-rd 2019-03-14 09:00:00 \
+-rdEnd 2019-03-14 10:00:00 \
+-tbin HOUR
 ```
 
 ### OwlCheck Template with Service Hook
