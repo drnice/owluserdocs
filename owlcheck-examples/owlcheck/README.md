@@ -102,7 +102,7 @@ echo $runDate
 -rd 2019-03-14
 ```
 
-### OR
+### OR Timestamp using ${rdEnd}
 
 ```bash
 ./owlcheck \
