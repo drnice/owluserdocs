@@ -53,7 +53,7 @@ echo $endDate
 -tbin MONTH
 ```
 
-### Monthly BackRun
+### Monthly BackRun \(Using Owl's built in Monthly\)
 
 Owl has 2 convenient features here: 1\) the use of built in ${rd} and ${rdEnd} removes the need for any shell scripting.  2\) using -br, Owl will replay 20 months of data using this template automatically.   
 
