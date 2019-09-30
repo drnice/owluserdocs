@@ -125,10 +125,10 @@ A generic and repeatable owlcheck script for job schedulers, that hooks into Owl
 
 ```bash
 #1 authenticate
-curl -sb -X POST -d username=admin -d password=adminowl http://35.194.67.74/login -c cookies.txt
+curl -sb -X POST -d username=admin -d password=adminowl http://$host/login -c cookies.txt
 
 #2 get template
-owlcheck=$(curl -b cookies.txt -H "accept: application/json" -i -X GET  http://35.194.67.74/v2/getowlchecktemplatebydataset?dataset=kirk_nyse_pg)
+owlcheck=$(curl -b cookies.txt -H "accept: application/json" -i -X GET  http://$host/v2/getowlchecktemplatebydataset?dataset=kirk_nyse_pg)
 
 #3 replace ${rd} with job_run_date
 owlcheck = owlcheck.replace('${rd}', $job_run_date)
