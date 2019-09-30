@@ -117,10 +117,10 @@ echo $runDate
 
 ```bash
 ./owlcheck \
--q "select * from table where TS >= '${rd} ' and TS < '${rdEnd}' " \
+-q "select * from table where TS >= '${rd}' and TS < '${rdEnd}' " \
 -ds example \
--rd 2019-03-14 09:00:00 \
--rdEnd 2019-03-14 10:00:00 \
+-rd    "2019-03-14 09:00:00" \
+-rdEnd "2019-03-14 10:00:00" \
 -tbin HOUR
 ```
 
