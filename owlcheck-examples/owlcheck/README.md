@@ -121,6 +121,8 @@ The above REST call returns the below OwlCheck.  It is left up to the Job Contro
 
 ### Putting it all together
 
+A generic and repeatable owlcheck script for job schedulers, that hooks into Owl to get the template. 
+
 ```bash
 #1 authenticate
 curl -sb -X POST -d username=admin -d password=adminowl http://35.194.67.74/login -c cookies.txt
