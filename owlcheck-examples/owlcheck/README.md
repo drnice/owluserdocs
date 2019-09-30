@@ -93,6 +93,15 @@ echo $runDate
 -rd 2019-03-14
 ```
 
+### Daily Data with Timestamp instead of Date
+
+```bash
+./owlcheck \
+-q "select * from table where date >= '${rd} 00:00:00' and <= '${rd} 23:59:59' " \
+-ds example \
+-rd 2019-03-14
+```
+
 ### OwlCheck Template with Service Hook
 
 The best practice is to make a generic job that would be repeatable for every OwlCheck.  Below is an example that first hits Owl using a REST call and then runs the response.
