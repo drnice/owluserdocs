@@ -119,5 +119,21 @@ The above REST call returns the below OwlCheck.  It is left up to the Job Contro
 -owluser geoff@owl.com 
 ```
 
+### Putting it all together
+
+```bash
+#1 authenticate
+curl -sb -X POST -d username=admin -d password=adminowl http://35.194.67.74/login -c cookies.txt
+
+#2 get template
+owlcheck=$(curl -b cookies.txt -H "accept: application/json" -i -X GET  http://35.194.67.74/v2/getowlchecktemplatebydataset?dataset=kirk_nyse_pg)
+
+#3 replace ${rd} with job_run_date
+owlcheck = owlcheck.replace('${rd}', $job_run_date)
+
+#4 run owlcheck
+exec owlcheck
+```
+
 For more Information on Owl's Scheduler check out the doc on **OwlCheck Cron** Page**.**
 
