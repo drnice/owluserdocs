@@ -48,8 +48,8 @@ echo $endDate
 
 ./owlcheck \
 -q "select * from table where date >= '$runDate' and date < '$endDate' " \
--ds example
--rd $runDate
+-ds example \
+-rd $runDate \
 -tbin MONTH
 ```
 
@@ -79,8 +79,8 @@ echo $runDate
 
 ./owlcheck \
 -q "select * from table where date = '$runDate' " \
--ds example
--rd $runDate
+-ds example \
+-rd $runDate \
 -tbin DAY
 ```
 
@@ -89,7 +89,7 @@ echo $runDate
 ```bash
 ./owlcheck \
 -q "select * from table where date = '${rd}' " \
--ds example
+-ds example \
 -rd 2019-03-14
 ```
 
