@@ -84,6 +84,15 @@ echo $runDate
 -tbin DAY
 ```
 
+### Daily Data \(Using Owl's built in Daily\)
+
+```bash
+./owlcheck \
+-q "select * from table where date = '${rd}' " \
+-ds example
+-rd 2019-03-14
+```
+
 ### OwlCheck Template with Service Hook
 
 The best practice is to make a generic job that would be repeatable for every OwlCheck.  Below is an example that first hits Owl using a REST call and then runs the response.
