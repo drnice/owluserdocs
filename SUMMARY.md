@@ -31,6 +31,7 @@
   * [OwlCheck Back Run](owlcheck-examples/owlcheck/owlcheck-backrun.md)
 * [Data Quality Pipelines](owlcheck-examples/data-quality-pipelines/README.md)
   * [Azure DataBricks - DQ Pipeline](owlcheck-examples/data-quality-pipelines/azure-databricks-dq-pipeline.md)
+  * [Owl Options API](owlcheck-examples/data-quality-pipelines/owl-options-api.md)
   * [Owl Rules - DQ Pipeline](owlcheck-examples/data-quality-pipelines/owl-rules-dq-pipeline/README.md)
     * [Global rules](owlcheck-examples/data-quality-pipelines/owl-rules-dq-pipeline/global-rules.md)
     * [SQL based rules](owlcheck-examples/data-quality-pipelines/owl-rules-dq-pipeline/sql-based-rules/README.md)
