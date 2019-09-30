@@ -53,6 +53,20 @@ echo $endDate
 -tbin MONTH
 ```
 
+### Monthly BackRun
+
+Owl has 2 convenient features here: 1\) the use of built in ${rd} and ${rdEnd} removes the need for any shell scripting.  2\) -br will replay 20 months of data using this template automatically.   
+
+```bash
+./owlcheck \
+-q "select * from table where date >= '${rd}' and date < '${rdEnd}' " \
+-ds example
+-rd 2019-01-01
+-rdEnd 2019-02-01
+-tbin MONTH
+-br 20
+```
+
 ### Daily Data
 
 One of the most common examples is data loading or running once a day. A job control framework can pass in this value or you can pull it from shell.
