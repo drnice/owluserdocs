@@ -19,7 +19,7 @@ description: Using OwlOptions will be the newest way how you can configure your 
 
 | Field name | CLI prop | Description |
 | :--- | :--- | :--- |
-| **fullFile** |  |  |
+| **fullFile** | _fullfile_ | use entire file for lookbacks instead of just filequery |
 | **fileQuery** |  |  |
 | **header** |  |  |
 | **headerSrc** |  |  |
