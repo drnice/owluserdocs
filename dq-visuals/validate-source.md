@@ -2,14 +2,14 @@
 
 ### Does your data-lake reconcile with your upstream system?
 
-Copying data from one system to another is probably the most common data activity to all organizations.  Owl refers to this as source to target.  As simple as this activity sounds, Owl has found that most of the time files and database tables are not being copied properly.  To ensure and protect against target systems getting out of sync or not matching to the originating source, turn on -vs to validate that the source matches the target.
+Copying data from one system to another is probably the most common data activity to all organizations.  Owl refers to this as source to target.  As simple as this activity sounds, Owl has found that most of the time files and database tables are not being copied properly.  To ensure and protect against target systems getting out of sync or not matching the originating source, turn on `-vs` to validate that the source matches the target.
 
 ### A row count is not enough...
 
-The most common check we encounter is a row count however a row count does not account for:
+The most common check we encounter is a row count. However, a row count does not account for:
 
 * Schema differences - Boolean to Int,  Decimal to Double with precision loss, Timestamps and Dates
-* Value differences - Char or Varchars with whitespace vs Strings, null chars, delimiter fields that cause shifting and much more.
+* Value differences - Char or Varchars with whitespace vs Strings, null chars, delimiter fields that cause shifting, and much more.
 
  
 

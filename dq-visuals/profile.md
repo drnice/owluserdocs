@@ -2,7 +2,7 @@
 
 ### Automatically Profile
 
-Owl automatically profiles your datasets over time so you can drill into when things changed.  A profile is just the beginning to an amazing amount of auto discovery.  Visualize segments of the dataset and how how the dataset is changing over time.
+Owl automatically profiles your datasets over time so you can drill into when things changed.  A profile is just the first step towards an amazing amount of auto discovery.  Visualize segments of the dataset and how how the dataset is changing over time.
 
 ### Filtergraming + Histograming + Correlations
 
@@ -10,7 +10,7 @@ Owl automatically profiles your datasets over time so you can drill into when th
 
 ### Profile Delta
 
-Automatically overlay the current view of your data with it's baseline to extract sudden changes.
+Automatically overlay the current view of your data with its baseline to extract sudden changes.
 
 ![](../.gitbook/assets/owl-profile-delta.png)
 
