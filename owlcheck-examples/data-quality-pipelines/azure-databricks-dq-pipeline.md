@@ -4,7 +4,7 @@
 
 Read the File by setting up the azure key.
 
-```text
+```scala
 spark.conf.set("fs.azure.account.key.abcCompany.blob.core.windows.net","GBB6Upzj4AxQld7cFv7wBYNoJzIp/WEv/5NslqszY3nAAlsalBNQ==")
 
 val df = spark.read.parquet("wasbs://company-abc@abceCompany.blob.core.windows.net/FILE_NAME/20190201_FILE_NAME.parquet")
@@ -13,7 +13,7 @@ val df = spark.read.parquet("wasbs://company-abc@abceCompany.blob.core.windows.n
 
 Process the file using Owl
 
-```text
+```scala
 // register in Owl Catalog, Optional
 val owl = new Owl(df).register
 
@@ -23,7 +23,7 @@ owl.owlCheck()
 
 Additional imports and input options
 
-```text
+```scala
 import com.owl.core._
 import com.owl.common._
 

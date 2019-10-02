@@ -11,9 +11,13 @@ The most common check we encounter is a row count however a row count does not a
 * Schema differences - Boolean to Int,  Decimal to Double with precision loss, Timestamps and Dates
 * Value differences - Char or Varchars with whitespace vs Strings, null chars, delimiter fields that cause shifting and much more.
 
- 
+![](../.gitbook/assets/screen-shot-2019-10-01-at-8.50.39-pm.png)
 
-```text
+### OwlCheck Created from Wizard
+
+ The Owl Wizard GUI creates the below OwlCheck which it can execute from the GUI by clicking RUN or by pasting at the cmdline.
+
+```bash
 -lib /home/ec2-user/owl/drivers/valdrivers \
 -driver org.postgresql.Driver \
 -u user -p password \
