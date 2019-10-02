@@ -37,7 +37,8 @@ Most databases only expose data through a JDBC connection but Hive offers a seco
 
 ```bash
 ./owlcheck \
--hive -q "select * from nyse" \
+-hive \
+-q "select * from nyse" \
 -ds hiveNativeNyse \
 -rd "2019-10-01" \
 -vs \
