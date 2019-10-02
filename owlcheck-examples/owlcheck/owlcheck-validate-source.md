@@ -6,7 +6,7 @@ Commonly data driven organizations have a need to ensure that 2 tables or a tabl
 
 ![](../../.gitbook/assets/screen-shot-2019-10-01-at-8.40.33-pm.png)
 
-### DB2 -&gt; Impala/Hive
+### Impala/Hive -&gt; DB2
 
 Below is an example of comparing a table in DB2 to the same table in Impala.
 
@@ -37,21 +37,17 @@ Most databases only expose data through a JDBC connection but Hive offers a seco
 
 ```bash
 ./owlcheck \
--lib "/home/install/owl/drivers/db2" \
--cxn db2 \
--q "select * from OWLDB2.NYSE_STOCKS where TRADE_DATE = '${rd}' " \
--ds NYSE_STOCKS_VS \
--rd "2018-01-10" \
+-hive -q "select * from nyse" \
+-ds hiveNativeNyse \
+-rd "2019-10-01" \
 -vs \
--valsrckey SYMBOL \
+-valsrckey exch,symbol,trade_date \
 -validatevalues \
--h $host/owltrunk \
--srcq "select * from nyse where TRADE_DATE = '${rd}' " \
--hive \
--owluser admin \
--executorcores 4 -numexecutors 6 -executormemory 4g -drivermemory 4g -master yarn -deploymode cluster \
--sparkkeytab /home/install/owl/bin/user2.keytab \
--sparkprinc user2@CW.COM
+-srcq "select * from OWLDB2.NYSE_STOCKS" \
+-srccxn db2 -libsrc /home/install/owl/drivers/db2 \
+-numexecutors 2 -executormemory 5g -drivermemory 4g -master yarn -deploymode cluster \
+-jdbcprinc user2@CW.COM -jdbckeytab /tmp/user2.keytab \
+-sparkkeytab /home/install/owl/bin/user2.keytab -sparkprinc user2@CW.COM \ 
 ```
 
 ### MySQL -&gt; Oracle
