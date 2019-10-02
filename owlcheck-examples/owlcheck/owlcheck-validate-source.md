@@ -4,6 +4,8 @@
 
 Commonly data driven organizations have a need to ensure that 2 tables or a table and file match.  This match might be a daily reconciliation or any snapshot in time.  Owl calls this Source to Target or Left to Right matching.  It covers row differences, schema differences and all cell values. 
 
+![](../../.gitbook/assets/screen-shot-2019-10-01-at-8.40.33-pm.png)
+
 ### DB2 -&gt; Impala/Hive
 
 Below is an example of comparing a table in DB2 to the same table in Impala.
