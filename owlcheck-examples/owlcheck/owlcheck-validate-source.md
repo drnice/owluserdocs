@@ -52,3 +52,19 @@ Most databases only expose data through a JDBC connection but Hive offers a seco
 -sparkprinc user2@CW.COM
 ```
 
+### MySQL -&gt; Oracle
+
+```bash
+./owlcheck \
+```
+
+### File -&gt; MySQL Table
+
+### File -&gt; File
+
+Owl can compare a File to a File.  This is common in landing zones and staging areas where a file might be moved or changed and you need to know if anything changed or is incorrect.
+
+```text
+
+```
+
