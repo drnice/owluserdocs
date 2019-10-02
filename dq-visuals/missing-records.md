@@ -2,7 +2,7 @@
 
 ### Where'd my rows go?
 
-Owl is constantly learning which records or rows in a dataset are commonly found.  In the case below the NYSE had a reasonable dataset volume \(row count\).  
+Owl is constantly learning which records or rows in a dataset are most common.  In the case below the NYSE had a reasonable dataset volume \(row count\).  
 
 ![](../.gitbook/assets/owl-missing-records.png)
 
