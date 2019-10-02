@@ -46,8 +46,7 @@ Most databases only expose data through a JDBC connection but Hive offers a seco
 -srcq "select * from OWLDB2.NYSE_STOCKS" \
 -srccxn db2 -libsrc /home/install/owl/drivers/db2 \
 -numexecutors 2 -executormemory 5g -drivermemory 4g -master yarn -deploymode cluster \
--jdbcprinc user2@CW.COM -jdbckeytab /tmp/user2.keytab \
--sparkkeytab /home/install/owl/bin/user2.keytab -sparkprinc user2@CW.COM \ 
+-sparkkeytab /home/install/owl/bin/user2.keytab -sparkprinc user2@CW.COM 
 ```
 
 ### MySQL -&gt; Oracle
