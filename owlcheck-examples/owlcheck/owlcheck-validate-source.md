@@ -73,6 +73,8 @@ This example compares the entire table instead of just a single day.  Notice the
 
 ### File -&gt; MySQL Table
 
+Taking a file and loading it into a staging table or final table is a common part of every ETL process.  However it is extremely common that the file values do not match or coherence into the table properly and these silent errors are usually not caught until a business user sees the data far long down stream.
+
 ### File -&gt; File
 
 Owl can compare a File to a File.  This is common in landing zones and staging areas where a file might be moved or changed and you need to know if anything changed or is incorrect.
