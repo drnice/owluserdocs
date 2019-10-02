@@ -56,8 +56,24 @@ Most databases only expose data through a JDBC connection but Hive offers a seco
 
 ### MySQL -&gt; Oracle
 
+This example compares the entire table instead of just a single day.  Notice the 3 part valsrckey EXCH,SYMBOL,TRADE\_DATE.  Adding the date field ensures our key is unique and won't create a cartesian product.  If the goal was to compare day over day with Oracle make sure to add TO\_DATE\('YYYY-MM-DD', '2019-10-01'\) to the where clause.  
+
 ```bash
 ./owlcheck \
+-lib /home/install/owl/drivers/mysql/ \
+-cxn mysql \
+-q "select * from lake.nyse" \
+-ds lake.nyse \
+-rd "2019-10-01" \
+-vs \
+-valsrckey EXCH,SYMBOL,TRADE_DATE \
+-validatevalues \
+-sparkkeytab /home/install/owl/bin/user2.keytab \
+-sparkprinc user2@CW.COM \
+-srcq "select * from SYSTEM.NYSE" \
+-srccxn oracle \
+-libsrc /home/danielrice/owl/drivers/oracle/
+-numexecutors 2 -executormemory 5g -drivermemory 4g -master yarn -deploymode cluster \
 ```
 
 ### File -&gt; MySQL Table
