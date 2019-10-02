@@ -1,10 +1,10 @@
 # Validate Source
 
-### Does your data-lake reconcile with your upstream system?
+## Does your data-lake reconcile with your upstream system?
 
-Copying data from one system to another is probably the most common data activity to all organizations.  Owl refers to this as source to target.  As simple as this activity sounds, Owl has found that most of the time files and database tables are not being copied properly.  To ensure and protect against target systems getting out of sync or not matching the originating source, turn on `-vs` to validate that the source matches the target.
+Copying data from one system to another is probably the most common data activity to all organizations. Owl refers to this as source to target. As simple as this activity sounds, Owl has found that most of the time files and database tables are not being copied properly. To ensure and protect against target systems getting out of sync or not matching the originating source, turn on `-vs` to validate that the source matches the target.
 
-### A row count is not enough...
+## A row count is not enough...
 
 The most common check we encounter is a row count. However, a row count does not account for:
 
@@ -13,9 +13,9 @@ The most common check we encounter is a row count. However, a row count does not
 
 ![](../.gitbook/assets/screen-shot-2019-10-01-at-8.50.39-pm.png)
 
-### OwlCheck Created from Wizard
+## OwlCheck Created from Wizard
 
- The Owl Wizard GUI creates the below OwlCheck which it can execute from the GUI by clicking RUN or by pasting at the cmdline.
+The Owl Wizard GUI creates the below OwlCheck which it can execute from the GUI by clicking RUN or by pasting at the cmdline.
 
 ```bash
 -lib /home/ec2-user/owl/drivers/valdrivers \

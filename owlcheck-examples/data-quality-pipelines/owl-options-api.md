@@ -10,7 +10,7 @@ description: Using OwlOptions will be the newest way how you can configure your 
 | :--- | :--- | :--- |
 | **dataset** | _ds_ | dataset name, example: userTable or users or user\_file |
 | **rundId** | _rd_ | run date, must be in format **yyyy-MM-dd** or for incremental use Hours or Minutes **yyyy-MM-dd HH:mm** |
-| **rundIdEnd** | _rdEnd_ |  |
+| **rundIdEnd** | _rdEnd_ | end date for query ranges **t\_date &gt;= ${rd} and t\_date &lt; ${rdEnd}**, must be in format **yyyy-MM-dd** or for incremental use Hours or Minutes **yyyy-MM-dd HH:mm** |
 | **passFail** | _passfaillimit_ | Limit for passing or failing runs |
 | **jobId** |  |  |
 | **onReadOnly** | _readonly_ | Do not connect to meta store good for testing or trials |
@@ -36,10 +36,10 @@ description: Using OwlOptions will be the newest way how you can configure your 
 | **jdbckeytab** |  |  |
 | **srcpwdmgr** |  |  |
 | **pwdmgr** |  |  |
-| **pguser** |  |  |
-| **pgpassword** |  |  |
-| **pghost** | \*\*\*\* |  |
-| **pgport** |  |  |
+| **pguser** | pguser |  |
+| **pgpassword** | pgpassword |  |
+| **pghost** | host |  |
+| **pgport** | port |  |
 | **executorcores** |  |  |
 | **isParquet** |  |  |
 | **isAvro** |  |  |
@@ -59,21 +59,21 @@ description: Using OwlOptions will be the newest way how you can configure your 
 | **password** |  |  |
 | **sqlQuery** |  |  |
 | **connectionProps** |  |  |
-| ~~zkHost~~ | ~~~~ | ~~_**Deprecated**_~~ |
-| ~~zkPort~~ | ~~~~ | ~~_**Deprecated**_~~ |
-| ~~zkPath~~ | ~~~~ | ~~_**Deprecated**_~~ |
+| ~~zkHost~~ | ~~~~ | _**Deprecated**_ |
+| ~~zkPort~~ | ~~~~ | _**Deprecated**_ |
+| ~~zkPath~~ | ~~~~ | _**Deprecated**_ |
 
 ## Outlier Options
 
 | Field name | CLI prop | Description |
 | :--- | :--- | :--- |
-| **on** |  |  |
-| **lookback** |  |  |
-| **key** |  |  |
+| **on** | dl | deep learning |
+| **lookback** | dllb | deep learning lookback example value 5, for 5 days |
+| **key** | dlkey | deep learning key. comma delim key ex: symbol,date |
 | **dateField** |  |  |
 | **bin** |  |  |
-| **includes** |  |  |
-| **excludes** |  |  |
+| **includes** | dlinc | deep learning col limit, example : open,close,high,volume |
+| **excludes** | dlexc | deep learning col exclusion, example : open,close,high,volume |
 | **categorical** |  |  |
 | **by** |  |  |
 | **limit** |  |  |
@@ -84,33 +84,35 @@ description: Using OwlOptions will be the newest way how you can configure your 
 
 | Field name | CLI prop | Description |
 | :--- | :--- | :--- |
-| **on** | \*\*\*\* |  |
-| **lookback** |  |  |
-| **key** |  |  |
-| **dateField** |  |  |
-| **lowFreq** |  |  |
-| **includes** |  |  |
-| **excludes** |  |  |
-| **timeBin** |  |  |
-| **score** |  |  |
+| **on** | fpgon | pattern mining |
+| **lookback** | fpglb | lookback interval for pattern mining. Ex: **-fpglb 5** |
+| **key** | fpgkey | natural key for pattern mining activity |
+| **dateField** | fpgdc | date column for pattern mining. Ex: **-fpgdc date\_col** |
+| ~~**lowFreq**~~ |  | _**Deprecated**_ |
+| **includes** | fpginc | pattern mining is expensive use this input to limit the observed cols |
+| **excludes** | fpgexc | pattern mining is expensive use this input to limit the observed cols |
+| **timeBin** | fpgtbin | time bin for pattern mining. Ex: **-fpgtbin DAY** |
+| **score** | fpgscore | score for pattern mining records |
+| **minSupport** | fpgsupport |  |
+| **confidence** | fpgconfidence |  |
 
 ## Dupe Options
 
 | Field name | CLI prop | Description |
 | :--- | :--- | :--- |
-| **on** |  |  |
-| **includes** |  |  |
-| **excludes** |  |  |
+| **on** | dupe | duplicate record detection |
+| **includes** | dupeinc | duplicate record detection, column inclusion list |
+| **excludes** | dupeexc | duplicate record detection, column exclusion list |
 | **depth** |  |  |
-| **lowerBound** |  |  |
+| **lowerBound** | dupelb | duplicate lower bounds on percent match default \[85\] |
 | **upperBound** |  |  |
 | **blocksize** |  |  |
 | **useCache** |  |  |
 | **checkHeader** |  |  |
 | **exactMatch** |  |  |
-| **ignoreCase** |  |  |
-| **score** |  |  |
-| **limit** |  |  |
+| **ignoreCase** | dupenocase | duplicate record detection, column exclusion list |
+| **score** | dupescore |  |
+| **limit** | dupelimit | Limit for dupe rows stored |
 
 ## Profile Options
 
