@@ -2,7 +2,7 @@
 
 ### Reconciliation
 
-It is very common to want to ensure that 2 tables or a table and file match.  This match might be a daily reconciliation or any snapshot in time.  Owl calls this Source to Target or Left to Right matching. 
+Commonly data driven organizations have a need to ensure that 2 tables or a table and file match.  This match might be a daily reconciliation or any snapshot in time.  Owl calls this Source to Target or Left to Right matching.  It covers row differences, schema differences and all cell values. 
 
 ### DB2 -&gt; Impala/Hive
 
@@ -45,8 +45,7 @@ Most databases only expose data through a JDBC connection but Hive offers a seco
 -validatevalues \
 -h $host/owltrunk \
 -srcq "select * from nyse where TRADE_DATE = '${rd}' " \
--hive
--jdbcprinc jdbcuser@CW.COM -jdbckeytab /tmp/jdbcuser.keytab \
+-hive \
 -owluser admin \
 -executorcores 4 -numexecutors 6 -executormemory 4g -drivermemory 4g -master yarn -deploymode cluster \
 -sparkkeytab /home/install/owl/bin/user2.keytab \
