@@ -156,16 +156,17 @@ A generic and repeatable owlcheck script for job schedulers, that hooks into Owl
 
 ```bash
 #1 authenticate
-curl -sb -X POST -d username=admin -d password=adminowl http://$host/login -c cookies.txt
+curl -sb -X POST -d username=admin -d password=admin123 http://$OWL_HOST/login -c cookies.txt
 
 #2 get template
-owlcheck=$(curl -b cookies.txt -H "accept: application/json" -i -X GET  http://$host/v2/getowlchecktemplatebydataset?dataset=kirk_nyse_pg)
+owlcheck_args=$(curl -b cookies.txt -H "accept: application/json" -X GET http://$OWL_HOST/v2/getowlcheckcmdlinebydataset\?dataset=insurance | sed 's/.*\[\(.*\)\]/\1/' | sed -e "s/^\"//" -e "s/\"$//"  | sed 's/\\\"\(.*\)\\\"/\x27\1\x27/')
 
 #3 replace ${rd} with job_run_date
-owlcheck = owlcheck.replace('${rd}', $job_run_date)
+job_run_date="2019-03-14 10:00:00"
+owlcheck_args=${owlcheck_args//'${rd}'/$job_run_date}
 
 #4 run owlcheck
-exec owlcheck
+eval owlcheck $owlcheck_args
 ```
 
 For more Information on Owl's Scheduler check out the doc on **OwlCheck Cron** Page**.**
