@@ -2,7 +2,7 @@
 
 Connect to any database via JDBC.
 
-```text
+```bash
 -q "select * from lake.stock_eod where date = '2017-01-20' " \
 -u username -p password \
 -c "jdbc:mysql://owldatalake.chzid9w0hpyi.us-east-1.rds.amazonaws.com:3306" \
