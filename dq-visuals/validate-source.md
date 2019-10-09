@@ -36,5 +36,7 @@ The Owl Wizard GUI creates the below OwlCheck which it can execute from the GUI 
 
 ### End of Day Stock Data from Oracle to Mysql
 
+In this example we loaded NYSE\_EOD data in both Oracle and Mysql and then used Owl's Source Validation feature.  We see 3 main classes of issues.  1\)  The row count is off by 1 row, this means a row was dropped or went missing when the data was copied.  2\)  The schemas don't exactly match.  3\) In 2 cases the values are different at the cell level.  NULL vs NYSE and 137.4 vs 137.42 
+
 ![](../.gitbook/assets/screen-shot-2019-10-09-at-9.40.55-am.png)
 
