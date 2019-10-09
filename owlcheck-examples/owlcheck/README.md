@@ -1,6 +1,6 @@
 # OwlCheck
 
-An OwlCheck is bash script that is essentially the launch point for any owl job to scan a dataset.  A dataset can be a flat file \(such as textfile, json file, parquet file, etc\), or a table from any number of Databases \(such as Oracle, Postgres, Mysql, Greenplum, DB2, SQLServer, Teradata, etc\).
+An OwlCheck is bash script that is essentially the launch point for any owl job to scan a dataset. A dataset can be a flat file \(such as textfile, json file, parquet file, etc\), or a table from any number of Databases \(such as Oracle, Postgres, Mysql, Greenplum, DB2, SQLServer, Teradata, etc\).
 
 Example Run a Data Quality check on any file by setting the file path.
 
@@ -8,7 +8,7 @@ Example Run a Data Quality check on any file by setting the file path.
 ./owlcheck -ds stock_trades -rd 2019-02-23 -f /path/to/file.csv -d ,
 ```
 
-Example output below.  A hoot is a valid JSON response
+Example output below. A hoot is a valid JSON response
 
 ```bash
 {
@@ -33,9 +33,9 @@ Example output below.  A hoot is a valid JSON response
 }
 ```
 
-### Monthly Data
+## Monthly Data
 
-Sometimes you may want to run monthly profiles with aggregated data.  In this case the scheduling tool can supply the ${rd} as variable such as $runDate and the end date as $endDate.  1 line examples for bash or shell below.
+Sometimes you may want to run monthly profiles with aggregated data. In this case the scheduling tool can supply the ${rd} as variable such as $runDate and the end date as $endDate. 1 line examples for bash or shell below.
 
 ```bash
 echo "Hello World Owl"
@@ -53,9 +53,9 @@ echo $endDate
 -tbin MONTH
 ```
 
-### Monthly BackRun \(Using Owl's built in Monthly\)
+## Monthly BackRun \(Using Owl's built in Monthly\)
 
-Owl has 2 convenient features here: 1\) the use of built in ${rd} and ${rdEnd} removes the need for any shell scripting.  2\) using -br, Owl will replay 20 months of data using this template automatically.   
+Owl has 2 convenient features here: 1\) the use of built in ${rd} and ${rdEnd} removes the need for any shell scripting. 2\) using -br, Owl will replay 20 months of data using this template automatically.
 
 ```bash
 ./owlcheck \
@@ -67,7 +67,7 @@ Owl has 2 convenient features here: 1\) the use of built in ${rd} and ${rdEnd} r
 -br 20
 ```
 
-### Daily Data
+## Daily Data
 
 One of the most common examples is data loading or running once a day. A job control framework can pass in this value or you can pull it from shell.
 
@@ -84,7 +84,7 @@ echo $runDate
 -tbin DAY
 ```
 
-### Daily Data \(Using Owl's built in Daily\)
+## Daily Data \(Using Owl's built in Daily\)
 
 ```bash
 ./owlcheck \
@@ -93,7 +93,7 @@ echo $runDate
 -rd 2019-03-14
 ```
 
-### Daily Data with Timestamp instead of Date
+## Daily Data with Timestamp instead of Date
 
 ```bash
 ./owlcheck \
@@ -102,7 +102,7 @@ echo $runDate
 -rd 2019-03-14
 ```
 
-### OR Timestamp using ${rdEnd}
+## OR Timestamp using ${rdEnd}
 
 ```bash
 ./owlcheck \
@@ -113,7 +113,7 @@ echo $runDate
 -tbin DAY
 ```
 
-### Hourly Data
+## Hourly Data
 
 ```bash
 ./owlcheck \
@@ -124,16 +124,16 @@ echo $runDate
 -tbin HOUR
 ```
 
-### OwlCheck Template with Service Hook
+## OwlCheck Template with Service Hook
 
-The best practice is to make a generic job that would be repeatable for every OwlCheck.  Below is an example that first hits Owl using a REST call and then runs the response.
+The best practice is to make a generic job that would be repeatable for every OwlCheck. Below is an example that first hits Owl using a REST call and then runs the response.
 
 ```bash
 curl -X GET "http://$host/v2/getowlchecktemplate?dataset=lake.loan_customer" \
 -H "accept: application/json"
 ```
 
-The above REST call returns the below OwlCheck.  It is left up to the Job Control to replace the ${rd} with the date from the Job Control system.  You can use Owls built in scheduler to save these steps.
+The above REST call returns the below OwlCheck. It is left up to the Job Control to replace the ${rd} with the date from the Job Control system. You can use Owls built in scheduler to save these steps.
 
 ```bash
 ./owlcheck \
@@ -147,12 +147,12 @@ The above REST call returns the below OwlCheck.  It is left up to the Job Contro
 -fpgon -fpgkey usr_name,post_cd_num -fpgdc load_dt -fpglb 5 -fpgtbin DAY \
 -loglevel INFO \
 -h $host:5432/owltrunk \
--owluser geoff@owl.com 
+-owluser geoff@owl.com
 ```
 
-### Putting it all together
+## Putting it all together
 
-A generic and repeatable owlcheck script for job schedulers, that hooks into Owl to get the template. 
+A generic and repeatable owlcheck script for job schedulers, that hooks into Owl to get the template.
 
 ```bash
 #1 authenticate

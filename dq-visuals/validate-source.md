@@ -34,3 +34,7 @@ The Owl Wizard GUI creates the below OwlCheck which it can execute from the GUI 
 -valsrcinc "dz,symz,openz,highz,lowz,closez,volumez,changedz,changepz,adjclosez"
 ```
 
+### End of Day Stock Data from Oracle to Mysql
+
+![](../.gitbook/assets/screen-shot-2019-10-09-at-9.40.55-am.png)
+
