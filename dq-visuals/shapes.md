@@ -4,3 +4,9 @@ Owl will automatically detect inconsistencies in data formats. These inconsisten
 
 ![](../.gitbook/assets/owl-phone-shapes.png)
 
+### Drill-in to any Shape anomaly and see a visual example
+
+See an itemized list view of the most infrequent or odd shapes in your datasets.
+
+![](../.gitbook/assets/owl-shape-drillin.png)
+
