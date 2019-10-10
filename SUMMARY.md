@@ -49,6 +49,7 @@
 
 * [Dataset Scorecard](scorecards/dataset-scorecard.md)
 * [Group Scorecard](scorecards/group-scorecard.md)
+* [List View](scorecards/list-view.md)
 
 ## Connecting to DBs in Owl Web
 
