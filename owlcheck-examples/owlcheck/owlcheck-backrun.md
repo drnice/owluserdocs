@@ -32,7 +32,7 @@ In situations where your data rolls up into Months you may want to re-run severa
 -cxn db2
 ```
 
-#### Monthly using a range for the entire Month
+### Monthly using a range for the entire Month
 
 ```bash
 ./owlcheck \
