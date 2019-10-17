@@ -152,7 +152,7 @@ The above REST call returns the below OwlCheck. It is left up to the Job Control
 
 ## REST API End Point
 
-The easiest option is to use the runtemplate end point API call to make requests to from cmdLine or JobControl System.
+The easiest option is to use the **runtemplate** end point API call to make requests to from cmdLine or JobControl System.  This endpoint gets the OwlCheck saved in Owl instead of the client needing to know the OwlCheck details.
 
 {% api-method method="post" host="http://$host" path="/v2/runtemplate?dataset=lake.spotify" %}
 {% api-method-summary %}
