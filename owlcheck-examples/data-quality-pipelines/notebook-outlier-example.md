@@ -41,7 +41,9 @@ owl.register(opt)
 owl.owlCheck()
 ```
 
-### Owl Web UI - 
+### Owl Web UI
+
+Score drops from 100 to 99 based on the single outlier in the file. Row count is 1 because there is only 1 row in the current data frame.  The historical data frame was provided for context and you can see those rows in the outlier drill-in.  
 
 ![](../../.gitbook/assets/owl-df-with-hist-customer_id.png)
 
