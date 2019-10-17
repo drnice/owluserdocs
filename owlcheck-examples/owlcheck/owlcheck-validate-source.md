@@ -60,7 +60,7 @@ This example compares the entire table instead of just a single day.  Notice the
 -cxn mysql \
 -q "select * from lake.nyse" \
 -ds lake.nyse \
--rd "2019-10-01" \
+-rd 2019-10-01 \
 -vs \
 -valsrckey EXCH,SYMBOL,TRADE_DATE \
 -validatevalues \
@@ -76,15 +76,40 @@ This example compares the entire table instead of just a single day.  Notice the
 
 Taking a file and loading it into a staging table or final table is a common part of every ETL process.  However it is extremely common that the file values do not match or coherence into the table properly and these silent errors are usually not caught until a business user sees the data far long down stream.
 
-```text
-
+```bash
+./owlcheck \
+-ds lake.nyse \
+-rd 2019-10-01 \
+-cxn "mysql" \
+-q "select * from lake.nyse" \
+-vs \
+-valsrckey EXCH,SYMBOL,TRADE_DATE \
+-validatevalues \
+-srcfile "hdfs:///user/source/nyse.csv" \ 
+-srcd "," \
+-lib /home/install/owl/drivers/mysql/ \
+-sparkkeytab /home/install/owl/bin/user2.keytab \
+-sparkprinc user2@CW.COM \
+-numexecutors 2 -executormemory 5g -drivermemory 4g -master yarn -deploymode cluster \
 ```
 
 ### File -&gt; File
 
 Owl can compare a File to a File.  This is common in landing zones and staging areas where a file might be moved or changed and you need to know if anything changed or is incorrect.
 
-```text
-
+```bash
+./owlcheck \
+-ds lake.nyse \
+-rd 2019-10-01 \
+-f "hdfs:///user/target/nyse.csv" \
+-d "," \
+-vs \
+-valsrckey EXCH,SYMBOL,TRADE_DATE \
+-validatevalues \
+-srcfile "hdfs:///user/source/nyse.csv" \ 
+-srcd "," \
+-sparkkeytab /home/install/owl/bin/user2.keytab \
+-sparkprinc user2@CW.COM \
+-numexecutors 2 -executormemory 5g -drivermemory 4g -master yarn -deploymode cluster \
 ```
 
