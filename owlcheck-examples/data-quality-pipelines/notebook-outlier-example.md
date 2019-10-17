@@ -50,16 +50,9 @@ Score drops from 100 to 99 based on the single outlier in the file. Row count is
 
 
 
-1. Request URL:http://localhost:9000/v2/getoutlier?dataset=dataset\_outlier&runId=2018-02-24T05:00:00.000+0000
-2. Request Method:GET
-
-```markup
-http://$host:9000/v2/getoutlier?dataset=dataset_outlier&runId=2018-02-24T05:00:00.000+0000
-```
-
-{% api-method method="get" host="" path="" %}
+{% api-method method="get" host="http://$host" path="/v2/getoutlier?dataset=dataset\_outlier&runId=2018-02-24" %}
 {% api-method-summary %}
-
+GetOutlier
 {% endapi-method-summary %}
 
 {% api-method-description %}
@@ -69,10 +62,16 @@ http://$host:9000/v2/getoutlier?dataset=dataset_outlier&runId=2018-02-24T05:00:0
 {% api-method-spec %}
 {% api-method-request %}
 {% api-method-path-parameters %}
-{% api-method-parameter name="" type="string" required=false %}
-
+{% api-method-parameter name="dataset" type="string" required=true %}
+name of dataset
 {% endapi-method-parameter %}
 {% endapi-method-path-parameters %}
+
+{% api-method-body-parameters %}
+{% api-method-parameter name="runId" type="string" required=true %}
+yyyy-MM-dd format can include time and timezone
+{% endapi-method-parameter %}
+{% endapi-method-body-parameters %}
 {% endapi-method-request %}
 
 {% api-method-response %}
