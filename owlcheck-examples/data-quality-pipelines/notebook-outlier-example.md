@@ -24,14 +24,13 @@ val spark = SparkSession.builder
   .getOrCreate()
 
 val opt = new OwlOptions()
-opt.runId = "2018-02-24"
 opt.dataset = "dataset_outlier"
-opt.load.datasetSafety = false
+opt.runId = "2018-02-24"
 opt.outlier.on = true
-opt.outlier.lookback = 5
 opt.outlier.key = Array("fname")
-opt.outlier.timeBin = OutlierOpt.TimeBin.DAY
 opt.outlier.dateColumn = "app_date"
+opt.outlier.timeBin = OutlierOpt.TimeBin.DAY
+opt.outlier.lookback = 5
 opt.outlier.excludes = Array("customer_id")
 
 val dfHist = OwlUtils.load(filePath = filePath, delim = ",", sparkSession = spark)
@@ -45,8 +44,6 @@ owl.owlCheck()
 ### Owl Web UI
 
 Score drops from 100 to 99 based on the single outlier in the file. Row count is 1 because there is only 1 row in the current data frame.  The historical data frame was provided for context and you can see those rows in the outlier drill-in.  The customer\_id is available in the data preview and can be used as an API hook to link back to the original dataset.  
-
-
 
 ![](../../.gitbook/assets/owl-df-with-hist-customer_id.png)
 
@@ -62,16 +59,14 @@ GetOutlier
 {% api-method-spec %}
 {% api-method-request %}
 {% api-method-path-parameters %}
-{% api-method-parameter name="dataset" type="string" required=true %}
+{% api-method-parameter name="dataset" type="string" required=false %}
 name of dataset
 {% endapi-method-parameter %}
-{% endapi-method-path-parameters %}
 
-{% api-method-body-parameters %}
-{% api-method-parameter name="runId" type="string" required=true %}
+{% api-method-parameter name="dataset" type="string" required=true %}
 yyyy-MM-dd format can include time and timezone
 {% endapi-method-parameter %}
-{% endapi-method-body-parameters %}
+{% endapi-method-path-parameters %}
 {% endapi-method-request %}
 
 {% api-method-response %}
