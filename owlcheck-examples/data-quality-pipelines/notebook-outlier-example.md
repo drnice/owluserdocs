@@ -34,10 +34,10 @@ opt.outlier.timeBin = OutlierOpt.TimeBin.DAY
 opt.outlier.dateColumn = "app_date"
 opt.outlier.excludes = Array("customer_id")
 
-val df = OwlUtils.load(filePath = filePath, delim = ",", sparkSession = spark)
+val dfHist = OwlUtils.load(filePath = filePath, delim = ",", sparkSession = spark)
 val dfCurrent = df.where(s"app_date = '${opt.runId}' ")
 
-val owl = OwlUtils.OwlContextWithHistory(dfCurrent = dfCurrent, dfHist = df, opt = opt)
+val owl = OwlUtils.OwlContextWithHistory(dfCurrent=dfCurrent, dfHist=dfHist, opt=opt)
 owl.register(opt)
 owl.owlCheck()
 ```
