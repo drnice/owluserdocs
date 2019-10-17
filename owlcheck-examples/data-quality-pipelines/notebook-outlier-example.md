@@ -36,6 +36,7 @@ opt.outlier.excludes = Array("customer_id")
 
 val df = OwlUtils.load(filePath = filePath, delim = ",", sparkSession = spark)
 val dfCurrent = df.where(s"app_date = '${opt.runId}' ")
+
 val owl = OwlUtils.OwlContextWithHistory(dfCurrent = dfCurrent, dfHist = df, opt = opt)
 owl.register(opt)
 owl.owlCheck()
