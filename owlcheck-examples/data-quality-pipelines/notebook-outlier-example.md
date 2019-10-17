@@ -48,3 +48,70 @@ Score drops from 100 to 99 based on the single outlier in the file. Row count is
 
 ![](../../.gitbook/assets/owl-df-with-hist-customer_id.png)
 
+
+
+1. Request URL:http://localhost:9000/v2/getoutlier?dataset=dataset\_outlier&runId=2018-02-24T05:00:00.000+0000
+2. Request Method:GET
+
+```markup
+http://$host:9000/v2/getoutlier?dataset=dataset_outlier&runId=2018-02-24T05:00:00.000+0000
+```
+
+{% api-method method="get" host="" path="" %}
+{% api-method-summary %}
+
+{% endapi-method-summary %}
+
+{% api-method-description %}
+
+{% endapi-method-description %}
+
+{% api-method-spec %}
+{% api-method-request %}
+{% api-method-path-parameters %}
+{% api-method-parameter name="" type="string" required=false %}
+
+{% endapi-method-parameter %}
+{% endapi-method-path-parameters %}
+{% endapi-method-request %}
+
+{% api-method-response %}
+{% api-method-response-example httpCode=200 %}
+{% api-method-response-example-description %}
+
+{% endapi-method-response-example-description %}
+
+```bash
+{
+  confidence: 77
+  dataset: "dataset_outlier"
+  keyArr: null
+  lb: 0
+  outColumn: "age"
+  outKey: "Kirk"
+  outMedian: "10.5"
+  outValue: "18.0"
+  runId: "2018-02-24T05:00:00.000+0000"
+  ub: 0
+}
+```
+{% endapi-method-response-example %}
+{% endapi-method-response %}
+{% endapi-method-spec %}
+{% endapi-method %}
+
+```bash
+{
+  confidence: 77
+  dataset: "dataset_outlier"
+  keyArr: null
+  lb: 0
+  outColumn: "age"
+  outKey: "Kirk"
+  outMedian: "10.5"
+  outValue: "18.0"
+  runId: "2018-02-24T05:00:00.000+0000"
+  ub: 0
+}
+```
+
