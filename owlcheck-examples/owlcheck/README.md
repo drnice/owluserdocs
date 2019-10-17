@@ -171,7 +171,7 @@ eval owlcheck $owlcheck_args
 
 For more Information on Owl's Scheduler check out the doc on **OwlCheck Cron** Page**.**
 
-{% api-method method="post" host="http://$host" path="/v2/runowlcheckcmdline?cmdline=-ds dataset -usetemplate -rd" %}
+{% api-method method="post" host="http://$host" path="/v2/runowlcheckcmdline?cmdline=cmdline=-ds%20lake.nyse\_22%20-usetemplate%20-rd%202017-01-01" %}
 {% api-method-summary %}
 RunOwlCheck
 {% endapi-method-summary %}
