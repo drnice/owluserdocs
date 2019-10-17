@@ -171,9 +171,9 @@ eval owlcheck $owlcheck_args
 
 For more Information on Owl's Scheduler check out the doc on **OwlCheck Cron** Page**.**
 
-{% api-method method="post" host="http://$host" path="/v2/runowlcheckcmdline?cmdline=cmdline=-ds%20lake.nyse\_22%20-usetemplate%20-rd%202017-01-01" %}
+{% api-method method="post" host="http://$host" path="/v2/runtemplate?dataset=lake.spotify" %}
 {% api-method-summary %}
-RunOwlCheck
+RunTemplate
 {% endapi-method-summary %}
 
 {% api-method-description %}
@@ -185,10 +185,6 @@ RunOwlCheck
 {% api-method-path-parameters %}
 {% api-method-parameter name="dataset" type="string" required=true %}
 name of dataset
-{% endapi-method-parameter %}
-
-{% api-method-parameter name="useTemplate" type="string" required=true %}
--usetemplate uses the most current configuration of the owlcheck saved in Owl.
 {% endapi-method-parameter %}
 
 {% api-method-parameter name="runId" type="string" required=false %}
@@ -209,8 +205,8 @@ yyyy-MM-dd format can add time or timezone.  if not passed in it will use the cu
   "pid": "13996",
   "runid": "2017-01-01",
   "starttime": "Thu Oct 17 13:27:01 EDT 2019",
-  "cmd": "-ds lake.nyse_22 -usetemplate -rd 2017-01-01 -owluser admin",
-  "dataset": "lake.nyse_22"
+  "cmd": "cmd": "-ds lake.spotify -rd 2019-10-17   -q \"select * from lake.spotify\" -cxn mysql -lib /opt/owl/drivers/mysql/ -drivermemory 2G -histoff   -owluser admin",
+  "dataset": "lake.spotify"
 }
 ```
 {% endapi-method-response-example %}
