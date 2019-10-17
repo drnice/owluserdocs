@@ -46,9 +46,9 @@ owl.owlCheck()
 
 Score drops from 100 to 99 based on the single outlier in the file. Row count is 1 because there is only 1 row in the current data frame.  The historical data frame was provided for context and you can see those rows in the outlier drill-in.  The customer\_id is available in the data preview and can be used as an API hook to link back to the original dataset.  
 
+
+
 ![](../../.gitbook/assets/owl-df-with-hist-customer_id.png)
-
-
 
 {% api-method method="get" host="http://$host" path="/v2/getoutlier?dataset=dataset\_outlier&runId=2018-02-24" %}
 {% api-method-summary %}
@@ -99,18 +99,39 @@ yyyy-MM-dd format can include time and timezone
 {% endapi-method-spec %}
 {% endapi-method %}
 
-```bash
-{
-  confidence: 77
-  dataset: "dataset_outlier"
-  keyArr: null
-  lb: 0
-  outColumn: "age"
-  outKey: "Kirk"
-  outMedian: "10.5"
-  outValue: "18.0"
-  runId: "2018-02-24T05:00:00.000+0000"
-  ub: 0
-}
+{% api-method method="get" host="http://$host" path="/v2/getdatashapes?dataset=dataset\_outlier&runId=2018-02-24" %}
+{% api-method-summary %}
+GetShape
+{% endapi-method-summary %}
+
+{% api-method-description %}
+
+{% endapi-method-description %}
+
+{% api-method-spec %}
+{% api-method-request %}
+{% api-method-path-parameters %}
+{% api-method-parameter name="dataset" type="string" required=true %}
+name of dataset
+{% endapi-method-parameter %}
+
+{% api-method-parameter name="runId" type="string" required=true %}
+yyyy-MM-dd format can include time and timezone
+{% endapi-method-parameter %}
+{% endapi-method-path-parameters %}
+{% endapi-method-request %}
+
+{% api-method-response %}
+{% api-method-response-example httpCode=200 %}
+{% api-method-response-example-description %}
+
+{% endapi-method-response-example-description %}
+
 ```
+
+```
+{% endapi-method-response-example %}
+{% endapi-method-response %}
+{% endapi-method-spec %}
+{% endapi-method %}
 
