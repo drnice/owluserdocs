@@ -171,7 +171,7 @@ eval owlcheck $owlcheck_args
 
 For more Information on Owl's Scheduler check out the doc on **OwlCheck Cron** Page**.**
 
-{% api-method method="get" host="" path="" %}
+{% api-method method="post" host="http://$host" path="/v2/runowlcheckcmdline?cmdline=-ds dataset -usetemplate -rd" %}
 {% api-method-summary %}
 RunOwlCheck
 {% endapi-method-summary %}
@@ -183,16 +183,16 @@ RunOwlCheck
 {% api-method-spec %}
 {% api-method-request %}
 {% api-method-path-parameters %}
-{% api-method-parameter name="dataset" type="string" required=false %}
+{% api-method-parameter name="dataset" type="string" required=true %}
 name of dataset
 {% endapi-method-parameter %}
 
-{% api-method-parameter name="useTemplate" type="string" required=false %}
+{% api-method-parameter name="useTemplate" type="string" required=true %}
 -usetemplate uses the most current configuration of the owlcheck saved in Owl.
 {% endapi-method-parameter %}
 
 {% api-method-parameter name="runId" type="string" required=false %}
-yyyy-MM-dd format can add time or timezone
+yyyy-MM-dd format can add time or timezone.  if not passed in it will use the current day
 {% endapi-method-parameter %}
 {% endapi-method-path-parameters %}
 {% endapi-method-request %}
@@ -204,7 +204,14 @@ yyyy-MM-dd format can add time or timezone
 {% endapi-method-response-example-description %}
 
 ```
-
+{
+  "msg": "Success, Owl Check is Running as process 13996",
+  "pid": "13996",
+  "runid": "2017-01-01",
+  "starttime": "Thu Oct 17 13:27:01 EDT 2019",
+  "cmd": "-ds lake.nyse_22 -usetemplate -rd 2017-01-01 -owluser admin",
+  "dataset": "lake.nyse_22"
+}
 ```
 {% endapi-method-response-example %}
 {% endapi-method-response %}
