@@ -167,7 +167,7 @@ RunTemplate
 {% api-method-request %}
 {% api-method-path-parameters %}
 {% api-method-parameter name="dataset" type="string" required=true %}
-name of dataset
+name of dataset.    -ds OR opt.dataset
 {% endapi-method-parameter %}
 
 {% api-method-parameter name="runId" type="string" required=false %}
