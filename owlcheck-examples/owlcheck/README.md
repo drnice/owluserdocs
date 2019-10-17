@@ -197,6 +197,16 @@ yyyy-MM-dd format can add time or timezone.  if not passed in it will use the cu
 {% endapi-method-spec %}
 {% endapi-method %}
 
+### Curl example for the above Rest Call
+
+```bash
+TOKEN=$(curl -s -X POST http://$host/auth/signin -H "Content-Type:application/json" -d "{\"username\":\"$username\", \"password\":\"$password\"}" | jq -r '.token')
+
+curl -i -H 'Accept: application/json' \
+  -H "Authorization: Bearer ${TOKEN}" \
+  http://$host/v2/runtemplate?dataset=lake.spotify
+```
+
 ### Bash Script 
 
 A generic and repeatable owlcheck script for job schedulers, that hooks into Owl to get the template.
