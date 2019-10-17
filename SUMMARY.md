@@ -31,6 +31,7 @@
   * [OwlCheck Kafka](owlcheck-examples/owlcheck/owlcheck-kafka.md)
   * [OwlCheck Back Run](owlcheck-examples/owlcheck/owlcheck-backrun.md)
 * [Data Quality Pipelines](owlcheck-examples/data-quality-pipelines/README.md)
+  * [Notebook Outlier Example](owlcheck-examples/data-quality-pipelines/notebook-outlier-example.md)
   * [Owl Options API](owlcheck-examples/data-quality-pipelines/owl-options-api.md)
   * [Owl Rules - DQ Pipeline](owlcheck-examples/data-quality-pipelines/owl-rules-dq-pipeline/README.md)
     * [Global rules](owlcheck-examples/data-quality-pipelines/owl-rules-dq-pipeline/global-rules.md)
