@@ -33,7 +33,7 @@ props.connectionProps.put("fetchsize", "3000")
 
 ## Parallel JDBC
 
-For greater performance or moving large datasets across a network Owl supports parallel JDBC.  This can be a 2-5X improvement in many cases.
+For greater performance or moving large datasets across a network Owl supports parallel JDBC, which can be enabled by passing `numpartitions` to Owlcheck. This can be a 2-5X improvement in many cases. 
 
 ```bash
 -lib "/opt/owl/drivers/mysql8/"
@@ -47,4 +47,8 @@ For greater performance or moving large datasets across a network Owl supports p
 -upperbound "5000000000"
 -usesql
 ```
+
+Owl also supports auto parallelization, which will configure the `numPartitions` parameter for you based on the size of your data. This is enabled in the UI when you create a dataset using the Owlcheck wizard.
+
+![](../../.gitbook/assets/screen-shot-2019-10-17-at-4.38.04-pm.png)
 
