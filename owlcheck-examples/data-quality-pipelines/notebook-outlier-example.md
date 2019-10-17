@@ -59,7 +59,7 @@ GetOutlier
 {% api-method-spec %}
 {% api-method-request %}
 {% api-method-path-parameters %}
-{% api-method-parameter name="dataset" type="string" required=false %}
+{% api-method-parameter name="dataset" type="string" required=true %}
 name of dataset
 {% endapi-method-parameter %}
 
