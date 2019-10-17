@@ -45,7 +45,7 @@ owl.owlCheck()
 
 ### Owl Web UI
 
-Score drops from 100 to 99 based on the single outlier in the file. Row count is 1 because there is only 1 row in the current data frame.  The historical data frame was provided for context and you can see those rows in the outlier drill-in.  
+Score drops from 100 to 99 based on the single outlier in the file. Row count is 1 because there is only 1 row in the current data frame.  The historical data frame was provided for context and you can see those rows in the outlier drill-in.  The customer\_id is available in the data preview and can be used as an API hook to link back to the original dataset.  
 
 ![](../../.gitbook/assets/owl-df-with-hist-customer_id.png)
 
