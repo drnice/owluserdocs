@@ -171,3 +171,43 @@ eval owlcheck $owlcheck_args
 
 For more Information on Owl's Scheduler check out the doc on **OwlCheck Cron** Page**.**
 
+{% api-method method="get" host="" path="" %}
+{% api-method-summary %}
+RunOwlCheck
+{% endapi-method-summary %}
+
+{% api-method-description %}
+
+{% endapi-method-description %}
+
+{% api-method-spec %}
+{% api-method-request %}
+{% api-method-path-parameters %}
+{% api-method-parameter name="dataset" type="string" required=false %}
+name of dataset
+{% endapi-method-parameter %}
+
+{% api-method-parameter name="useTemplate" type="string" required=false %}
+-usetemplate uses the most current configuration of the owlcheck saved in Owl.
+{% endapi-method-parameter %}
+
+{% api-method-parameter name="runId" type="string" required=false %}
+yyyy-MM-dd format can add time or timezone
+{% endapi-method-parameter %}
+{% endapi-method-path-parameters %}
+{% endapi-method-request %}
+
+{% api-method-response %}
+{% api-method-response-example httpCode=200 %}
+{% api-method-response-example-description %}
+
+{% endapi-method-response-example-description %}
+
+```
+
+```
+{% endapi-method-response-example %}
+{% endapi-method-response %}
+{% endapi-method-spec %}
+{% endapi-method %}
+
