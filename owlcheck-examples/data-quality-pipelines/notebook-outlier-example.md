@@ -35,7 +35,7 @@ opt.outlier.timeBin = OutlierOpt.TimeBin.DAY
 opt.outlier.dateColumn = "app_date"
 opt.outlier.excludes = Array("customer_id")
 
-val dfCurrent = df.where(s"app_date >= '${opt.runId}' ")
+val dfCurrent = df.where(s"app_date = '${opt.runId}' ")
 val owl = OwlUtils.OwlContextWithHistory(dfCurrent = dfCurrent, dfHist = df, opt = opt)
 owl.register(opt)
 owl.owlCheck()
