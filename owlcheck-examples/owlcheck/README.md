@@ -150,26 +150,9 @@ The above REST call returns the below OwlCheck. It is left up to the Job Control
 -owluser geoff@owl.com
 ```
 
-## Putting it all together
+## REST API End Point
 
-A generic and repeatable owlcheck script for job schedulers, that hooks into Owl to get the template.
-
-```bash
-#1 authenticate
-curl -sb -X POST -d username=admin -d password=admin123 http://$OWL_HOST/login -c cookies.txt
-
-#2 get template
-owlcheck_args=$(curl -b cookies.txt -H "accept: application/json" -X GET http://$OWL_HOST/v2/getowlcheckcmdlinebydataset\?dataset=insurance | sed 's/.*\[\(.*\)\]/\1/' | sed -e "s/^\"//" -e "s/\"$//"  | sed 's/\\\"\(.*\)\\\"/\x27\1\x27/')
-
-#3 replace ${rd} with job_run_date
-job_run_date="2019-03-14 10:00:00"
-owlcheck_args=${owlcheck_args//'${rd}'/$job_run_date}
-
-#4 run owlcheck
-eval owlcheck $owlcheck_args
-```
-
-For more Information on Owl's Scheduler check out the doc on **OwlCheck Cron** Page**.**
+The easiest option is to use the runtemplate end point API call to make requests to from cmdLine or JobControl System.
 
 {% api-method method="post" host="http://$host" path="/v2/runtemplate?dataset=lake.spotify" %}
 {% api-method-summary %}
@@ -213,4 +196,25 @@ yyyy-MM-dd format can add time or timezone.  if not passed in it will use the cu
 {% endapi-method-response %}
 {% endapi-method-spec %}
 {% endapi-method %}
+
+### Bash Script 
+
+A generic and repeatable owlcheck script for job schedulers, that hooks into Owl to get the template.
+
+```bash
+#1 authenticate
+curl -sb -X POST -d username=admin -d password=admin123 http://$OWL_HOST/login -c cookies.txt
+
+#2 get template
+owlcheck_args=$(curl -b cookies.txt -H "accept: application/json" -X GET http://$OWL_HOST/v2/getowlcheckcmdlinebydataset\?dataset=insurance | sed 's/.*\[\(.*\)\]/\1/' | sed -e "s/^\"//" -e "s/\"$//"  | sed 's/\\\"\(.*\)\\\"/\x27\1\x27/')
+
+#3 replace ${rd} with job_run_date
+job_run_date="2019-03-14 10:00:00"
+owlcheck_args=${owlcheck_args//'${rd}'/$job_run_date}
+
+#4 run owlcheck
+eval owlcheck $owlcheck_args
+```
+
+For more Information on Owl's Scheduler check out the doc on **OwlCheck Cron** Page**.**
 
