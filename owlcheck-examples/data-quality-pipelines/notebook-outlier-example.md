@@ -27,14 +27,12 @@ val df = OwlUtils.load(filePath = filePath, delim = ",", sparkSession = spark)
 val opt = new OwlOptions()
 opt.runId = "2018-02-24"
 opt.dataset = "dataset_outlier"
-opt.dupe.checkHeader = true
+opt.load.datasetSafety = false
 opt.outlier.on = true
 opt.outlier.lookback = 5
 opt.outlier.key = Array("fname")
 opt.outlier.timeBin = OutlierOpt.TimeBin.DAY
 opt.outlier.dateColumn = "app_date"
-opt.load.cache = true
-opt.load.datasetSafety = false
 opt.outlier.excludes = Array("customer_id")
 
 val dfCurrent = df.where(s"app_date >= '${opt.runId}' ")
