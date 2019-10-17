@@ -17,12 +17,11 @@ Kirk,2018-02-20,10,1
 
 ```scala
 val filePath = getClass.getResource("/notebooktest.csv").getPath
+
 val spark = SparkSession.builder
   .master("local")
   .appName("test")
   .getOrCreate()
-
-val df = OwlUtils.load(filePath = filePath, delim = ",", sparkSession = spark)
 
 val opt = new OwlOptions()
 opt.runId = "2018-02-24"
@@ -35,6 +34,7 @@ opt.outlier.timeBin = OutlierOpt.TimeBin.DAY
 opt.outlier.dateColumn = "app_date"
 opt.outlier.excludes = Array("customer_id")
 
+val df = OwlUtils.load(filePath = filePath, delim = ",", sparkSession = spark)
 val dfCurrent = df.where(s"app_date = '${opt.runId}' ")
 val owl = OwlUtils.OwlContextWithHistory(dfCurrent = dfCurrent, dfHist = df, opt = opt)
 owl.register(opt)
