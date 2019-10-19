@@ -170,8 +170,12 @@ RunTemplate
 name of dataset.    -ds OR opt.dataset
 {% endapi-method-parameter %}
 
-{% api-method-parameter name="runId" type="string" required=false %}
-yyyy-MM-dd format can add time or timezone.  if not passed in it will use the current day
+{% api-method-parameter name="rd" type="string" required=false %}
+yyyy-MM-dd format can add time or timezone.  if note passed in it will use the current day
+{% endapi-method-parameter %}
+
+{% api-method-parameter name="rdEnd" type="string" required=false %}
+yyyy-MM-dd format can add time or timezone.  if not passed it will not be used
 {% endapi-method-parameter %}
 {% endapi-method-path-parameters %}
 {% endapi-method-request %}
