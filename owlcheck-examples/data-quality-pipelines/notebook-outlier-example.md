@@ -47,6 +47,47 @@ Score drops from 100 to 99 based on the single outlier in the file. Row count is
 
 ![](../../.gitbook/assets/owl-df-with-hist-customer_id.png)
 
+After you run an owlcheck using owl.owlcheck you might want to check individual scores to see what type of issues were in the data.  Owl can send back the records with issues in the format of a DataFrame using the notebook cmds or JSON from the REST api.  
+
+```scala
+val hoot = owl.hoot
+
+println(s"SHAPE   ${hoot.shapeScore} ")
+println(s"DUPE    ${hoot.dupeScore} ")
+println(s"OUTLIER ${hoot.outlierScore} ")
+println(s"PATTERN ${hoot.patternScore} ")
+println(s"RECORD  ${hoot.recordScore} ")
+println(s"SCHEMA  ${hoot.schemaScore} ")
+println(s"BEHAVIOR${hoot.behaviorScore} ")
+println(s"SOURCE  ${hoot.sourceScore} ")
+println(s"RULES   ${hoot.ruleScore} ")
+
+if (hoot.shapeScore > 0) {
+  owl.getShapeRecords.show
+}
+if (hoot.dupeScore > 0) {
+  owl.getDupeRecords.show
+}
+```
+
+```text
++-------+---------+--------------------+--------+-----------+-------+------+
+|row_cnt|obs_score|             row_key|obs_type|customer_id|  fname|owl_id|
++-------+---------+--------------------+--------+-----------+-------+------+
+|     21|       46|afa89984ce472a409...|    DUPE|         32|   Kirk|     1|
+|     22|       46|afa89984ce472a409...|    DUPE|         31|Kirk's.|     2|
+|     23|       60|41ea2d828b1a5fbf2...|    DUPE|         30|    Dan|     3|
+|     24|       60|41ea2d828b1a5fbf2...|    DUPE|         27|    Dan|     6|
+```
+
+```text
++---------------+--------------------+--------+----------+--------------+--------+-------+-------+---+--------------------+-----------+-------+------+--------+
+|        dataset|              run_id|col_name|col_format|col_format_cnt|owl_rank|row_cnt|row_key|age|            app_date|customer_id|  fname|owl_id|time_bin|
++---------------+--------------------+--------+----------+--------------+--------+-------+-------+---+--------------------+-----------+-------+------+--------+
+|dataset_outlier|2018-02-24 00:00:...|   fname|   xxxx'x.|             1|       1|      2|xxxx'x.| 18|2018-02-24 00:00:...|         31|Kirk's.|     2|    null|
++---------------+--------------------+--------+----------+--------------+--------+-------+-------+---+--------------------+-----------+-------+------+--------+
+```
+
 {% api-method method="get" host="http://$host" path="/v2/getoutlier?dataset=dataset\_outlier&runId=2018-02-24" %}
 {% api-method-summary %}
 GetOutlier
