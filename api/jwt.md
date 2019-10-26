@@ -16,9 +16,9 @@ http://localhost:9000/v2/getsecuritymap
 
 Without Headers and jq display:
 
-curl -H 'Accept: application/json' -H "Authorization: Bearer ${TOKEN}" http://localhost:9000/v2/getsecuritymap \| jq '.' \| cat
-
-
+```bash
+curl -H 'Accept: application/json' -H "Authorization: Bearer ${TOKEN}" http://localhost:9000/v2/getsecuritymap | jq '.' | cat
+```
 
 
 
