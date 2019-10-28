@@ -44,7 +44,7 @@ opt.linkId = Array("transaction_id", "trans_time")
 ```
 
 ```scala
-owl.getShapesDF
+owl.getShapesDF 
 ```
 
 ### Rest API Example
