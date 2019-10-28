@@ -8,8 +8,8 @@ Whether you're looking for a fuzzy matching percent or single client cleanup, Ow
 
 ![](../.gitbook/assets/owl-dupe-booked.png)
 
-```text
--f file:///home/ec2-user/single_customer.csv \
+```bash
+-f "file:///home/ec2-user/single_customer.csv" \
 -d "," \
 -ds customers \
 -rd 2018-01-08 \
