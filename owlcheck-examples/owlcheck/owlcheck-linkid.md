@@ -33,3 +33,21 @@ opt.linkId = Array("transaction_id", "trans_time")
 | **RECORD** | PARTIAL | In some cases when a record is added or removed it may be available for linking. |
 | **PATTERN** | PARTIAL | Patterns are not always a direct link.  This item is still under performance review. |
 
+### Notebook API Example
+
+```text
++------------+----------+-------+-------+-----+-----------------+---------------+
+|     dataset|     runId|fieldNm| format|count|          percent| transaction_id|
++------------+----------+-------+-------+-----+-----------------+---------------+
+|      order |2018-02-24|  fname|xxxx'x.|    1|7.142857142857142|t-1232         |
++------------+----------+-------+-------+-----+-----------------+---------------+
+```
+
+```scala
+owl.getShapesDF
+```
+
+### Rest API Example
+
+
+
