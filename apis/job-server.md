@@ -21,6 +21,12 @@ curl -X POST --data '
 
 ![](../.gitbook/assets/owl-job-status%20%281%29.png)
 
+### Run Template
+
+The most recommended way to run an Owl Check from outside the application is through the rest API detailed on the OwlCheck page using the link below.  The API is called RunTemplate
+
+{% page-ref page="../owlcheck-examples/owlcheck/" %}
+
 ### Configure Multiple Clusters/Agents Per Tenant
 
 Each tenant of Owl can connect and push processing to 1 or more clusters.  Owl is capable of pushing workloads to any of the registered environments \(Agents\) that it knows about. 
