@@ -1,6 +1,6 @@
 # OwlCheck LinkId
 
-Ability to link an OwlCheck findings back to the source record by supplying the primary key in the linkId field.  There are 2 ways to provide the linkId, 1\) a the cmdline via -linkid or 2\) in a notebook via opt.linkId.  Owl supports one or many primary key columns in your datasets for record linkage to your original table, file or dataframe.  If your primary key column contains many columns use a comma to delineate.  Set to released on Nov 15th 2019
+Ability to link an OwlCheck findings back to the source record for remediation.  The linkId needs to be unique, commonly the primary key.  There are 2 ways to provide the linkId, 1\) a the cmdline via -linkid or 2\) in a notebook via opt.linkId.  Owl supports one or many primary key columns in your datasets for record linkage to your original table, file or dataframe.  If your primary key column contains many columns use a comma to delineate.  Set to released on Nov 15th 2019
 
 ### Notebook
 
