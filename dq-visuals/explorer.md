@@ -6,7 +6,7 @@ Use the explorer tab to quickly see which tables are cataloged with Owl \(the sq
 
 Below you will see 3/3 database tables have been cataloged with Owl but only 2/3 have an owlcheck.  This means that this particular database schema is 67% protected from future DQ issues.  
 
-![](../.gitbook/assets/owl-explorer.png)
+![](../.gitbook/assets/owl-explorer%20%281%29.png)
 
 ### DQ coverage over time
 
