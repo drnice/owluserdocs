@@ -41,7 +41,15 @@ A quick way to schedule jobs is to use Owl's one click scheduler.
 
 ![](../.gitbook/assets/owl-tenant-agent%20%281%29.png)
 
+### Job Scheduler
+
 ![](../.gitbook/assets/owl-schedule.png)
 
+### Job Status Chart
+
 ![](../.gitbook/assets/olw-jobs.png)
+
+### Job Scheduler View
+
+![](../.gitbook/assets/owl-scheduler.png)
 

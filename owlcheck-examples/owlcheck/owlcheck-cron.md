@@ -55,3 +55,9 @@ The schedule is based on the OwlCheck Template.  This way the runtime variables 
 
 ![](../../.gitbook/assets/owl-template-schedule.png)
 
+### All Scheduled Jobs in 1 Place
+
+Under the jobs dashboard you can see an overview schedule with all running jobs and their status.
+
+![](../../.gitbook/assets/owl-scheduler%20%281%29.png)
+
