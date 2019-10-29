@@ -1,5 +1,5 @@
 ---
-description: Using OwlOptions will be the newest way how you can configure your notebooks.
+description: OwlOptions is the new standard for configuring Owl within a notebook.
 ---
 
 # Owl Options API
@@ -13,7 +13,7 @@ description: Using OwlOptions will be the newest way how you can configure your 
 | **rundIdEnd** | _rdEnd_ | end date for query ranges **t\_date &gt;= ${rd} and t\_date &lt; ${rdEnd}**, must be in format **yyyy-MM-dd** or for incremental use Hours or Minutes **yyyy-MM-dd HH:mm** |
 | **passFail** | _passfaillimit_ | Limit for passing or failing runs |
 | **jobId** |  |  |
-| **onReadOnly** | _readonly_ | Do not connect to meta store good for testing or trials |
+| **onReadOnly** | _readonly_ | Do not persist results to the Owl meta-store - useful during testing. |
 
 ## Load Options
 
