@@ -4,9 +4,9 @@
 
 Use the explorer tab to quickly see which tables are cataloged with Owl \(the square catalog icon\) and which have Owl's quality protection \(the owl icon\).
 
-Below you will see 3/3 database tables have been cataloged with Owl but only 2/3 have an owlcheck. This means that this particular database schema is 67% protected from future DQ issues.
+Below you will see 48/48 database tables have been cataloged with Owl but only 21/48 have an owlcheck. This means that this particular database schema is 44% protected from future DQ issues.
 
-![](../.gitbook/assets/owl-explorer.png)---
+![](../.gitbook/assets/owl-explorer.png)
 
 ## DQ coverage over time
 
