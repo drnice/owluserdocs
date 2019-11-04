@@ -124,6 +124,7 @@
 * [Nulls in Datasets](advanced/zero-if-null.md)
 * [Reference Checks](advanced/reference-checks.md)
 * [Transform Expressions](advanced/transform.md)
+* [Prescriptive Personas](advanced/prescriptive-personas.md)
 
 ## Multi-Tenant
 
