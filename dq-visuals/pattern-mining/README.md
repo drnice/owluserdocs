@@ -2,7 +2,7 @@
 
 Owl uses the latest advancements in data science and ML to find deep patterns across millions of rows and columns. In the example below it noticed that Valerie is likely the same user as she has the same customer\_id and card\_number but recently showed up with a different last name. Possible misspelling or data quality issue?
 
-![](../.gitbook/assets/owl-patterns.png)
+![](../../.gitbook/assets/owl-patterns.png)
 
 ## Fraud Detection?
 

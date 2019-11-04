@@ -69,7 +69,9 @@
 * [Duplicates](dq-visuals/duplicates.md)
 * [Explorer](dq-visuals/explorer.md)
 * [Profile](dq-visuals/profile.md)
-* [Pattern Mining](dq-visuals/pattern-mining.md)
+* [Pattern Mining](dq-visuals/pattern-mining/README.md)
+  * [Bloomberg Data](dq-visuals/pattern-mining/bloomberg-data.md)
+* [Untitled](dq-visuals/untitled.md)
 * [Missing Records](dq-visuals/missing-records.md)
 
 ## Labeling / Training
