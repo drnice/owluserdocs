@@ -64,7 +64,7 @@
 * [Shapes](dq-visuals/shapes.md)
 * [Validate Source](dq-visuals/validate-source.md)
 * [Rules](dq-visuals/rules/README.md)
-  * [DQ Rule Automation](dq-visuals/rules/dq-rule-automation.md)
+  * [The best DQ rule, is the one you don't have to write](dq-visuals/rules/dq-rule-automation.md)
   * [Creating a Business Rule](dq-visuals/rules/creating-a-business-rule.md)
 * [Duplicates](dq-visuals/duplicates.md)
 * [Explorer](dq-visuals/explorer.md)
