@@ -1,6 +1,6 @@
 # The best DQ rule, is the one you don't have to write
 
-Owl's semantic automatically writes standard rules, and shares all of it's out of the box rules with each user/tenant.  This makes it easy to get started quickly and let the team add common rules for specific use-cases.  Owl self identifies standard columns and automatically provides the proper protection.
+Owl's semantic scanning self identifies standard columns and automatically provides the proper protection. This makes it easy to get started adding common rules for specific use-cases. 
 
-![](../../.gitbook/assets/owl-standard-rule%20%281%29.png)
+![Owl automatically identifies standard columns and provides the proper protection](../../.gitbook/assets/screen-shot-2019-11-04-at-2.06.50-pm.png)
 
