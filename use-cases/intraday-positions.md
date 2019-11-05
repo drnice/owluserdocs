@@ -37,11 +37,6 @@ Notice that during the day you may or may not have a position for every company 
 // and hour encoded in the file name. How do you process those files using Owl?
 //
 // Format: <name>_<year>_<month>_<day>.csv
-//
-// Build up a data structure containg the files you want to process (here we
-// just use a simple list, but you may want to be pulling from a pubsub
-// queue, AWS bucket, etc...). Here we just use a simple file list of 6
-// hours of trade position data.
 val position_files = List(
   new File(getClass.getResource("/position_file_2019_11_03_08.csv").getPath),
   new File(getClass.getResource("/position_file_2019_11_03_09.csv").getPath),
