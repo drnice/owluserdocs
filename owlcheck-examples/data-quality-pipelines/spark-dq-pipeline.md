@@ -97,6 +97,8 @@ Here we illustrate an example of how to work with files when using Owl programma
     opt.dataset = "positions"
     opt.load.delimiter = ","
     opt.spark.master = "local[1]"
+    opt.dupe.on = true
+    opt.dupe.include = Array("ticker", "cid")
     opt.outlier.on = true
     opt.outlier.key = Array("cid")
     opt.outlier.timeBin = TimeBin.HOUR
@@ -134,6 +136,8 @@ Here we illustrate an example of how to work with files when using Owl programma
 
     }
 ```
+
+![](../../.gitbook/assets/image%20%2815%29.png)
 
 ### All Pipeline Activities in 1 Line
 
