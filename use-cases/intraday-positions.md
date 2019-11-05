@@ -37,20 +37,15 @@ Notice that during the day you may or may not have a position for every company 
 // and hour encoded in the file name. How do you process those files using Owl?
 //
 // Format: <name>_<year>_<month>_<day>.csv
-val position_files = List(
-  new File(getClass.getResource("/position_file_2019_11_03_08.csv").getPath),
-  new File(getClass.getResource("/position_file_2019_11_03_09.csv").getPath),
-  new File(getClass.getResource("/position_file_2019_11_03_10.csv").getPath),
-  new File(getClass.getResource("/position_file_2019_11_03_11.csv").getPath),
-  new File(getClass.getResource("/position_file_2019_11_03_12.csv").getPath),
-  new File(getClass.getResource("/position_file_2019_11_03_13.csv").getPath),
-  new File(getClass.getResource("/position_file_2019_11_03_14.csv").getPath))
+
+val filePath = // <set this> positions/2019/01/22/positions_2019-01-22_09.csv
 
 // Configure Owl.
 val opt = new OwlOptions
 opt.dataset = "positions"
 opt.load.delimiter = ","
 opt.load.fileQuery = "select * from dataset"
+opt.load.filePath = file.getPath
 
 opt.outlier.on = true
 opt.outlier.key = Array("COMPANY")
@@ -60,35 +55,30 @@ opt.dupe.on = true
 opt.dupe.include = Array("COMPANY", "TICK")
 opt.dupe.exactMatch = true
 
-position_files.foreach { file: File =>
-  // Tell Owl where to find the file.
-  opt.load.filePath = file.getPath
+// Parse the filename to construct the run date (-rd) that will be passed
+// to Owl.
+val name = file.getName.split('.').head
+val parts = name.split("_")
+val date = parts.slice(2, 5).mkString("-")
+val hour = parts.takeRight(1).head
 
-  // Parse the filename to construct the run date (-rd) that will be passed
-  // to Owl.
-  val name = file.getName.split('.').head
-  val parts = name.split("_")
-  val date = parts.slice(2, 5).mkString("-")
-  val hour = parts.takeRight(1).head
+// Must be in format 'yyyy-MM-dd' or 'yyyy-MM-dd HH:mm'.
+val rd = s"${date} ${hour}"
 
-  // Must be in format 'yyyy-MM-dd' or 'yyyy-MM-dd HH:mm'.
-  val rd = s"${date} ${hour}"
+// Tell Owl to process data
+opt.runId = rd
 
-  // Tell Owl to process data
-  opt.runId = rd
+// Create a DataFrame from the file.
+val df = OwlUtils.load(opt.load.filePath, opt.load.delimiter, spark)
 
-  // Create a DataFrame from the file.
-  val df = OwlUtils.load(opt.load.filePath, opt.load.delimiter, spark)
+// Instantiate an OwlContext with the dataframe and our custom configuration.
+val owl = OwlUtils.OwlContext(df, spark, opt)
 
-  // Instantiate an OwlContext with the dataframe and our custom configuration.
-  val owl = OwlUtils.OwlContext(df, spark, opt)
+// Make sure Owl has catalogued the dataset.
+owl.register(opt)
 
-  // Make sure Owl has catalogued the dataset.
-  owl.register(opt)
-
-  // Let Owl do the rest!
-  owl.owlCheck
-}
+// Let Owl do the rest!
+owl.owlCheck
 ```
 
 ### DQ Coverage for Position data
