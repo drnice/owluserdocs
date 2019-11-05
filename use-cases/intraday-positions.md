@@ -51,22 +51,19 @@ val position_files = List(
   new File(getClass.getResource("/position_file_2019_11_03_13.csv").getPath),
   new File(getClass.getResource("/position_file_2019_11_03_14.csv").getPath))
 
-// Create your spark session.
-val spark = SparkSession.builder
-  .master("local")
-  .appName("test")
-  .getOrCreate()
-
 // Configure Owl.
 val opt = new OwlOptions
 opt.dataset = "positions"
 opt.load.delimiter = ","
-opt.spark.master = "local[1]"
-opt.outlier.on = true
-opt.outlier.key = Array("cid")
-opt.outlier.timeBin = TimeBin.HOUR
-// Customize this to only process a subset of the data.
 opt.load.fileQuery = "select * from dataset"
+
+opt.outlier.on = true
+opt.outlier.key = Array("COMPANY")
+opt.outlier.timeBin = TimeBin.HOUR
+
+opt.dupe.on = true
+opt.dupe.include = Array("COMPANY", "TICK")
+opt.dupe.exactMatch = true
 
 position_files.foreach { file: File =>
   // Tell Owl where to find the file.
