@@ -64,7 +64,7 @@ if (outliers.where($"confidence" < 10).count > 3) {
 Here we illustrate an example of how to work with files when using Owl programmatically. This can be implemented in both a Notebook setting and in your own codebase.
 
 ```scala
-    ///////////////////////////////////////////////////////////////////////////
+  ///////////////////////////////////////////////////////////////////////////
     //                  USE CASE - Ingesting Intraday Files                  //
     ///////////////////////////////////////////////////////////////////////////
 
@@ -78,12 +78,13 @@ Here we illustrate an example of how to work with files when using Owl programma
     // queue, AWS bucket, etc...). Here we just use a simple file list of 6
     // hours of trade position data.
     val position_files = List(
-     new File( getClass.getResource("/position_file_2019_11_03_08.csv").getPath ),
-     new File( getClass.getResource("/position_file_2019_11_03_09.csv").getPath ),
-     new File( getClass.getResource("/position_file_2019_11_03_10.csv").getPath ),
-    new File( getClass.getResource("/position_file_2019_11_03_11.csv").getPath ),
-     new File( getClass.getResource("/position_file_2019_11_03_12.csv").getPath ),
-    new File( getClass.getResource("/position_file_2019_11_03_13.csv").getPath ))
+      new File(getClass.getResource("/position_file_2019_11_03_08.csv").getPath),
+      new File(getClass.getResource("/position_file_2019_11_03_09.csv").getPath),
+      new File(getClass.getResource("/position_file_2019_11_03_10.csv").getPath),
+      new File(getClass.getResource("/position_file_2019_11_03_11.csv").getPath),
+      new File(getClass.getResource("/position_file_2019_11_03_12.csv").getPath),
+      new File(getClass.getResource("/position_file_2019_11_03_13.csv").getPath),
+      new File(getClass.getResource("/position_file_2019_11_03_14.csv").getPath))
 
     // Create your spark session.
     val spark = SparkSession.builder
@@ -96,7 +97,9 @@ Here we illustrate an example of how to work with files when using Owl programma
     opt.dataset = "positions"
     opt.load.delimiter = ","
     opt.spark.master = "local[1]"
-
+    opt.outlier.on = true
+    opt.outlier.key = Array("cid")
+    opt.outlier.timeBin = TimeBin.HOUR
     // Customize this to only process a subset of the data.
     opt.load.fileQuery = "select * from dataset"
 
@@ -124,7 +127,7 @@ Here we illustrate an example of how to work with files when using Owl programma
       val owl = OwlUtils.OwlContext(df, spark, opt)
 
       // Make sure Owl has catalogued the dataset.
-      owl.register()
+      owl.register(opt)
 
       // Let Owl do the rest!
       owl.owlCheck()
