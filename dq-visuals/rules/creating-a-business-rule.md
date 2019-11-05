@@ -55,7 +55,7 @@ Let’s create a simple rule using the below information. The dataset name.
 
 Once the rule has been submitted please find the below list of rules with the new rule we just defined as shown below.
 
-![](../../.gitbook/assets/image%20%2819%29.png)
+![](../../.gitbook/assets/image%20%2820%29.png)
 
 #### **Seeing Your First Rule Get Triggered** <a id="HSeeingYourFirstRuleGetTriggered"></a>
 
