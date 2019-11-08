@@ -18,8 +18,8 @@ In this example you can see how to create a simple SQL rule, with name **simple\
 
 ### Code
 
-{% code-tabs %}
-{% code-tabs-item title="example\_simple\_sql\_rule.scala" %}
+{% tabs %}
+{% tab title="example\_simple\_sql\_rule.scala" %}
 ```scala
 import com.owl.core.Owl
 import com.owl.core.util.OwlUtils
@@ -99,8 +99,8 @@ def sparkInit(): SparkSession = {
 // Execute notebook
 simpleRuleNotebook()
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endtab %}
+{% endtabs %}
 
 ### Result
 
