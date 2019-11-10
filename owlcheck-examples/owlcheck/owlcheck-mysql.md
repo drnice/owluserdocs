@@ -1,6 +1,8 @@
 # OwlCheck MySql
 
+### Video Tutorial \(MySQL\)
 
+{% embed url="https://vimeo.com/372243090" %}
 
 Connect to any database using JDBC.  Mysql example below.  
 
