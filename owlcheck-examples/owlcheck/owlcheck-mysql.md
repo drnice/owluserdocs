@@ -4,7 +4,9 @@
 
 Add automatic data quality to any database in 60 seconds.  This example shows a single table being selected for DQ, however Owl also provides the ability to scan all schemas and tables at once.
 
-{% embed url="https://vimeo.com/372243090" %}
+{% embed url="https://vimeo.com/372286610" %}
+
+
 
 Connect to any database using JDBC.  Mysql example below.  
 
