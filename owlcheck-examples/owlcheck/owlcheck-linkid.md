@@ -1,6 +1,6 @@
 # OwlCheck LinkId
 
-Ability to link an OwlCheck findings back to the source record for remediation.  The linkId needs to be unique, commonly the primary key.  There are 2 ways to provide the linkId, 1\) a the cmdline via -linkid or 2\) in a notebook via opt.linkId.  Owl supports one or many primary key columns in your datasets for record linkage to your original table, file or dataframe.  If your primary key column contains many columns use a comma to delineate.  Set to released on Nov 15th 2019
+Ability to link an OwlCheck findings back to the source record for remediation.  The linkId needs to be unique, commonly the primary key.  There are 2 ways to provide the linkId, 1\) a the cmdline via -linkid or 2\) in a notebook via opt.linkId.  Owl supports one or many primary key columns in your datasets for record linkage to your original table, file or dataframe.  If your primary key column contains many columns use a comma to delineate.
 
 ### Notebook
 
@@ -48,8 +48,6 @@ owl.getShapesDF
 ```
 
 ### Rest API Example
-
-coming Nov 10th
 
 When supplying a linkId Owl will naturally exclude this field from most activities.  Meaning a unique ID or primary key column can not be duplicative or it would not be the primary key, hence it will not be evaluated for duplicates.  The same goes for Outliers and Shapes as a large sequence number or other variations might trigger a false positive when this column is denoted to be simply for the purpose of linking uniquely back to the source.  If you for some reason want to also evaluate this column as well as link it please create a derived column with a different name and Owl will naturally handle both cases.    
 
