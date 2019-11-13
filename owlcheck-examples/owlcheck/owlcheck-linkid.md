@@ -53,3 +53,51 @@ coming Nov 10th
 
 When supplying a linkId Owl will naturally exclude this field from most activities.  Meaning a unique ID or primary key column can not be duplicative or it would not be the primary key, hence it will not be evaluated for duplicates.  The same goes for Outliers and Shapes as a large sequence number or other variations might trigger a false positive when this column is denoted to be simply for the purpose of linking uniquely back to the source.  If you for some reason want to also evaluate this column as well as link it please create a derived column with a different name and Owl will naturally handle both cases.    
 
+```scala
+owl.getShapes
+owl.getDupes
+owl.getOutliers
+owl.getRuleBreaks
+owl.getSourceBreaks
+```
+
+### getRules\(\)
+
+```scala
+----Rules----
++-----------------+----------+--------------------+------------------+------+
+|          dataset|     runId|              ruleNm|         ruleValue|linkId|
++-----------------+----------+--------------------+------------------+------+
+|dataset_outlier_3|2018-02-24|     fname_like_Kirk|fname like 'Kirk' |  c-41|
+|dataset_outlier_3|2018-02-24|     fname_like_Kirk|fname like 'Kirk' |  c-42|
+|dataset_outlier_3|2018-02-24|     fname_like_Kirk|fname like 'Kirk' |  c-43|
+|dataset_outlier_3|2018-02-24|     fname_like_Kirk|fname like 'Kirk' |  c-44|
+|dataset_outlier_3|2018-02-24|     fname_like_Kirk|fname like 'Kirk' |  c-45|
+|dataset_outlier_3|2018-02-24|if_email_is_valid...|             email|  c-31|
+|dataset_outlier_3|2018-02-24|if_email_is_valid...|             email|  c-33|
+|dataset_outlier_3|2018-02-24|if_zip_is_valid_Z...|               zip|  c-40|
++-----------------+----------+--------------------+------------------+------+
+```
+
+### getDupes\(\)
+
+first split on ~~ then if you have a multiple part key split on ~\|
+
+```scala
+----Dupes----
++-----------------+----------+-----+--------------------+----------+
+|          dataset|     runId|score|                 key|    linkId|
++-----------------+----------+-----+--------------------+----------+
+|dataset_outlier_3|2018-02-24|  100|9ec828d5194fa397b...|c-45~~c-36|
+|dataset_outlier_3|2018-02-24|  100|1f96274d1d10c9f77...|c-45~~c-35|
+|dataset_outlier_3|2018-02-24|  100|051532044be286f99...|c-45~~c-44|
+|dataset_outlier_3|2018-02-24|  100|af2e96921ae53674a...|c-45~~c-43|
+|dataset_outlier_3|2018-02-24|  100|ad6f04bf98b38117a...|c-45~~c-42|
+|dataset_outlier_3|2018-02-24|  100|1ff7d50a7a9d07d02...|c-45~~c-41|
+|dataset_outlier_3|2018-02-24|  100|6ed858ed1f4178bb0...|c-45~~c-40|
+|dataset_outlier_3|2018-02-24|  100|d2903703b348fb4cb...|c-45~~c-39|
+|dataset_outlier_3|2018-02-24|  100|24bf54412de1e720d...|c-45~~c-38|
+|dataset_outlier_3|2018-02-24|  100|7a7ce0beb41b39564...|c-45~~c-37|
++-----------------+----------+-----+--------------------+----------+
+```
+
