@@ -12,3 +12,5 @@
 
 ![](.gitbook/assets/list-view-with-impact.jpg)
 
+![](.gitbook/assets/list-view.jpg)
+
