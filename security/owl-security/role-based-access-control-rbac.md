@@ -4,7 +4,7 @@
 
 Owl supports RBAC configuration with both core roles and custom roles. Core roles include the following:
 
-![](../../.gitbook/assets/screen-shot-2019-11-18-at-2.52.12-am.png)
+![](../../.gitbook/assets/screen-shot-2019-11-18-at-3.01.28-am.png)
 
 Custom roles can be added via the Role Management page by navigating to the Admin Console and clicking on the Roles Icon. Custom roles can also be added 'on the fly' during the Active Directory Role Mapping step.
 
