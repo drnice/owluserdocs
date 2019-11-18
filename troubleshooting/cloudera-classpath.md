@@ -1,14 +1,14 @@
 # Cloudera CLASSPATH
 
-### **What is a CLASSPATH?**
+## **What is a CLASSPATH?**
 
-A CLASSPATH is essentially a list of jar that gets injected into a JVM on start of a job execution.  Like many applications spark can have jars injected when a job is run.  Cloudera has defined a list of predefined jars \(rightfully called classpath.txt\) 
+A CLASSPATH is essentially a list of jars that get injected into a JVM on the start of a job execution. Like many applications, Spark can have jars injected when a job is run. Cloudera has defined a list of predefined jars \(rightfully called classpath.txt\):
 
 ```text
 /etc/spark2/conf/classpath.txt
 ```
 
-that will get injected whenever spark is called.  Here is an example list of jars as defined within a cluster we have stood up @ owl
+that will get injected whenever Spark is called. Here is an example list of jars as defined within a cluster we have stood up @ Owl:
 
 ```text
 [danielrice@cdh-edge ~]$ cat /etc/spark2/conf/classpath.txt
@@ -163,13 +163,13 @@ that will get injected whenever spark is called.  Here is an example list of jar
 /usr/java/jdk1.8.0_131/lib/tools.jar
 ```
 
-At each execution of any spark job \(including the use of spark-submit\) this list of jars above will automatically get loaded.  
+At each execution of any Spark job \(including the use of spark-submit\) this list of jars above will automatically get loaded.
 
-### What is a JAR?
+## What is a JAR?
 
-A jar file is essential a compress list of classes and methods.  It is important to note that when jar files are built they will typically have an associated version number with the jar.  
+A jar file is essential a compressed list of classes and methods. It is important to note that when jar files are built they will typically have an associated version number.
 
-Someone can look at the contents of a jar file by executing 
+Someone can look at the contents of a jar file by executing
 
 ```text
 jar -tvf phoenix-4.13.1-HBase-1.3-client.jar
@@ -181,9 +181,7 @@ Or you can wrap the above in a for loop that will look at the contents of every 
 for i in `ls -1 *.jar`;do jar -tvf $i | grep -i htrace/trace;echo $i;done;
 ```
 
-
-
-### Common issues that can occur with CLASSPATH's
+## Common issues that can occur with CLASSPATH's
 
 {% hint style="info" %}
 **Caused by: java.lang.NoClassDefFoundError: org/apache/htrace/Trace**  
@@ -195,12 +193,10 @@ at org.apache.hadoop.hbase.client.ConnectionManager$HConnectionImplementation.re
 at org.apache.hadoop.hbase.client.ConnectionManager$HConnectionImplementation.&lt;init&gt;\(ConnectionManager.java:635\)
 {% endhint %}
 
-When a situation like this occurs it means that a method cannot be found in the classpath for the job that is trying to execute.  Which can indicate a couple things:
+When a situation like this occurs it means that a method cannot be found in the classpath for the job that is trying to execute. This can indicate a couple things:
 
 1. The job cannot find a jar file that contains the method flagged \(in the example above the org/apache/htrace/Trace method\)
 2. Sometimes different versions of the same jar file gets loaded and the first jar loaded will always win.  Older jars that get loaded first may not have a method defined in new jars.
 
 At owl we have solved CLASSPATH / CLASSLOAD issues by automatically injecting jars defined in our _**owl/libs**_ directory, and allowing users the ability to simply toggle loading them or not.
-
-
 
