@@ -4,21 +4,7 @@
 
 Owl supports RBAC configuration with both core roles and custom roles. Core roles include the following:
 
-ROLE\_PUBLIC: Access to see dataset scores but no dataset interaction when dataset security is enabled.
-
-ROLE\_OWL\_CHECK: Users or AD Groups mapped to this role will have the ability to run an owl check when Owl Check Security is enabled.
-
-ROLE\_DATASET\_MANAGER: Manage Dataset to Role Mappings
-
-ROLE\_OWL\_ROLE\_MANAGER: Manage Roles and User Mappings to Roles & Datasets
-
-ROLE\_USER\_MANAGER: Manage Users and User Mappings to Roles & Datasets
-
-ROLE\_CONNECTION\_MANAGER: Manage Connection to Role Mappings
-
-ROLE\_ADMIN: Access to the administration pages \(Create connections, roles, users, AD, etc.\)
-
-![](../../.gitbook/assets/screen-shot-2019-07-17-at-10.55.06-am.png)
+![](../../.gitbook/assets/screen-shot-2019-11-18-at-2.52.12-am.png)
 
 Custom roles can be added via the Role Management page by navigating to the Admin Console and clicking on the Roles Icon. Custom roles can also be added 'on the fly' during the Active Directory Role Mapping step.
 
