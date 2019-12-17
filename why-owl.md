@@ -2,6 +2,8 @@
 
 ### Because: using raw data to drive key decisions, leads to incorrect answers and end-user distrust.
 
+OwlDQ is singularly focused on providing your end-users with the highest standards of data quality/best quality data. We are purpose-built to solve the problem of data quality and to ensure end-user trust.
+
 Whether you use a BI tool to visualize data or you are responsible for serving data to downstream subscribers, you always want to trust that your data is accurate. Showing inaccurate data in a bar chart or PDF report leads to a lack of confidence in the data provider.  Take, for example, the data pipeline below.  There are 4 main stages: Data Loading, Data Preparation, Data Verification \(DQ\), and Data Reporting which covers a broad category of all ways to see and deliver data.
 
 ![](.gitbook/assets/screen-shot-2019-12-16-at-8.48.34-pm.png)
@@ -10,9 +12,9 @@ In order to avoid getting lost in the latest marketing jargon, a fundamental des
 
 ![](.gitbook/assets/screen-shot-2019-12-17-at-10.48.31-am.png)
 
-## So What’s the Problem?
+## So, What’s the Problem?
 
-The problem is detecting data issues is nuanced, manual and time consuming. The traditional solution is to write bespoke code or use a rules engine to validate specific columns in a dataset. An example of a common rule is a _nullcheck_. If there was a concern that a column has missing data one way to  handle the situation is to write a condition to check for the null or missing data. Another common example is a _row count check_. A rule or piece of logic that checks if the number of rows in a dataset is greater than some amount. Of course DQ rules and business rules can get much more complicated than these two examples. Scale becomes a huge issue because it is nearly impossible to write all the rules that a business truly needs to be confident in their data. Often times the math is cols \* dbTables. 100 cols on average and 500 tables in a single warehouse is 50,000 rules if you only wrote 1 rule per column. The reality is you need many rules per column and your business has more that 500 tables and files. But there are even bigger problems with this strategy, rules are a reactive approach to solving the problem, they are manually written and they don’t adapt \(they are static\).  With a rules only approach you can measure your franchise risk by the number of rules you can write.  This requires coders, domain experts and a tool to write and then manage the rules.
+Detecting data issues is nuanced, manual and time consuming. The traditional solution is to write bespoke code or use a rules engine to validate specific columns in a dataset. An example of a common rule is a _nullcheck_. Missing data is a common concern.  One way to address the situation is to write a conditional check for the null or missing data. Another common example is a _row count check;_ a piece of logic that checks if the number of rows in a dataset is greater than a specified number. Of course, DQ and business rules can get much more complicated. Scale becomes a huge, issue because it is nearly impossible to write all the rules that a business truly needs to be confident in their data. Often times, the math is _f\(x\) columns \* dbTables_. 100 cols on average and 500 tables in a single warehouse is 50,000 rules if you only wrote 1 rule per column. The reality is you need many rules per column and your business has more that 500 tables and files. But there are even bigger problems with this strategy, rules are a reactive approach to solving the problem, they are manually written and they don’t adapt \(they are static\).  With a rules only approach you can measure your franchise risk by the number of rules you can write.  This requires coders, domain experts and a tool to write and then manage the rules.
 
 ### How Can Predictive DQ Help?
 
