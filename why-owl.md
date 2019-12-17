@@ -1,6 +1,6 @@
 # Why Owl?
 
-### Because: using raw data to drive key decisions, leads to incorrect answers and a lack of trust.
+### Because: using raw data to drive key decisions, leads to incorrect answers and end user distrust.
 
 Whether you use a BI tool to visualize data or you are responsible for serving data to downstream subscribes you always want to trust that your data is accurate. Showing data in a bar chart or PDF report that is inaccurate leads to a lack of confidence in the upstream group or data provider. Let’s start with a simple data pipeline, one that is generic enough that while it might not fit all data flow scenarios it is one we can largely agree on. Below you will see 4 main stages: Data Loading, Data Preparation, Data Verification \(DQ\), Data Reporting \(covers a broad category of all ways to see and deliver data\).
 
