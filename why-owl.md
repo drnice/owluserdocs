@@ -1,0 +1,18 @@
+# Why Owl?
+
+### Because: using raw data to drive key decisions, leads to incorrect answers a lack of trust.
+
+Whether you use a BI tool to visualize data or you are responsible for serving data to downstream subscribes you always want to trust that your data is accurate. Showing data in a bar chart or PDF report that is inaccurate leads to a lack of confidence in the upstream group or data provider. Let’s start with a simple data pipeline, one that is generic enough that while it might not fit all data flow scenarios it is one we can largely agree on. Below you will see 4 main stages: Data Loading, Data Preparation, Data Verification \(DQ\), Data Reporting \(covers a broad category of all ways to see and deliver data\).
+
+![](.gitbook/assets/screen-shot-2019-12-16-at-8.48.34-pm.png)
+
+There is a description of the type of activities under each of the 4 stages in the data pipeline. This will help us not get lost in the latest marketing jargon and stay focused on the fundamentals. There are many ways to ingest and transform data, the descriptions are not meant to be exhaustive. Imagine a scenario where data is loaded in either a batch or stream then joined to another dataset with some column transformations and finally made viewable in a BI tool for consumption. But what about quality? What are the checks and verifications that are put in place to guarantee the accuracy and correctness of the data? After all showing someone a housing report with incorrect estimated housing values or a stock report with the wrong stock prices won’t go over well. Figure 2 below has popular company logos overlaid in each stage to bring more context to the discussion. There are easily 30+ software companies in each of the 4 stages, Owl chose 3 popular companies in each sector at random. Owl is not ranking companies. Gartner is of course an obvious choice if you are looking for companies rankings per sector.
+
+![](.gitbook/assets/screen-shot-2019-12-16-at-9.01.13-pm.png)
+
+## So What’s the Problem?
+
+The problem is detecting data issues is nuanced, manual and time consuming. The traditional approach to this problem to write bespoke code or use a rules engine to check on specific columns in a dataset. An example of a common rule is a _nullcheck_. Someone might be concerned of data is missing in a column and write a condition to check for the null or missing data. Another common example is a _row count check_. A rule or piece of logic that checks if the number of rows in a dataset is greater than some amount. Of course DQ rules and business rules can get much more complicated than these two examples. Scale becomes a huge issue because it is nearly impossible to write all the rules that a business truly needs to confident in their data. Often times the math is cols \* dbTables. 100 cols on avg and 500 tables in a single warehouse is 50,000 rules if you only wrote 1 rule per column. The reality is you need many rules per column and your business has more that 500 tables and files. But there are even bigger problems with this strategy, rules are a reactive approach to solving the problem, they are manually written and they don’t adapt \(they are static\).
+
+![](.gitbook/assets/screen-shot-2019-12-16-at-9.20.04-pm.png)
+
