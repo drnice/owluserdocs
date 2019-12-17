@@ -6,7 +6,7 @@ Whether you use a BI tool to visualize data or you are responsible for serving d
 
 ![](.gitbook/assets/screen-shot-2019-12-16-at-8.48.34-pm.png)
 
-There is a description of the type of activities under each of the 4 stages in the data pipeline. This will help us not get lost in the latest marketing jargon and stay focused on the fundamentals. There are many ways to ingest and transform data, the descriptions are not meant to be exhaustive. Imagine a scenario where data is loaded in either a batch or stream then joined to another dataset with some column transformations and finally made viewable in a BI tool for consumption. But what about quality? What are the checks and verifications that are put in place to guarantee the accuracy and correctness of the data? After all showing someone a housing report with incorrect estimated housing values or a stock report with the wrong stock prices won’t go over well. Figure 2 below has popular company logos overlaid in each stage to bring more context to the discussion. There are easily 30+ software companies in each of the 4 stages, Owl chose 3 popular companies in each sector at random. Owl is not ranking companies. Gartner is of course an obvious choice if you are looking for companies rankings per sector.
+A description of the type of activities is provided under each of the 4 stages in the data pipeline. This will help us not get lost in the latest marketing jargon and stay focused on the fundamentals. There are many ways to ingest and transform data, the descriptions are not meant to be exhaustive. Imagine a scenario where data is loaded in either a batch or stream then joined to another dataset with some column transformations and finally made viewable in a BI tool for consumption. But what about quality? What are the checks and verifications that are put in place to guarantee the accuracy and correctness of the data? After all showing someone a housing report with incorrect estimated housing values or a stock report with the wrong stock prices won’t go over well. Figure 2 below has popular company logos overlaid in each stage to bring more context to the discussion. There are easily 30+ software companies in each of the 4 stages, Owl chose 3 popular companies in each sector at random. Owl is not ranking companies. Gartner is of course an obvious choice if you are looking for companies rankings per sector.
 
 ![](.gitbook/assets/screen-shot-2019-12-16-at-9.01.13-pm.png)
 
@@ -23,4 +23,18 @@ Owl intentionally solves the problem using a machine learning first, rules secon
 ## Why a Pluggable DQ Solution?
 
 Aren't their other DQ companies and solutions on the market?  Yes, absolutely.  The challenge is the vast ways IT groups consume and process data.  You need to find a product that can plug into Files the same way it can plug into DB Tables and Kafka Topics etc...  You need to find a product that offers a consistent feature set that covers all 9 dimensions of DQ.  There are many products that do 1 dimension of DQ such as just rules or just data drift, however you will find that each dataset will have unique challenges and you will need the full DQ suite.  It is the consistency and full coverage that drives trust.  There are also companies that cover more than one of the 4 stages above but most importantly you need a solution that can score and report on DQ across all databases, file systems and topics in the same way.  Owl is lightweight and can scan data no matter where it lives.  DQ needs to be abstracted from the ingestion tool to have a single view enterprise DQ strategy.  
+
+## Do One thing and Do it the Best
+
+Owl subscribes to the reasoning that data quality is such an important part of the data lifecycle that it needs a company that is solely committed to revolutionizing the way we manage DQ.  This is why the company has a prescriptive approach to the problem.  The Owl software is purpose built for predicting and detecting DQ issues.  Much like how Jira is used as the standard for software project management.  It is absolutely possible to manage project line items in an excel sheet or combination of tools.  However when you really manage a lot of data you need List Views, ScoreCards, Collaboration, Down Training, Cataloging, Scheduling and much more.  
+
+## Get Started
+
+Give us a ring:  800-240-9554
+
+Email us:  info@owl-analytics.com
+
+
+
+##    
 
