@@ -45,6 +45,7 @@ Email us:  info@owl-analytics.com
 | **Unified DQ** | The ability to score and manage and report on all datasets \(files, tables, topics\) agnostically.  Providing a single pain of glass for DQ across all data sources. |
 | **Collaboration** | The ability for end-users to down-train, annotate and audit each DQ item |
 | **Auto Discovery** | The ability to figure out issues in your data without requiring domain experts and rule writers |
+| **Anomaly Detection** | The ability to detect numeric and categorical outliers in a dataset |
 | **Correlation Analysis** | The ability to measure the lift or relationship between numeric columns |
 | **Relationship Analysis** | The ability to discover and make predictions on hidden relationships in your data |
 | **Alerting** | The ability to send out alerts when DQ scores drop |
@@ -54,6 +55,7 @@ Email us:  info@owl-analytics.com
 | **Duplicate Detection** | The ability to find exact and similar matches in data records |
 | **Lineage Graphs** | The ability to asses business impact via a business impact score by understanding how connected each dataset is |
 | **Schema Evolution** | The ability to detect changes in data types, additions and removals |
+| **Rules** | The ability to write custom rules for simple and complex scenarios |
 
 ##    
 
