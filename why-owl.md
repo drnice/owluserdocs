@@ -16,13 +16,19 @@ In order to avoid getting lost in the latest marketing jargon, a fundamental des
 
 Detecting data issues is nuanced, manual and time consuming. The traditional solution is to write bespoke code or use a rules engine to validate specific columns in a dataset. If missing data is a concern a common remedy is to write a _nullcheck_. Another common example is a _row count check;_ a piece of logic that checks if the number of rows in a dataset is greater than a specified number. Of course, DQ and business rules can get much more complicated. Scale becomes a huge issue, because it is nearly impossible to write all the rules that a business truly needs to be confident in their data. Often times, the math is _f\(x\)  = columns \* dbTables_. 100 columns on average and 500 tables in a single warehouse equals 50,000 rules if you only wrote 1 rule per column. The reality is you need many rules per column, and your business has more than 500 tables and files. But there are even bigger problems with this strategy.  Rules are a reactive approach to solving the problem; they are manually written and they don’t adapt \(they are static\).  With a rules only approach you can measure your franchise risk by the number of rules you can write.  This requires coders, domain experts and a tool to write and then manage the rules.
 
+![](.gitbook/assets/screen-shot-2019-12-18-at-1.48.13-pm.png)
+
 ### How Can Predictive DQ Help?
 
 Owl intentionally solves the problem using a machine learning first, rules second based approach.  Owl automatically puts all columns under quality control.  This includes _nullchecks, emptychecks, statistical profiles, sketches._  Owl creates snapshots and baselines in order to benchmark past data and discover _drift_.  Owl automatically creates a ML labeling system for users to collaborate and down-train items with a click of a button.  The reason for this approach is obviously to maximize coverage while reducing the dependency of manual rule building.  The greater technical benefit is that all of Owl's generated checks and rules are adaptive.  Owl is constantly learning from new data and will make predictions in many cases for: typos, formatting issues, outliers and relationships.  This is a paradigm shift **from**, _risk being a measure of how many rules one can dream up and write_, **to** _simply click the Owl \[RUN\] button_.                __ 
 
-## Why a Pluggable DQ Solution?
+![](.gitbook/assets/screen-shot-2019-12-18-at-1.50.34-pm.png)
+
+## Why a Unified DQ Solution?
 
 Aren't their other DQ companies and solutions on the market?  Yes, absolutely.  The challenge is the vast ways IT groups consume and process data.  You need to find a product that can plug into Files the same way it can plug into DB Tables, Data Frames and Kafka Topics etc...  You need to find a product that offers a consistent feature set and covers all 9 dimensions of DQ.  There are many products that do 1 dimension of DQ such as just _rules_ or just _data drift._  Commonly_,_ you will find that each dataset has unique challenges and requires a full DQ suite.  It is full coverage and consistency that drives trust.  There are also companies that cover more than one of the 4 stages above but most importantly you need a solution that can score and report on DQ across all databases, file systems and topics in the same way.  Owl is lightweight and can scan data no matter where it lives.  DQ needs to be abstracted from the ingestion tool to have a single view enterprise DQ strategy.  
+
+![](.gitbook/assets/owl-unified-dq.jpg)
 
 ## Do One Thing Extremely Well
 
