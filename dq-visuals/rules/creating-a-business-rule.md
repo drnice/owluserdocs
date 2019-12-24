@@ -4,33 +4,40 @@ Navigate to the Rule page as shown in the screenshot below. By selecting the  ic
 
 ![](../../.gitbook/assets/screen-shot-2019-12-24-at-9.08.27-am.png)
 
-NOTE: You can get to rules from the hoot page by clicking on Rules under the dataset name and score in the top right of the screen.‌
+You can get to rules from the hoot page by clicking on Rules under the dataset name and score in the top right of the screen.‌
 
 ![](../../.gitbook/assets/screen-shot-2019-12-24-at-9.07.59-am.png)
 
-                                                       
+##  Instructions                                                
 
-1. Search for a dataset name \(that has been Owlcheck’ed - or this information will be auto-populated if coming from a hoot page\). Once a dataset has been loaded the schema on the left will get populated. \(Example: begin typing in shape\_example dataset from the demo.sh script we ran earlier in this document when the dataset if found click “Load”\). 
+1. Search for a dataset 
+   * Rules can only be applied to datasets that have had an Owlcheck scan or previously catalogued
+2. Click Load 
+   * This will populate the schema and any previously saved rules
+3. Select a rule type 
+   * Using the dropdown next to the Type label
+4. Select a rule name 
+   * If applying a preset rule, the rule name will be auto populated
+5. Input a rule condition
+   * Only if applying a simple, freeform sql, or function rule type, provide a value in the condition/sql/function input field. 
+   * Keystroke Ctrl+Space will provide IntelliSense
+6. Select Low, Medium or High scoring sever 
+7. Click submit to save the rule.
 
-   ![](../../.gitbook/assets/image%20%2812%29.png)
-
-2. Select a rule type using the drop-down menu                                             
-3. Select a rule name. \(Note: If applying a preset rule, the rule name will be auto populated.\)
-4. If applying a simple, freeform sql, or function rule type, provide a value in the condition/sql/function input field. NOTE: keystroke Ctrl+Space will provide IntelliSense.
-5. Input a points and percentage value and click submit to save the rule.
+![Search for a dataset and click Select next to the Type label](../../.gitbook/assets/image%20%2812%29.png)
 
 ‌The rule will be applied to the next OwlCheck run on that particular dataset.‌
 
 #### **Rule Types** <a id="HRuleTypes"></a>
 
 1. When to use a simple rule:
-   1. Simple rules would be applied to filter a condition on a single column in a single table.
-   2. Example: city = 'Baltimore'
+   * Simple rules would be applied to filter a condition on a single column in a single table.
+   * Example: city = 'Baltimore'
 2. When to use a freeform sql rule:
-   1. ​Complex \(freeform sql\) would be used when applying a condition across multiple tables/columns and generally when more flexibility/customization is desired.
-   2. ​Example: select \* from dataset where name = 'Owl'
+   * ​Complex \(freeform sql\) would be used when applying a condition across multiple tables/columns and generally when more flexibility/customization is desired.
+   * ​Example: select \* from dataset where name = 'Owl'
 3. When to use a preset rule:
-   1. Preset rules would be used for quickly adding strict condition check. Commonly used conditions are available to add to any dataset columns.‌
+   * Preset rules would be used for quickly adding strict condition check. Commonly used conditions are available to add to any dataset columns.‌
 
 All built-in spark functions are available to use. \([https://spark.apache.org/docs/2.3.0/api/sql/](https://spark.apache.org/docs/2.3.0/api/sql/)\) for simple and freeform sql rules.‌
 
