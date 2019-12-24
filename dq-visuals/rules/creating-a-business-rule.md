@@ -1,24 +1,23 @@
 # Creating a Business Rule
 
-Navigate to the Rule page as shown in the screenshot below. By selecting the ![https://lh5.googleusercontent.com/EdHKN\_wQnh2JhRjtF4ueQZzi8FZiWyYcCHgDsM2NsDNH8uFIdiVsoo5051CFpOTY9YbucVEZVCNrWf8VZ1EymiKc5zEKWOIheRNI25mi\_dK6mtBJwgF7yHbbtIM\_Hr3e4d\_k\_XfS](https://lh5.googleusercontent.com/EdHKN_wQnh2JhRjtF4ueQZzi8FZiWyYcCHgDsM2NsDNH8uFIdiVsoo5051CFpOTY9YbucVEZVCNrWf8VZ1EymiKc5zEKWOIheRNI25mi_dK6mtBJwgF7yHbbtIM_Hr3e4d_k_XfS) icon on the top left corner under the Owl icon and select “Rule”. You will see a page as shown below. NOTE: You can get to rules from the DatasetStats page by clicking on Rules under the dataset name and score in the top right of the screen.‌
+Navigate to the Rule page as shown in the screenshot below. By selecting the  icon on the top left corner under the Owl icon and select “Rule”. You will see a page as shown below. 
 
-1. Select a rule type using the drop-down menu.                                                                ![Screen Shot 2019-05-03 at 1.02.30 PM.png](http://18.204.201.140:8080/xwiki/bin/download/Documentation/Admin%20Guide/Rules/WebHome/Screen%20Shot%202019-05-03%20at%201.02.30%20PM.png?width=530&height=366)
-2. Search for a dataset name \(that has been Owlcheck’ed - or this information will be auto-populated if coming from a DatasetStat page\). Once a dataset has been loaded the schema on the left will get populated. \(Example: begin typing in shape\_example dataset from the demo.sh script we ran earlier in this document when the dataset if found click “Load”\). 
+![](../../.gitbook/assets/screen-shot-2019-12-24-at-9.08.27-am.png)
+
+NOTE: You can get to rules from the hoot page by clicking on Rules under the dataset name and score in the top right of the screen.‌
+
+![](../../.gitbook/assets/screen-shot-2019-12-24-at-9.07.59-am.png)
+
+                                                       
+
+1. Search for a dataset name \(that has been Owlcheck’ed - or this information will be auto-populated if coming from a hoot page\). Once a dataset has been loaded the schema on the left will get populated. \(Example: begin typing in shape\_example dataset from the demo.sh script we ran earlier in this document when the dataset if found click “Load”\). 
 
    ![](../../.gitbook/assets/image%20%2812%29.png)
 
-3. Select a rule type using the drop-down menu                                             ![Screen Shot 2019-05-03 at 1.02.30 PM.png](http://18.204.201.140:8080/xwiki/bin/download/Documentation/Admin%20Guide/Rules/WebHome/Screen%20Shot%202019-05-03%20at%201.02.30%20PM.png?width=530&height=366)
-4. Select a rule name. \(Note: If applying a preset rule, the rule name will be auto populated.\)
-
-   ​![Screen Shot 2019-05-03 at 1.03.55 PM.png](http://18.204.201.140:8080/xwiki/bin/download/Documentation/Admin%20Guide/Rules/WebHome/Screen%20Shot%202019-05-03%20at%201.03.55%20PM.png?width=487&height=188)​
-
-5. If applying a simple, freeform sql, or function rule type, provide a value in the condition/sql/function input field. NOTE: keystroke Ctrl+Space will provide IntelliSense.
-
-   ​![Screen Shot 2019-05-03 at 1.04.56 PM.png](http://18.204.201.140:8080/xwiki/bin/download/Documentation/Admin%20Guide/Rules/WebHome/Screen%20Shot%202019-05-03%20at%201.04.56%20PM.png?width=637&height=224)​
-
-6. Input a points and percentage value and click submit to save the rule.
-
-   ​![Screen Shot 2019-05-03 at 1.06.53 PM.png](http://18.204.201.140:8080/xwiki/bin/download/Documentation/Admin%20Guide/Rules/WebHome/Screen%20Shot%202019-05-03%20at%201.06.53%20PM.png?width=459&height=222)​
+2. Select a rule type using the drop-down menu                                             
+3. Select a rule name. \(Note: If applying a preset rule, the rule name will be auto populated.\)
+4. If applying a simple, freeform sql, or function rule type, provide a value in the condition/sql/function input field. NOTE: keystroke Ctrl+Space will provide IntelliSense.
+5. Input a points and percentage value and click submit to save the rule.
 
 ‌The rule will be applied to the next OwlCheck run on that particular dataset.‌
 
