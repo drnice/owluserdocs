@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Owl Analytics](README.md)
+* [OwlDQ](README.md)
 * [Why Owl?](why-owl.md)
 
 ## Security

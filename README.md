@@ -2,7 +2,7 @@
 description: 'Learn from everything, move nothing'
 ---
 
-# Owl Analytics
+# OwlDQ
 
 ![](.gitbook/assets/owl-logo.png)
 
