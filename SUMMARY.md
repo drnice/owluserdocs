@@ -102,6 +102,7 @@
 
 * [Financial FxRate Data](use-cases/financial-fxrate-data.md)
 * [Intraday Positions](use-cases/intraday-positions.md)
+* [Security Reference Data](use-cases/security-reference-data.md)
 
 ## Owl Time
 
