@@ -20,7 +20,7 @@ By clicking columns that belong together, a robust framework for cross-column pa
 
 ![](../.gitbook/assets/screen-shot-2019-12-31-at-12.32.41-pm.png)
 
-Using this technique, the goals are to reduce false positives, scale coverage, and quickly model a more complex series of checks than domain experts would want to develop.
+Using this technique, OwlDQ is able to reduce false positives, scale coverage, and quickly model a more complex series of checks than domain experts would want to develop.
 
 
 
