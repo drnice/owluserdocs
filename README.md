@@ -10,5 +10,5 @@ Automatic Data Quality without the need for Rules. Owl provides a fast and elega
 
 
 
-![](.gitbook/assets/owl-unified-dq.jpg)
+![](https://owl-analytics.com/img/owl-unified.jpg)
 
