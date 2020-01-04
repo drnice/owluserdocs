@@ -8,6 +8,8 @@ description: Validate Data Integrity Between Distinct Storage Systems
 
 When you’re copying or moving data between distinct storage systems such as multiple HDFS clusters or between non-HDFS storage and cloud storage, it’s a good idea to perform some type of validation to guarantee data integrity. This validation is essential to be sure data wasn’t altered during transfer.
 
+Detect potential data corruption caused, for example, by older versions of drivers, noisy network links, memory errors on server computers and routers along the path, or software bugs \(such as in a library that customers use\).
+
 ### Common Data Copying/Movement Scenarios 
 
 * Landing, Loading, Persisting third-party files
@@ -23,16 +25,13 @@ When you’re copying or moving data between distinct storage systems such as mu
 * Same Storage, Different Environments 
   * Copying same data between Dev, QA, and Prod environments.
 
-#### _How do you easily validate the same data exists in distinct locations?_ 
-
-{% hint style="info" %}
- Low-level integrity checks like row counts and column counts are not sufficient.
+{% hint style="warning" %}
+_How do you easily validate the same data exists in distinct locations?_ 
 {% endhint %}
-
-Detect potential data corruption caused, for example, by older versions of drivers, noisy network links, memory errors on server computers and routers along the path, or software bugs \(such as in a library that customers use\).
 
 ### Shortcomings of Existing Validation Checks
 
+* Low-level integrity checks like row counts and column counts may not be sufficient.
 * No easy way to reconcile between across non-HDFS files and database.
 * Chunk verification requires storage size, format, and metadata to be exactly equal.
 * Different data types in two distinct databases \(Oracle and Teradata\) will not reconcile.
@@ -50,13 +49,23 @@ To ensure and protect against target systems getting out of sync or not matching
 
 {% embed url="https://docs.owl-analytics.com/dq-visuals/validate-source" %}
 
-Complete row, column, conformity, and value checks between any two distinct storage systems. Can be run against high-dimension or low-dimension datasets. Works against Files and/or Database storage, On-premise, or across Cloud environments. 
+Complete row, column, conformity, and value checks between any two distinct storage systems. Can be run against high-dimension or low-dimension datasets. Works between Files and/or Database storage, On-premise, or across Cloud environments. 
+
+### **Get Started Today**
 
 You have a lot going on: deadlines, ongoing projects on the back-burner, and friends and family to boot.
 
 OwlDQ has forged ahead, dealing with all the boilerplate code so you don’t have to.
 
 We don’t want you to get stuck writing a bunch of integrity checks we’ve already written!  Focus on other stuff that actually moves your project forward.
+
+For more information, please contact **info@owl-analytics.com** or **schedule demo at** [**www.owldq.com**](http://www.owldq.com/) ****
+
+
+
+
+
+
 
 
 
