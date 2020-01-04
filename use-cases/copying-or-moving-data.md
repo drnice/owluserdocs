@@ -1,5 +1,5 @@
 ---
-description: Validate data between distinct storage systems
+description: Validate Data Integrity Between Distinct Storage Systems
 ---
 
 # Copying or Moving data
