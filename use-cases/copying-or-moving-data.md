@@ -8,7 +8,7 @@ description: Validate Data Integrity Between Distinct Storage Systems
 
 When you’re copying or moving data between distinct storage systems such as multiple HDFS clusters or between non-HDFS storage and cloud storage, it’s a good idea to perform some type of validation to guarantee data integrity. This validation is essential to be sure data wasn’t altered during transfer.
 
-Detect potential data corruption caused, for example, by older versions of drivers, noisy network links, memory errors on server computers and routers along the path, or software bugs \(such as in a library that customers use\).
+Detect potential data corruption caused, for example, by older versions of drivers, parsing errors, connection limits, noisy network links, memory errors on server computers and routers along the path, or software bugs \(such as in a library that customers use\).
 
 ### Common Data Copying/Movement Scenarios 
 
