@@ -53,11 +53,7 @@ Complete row, column, conformity, and value checks between any two distinct stor
 
 ### **Get Started Today**
 
-You have a lot going on: deadlines, ongoing projects on the back-burner, and friends and family to boot.
-
-OwlDQ has forged ahead, dealing with all the boilerplate code so you don’t have to.
-
-We don’t want you to get stuck writing a bunch of integrity checks we’ve already written!  Focus on other stuff that actually moves your project forward.
+We don’t want you to get stuck writing a bunch of reconciliation checks we’ve already written!  Focus on other stuff that actually moves your project forward.
 
 For more information, please contact **info@owl-analytics.com** or **schedule a demo at** [**www.owldq.com**](http://www.owldq.com/) ****
 
