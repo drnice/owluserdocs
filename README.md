@@ -12,3 +12,19 @@ Automatic Data Quality without the need for Rules. Owl provides a fast and elega
 
 ![](.gitbook/assets/owl-unified-dq.jpg)
 
+## Getting Started with OwlDQ UI
+
+{% embed url="https://vimeo.com/372286610" %}
+
+
+
+## Deep Learning vs Machine Learning
+
+{% embed url="https://vimeo.com/312445160" %}
+
+## What Does DQ Mean to You?
+
+{% embed url="https://www.youtube.com/watch?v=6I343v1lmDM" %}
+
+
+
