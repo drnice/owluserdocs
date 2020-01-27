@@ -61,6 +61,7 @@
 
 ## DQ Visuals
 
+* [Schema Evolution](dq-visuals/schema-evolution.md)
 * [Outliers](dq-visuals/outliers.md)
 * [Shapes](dq-visuals/shapes.md)
 * [Validate Source](dq-visuals/validate-source.md)
