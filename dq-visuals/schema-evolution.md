@@ -6,3 +6,5 @@ Dataset schemas are the columns or fields that define the dataset.  They are oft
 
 ![](../.gitbook/assets/owl-schema.png)
 
+Schema Evolution is one of Owl's 9 DQ dimensions.  It can be an important measurement for data stewards to understand how the dataset is changing overtime.  The orange bar on the chart shows a change in schema and allows for drilling in over time.
+
