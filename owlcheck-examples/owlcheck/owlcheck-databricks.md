@@ -14,7 +14,7 @@ Quickly explore DB assets that are cataloged in Delta Lake the same way you woul
 
 ## 9 dimensions of Data Quality
 
-Use the wizard to apply Owl's autoML and predictive DQ features across all of your assets in Delta Lake.  Click Scan button to put ever table in Delta Lake under DQ management in 1 click.  Owl can create a data quality program on all Delta Lake assets in a matter of hours.  With traditional technologies this task used to require domain experts, rule writers and identification of critical elements. 
+Use the wizard to apply Owl's autoML and predictive DQ features across all of your assets in Delta Lake.  Click Scan button to put every table in Delta Lake under DQ management in 1 click.  Owl can create a data quality program on all Delta Lake assets in a matter of hours.  With traditional technologies this task used to require domain experts, rule writers and identification of critical elements. 
 
 ### Out of the Box DQ measures
 
