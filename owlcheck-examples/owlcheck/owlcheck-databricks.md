@@ -1,6 +1,10 @@
 # OwlCheck Databricks
 
-## Native Integration with Delta Lake \(Databricks\)
+### Lake vs Swamp
+
+The difference between a business-critical lake and a swamp is _quality_. The accuracy and cleanliness of data is directly proportional to the quality of insights end-users will derive. Data lakes that gain broad adoption have strong governance programs. The challenge is, adding a DQ program typically takes 6-12 months and never comes to an end do to the volume, variety and velocity of incoming data. OwlDQ uses autoML so solve this problem. OwlDQ constantly monitors the lake with native integration and unlimited scale. Use OwlDQ to generate the equivalent of 10K rules, while continuously adapting to the natural variance in your data. When erroneous data enters your lake OwlDQ will alert the data steward and provide a rich visual describing the break records and the explainable AI that caught the issue.
+
+### Native Integration with Delta Lake \(Databricks\)
 
 Out of the box OwlDQ comes with a connection template for Databricks.  To connect, simply paste in your username, password and connection URL.   
 
