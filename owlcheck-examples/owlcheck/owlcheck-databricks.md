@@ -35,7 +35,7 @@ Use the wizard to apply Owl's autoML and predictive DQ features across all of yo
 
 ### DQ Suite 
 
-Without clicking or writing code Owl will provide profiling, filtergraming, histograms, outliers, scheduling, alerting, drift and behavior changes and much more.
+Without clicking or writing code Owl will provide profiling, filtergraming, histograms, outliers, scheduling, alerting, drift and much more.
 
 ![](../../.gitbook/assets/owl-suite.png)
 
