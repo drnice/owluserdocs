@@ -1,15 +1,15 @@
 # Duplicates
 
-### General Ledger.  Accounting use-case
+## General Ledger.  Accounting use-case
 
-{% embed url="https://owl-analytics.com/general-ledger" %}
+{% embed url="https://owl-analytics.com/general-ledger" caption="" %}
 
-Whether your looking for a Fuzzy matching percent or single client cleanup Owl's duplicate detection can help you sort and rank the likely hood of duplicate data. 
+Whether you're looking for a fuzzy matching percent or single client cleanup, Owl's duplicate detection can help you sort and rank the likelihood of duplicate data.
 
 ![](../.gitbook/assets/owl-dupe-booked.png)
 
-```text
--f file:///home/ec2-user/single_customer.csv \
+```bash
+-f "file:///home/ec2-user/single_customer.csv" \
 -d "," \
 -ds customers \
 -rd 2018-01-08 \
@@ -18,19 +18,19 @@ Whether your looking for a Fuzzy matching percent or single client cleanup Owl's
 -depth 4
 ```
 
-### User Table has duplicate user entry
+## User Table has duplicate user entry
 
-Carrisa Rimmer vs Carrissa Rimer 
+Carrisa Rimmer vs Carrissa Rimer
 
 ![](../.gitbook/assets/owl-dupe-carrissa.png)
 
-### ATM customer data with only a 88% match
+## ATM customer data with only a 88% match
 
-As you can see below less than a 90% match in most cases is a false positive.  Each dataset is a bit different but in many cases you should tune your duplicates to roughly a 90+% match for interesting findings.
+As you can see below, less than a 90% match in most cases is a false positive. Each dataset is a bit different, but in many cases you should tune your duplicates to roughly a 90+% match for interesting findings.
 
 ![](../.gitbook/assets/owl-dupes.png)
 
-### Simple DataFrame Example
+## Simple DataFrame Example
 
 ![](../.gitbook/assets/owl-dupe-df.png)
 
