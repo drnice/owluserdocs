@@ -4,7 +4,7 @@ Log into the Admin Console Page as an Administrator of Owl.
 
 Go to the Admin Console page \(click the Owl -&gt; click the Gear -&gt; click Admin Console\).
 
-Click on “Security” as described in the “Security Settings” section of this document \(just above\) and toggle on “DB Connection Security”.  
+Click on “Security” and toggle on “DB Connection Security”.  
 
 Log into the Admin Console Page as an Administrator of Owl.
 
