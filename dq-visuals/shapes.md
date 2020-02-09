@@ -10,3 +10,9 @@ See an itemized list view of the most infrequent or odd shapes in your datasets.
 
 ![](../.gitbook/assets/owl-shape-drillin.png)
 
+### Shape Tuning 
+
+By clicking the gear icon in the upper right corner of the SHAPE tab on the HOOT page. 
+
+![](../.gitbook/assets/shape-tuning-owl.png)
+
