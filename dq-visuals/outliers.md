@@ -24,3 +24,9 @@ Owl will automatically learn the normal behavior of your String and Categorical 
 
 ![](../.gitbook/assets/owl-categorical-outlier.png)
 
+### Outlier Tuning - Filter out the Noise
+
+By clicking the gear icon in the upper right corner of the OUTLIER tab on the HOOT page you will see this modal.  Below is a common example of how we at Owl tune end of day stock data.
+
+![](../.gitbook/assets/outlier-tuning.png)
+
