@@ -4,17 +4,18 @@ description: API Documentation for Java Class OwlOptions.
 
 # OwlOptions \(base\)
 
+The Class properties are laid out in the following format headers to allow Gitbook indexing.
 
+### ClassName field\_name
 
-## OwlOptions API
+**field type** \| _`default`_   
+Description
 
-The Class properties in this page are laid out as headers to allow Gitbook indexing.  
-The format is as follows:
+## OwlOptions dataset
 
-### field\_name
+**String** \| _`StringUtils.Empty`_   
+Unique string ID for the OwlCheck Dataset. Cannot contain `"."`, `"-"`, `"#"`, `"@"`   
 
-**field type** \| _default_ \| Description  
-\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
 
 
