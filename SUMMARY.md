@@ -145,6 +145,7 @@
 ## API
 
 * [Notebook](api/notebook/README.md)
+  * [Dupe](api/notebook/dupe.md)
   * [Load](api/notebook/load.md)
 * [JWT](api/jwt.md)
 * [Cookie](api/cookie.md)
