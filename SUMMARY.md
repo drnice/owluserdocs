@@ -147,6 +147,8 @@
 * [Notebook](api/notebook/README.md)
   * [Dupe](api/notebook/dupe.md)
   * [Load](api/notebook/load.md)
+  * [Source](api/notebook/source.md)
+  * [Profile](api/notebook/profile.md)
 * [JWT](api/jwt.md)
 * [Cookie](api/cookie.md)
 * [Owl's Scorecard and 9 Dimensions of DQ](owl-dq-screen-shots.md)
