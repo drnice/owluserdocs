@@ -5,7 +5,7 @@ Navigate to the Rule page as shown in the screenshot below. By selecting the ![h
 1. Select a rule type using the dropdown menu.                                                                ![Screen Shot 2019-05-03 at 1.02.30 PM.png](http://18.204.201.140:8080/xwiki/bin/download/Documentation/Admin%20Guide/Rules/WebHome/Screen%20Shot%202019-05-03%20at%201.02.30%20PM.png?width=530&height=366)
 2. Search for a dataset name \(that has been Owlcheck’ed - or this information will be auto-populated if coming from a DatasetStat page\). Once a dataset has been loaded the schema on the left will get populated. \(Example: begin typing in shape\_example dataset from the demo.sh script we ran earlier in this document when the dataset if found click “Load”\). 
 
-   ![](../../.gitbook/assets/image%20%2812%29.png)
+   ![](../../.gitbook/assets/image%20%2814%29.png)
 
 3. Select a rule type using the dropdown menu                                             ![Screen Shot 2019-05-03 at 1.02.30 PM.png](http://18.204.201.140:8080/xwiki/bin/download/Documentation/Admin%20Guide/Rules/WebHome/Screen%20Shot%202019-05-03%20at%201.02.30%20PM.png?width=530&height=366)
 4. Select a rule name. \(Note: If applying a preset rule, the rule name will be auto populated.\)
@@ -55,7 +55,7 @@ Let’s create a simple rule using the below information. The dataset name.
 
 Once the rule has been submitted please find the below list of rules with the new rule we just defined as shown below.
 
-![](../../.gitbook/assets/image%20%2822%29.png)
+![](../../.gitbook/assets/image%20%2824%29.png)
 
 #### **Seeing Your First Rule Get Triggered** <a id="HSeeingYourFirstRuleGetTriggered"></a>
 
@@ -76,5 +76,5 @@ Scroll down to the Actions section and show the panel by clicking the ![https://
 
 See that the Rule has now been and shows under DQ items as shown below.
 
-![](../../.gitbook/assets/image%20%2815%29.png)
+![](../../.gitbook/assets/image%20%2817%29.png)
 
