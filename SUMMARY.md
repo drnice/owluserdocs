@@ -94,8 +94,8 @@
 
 * [Swagger](apis/swagger.md)
 * [Job Server](apis/job-server.md)
+* [Custom Configurations](apis/custom-configurations.md)
 * [Notebook API](apis/notebook-api/README.md)
-  * [Custom Configurations](apis/notebook-api/custom-configurations.md)
   * [OwlOptions \(base\)](apis/notebook-api/owloptions-base.md)
 
 ## Catalog
