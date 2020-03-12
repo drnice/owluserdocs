@@ -30,5 +30,7 @@ If you are looking at adding data quality into your data pipelines the below vis
 
 ![](.gitbook/assets/owldq-framework.png)
 
+## Unify all datasources under 1 data quality program
+
 ![](.gitbook/assets/owl-unified-dq.jpg)
 
