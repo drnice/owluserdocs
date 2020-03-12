@@ -44,6 +44,8 @@ Email us:  info@owl-analytics.com
 
 ### Does your DQ Solution Have?
 
+![](.gitbook/assets/owldq-framework.png)
+
 |  |  |
 | :--- | :--- |
 | **Unified DQ** | The ability to score and manage and report on all datasets \(files, tables, topics\) agnostically.  Providing a single pain of glass for DQ across all data sources. |
