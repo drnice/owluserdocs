@@ -26,11 +26,11 @@ Automatic Data Quality without the need for Rules. Owl provides a fast and elega
 
 ### A Pluggable and Complete Data Quality Framework
 
-If you are looking at adding data quality into your data pipelines the below visual might illustrate how many products and pieces you will need consider to successfully integrate into your overall governance program.  The OwlDQ suite allows you to pick and chose Owl components or integrate 3rd party components of your choice.  By using our best practice guide and framework you can complete the DQ lifecycle easily.
+If you are adding data quality to your data pipelines the below visual illustrates the number of products and pieces you will need consider to successfully complete your overall governance program.  The OwlDQ suite allows you to use either native Owl components or integrate the 3rd party components of your choice.  By using our best practice guide and framework you can complete the DQ lifecycle easily.
 
 ![](.gitbook/assets/owldq-framework.png)
 
-## Unify all datasources under 1 data quality program
+## Unify and Create a Consistent and Defensible DQ Program 
 
 ![](.gitbook/assets/owl-unified-dq.jpg)
 
