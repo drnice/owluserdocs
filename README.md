@@ -30,7 +30,7 @@ If you are adding data quality to your data pipelines the below visual illustrat
 
 ![](.gitbook/assets/owldq-framework.png)
 
-## Unify and Create a Consistent and Defensible DQ Program 
+## Unify Data to Create a Consistent and Defensible DQ Program 
 
 ![](.gitbook/assets/owl-unified-dq.jpg)
 
