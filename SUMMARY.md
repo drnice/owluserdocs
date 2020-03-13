@@ -157,4 +157,5 @@
 * [Owl's Scorecard and 9 Dimensions of DQ](owl-dq-screen-shots.md)
 * [What is OwlDQ](what-is-owldq.md)
 * [DQ is the difference](data-quality.md)
+* [Best Practices](best-practices.md)
 
