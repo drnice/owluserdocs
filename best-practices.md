@@ -3,7 +3,7 @@
 ### **Understanding owl activities and what the key/date columns mean for each**
 
 * [https://docs.owl-analytics.com/dq-visuals/](https://docs.owl-analytics.com/dq-visuals/)
-* Training with owl-team Zoom/On-site support 
+* Training with Owl-team Zoom/On-site support 
 * Running with sample data 
 * Introducing anomalies on sample data and running an owlcheck to see the anomalies.
 
