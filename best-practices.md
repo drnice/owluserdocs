@@ -11,10 +11,10 @@
 
 * Having Well Defined Use Cases
   * Determine a single table \(dataset\) that you would like to scan
-  * Have an expectation of what you would expect owl to find in this dataset
+  * Have an expectation of what you would expect Owl to find in this dataset
   * Understand which activities would capture the expected findings
-* Look at datasets with known data issues
+* Target internal datasets with known data issues
 * Historical Comparisons:
-  * If pre-cleaned data is available to compare with data findings that have been cleaned via legacy methods such as internal rules
+  * If pre-cleaned data is available with data findings that have been cleaned via legacy methods such as internal rules, run these datasets and compare the results from Owl to Internal findings.
 * Work with data owners to understand findings or review expected findings
 
