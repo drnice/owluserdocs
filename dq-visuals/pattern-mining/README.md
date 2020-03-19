@@ -4,6 +4,10 @@ Owl uses the latest advancements in data science and ML to find deep patterns ac
 
 ![](../../.gitbook/assets/owl-patterns.png)
 
+## Retrain the model
+
+![](../../.gitbook/assets/screen-shot-2020-03-19-at-5.55.49-pm.png)
+
 ## Fraud Detection?
 
 Think about a scenario where a dataset has a SSN column along with FNAME, LNAME and many others. What if your traditional rules engine passes because one of the rows has a valid SSN and a valid Name but the SSN doesn't belong to that person \(his or her name and address, etc...\)? This is where data mining can derive more sophisticated insights than a rules based approach.
