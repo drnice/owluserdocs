@@ -62,6 +62,8 @@
 
 ## DQ Visuals
 
+* [Profile](dq-visuals/profile.md)
+* [Behaviors](dq-visuals/behaviors.md)
 * [Schema Evolution](dq-visuals/schema-evolution.md)
 * [Outliers](dq-visuals/outliers.md)
 * [Shapes](dq-visuals/shapes.md)
@@ -71,11 +73,9 @@
   * [Creating a Business Rule](dq-visuals/rules/creating-a-business-rule.md)
 * [Duplicates](dq-visuals/duplicates.md)
 * [Explorer](dq-visuals/explorer.md)
-* [Profile](dq-visuals/profile.md)
 * [Pattern Mining](dq-visuals/pattern-mining/README.md)
   * [Bloomberg Data](dq-visuals/pattern-mining/bloomberg-data.md)
-* [Missing Records](dq-visuals/missing-records/README.md)
-  * [Behaviors](dq-visuals/missing-records/behaviors.md)
+* [Missing Records](dq-visuals/missing-records.md)
 
 ## Labeling / Training
 

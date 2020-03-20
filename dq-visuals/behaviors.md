@@ -27,11 +27,11 @@ For example, Owl learned that a particular column typically has between 10% and 
 
 As Owl builds and evolves the behavioral model, it will expose all of the "Adaptive Rules" that it is learning about. 
 
-![](../../.gitbook/assets/screen-shot-2020-03-20-at-11.17.48-am.png)
+![](../.gitbook/assets/screen-shot-2020-03-20-at-11.17.48-am.png)
 
 The "Hoot" page of any dataset includes a button labeled "View AR" that can bring up a full list of Adaptive Rules. 
 
-![](../../.gitbook/assets/screen-shot-2020-03-20-at-10.57.55-am.png)
+![](../.gitbook/assets/screen-shot-2020-03-20-at-10.57.55-am.png)
 
 The Adaptive Rules also provides the user with the ability to adjust ranges derived from the behavior model. The user can manually adjust the tolerance range ad well as the score of any Adaptive Rule. While this may at times be convenient, it is also just fine to let Owl handle the model tuning through its own learning process.
 
