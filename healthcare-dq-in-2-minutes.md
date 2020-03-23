@@ -1,10 +1,11 @@
 ---
 description: >-
   OwlDQ connects all members of the healthcare continuum with trustworthy,
-  timely, and meaningful patient data
+  timely, and meaningful patient data, while reducing the time, expense, and
+  effort required by 70%
 ---
 
-# Healthcare Data Quality
+# Healthcare  Data Quality
 
 Poor data quality in healthcare is the leading problem that maligns patient outcomes. Hospitals and health information exchanges \(HIEs\) still struggle with patient matching issues, with most citing data quality problems and poor algorithms as top barriers to patient matching. Correctly linking patient data across organizations is a key element of value-based care, patient safety, and care coordination. Duplicate or mismatched records can result in privacy risks, claim denials, redundant medical tests or procedures, and reporting errors.
 

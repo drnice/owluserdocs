@@ -159,5 +159,5 @@
 * [What is OwlDQ](what-is-owldq.md)
 * [DQ is the difference](data-quality.md)
 * [Best Practices](best-practices.md)
-* [Healthcare Data Quality](healthcare-dq-in-2-minutes.md)
+* [Healthcare  Data Quality](healthcare-dq-in-2-minutes.md)
 
