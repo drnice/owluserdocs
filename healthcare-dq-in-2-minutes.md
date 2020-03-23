@@ -1,7 +1,7 @@
 ---
 description: >-
-  Simple / easy to implement healthcare playbook for essential  data quality in
-  2 minutes
+  OwlDQ connects all members of the healthcare continuum with trustworthy,
+  timely, and meaningful patient data
 ---
 
 # Healthcare Data Quality
