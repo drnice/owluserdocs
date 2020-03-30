@@ -12,6 +12,8 @@ It is common for banks to lend money in return for monthly payments with interes
 
 ![](../.gitbook/assets/bank-loan1.jpeg)
 
+![](../.gitbook/assets/screen-shot-2020-03-30-at-2.35.16-pm.png)
+
 ## 1. Credit Score
 
 <table>
