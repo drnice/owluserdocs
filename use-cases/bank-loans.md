@@ -97,16 +97,6 @@ It is common for banks to lend money in return for monthly payments with interes
         <p>where l.rate between r.min_rate and r.max_rate</p>
       </td>
     </tr>
-    <tr>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
-    </tr>
-    <tr>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
-    </tr>
   </tbody>
 </table>## 5. Duplicate Loan Applications
 
