@@ -132,11 +132,6 @@ Can't give someone the same loan twice!
       <td style="text-align:left">RULE</td>
       <td style="text-align:left">loan_amount between 50000 and 3000000</td>
     </tr>
-    <tr>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
-    </tr>
   </tbody>
 </table>### Resulting OwlCheck
 
