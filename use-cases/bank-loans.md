@@ -10,6 +10,8 @@ It is common for banks to lend money in return for monthly payments with interes
 6. Loan Amount Validation
 7. Loan Completeness Validation
 
+![](../.gitbook/assets/bank-loan1.jpeg)
+
 ## 1. Credit Score
 
 <table>
