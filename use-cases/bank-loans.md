@@ -165,5 +165,5 @@ We made use of Profiles, Duplicates, Outliers and Rules in this example.  The ex
 
 {% file src="../.gitbook/assets/interest\_rates.csv" caption="Interest Rates CSV" %}
 
-
+{% file src="../.gitbook/assets/owl-dataset-2.csv" caption="Loan Data CSV" %}
 
