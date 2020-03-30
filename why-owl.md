@@ -44,7 +44,7 @@ Email us:  info@owl-analytics.com
 
 ### Does your DQ Solution Have?
 
-![](.gitbook/assets/owldq-framework.png)
+![](.gitbook/assets/owldq-framework%20%281%29.png)
 
 |  |  |
 | :--- | :--- |
