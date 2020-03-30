@@ -145,13 +145,16 @@ Can't give someone the same loan twice!
 -cxn postgres-gcp \
 -q "select * from public.loan_risk_grade where last_pymnt_d = '2019-04-01'" \
 -key member_id -alias loan_risk \
--ds public.loan_risk_grade_catoff -rd "2019-04-01" \
--dl -loglevel INFO -h 10.142.0.29:5432/owltrunk \
+-ds public.loan \
+-rd "2019-04-01" \
+-dl -loglevel INFO \
+-h 10.142.0.29:5432/owltrunk \
 -numexecutors 10 -executormemory 1g -drivermemory 4g \
--master yarn -deploymode cluster -sparkprinc user2@CW.COM \
--sparkkeytab /tmp/user2.keytab -tbin MONTH -owluser brian \
+-master yarn -deploymode cluster \
+-sparkprinc user2@CW.COM \
+-sparkkeytab /tmp/user2.keytab -tbin MONTH \
 -dupe -dupeinc purpose -fpgon -fpgkey grade \
 -fpginc grade,sub_grade -fpglb 365 -fpgdc last_pymnt_d \
--record member_id -dupecutoff 60 -dupepermatchupperlimit 99 -catoff 
+-record member_id -dupecutoff 60 -dupepermatchupperlimit 99 
 ```
 
