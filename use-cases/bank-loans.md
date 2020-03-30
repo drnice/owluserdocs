@@ -159,3 +159,9 @@ We made use of Profiles, Duplicates, Outliers and Rules in this example.  The ex
 
 ![](../.gitbook/assets/owldq-framework-li.png)
 
+## Files that can be used to replicate this example
+
+{% file src="../.gitbook/assets/interest\_rates.csv" caption="Interest Rates CSV" %}
+
+
+
