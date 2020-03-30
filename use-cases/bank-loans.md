@@ -108,4 +108,42 @@ It is common for banks to lend money in return for monthly payments with interes
       <td style="text-align:left"></td>
     </tr>
   </tbody>
+</table>## 5. Duplicate Loan Applications
+
+Can't give someone the same loan twice!
+
+| Business Check | OwlDQ Feature | Manual vs Auto |
+| :--- | :--- | :--- |
+| Ensure we don't issue the same loan twice | DUPE | first\_n, last\_n, SSN, Address |
+
+## 6. Loan Amount
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:left">Business Check</th>
+      <th style="text-align:left">OwlDQ Feature</th>
+      <th style="text-align:left">Manual vs Auto</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:left">Loan Amount within lendable range</td>
+      <td style="text-align:left">OUTLIER</td>
+      <td style="text-align:left">AUTO</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">
+        <p>Loan Amount within lendable range</p>
+        <p>only lend money between 50K and 3M</p>
+      </td>
+      <td style="text-align:left">RULE</td>
+      <td style="text-align:left">loan_amount between 50000 and 3000000</td>
+    </tr>
+    <tr>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
+    </tr>
+  </tbody>
 </table>
