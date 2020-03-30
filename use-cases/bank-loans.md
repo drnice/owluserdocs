@@ -158,3 +158,9 @@ Can't give someone the same loan twice!
 -record member_id -dupecutoff 60 -dupepermatchupperlimit 99 
 ```
 
+## Which components did we use?
+
+We made use of Profiles, Duplicates, Outliers and Rules in this example.  The experiments were automatically cataloged and put on a job scheduler.  The next time a loan issue arises we will be able to take remediation action using the workflow Q.  Over time we can see how the bank loan program is running via the report section. 
+
+![](../.gitbook/assets/owldq-framework-li.png)
+
