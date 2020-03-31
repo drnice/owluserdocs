@@ -1,6 +1,7 @@
 # Table of contents
 
-* [Owl Analytics](README.md)
+* [OwlDQ](README.md)
+* [Why Owl?](why-owl.md)
 
 ## Security
 
@@ -12,23 +13,39 @@
   * [Role Based Access Control \(RBAC\)](security/owl-security/role-based-access-control-rbac.md)
   * [Connection Security](security/owl-security/connection-security.md)
   * [Dataset Security](security/owl-security/dataset-security.md)
+  * [Dataset Masking](security/owl-security/dataset-masking.md)
 
 ## OwlCheck Examples
 
 * [OwlCheck](owlcheck-examples/owlcheck/README.md)
-  * [OwlCheck Zeppelin](owlcheck-examples/owlcheck/owlcheck-zeppelin.md)
+  * [OwlCheck MySql](owlcheck-examples/owlcheck/owlcheck-mysql.md)
   * [OwlCheck Files](owlcheck-examples/owlcheck/owlcheck-files.md)
   * [OwlCheck Cron](owlcheck-examples/owlcheck/owlcheck-cron.md)
+  * [OwlCheck JDBC](owlcheck-examples/owlcheck/owlcheck-jdbc.md)
   * [OwlCheck S3](owlcheck-examples/owlcheck/owlcheck-s3.md)
+  * [OwlCheck Databricks](owlcheck-examples/owlcheck/owlcheck-databricks.md)
   * [OwlCheck HDFS](owlcheck-examples/owlcheck/owlcheck-hdfs.md)
   * [OwlCheck Spark](owlcheck-examples/owlcheck/owlcheck-spark.md)
   * [OwlCheck Hive](owlcheck-examples/owlcheck/owlcheck-hive.md)
-  * [OwlCheck MySql](owlcheck-examples/owlcheck/owlcheck-mysql.md)
-  * [OwlCheck JDBC](owlcheck-examples/owlcheck/owlcheck-jdbc.md)
+  * [OwlCheck Validate Source](owlcheck-examples/owlcheck/owlcheck-validate-source.md)
   * [OwlCheck 43M rows](owlcheck-examples/owlcheck/owlcheck-43m-rows.md)
+  * [OwlCheck Zeppelin](owlcheck-examples/owlcheck/owlcheck-zeppelin.md)
   * [OwlCheck Kafka](owlcheck-examples/owlcheck/owlcheck-kafka.md)
+  * [OwlCheck LinkId](owlcheck-examples/owlcheck/owlcheck-linkid.md)
   * [OwlCheck Back Run](owlcheck-examples/owlcheck/owlcheck-backrun.md)
 * [Data Quality Pipelines](owlcheck-examples/data-quality-pipelines/README.md)
+  * [Notebook Outlier Example](owlcheck-examples/data-quality-pipelines/notebook-outlier-example.md)
+  * [Owl Options API](owlcheck-examples/data-quality-pipelines/owl-options-api.md)
+  * [Owl Rules - DQ Pipeline](owlcheck-examples/data-quality-pipelines/owl-rules-dq-pipeline/README.md)
+    * [Global rules](owlcheck-examples/data-quality-pipelines/owl-rules-dq-pipeline/global-rules.md)
+    * [SQL based rules](owlcheck-examples/data-quality-pipelines/owl-rules-dq-pipeline/sql-based-rules/README.md)
+      * [Simple rule](owlcheck-examples/data-quality-pipelines/owl-rules-dq-pipeline/sql-based-rules/simple-rule.md)
+      * [Freeform SQL](owlcheck-examples/data-quality-pipelines/owl-rules-dq-pipeline/sql-based-rules/freeform-sql.md)
+      * [Native SQL](owlcheck-examples/data-quality-pipelines/owl-rules-dq-pipeline/sql-based-rules/native-sql.md)
+      * [Function](owlcheck-examples/data-quality-pipelines/owl-rules-dq-pipeline/sql-based-rules/function.md)
+    * [Data type based rules](owlcheck-examples/data-quality-pipelines/owl-rules-dq-pipeline/data-type-based-rules.md)
+    * [FAQs](owlcheck-examples/data-quality-pipelines/owl-rules-dq-pipeline/frequently-asked-questions.md)
+  * [AWS DataBricks - DQ Pipeline](owlcheck-examples/data-quality-pipelines/aws-databricks-dq-pipeline.md)
   * [Azure DataBricks - DQ Pipeline](owlcheck-examples/data-quality-pipelines/azure-databricks-dq-pipeline.md)
   * [Spark - DQ Pipeline](owlcheck-examples/data-quality-pipelines/spark-dq-pipeline.md)
 
@@ -36,6 +53,7 @@
 
 * [Dataset Scorecard](scorecards/dataset-scorecard.md)
 * [Group Scorecard](scorecards/group-scorecard.md)
+* [List View](scorecards/list-view.md)
 
 ## Connecting to DBs in Owl Web
 
@@ -44,15 +62,19 @@
 
 ## DQ Visuals
 
+* [Profile](dq-visuals/profile.md)
+* [Behaviors](dq-visuals/behaviors.md)
+* [Schema Evolution](dq-visuals/schema-evolution.md)
 * [Outliers](dq-visuals/outliers.md)
 * [Shapes](dq-visuals/shapes.md)
 * [Validate Source](dq-visuals/validate-source.md)
 * [Rules](dq-visuals/rules/README.md)
+  * [The best DQ rule, is the one you don't have to write](dq-visuals/rules/dq-rule-automation.md)
   * [Creating a Business Rule](dq-visuals/rules/creating-a-business-rule.md)
 * [Duplicates](dq-visuals/duplicates.md)
 * [Explorer](dq-visuals/explorer.md)
-* [Profile](dq-visuals/profile.md)
-* [Pattern Mining](dq-visuals/pattern-mining.md)
+* [Pattern Mining](dq-visuals/pattern-mining/README.md)
+  * [Bloomberg Data](dq-visuals/pattern-mining/bloomberg-data.md)
 * [Missing Records](dq-visuals/missing-records.md)
 
 ## Labeling / Training
@@ -73,6 +95,9 @@
 
 * [Swagger](apis/swagger.md)
 * [Job Server](apis/job-server.md)
+* [Custom Configurations](apis/custom-configurations.md)
+* [Notebook API](apis/notebook-api/README.md)
+  * [OwlOptions \(base\)](apis/notebook-api/owloptions-base.md)
 
 ## Catalog
 
@@ -81,7 +106,11 @@
 
 ## Use-Cases
 
+* [Bank Loans](use-cases/bank-loans.md)
 * [Financial FxRate Data](use-cases/financial-fxrate-data.md)
+* [Intraday Positions](use-cases/intraday-positions.md)
+* [Security Reference Data](use-cases/security-reference-data.md)
+* [Copying or Moving data](use-cases/copying-or-moving-data.md)
 
 ## Owl Time
 
@@ -108,4 +137,28 @@
 * [Nulls in Datasets](advanced/zero-if-null.md)
 * [Reference Checks](advanced/reference-checks.md)
 * [Transform Expressions](advanced/transform.md)
+* [Prescriptive Personas](advanced/prescriptive-personas.md)
+
+## Multi-Tenant
+
+* [Multi-Tenancy](multi-tenant/multi-tenancy.md)
+
+## Reports
+
+* [Owl Summary Reports](reports/owl-summary-reports.md)
+
+## API
+
+* [Notebook](api/notebook/README.md)
+  * [Dupe](api/notebook/dupe.md)
+  * [Load](api/notebook/load.md)
+  * [Source](api/notebook/source.md)
+  * [Profile](api/notebook/profile.md)
+* [JWT](api/jwt.md)
+* [Cookie](api/cookie.md)
+* [Owl's Scorecard and 9 Dimensions of DQ](owl-dq-screen-shots.md)
+* [What is OwlDQ](what-is-owldq.md)
+* [DQ is the difference](data-quality.md)
+* [Best Practices](best-practices.md)
+* [Healthcare  Data Quality](healthcare-dq-in-2-minutes.md)
 
