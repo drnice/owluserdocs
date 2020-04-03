@@ -24,7 +24,7 @@ You can get to rules from the hoot page by clicking on Rules under the dataset n
 6. Select Low, Medium or High scoring sever 
 7. Click submit to save the rule.
 
-![Search for a dataset and click Select next to the Type label](../../.gitbook/assets/image%20%2816%29.png)
+![Search for a dataset and click Select next to the Type label](../../.gitbook/assets/image%20%2819%29.png)
 
 ‌The rule will be applied to the next OwlCheck run on that particular dataset.‌
 
