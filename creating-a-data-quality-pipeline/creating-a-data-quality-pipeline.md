@@ -29,7 +29,7 @@ Now the cluster is running with the Owl jar loaded on the cluster. Open the Jupy
   
 
 
-![Figure 3: Notebook on Azure Databricks to scan raw data](../.gitbook/assets/image%20%2821%29.png)
+![Figure 3: Notebook on Azure Databricks to scan raw data](../.gitbook/assets/image%20%2824%29.png)
 
 This Scala code imports the Owl jar and loops through the dates residing in files on Azure blob storage, pulls them into a Spark Data Frame \(DF\), and execute an Owl job to scan for the quality issues on the Spark DF. Once the scan is completed the results are stored into the metadata repository under Owl’s web application and visible through your browser as shown in Figure 4 below.
 
@@ -37,7 +37,7 @@ This Scala code imports the Owl jar and loops through the dates residing in file
 
 The reason for a score of 49 on the raw data \(as shown below in Figure 5\) is due to the file having string values sprinkled in the file when something is Not Applicable \(N.A.\). When reading data in a column of a file that has a mix of numeric and string values the column will automatically conform to a string regardless if the majority class are integers. Also, within the files there is a single record in this file that has meta data information about the file “META\_ZZ” this is also adding empty strings for all other columns. This record will also cause all columns to conform to strings.
 
-![Figure 5: Data Preview of the raw file content some reasons why Owl scored so low.](../.gitbook/assets/image%20%2811%29.png)
+![Figure 5: Data Preview of the raw file content some reasons why Owl scored so low.](../.gitbook/assets/image%20%2814%29.png)
 
 Now that we have an understanding of the raw file and how we need to conform it before analysts can start to glean business value from the contents itself. We first have to ETL or cleanse the data that we discovered as being errand by filtering out the erroneous record and flipping all the N.A. values to null as the next step in our ETL and DQ pipeline.
 
@@ -45,7 +45,7 @@ Now that we have an understanding of the raw file and how we need to conform it 
 
 The Owl block of code is essentially the same, however there is a new owl property added to auto filter values “props.nullValue = ‘N.A’”. This will find every cell that has the value of N.A. and conform it to a “null”. Once the file is read into a Spark DF then we use Spark to “Filter” out the erroneous record on line 36 in the code snippet above. Notice we are also adding an Owl\_Run\_ID date as this dataset did not have a date that conforms easily. After the ETL process cleanses the data, we then have Owl’s Data Quality engine scan the newly processed Spark DF storing the results into a dataset called CleanCSVFiles \(as shown in Figure 7 below\).
 
-![Figure 7: Stack the DQ Scores in Owl to show how we did ](../.gitbook/assets/image%20%2823%29.png)
+![Figure 7: Stack the DQ Scores in Owl to show how we did ](../.gitbook/assets/image%20%2826%29.png)
 
 Notice the composite scores in the boxes are substantially better for the CleanCSVFiles dataset than what they are for the original RawCSVFiles. In the next article we will look deeper at the intelligence an Owl scan can garner on a data set when run over several days and how Owl can surface different patterns, behaviors, trends and more in the data itself.
 
