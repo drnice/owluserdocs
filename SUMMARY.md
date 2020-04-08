@@ -111,6 +111,7 @@
 * [Intraday Positions](use-cases/intraday-positions.md)
 * [Security Reference Data](use-cases/security-reference-data.md)
 * [Copying or Moving data](use-cases/copying-or-moving-data.md)
+* [Cyber Anomalies in Real-Time](use-cases/cyber-anomalies-in-real-time.md)
 
 ## Owl Time
 
