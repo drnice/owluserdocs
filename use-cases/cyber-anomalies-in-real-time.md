@@ -68,7 +68,7 @@ By providing Infosec dataset along with anomaly records, OwlDQ  outlier and patt
 2. The packet size extremely low between Atlanta-&gt;Texas
 3. Atlanta source IP and Texas Destination IP. 
 
-Realtime OwlDQ can provide the alters on network traffic anomalies which can help network admins to do further deep analysis and take preventative measure which is daunting task with huge amount of data.
+Realtime OwlDQ can provide the alerts on network traffic anomalies which can help network admins to do further deep analysis and take preventative measure which is daunting task with huge amount of data.
 
 ## Sample Dataset <a id="files-that-can-be-used-to-replicate-this-example"></a>
 
