@@ -30,21 +30,20 @@ Dataset contains Timestamp, Source Workgroup, Source IP, Source Port, Destinatio
 
 | Business Check | OwlDQ Feature |  |
 | :--- | :--- | :--- |
-| Does the SSN belong to the Applicant | PATTERN | SSN -&gt; first\_name, last\_name |
+| Does it a usual network traffic based on locations | PATTERN | Source\_Workgroup -&gt; Destination\_Workgroup |
 
 ## Source and Destination IP Address validation
 
 | Business Check | OwlDQ Feature |  |
 | :--- | :--- | :--- |
-| Is the SSN NULL or Missing | BEHAVIOR | AUTO |
-| Does the SSN belong to the Applicant | PATTERN | SSN -&gt; first\_name, last\_name |
+| Does it a usual network traffic based on source and destination IP | PATTERN | Source\_IP -&gt; Destination\_IP |
 
 ## Packet Size
 
 | Business Check | OwlDQ Feature |  |
 | :--- | :--- | :--- |
-| Is the SSN NULL or Missing | BEHAVIOR | AUTO |
-| Does the SSN belong to the Applicant | PATTERN | SSN -&gt; first\_name, last\_name |
+| Is the Packet Size NULL or Missing | BEHAVIOR | AUTO |
+| Packet Size within normal range | PATTERN | Source\_IP -&gt; Packet\_SizeB |
 
 
 
@@ -71,7 +70,9 @@ By providing Infosec dataset along with anomaly records, OwlDQ  outlier and patt
 
 Realtime OwlDQ can provide the alters on network traffic anomalies which can help network admins to do further deep analysis and take preventative measure which is daunting task with huge amount of data.
 
+## Sample Dataset <a id="files-that-can-be-used-to-replicate-this-example"></a>
 
+{% file src="../.gitbook/assets/infosec-anomaly.csv" %}
 
 
 
