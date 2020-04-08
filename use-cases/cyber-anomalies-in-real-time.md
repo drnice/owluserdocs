@@ -4,7 +4,7 @@ With increasing number of cyber threats most of the cyber security team doesn’
 
 OwlDQ framework, provides organizations the ability to load and process diverse security data feeds at scale in order to detect network data anomalies. The OwlDQ alerts can enable network admins to respond to these events in timely manner.
 
-Here we walk through a scenario tp detect anomalies with network traffic dataset.  
+Here we walk through a scenario to detect anomalies with network traffic dataset.  
 
 1. IP address Validation
 2. Detect the unusual network traffic patterns based on locations.
