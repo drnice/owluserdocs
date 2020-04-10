@@ -11,7 +11,7 @@ Owl's Pattern Mining provides carriers with advanced data accuracy for customer 
 1. Pricing and Risk Selection
 2. Loss Exposure
 3. Underwriting
-4. Adverse Selection
+4.  bronze, silver, gold or platinum
 
 ## Risk Selection
 
