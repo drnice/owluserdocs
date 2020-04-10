@@ -1,5 +1,5 @@
 ---
-description: How good is your risk evaluation data?
+description: Pricing and Risk Selection
 ---
 
 # Insurance Data
