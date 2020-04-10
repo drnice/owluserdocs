@@ -109,7 +109,7 @@ Using **owl.hoot** parameter will provide access to the execution results, in th
 
 #### via UI
 
-![Results of notebook execution on UI](../../../../.gitbook/assets/image%20%2827%29.png)
+![Results of notebook execution on UI](../../../../.gitbook/assets/image%20%2828%29.png)
 
 ## Example \#2
 
@@ -231,5 +231,5 @@ simpleRuleWithTemplate()
 
 #### via UI
 
-![](../../../../.gitbook/assets/image%20%2828%29.png)
+![](../../../../.gitbook/assets/image%20%2829%29.png)
 

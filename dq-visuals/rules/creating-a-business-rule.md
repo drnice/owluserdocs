@@ -5,7 +5,7 @@ Navigate to the Rule page as shown in the screenshot below. By selecting the ![h
 1. Select a rule type using the drop-down menu.                                                                ![Screen Shot 2019-05-03 at 1.02.30 PM.png](http://18.204.201.140:8080/xwiki/bin/download/Documentation/Admin%20Guide/Rules/WebHome/Screen%20Shot%202019-05-03%20at%201.02.30%20PM.png?width=530&height=366)
 2. Search for a dataset name \(that has been Owlcheck’ed - or this information will be auto-populated if coming from a DatasetStat page\). Once a dataset has been loaded the schema on the left will get populated. \(Example: begin typing in shape\_example dataset from the demo.sh script we ran earlier in this document when the dataset if found click “Load”\). 
 
-   ![](../../.gitbook/assets/image%20%2819%29.png)
+   ![](../../.gitbook/assets/image%20%2820%29.png)
 
 3. Select a rule type using the drop-down menu                                             ![Screen Shot 2019-05-03 at 1.02.30 PM.png](http://18.204.201.140:8080/xwiki/bin/download/Documentation/Admin%20Guide/Rules/WebHome/Screen%20Shot%202019-05-03%20at%201.02.30%20PM.png?width=530&height=366)
 4. Select a rule name. \(Note: If applying a preset rule, the rule name will be auto populated.\)
