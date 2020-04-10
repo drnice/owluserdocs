@@ -13,38 +13,7 @@ Owl's Pattern Mining provides carriers with advanced data accuracy for customer 
 3. Underwriting
 4.  bronze, silver, gold or platinum
 
-## Risk Selection
-
-<table>
-  <thead>
-    <tr>
-      <th style="text-align:left">Business Check</th>
-      <th style="text-align:left">OwlDQ Feature</th>
-      <th style="text-align:left">Manual vs Auto</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align:left">Application data verification. Does it match source to target</td>
-      <td
-      style="text-align:left">Source</td>
-        <td style="text-align:left">AUTO</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">
-        <p>Is the risk score &lt; 1 within a valid range</p>
-        <p></p>
-      </td>
-      <td style="text-align:left">RULE</td>
-      <td style="text-align:left">risk_score between 1 and 3</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Risk score 1 &lt; 5%</td>
-      <td style="text-align:left">RULE</td>
-      <td style="text-align:left">High-risk patients make up the 3-5%</td>
-    </tr>
-  </tbody>
-</table>## Underwriting
+## **Risk**
 
 <table>
   <thead>
