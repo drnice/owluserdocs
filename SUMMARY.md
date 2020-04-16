@@ -163,5 +163,5 @@
 * [Best Practices](best-practices.md)
 * [Healthcare  Data Quality](healthcare-dq-in-2-minutes.md)
 * [Smart Meter Data](smart-meter-data.md)
-* [Revenue Cycle Management \(RCM\)](insurance-data.md)
+* [Healthcare Insurance Revenue Cycle Management \(RCM\)](insurance-data.md)
 
