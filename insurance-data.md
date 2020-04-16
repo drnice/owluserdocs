@@ -2,49 +2,40 @@
 description: Pricing and Risk Selection
 ---
 
-# Insurance Data
+# Revenue Cycle Management \(RCM\)
 
-By implementing OwlDQ's real-time data analytics, insurance carriers have achieved a clear advantage. They have increased underwriting efficiency, claim data accuracy, as well as increased their customer satisfaction rating. Our predictive modeling has also increased accuracy of sales data, and the customer retention process.  When used effectively, ML driven analytics can also help insurance carriers streamline their internal processes, better manage consumer data accuracy, and improve profitability. 
+ Revenue Cycle Management is the process of identifying, collecting and managing the practice’s revenue from payers based on the services provided. A complete RCM process is critical for a healthcare practice to maintain financial viability and continue to provide quality care for their patients.
 
-Owl's Pattern Mining provides carriers with advanced data accuracy for customer application criteria.
+Inaccurate claims data, is the primary cause for diagnostic providers receiving incorrect payments for their services. Most providers struggle with the quality of the data that they receive, and without direct access to the patients, it can be an expensive, laborious process to correct incomplete, or missing data that is required for claim reimbursement.
 
-1. Pricing and Risk Selection
-2. Loss Exposure
-3. Underwriting
-4.  bronze, silver, gold or platinum
+Cleaning up or correcting incomplete data is not a step in the claims process that can be skipped. It must be done to assure the reimbursement process is accurate, and complete in the agreed time frame. Automating the data quality during intake is the key to the timely completion of the reimbursement process, and saving the cost and effort of correcting the data down stream. 
 
-## **Risk**
+```text
+Increase revenue from insurance and patient payments
+Spend less time tracking down missing patient information
+Lower error processing rates
+Reduce operating costs
+Improve claim processing speed
+```
 
-<table>
-  <thead>
-    <tr>
-      <th style="text-align:left">Business Check</th>
-      <th style="text-align:left">OwlDQ Feature</th>
-      <th style="text-align:left">Manual vs Auto</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align:left">Application data verification. Does it match source to target</td>
-      <td
-      style="text-align:left">Source</td>
-        <td style="text-align:left">AUTO</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">
-        <p>Is the risk score &lt; 1 within a valid range</p>
-        <p></p>
-      </td>
-      <td style="text-align:left">RULE</td>
-      <td style="text-align:left">risk_score between 1 and 3</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Risk score 1 &lt; 5%</td>
-      <td style="text-align:left">RULE</td>
-      <td style="text-align:left">High-risk patients make up the 3-5%</td>
-    </tr>
-  </tbody>
-</table>![](.gitbook/assets/insurance-data.jpg)
+The revenue cycle includes all the administrative and clinical functions that contribute to the capture, management and collection of patient service revenue, according to the Healthcare Financial Management Association
+
+```text
+Preregistration - Collecting preregistration information, such as insurance coverage
+Verification - Patient eligibility and benefit is verified  
+Transcription - recording the diagnoses and procedure 
+Medical Coding - Properly coding diagnoses and procedures.
+Charge capture: Rendering medical services into billable charges.
+Claim submission: Submitting claims of billable fees to insurance companies.
+Claim Rejection
+Payment Posting - Determining patient balances and collecting payments.
+Secondary Claim Submission
+Denial Management - Applying or rejecting payments through remittance processing.
+Medical Appeals: Examining the necessity of medical services.
+Refund 
+```
+
+![](.gitbook/assets/insurance-data.jpg)
 
 
 
