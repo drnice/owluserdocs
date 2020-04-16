@@ -1,10 +1,10 @@
 ---
 description: >-
   Poor DQ  is the primary cause for diagnostic providers receiving incomplete
-  health care payments
+  health care payments during Revenue Cycle Management (RCM)
 ---
 
-# Healthcare Insurance Revenue Cycle Management \(RCM\)
+# Health Insurance Claims Data
 
 Revenue Cycle Management is the process of identifying, collecting and managing the practice’s revenue from payers based on the services provided. A complete RCM process is critical for a healthcare practice to maintain financial viability and continue to provide quality care for their patients.
 

@@ -17,3 +17,32 @@ Add -br to any owlcheck and replay in time order.  Jan 1, Jan 2, Jan 3...  To do
 -br 4
 ```
 
+### Replay 4 Months of data, -br 4 -tbin MONTH
+
+In situations where your data rolls up into Months you may want to re-run several months of data but not a day at a time.  In this case we will use -br with -tbin
+
+```bash
+./owlcheck \
+-ds OWLDB2.NYSE_STOCKS3 \
+-rd "2018-01-01" \
+-q "select * from OWLDB2.NYSE_STOCKS where TRADE_DATE = '\${rd}'" \
+-br 4 \
+-tbin MONTH \
+-lib "/opt/owl/drivers/db2/" \
+-cxn db2
+```
+
+### Monthly using a range for the entire Month
+
+```bash
+./owlcheck \
+-ds OWLDB2.NYSE_STOCKS3 \
+-rd "2018-01-01" \
+-rdEnd "2018-02-01" \
+-q "select * from OWLDB2.NYSE_STOCKS where TRADE_DATE >= '${rd}' and TRADE_DATE < '${rdEnd}'" \
+-br 4 \
+-tbin MONTH
+-lib "/opt/owl/drivers/db2/" \
+-cxn db2
+```
+
