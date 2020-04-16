@@ -37,7 +37,7 @@ Medical Appeals - Examining the necessity of medical services.
 Refund - where aplicable
 ```
 
-
+![](.gitbook/assets/rcm.png)
 
 
 
