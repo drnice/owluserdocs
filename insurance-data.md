@@ -1,6 +1,6 @@
 ---
 description: >-
-  Poor DQ  is the primary cause for diagnostic providers receiving incorrect
+  Poor DQ  is the primary cause for diagnostic providers receiving incomplete
   payments
 ---
 
