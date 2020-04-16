@@ -23,18 +23,18 @@ Improve claim processing speed
 The revenue cycle includes all the administrative and clinical functions that contribute to the capture, management and collection of patient service revenue, according to the Healthcare Financial Management Association
 
 ```text
-Preregistration - Collecting preregistration information, such as insurance coverage
+Preregistration - Collecting preregistration information
 Verification - Patient eligibility and benefit is verified  
 Transcription - recording the diagnoses and procedure 
 Medical Coding - Properly coding diagnoses and procedures.
-Charge capture: Rendering medical services into billable charges.
-Claim submission: Submitting claims of billable fees to insurance companies.
-Claim Rejection
-Payment Posting - Determining patient balances and collecting payments.
+Charge capture - Medical services into billable charges.
+Claim submission - Submitting claims to insurance companies.
+Claim Rejection - when necessary
+Payment Posting - Determining patient balances, collection
 Secondary Claim Submission
-Denial Management - Applying or rejecting payments through remittance processing.
-Medical Appeals: Examining the necessity of medical services.
-Refund 
+Denial Management - Applying or rejecting payments remittance 
+Medical Appeals - Examining the necessity of medical services.
+Refund - where aplicable
 ```
 
 ![](.gitbook/assets/insurance-data.jpg)
