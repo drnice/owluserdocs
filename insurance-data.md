@@ -22,6 +22,8 @@ Improve claim processing speed
 
 The revenue cycle includes all the administrative and clinical functions that contribute to the capture, management and collection of patient service revenue, according to the Healthcare Financial Management Association
 
+![](.gitbook/assets/rcm-process.png)
+
 ```text
 Preregistration - Collecting preregistration information
 Verification - Patient eligibility and benefit is verified  
@@ -36,8 +38,6 @@ Denial Management - Applying or rejecting payments remittance
 Medical Appeals - Examining the necessity of medical services.
 Refund - where aplicable
 ```
-
-![](.gitbook/assets/rcm.png)
 
 
 
