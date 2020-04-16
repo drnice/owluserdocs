@@ -1,5 +1,7 @@
 ---
-description: Pricing and Risk Selection
+description: >-
+  Poor DQ  is the primary cause for diagnostic providers receiving incorrect
+  payments
 ---
 
 # Revenue Cycle Management \(RCM\)
