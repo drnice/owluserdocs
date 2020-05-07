@@ -147,6 +147,7 @@
 ## Reports
 
 * [Owl Summary Reports](reports/owl-summary-reports.md)
+* [Dataset Report](reports/profile.md)
 
 ## API
 
