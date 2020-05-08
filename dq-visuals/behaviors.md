@@ -17,6 +17,8 @@ Typically, data quality checks \(Owlcheck\) is scheduled to run on a given datas
 * Datatype shifting
 * Row counts
 * Load time
+* Minimum Value
+* Maximum Value
 {% endhint %}
 
 Over time, the definition of normal for any given column within the dataset can change. The data may legitimately become more sparse or decrease in volume. Owl will continue to learn and adjust the model throughout the life of the dataset. However, if there is a drastic \(but legitimate\) change in the data, this could still mean several days of unnecessary alerts while the model is adjusting. To accelerate model adjustment, Owl provides the ability to adjust the acceptable range that for a given behavioral finding. 
@@ -41,7 +43,7 @@ As Owl builds and evolves the behavioral model, it will expose all of the "Adapt
 
 To view or modify Adaptive Rules, navigate to the Behavior tab on the "Hoot" page for the desired dataset and click the "View AR" button on the right side of the screen. This will bring up a full list of Adaptive Rules. 
 
-![](../.gitbook/assets/screen-shot-2020-03-20-at-10.57.55-am.png)
+![](../.gitbook/assets/screen-shot-2020-05-07-at-8.37.37-pm.png)
 
 The Adaptive Rules also provides the user with the ability to adjust ranges derived from the behavior model. The user can manually adjust the tolerance range ad well as the score of any Adaptive Rule. While this may at times be convenient, it is also just fine to let Owl handle the model tuning through its own learning process.
 
