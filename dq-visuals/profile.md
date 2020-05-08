@@ -16,7 +16,10 @@ Owl creates a detailed profile of each dataset under management. This profile wi
 
 ![](../.gitbook/assets/screen-shot-2020-05-07-at-7.33.16-pm.png)
 
-The profile includes a range of statistics
+By gathering a variety of different statistics, Owl's profile can provide a great deal of insight about the dataset.  
+
+{% hint style="info" %}
+Profile includes a range of statistics
 
 * Actual Datatype
 * Discovered Datatypes
@@ -29,6 +32,7 @@ The profile includes a range of statistics
 * Mean
 * TopN / BottomN
 * Value Quartiles
+{% endhint %}
 
 ## Correlation Matrix
 
