@@ -2,17 +2,19 @@
 
 ## Automatically Profile
 
-Owl automatically profiles your datasets over time so you can drill into when things changed. A profile is just the first step towards an amazing amount of auto discovery. Visualize segments of the dataset and how how the dataset is changing over time.
+Owl automatically profiles datasets over time to enable drill-in for detailed insights an automated data quality. A profile is just the first step towards an amazing amount of auto discovery. Visualize segments of the dataset and how how the dataset is changing over time.
 
-## Filtergraming + Histograming + Correlations
+## Dataset Profile
 
-![](../.gitbook/assets/owl-profile%20%281%29.png)
+Owl creates a detailed profile of each dataset under management. This profile will later be used to both provide insight and automatically identify data quality issues.
 
-## Profile Delta
+ 
 
-Automatically overlay the current view of your data with its baseline to extract sudden changes.
+![](../.gitbook/assets/screen-shot-2020-05-07-at-7.28.25-pm.png)
 
-![](../.gitbook/assets/screen-shot-2020-05-07-at-6.51.12-pm.png)
+## Profile Insights
+
+![](../.gitbook/assets/screen-shot-2020-05-07-at-7.33.16-pm.png)
 
 The profile includes a range of statistics
 
@@ -28,8 +30,6 @@ The profile includes a range of statistics
 * TopN / BottomN
 * Value Quartiles
 
-![](../.gitbook/assets/screen-shot-2020-05-07-at-6.53.53-pm.png)
-
 ## Correlation Matrix
 
 Discover hidden relationships and measure the strength of those relationships.
@@ -41,4 +41,12 @@ Discover hidden relationships and measure the strength of those relationships.
 Often the first step in a data science project is to segment the data. Owl automatically does this using histograms.
 
 ![](../.gitbook/assets/owl-histogram.png)
+
+## Data Preview
+
+After profiling the data, for those users with appropriate rights, Owl provides a glimpse of the dataset. The Data preview tab also provides a some basic insights such as highlights of Data Shape issues and Outliers \(if enabled\), and Column Filtergram visualization.
+
+![](../.gitbook/assets/screen-shot-2020-05-07-at-7.57.29-pm.png)
+
+
 
