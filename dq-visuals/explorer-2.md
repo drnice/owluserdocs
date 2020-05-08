@@ -98,5 +98,13 @@ Click Run to start the job
 
 ![Advanced deployment optimizations are available in Parallel JDBC and Deployment Mode](../.gitbook/assets/screen-shot-2020-05-07-at-7.24.45-pm.png)
 
+## **AutoProfile**
 
+**AutoProfile** allows you to select a set of databases and tables to quickly be cataloged. Each selected table will be profiled and added to the Owl Catalog via the selected agent. Alerts, Job Schedules, and limit values can also be set.
+
+When you expand a datasource in the **Explorer** page, you're given a list of possible databases and their associated tables. **AutoProfile** is triggered when you select the ones you want and hit scan. This will take you to a separate page that allows you to configure the various AutoProfile parameters.
+
+A `SparkSubmit` will be launched for each table, so make sure the agent configuration is reasonable and the box has enough resources to handle each JVM.
+
+![AutoProfile wizard](../.gitbook/assets/screenshot.png)
 
