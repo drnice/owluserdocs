@@ -52,3 +52,27 @@ profile.show
 
 Notice that Owl returns results as Dataframes.  This is a fantastic abstraction that allows you to ignore all domain objects and custom types and interact with a scaleable generic result set using common protocols like "where" or "filter" or "save" or "write" all with parallel operations. 
 
+## Duplicates
+
+Take duplicate detection for example.  A common use-case where a business wants to make sure they do not have repeated or duplicate records in a table.  Set the lowerBound to the percent fuzzy match you are willing to accept, commonly 87% or higher is an interesting match.  You might also want to target a single day or week or month that you shouldn't have dupes within.  Notice the .where function and then pass in a custom dataframe to the Owl context.
+
+```scala
+opt.dupe.on = true
+opt.dupe.lowerBound = 99
+opt.dupe.include = Array("SYMBOL", "EXCH")
+
+val df1Day = jdbcDF2.where("TRADE_DATE = '2018-01-10' ")
+val owl = OwlUtils.OwlContext(df1Day, opt)
+
+val dupes = owl.dupesDF
+
+// dataframe show
+dupes.show
+
+// rdd collect
+dupes.rdd.collect.foreach(println)
+
+// records linked together for remediation
+owl.getDupeRecords.show
+```
+
