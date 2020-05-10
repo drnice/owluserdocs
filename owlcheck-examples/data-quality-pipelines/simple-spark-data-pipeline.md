@@ -8,7 +8,7 @@ val connProps = Map (
   "driver"   -> "org.postgresql.Driver",
   "user"     -> s"${user}",
   "password" -> s"${pass}",
-  "url"      -> s"jdbc:postgresql://${host}.us-east-1.rds.amazonaws.com:5432/postgres",
+  "url"      -> s"jdbc:postgresql://${host}:${port}/${database}",
   "dbtable"  -> "owl_test.nyse"
 )
 
@@ -30,12 +30,12 @@ import com.owl.core.util.OwlUtils
 
 val opt = new OwlOptions
 //--- Owl Metastore ---//
-opt.host = s"${owlHost}"
+opt.host = s"$owlHost"
 opt.port = s"5432/postgres?currentSchema=public"
-opt.pgUser = s"${owlUser}"
-opt.pgPassword = s"{owlPass}"
+opt.pgUser = s"$owlUser"
+opt.pgPassword = s"$owlPass"
 //--- Run Options ---//
-opt.dataset = "nyse_notebook_pipeline"
+opt.dataset = "owl_test.nyse"
 opt.runId = "2018-01-10"
 opt.datasetSafeOff = true
 
