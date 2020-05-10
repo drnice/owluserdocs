@@ -2,28 +2,11 @@
 
 ## Getting started
 
-First use vanilla spark to setup connection properties and access a database table via spark jdbc.
+First use vanilla spark code to setup connection properties and access a database table via spark jdbc. Entire code example available at the end for copy paste.
 
 ![](../../.gitbook/assets/dv-jdbc2.png)
 
-Code snippet and output below.
-
-```scala
-//--- GCP Postgres Connection ---// 
-val url = "jdbc:postgresql://${host}?currentSchema=${schema}"
-var connectionProps = new java.util.Properties()
-connectionProps.setProperty("driver", "org.postgresql.Driver")
-connectionProps.setProperty("user", "${user}")
-connectionProps.setProperty("password", "${pass}")
-connectionProps.setProperty("connectionUrl", url)
-
-//--- Load DataFrame From GCP Postgres ---//
-val jdbcDF2 = spark.read.jdbc(url, "owl_test.nyse", connectionProps)
-jdbcDF2.printSchema
-jdbcDF2.cache
-val count = jdbcDF2.count
-println(count)
-```
+#### Schema output, Row Count and Runtime
 
 ```scala
 root
@@ -69,9 +52,13 @@ This requires that you have imported the Owl libraries into your notebook or dat
 
 ## Next Check for Duplicates
 
+Notice there is a duplicate discovered.  NYSE AAN record exists twice in the 10/1/2018.  This should not happen as end of day stock data should only have 1 record per stock symbol.  Great DQ finding.
+
 ![](../../.gitbook/assets/screen-shot-2020-05-09-at-11.06.25-pm.png)
 
 ## Next Scan for Outliers
+
+Notice that KOD.w the camera company Kodak commonly trades at less than 2 pennies and jumps to $2.35.  Absolutely an outlier. This was a news event named Kodak coin, google it.
 
 ![](../../.gitbook/assets/screen-shot-2020-05-09-at-11.07.54-pm.png)
 
