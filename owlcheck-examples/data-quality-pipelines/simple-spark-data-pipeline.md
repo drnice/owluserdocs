@@ -21,6 +21,8 @@ println(jdbcDF2.count)
 
 ## Configure Owl Options
 
+Connect to Owl's Metadata Database and control DQ scan options.  Wrap sparkDF with Owl context.
+
 ```scala
 import com.owl.common.options._
 import com.owl.core.Owl
@@ -43,9 +45,10 @@ val owl = com.owl.core.util.OwlUtils.OwlContext(jdbcDF2, opt)
 ## Register with Catalog and Run Profile
 
 ```scala
-val owl = com.owl.core.util.OwlUtils.OwlContext(jdbcDF2, opt)
+//--- Register with Owl Catalog ---//
 owl.register(opt)
 
+//--- Profile Dataset ---//
 val profile = owl.profileDF
 profile.show
 ```
