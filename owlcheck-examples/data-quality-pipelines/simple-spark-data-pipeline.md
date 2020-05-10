@@ -53,3 +53,5 @@ val profile = owl.profileDF
 profile.show
 ```
 
+Notice that Owl returns results as Dataframes.  This is a fantastic abstraction that allows you to ignore all domain objects and custom types and interact with a scaleable generic result set using common protocols like "where" or "filter" or "save" or "write" all with parallel operations. 
+
