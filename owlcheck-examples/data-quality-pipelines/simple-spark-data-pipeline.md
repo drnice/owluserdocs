@@ -13,8 +13,8 @@ val connProps = Map (
 )
 
 //--- Load Spark DataFrame ---//
-val jdbcDF2 = spark.read.format("jdbc").options(connProps).load
-println(jdbcDF2.count)
+val jdbcDF = spark.read.format("jdbc").options(connProps).load
+jdbcDF.show
 ```
 
 ## Configure Owl Options
@@ -36,7 +36,7 @@ opt.dataset = "owl_test.nyse"
 opt.runId = "2018-01-10"
 opt.datasetSafeOff = true
 
-val owl = OwlUtils.OwlContext(jdbcDF2, opt)
+val owl = OwlUtils.OwlContext(jdbcDF, opt)
 ```
 
 ## Register with Catalog and Run Profile
@@ -61,7 +61,7 @@ opt.dupe.on = true
 opt.dupe.lowerBound = 99
 opt.dupe.include = Array("SYMBOL", "EXCH")
 
-val df1Day = jdbcDF2.where("TRADE_DATE = '2018-01-10' ")
+val df1Day = jdbcDF.where("TRADE_DATE = '2018-01-10' ")
 val owl = OwlUtils.OwlContext(df1Day, opt)
 
 val dupes = owl.dupesDF
