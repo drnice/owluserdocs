@@ -47,3 +47,11 @@ To view or modify Adaptive Rules, navigate to the Behavior tab on the "Hoot" pag
 
 The Adaptive Rules also provides the user with the ability to adjust ranges derived from the behavior model. The user can manually adjust the tolerance range ad well as the score of any Adaptive Rule. While this may at times be convenient, it is also just fine to let Owl handle the model tuning through its own learning process.
 
+### Scoring
+
+In adaptive mode Owl automatically generates a DQ item score based on the egregiousness of the line item.  This measurement is directly proportional to the distance from the green range to the red line.  Example below.
+
+![](../.gitbook/assets/owl-behavior-score.png)
+
+The score can range from 0-30.  This ties to the percent change and Z-Score.  In cases when the Z-Score ranges from 0.0 - 6.0.
+
