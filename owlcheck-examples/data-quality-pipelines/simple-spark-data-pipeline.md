@@ -14,8 +14,6 @@ val connProps = Map (
 
 //--- Load Spark DataFrame ---//
 val jdbcDF2 = spark.read.format("jdbc").options(connProps).load
-jdbcDF2.printSchema
-jdbcDF2.cache
 println(jdbcDF2.count)
 ```
 
@@ -25,7 +23,6 @@ Connect to Owl's Metadata Database and control DQ scan options.  Wrap sparkDF wi
 
 ```scala
 import com.owl.common.options._
-import com.owl.core.Owl
 import com.owl.core.util.OwlUtils
 
 val opt = new OwlOptions
@@ -39,7 +36,7 @@ opt.dataset = "owl_test.nyse"
 opt.runId = "2018-01-10"
 opt.datasetSafeOff = true
 
-val owl = com.owl.core.util.OwlUtils.OwlContext(jdbcDF2, opt)
+val owl = OwlUtils.OwlContext(jdbcDF2, opt)
 ```
 
 ## Register with Catalog and Run Profile
