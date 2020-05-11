@@ -65,8 +65,6 @@ val df1Day = jdbcDF.where("TRADE_DATE = '2018-01-10' ")
 val owl = OwlUtils.OwlContext(df1Day, opt)
 
 val dupes = owl.dupesDF
-
-// dataframe show
 dupes.show
 
 // rdd collect
@@ -74,5 +72,23 @@ dupes.rdd.collect.foreach(println)
 
 // records linked together for remediation
 owl.getDupeRecords.show
+```
+
+## Outliers
+
+Gaining and understanding of your outliers is a commonly desired DQ function.  Owl has several configurations to help find the most meaningful outliers in your dataset and over time. 
+
+```scala
+opt.outlier.on = true
+opt.outlier.lookback = 6
+opt.outlier.dateColumn = "TRADE_DATE"
+opt.outlier.timeBin = OutlierOpt.TimeBin.DAY
+opt.outlier.key = Array("SYMBOL")
+opt.outlier.measurementUnit = "VOLUME=100000000,HIGH=0.1,LOW=0.1,OPEN=0.1,CLOSE=0.1"
+
+val df1Day = jdbcDF2.where("TRADE_DATE = '2018-01-10' ")
+val owl = OwlUtils.OwlContextWithHistory(dfCurrent = df1Day, dfHist = jdbcDF2, opt = opt)
+val outliers = owl.outliersDF
+outliers.show
 ```
 
