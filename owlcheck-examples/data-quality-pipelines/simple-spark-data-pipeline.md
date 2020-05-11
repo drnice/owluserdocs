@@ -52,6 +52,26 @@ profile.show
 
 Notice that Owl returns results as Dataframes.  This is a fantastic abstraction that allows you to ignore all domain objects and custom types and interact with a scaleable generic result set using common protocols like "where" or "filter" or "save" or "write" all with parallel operations. 
 
+```scala
++--------------+-----+-------+-----------+---+---+--------+-----------+------+----+------+-------+-------+------+----+---------+
+|        column|nulls|empties|cardinality|min|max|is_mixed|mixed_ratio|   Int|Long|String|Decimal|Boolean|Double|Date|Timestamp|
++--------------+-----+-------+-----------+---+---+--------+-----------+------+----+------+-------+-------+------+----+---------+
+|     tenant_id|    0|      0|         60|  0|  9|   false|        0.0|100000|   0|     0|      0|      0|     0|   0|        0|
+|           a11|    0|      0|          1|a11|a11|   false|        0.0|     0|   0|100000|      0|      0|     0|   0|        0|
+|           a10|    0|      0|          1|a10|a10|   false|        0.0|     0|   0|100000|      0|      0|     0|   0|        0|
+|  account_type|    0|      0|          3| 02| 06|   false|        0.0|100000|   0|     0|      0|      0|     0|   0|        0|
+|           a13|    0|      0|          1|a13|a13|   false|        0.0|     0|   0|100000|      0|      0|     0|   0|        0|
+|security_alias|    0|      0|          3|  0|  2|   false|        0.0|100000|   0|     0|      0|      0|     0|   0|        0|
+|           a12|    0|      0|          1|a12|a12|   false|        0.0|     0|   0|100000|      0|      0|     0|   0|        0|
++--------------+-----+-------+-----------+---+---+--------+-----------+------+----+------+-------+-------+------+----+---------+
+```
+
+### Profile UI
+
+While the spark DF.show\(\) is a nice and convenient output format, you may prefer a rich UI visual that tracks the data tests over time.  The UI provides trend analysis, data drift, data relationships and more.
+
+![](../../.gitbook/assets/owl-profiler.png)
+
 ## Duplicates
 
 Take duplicate detection for example.  A common use-case where a business wants to make sure they do not have repeated or duplicate records in a table.  Set the lowerBound to the percent fuzzy match you are willing to accept, commonly 87% or higher is an interesting match.  You might also want to target a single day or week or month that you shouldn't have dupes within.  Notice the .where function and then pass in a custom dataframe to the Owl context.
