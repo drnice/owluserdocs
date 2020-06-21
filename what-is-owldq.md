@@ -14,7 +14,7 @@ To make data quality easier.
 On average 60% of a data worker's time is spent analyzing data quality**.** 
 {% endhint %}
 
-The two most time-consuming aspects are:
+The two most time-consuming aspects of data quality are:
 
 * Analyzing the data
 * Writing the checks 
@@ -52,7 +52,7 @@ We want to use the data to tell us data quality rules that should be implemented
 * [ ] **Use these Answers** - Create data monitoring checks, based on the answers. 
 * [ ] **Implement Controls** - Control checks will be brought to your attention. Potential issues will be surfaced. You can easily add/remove checks, adjust sensitivity, and scoring all with a few clicks.
 
-The answer is in the data if you ask the right questions. 
+> The answer is in the data if you ask the right questions.
 
 ## **Core Tenets**
 
