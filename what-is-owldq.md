@@ -1,3 +1,7 @@
+---
+description: 'Who, What, How and Why'
+---
+
 # What is OwlDQ
 
 ## **Mission**
@@ -82,7 +86,7 @@ Owl provides a data quality assessment that scans 9 dimensions. The 9 dimensions
 8. Dupes - Fuzzy matching, Identify similar but not exact entries
 9. Shapes - Typos, Formatting Anomalies
 
-[Video Descriptions to Learn More](https://owldq.com/videos.html)
+[Check out our videos  to Learn More](https://owldq.com/videos.html)
 
 ## **Use cases**
 
