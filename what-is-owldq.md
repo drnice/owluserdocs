@@ -122,6 +122,11 @@ In order to avoid getting lost in the latest marketing jargon, a fundamental des
 
 ## Trust
 
-What checks and verifications are in place to guarantee data accuracy and completeness? After all, showing someone a housing report with incorrect estimated housing values or a stock report with the wrong stock prices won’t go over well.   
+What checks and verifications are in place to guarantee data accuracy and completeness? If you can't trust your data, then what's the point? After all, showing someone a housing report with incorrect estimated housing values or a stock report with the wrong stock prices won’t go over well. 
 
+Consistent data monitoring helps you sleep better at night, but also lets the business know they can trust the data. 
+
+## Learn More
+
+[To learn more, see a demo, or request a trial license](https://calendly.com/brian-556/calendar)
 
