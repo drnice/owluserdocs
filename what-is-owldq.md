@@ -49,8 +49,8 @@ While very complex under the hood, the concept is simple.
 We want to use the data to tell us data quality rules that should be implemented. 
 
 * [ ] **Ask The Data Questions** -  Probe it from many different perspectives. Interrogate it over several time periods. Measure it from many angles. 
-* [ ] **Use these Answers** - Create data monitoring checks, based on the answers. 
-* [ ] **Implement Controls** - As control checks are brought to your attention and potential issues are surfaced, you can easily add/remove/adjust the checks and scoring all with a few clicks.
+* [ ] **Use The Answers** - Create data monitoring checks, based on the answers. 
+* [ ] **Get Control** - As control checks are brought to your attention and potential DQ issues are surfaced, you can easily add/remove/adjust the checks and scoring.
 
 > The answer is in the data if you ask the right questions.
 
