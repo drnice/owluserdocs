@@ -2,35 +2,39 @@
 
 ## **Mission**
 
-Make data quality easier. 
+To make data quality easier. 
 
 ## How can OwlDQ help?
 
+{% hint style="info" %}
 On average 60% of a data worker's time is spent analyzing data quality**.** 
+{% endhint %}
 
 The two most time-consuming aspects are:
 
 * Analyzing the data
 * Writing the checks 
 
-The software is designed to:
+OwlDQ is designed to:
 
 1. Conduct all the manually-intensive analysis a human might do
 2. Then provide the suggested data quality checks a human might try to write
 
-We call it "Low Effort, High Stakes Protection". 
+We call it "[Low Effort, High Stakes Protection](https://www.youtube.com/watch?v=S5cI3mYyCFw&t=26s)". 
 
 ## **Background**
 
-The team is comprised of a variety of backgrounds and skillsets. While some spent a decade using technology to detect financial crimes, others were tracking cyber fraud, and others were designing large scale infrastructure at fortune 100 companies. 
+The team is comprised of a variety of backgrounds and skillsets. While some spent a decade using technology to detect financial crimes, others were tracking cyber fraud, and others were designing big data infrastructure at fortune 100 companies. 
 
-Regardless of the industry or experience, we all faced similar challenges as it related to data quality.
+_Regardless of the industry or experience, we all faced similar challenges as it related to data quality._
 
+{% hint style="info" %}
 * Data teams overwhelmed with tickets 
 * Business users find issues first
 * Touchy pipelines get upset with minor updates
 * Too busy responding to fire drills to implement new projects
 * It takes hours to find out when and why the issue started
+{% endhint %}
 
 After evaluating all the commercially available tools, and assessing costs and time of homegrown solutions, it was apparent no tool was available to do the things that we needed and wanted. 
 
@@ -40,9 +44,9 @@ While very complex under the hood, the concept is simple.
 
 We want to use the data to tell us data quality rules that should be implemented. 
 
-1. **Ask The Data Questions** -  Probe it from many different perspectives. Interrogate it over several time periods. Measure it from many different angles. 
-2. **Use these Answers** - Create data monitoring checks, based on the answers. 
-3. **Implement Controls** - Control checks will be brought to your attention. Potential issues will be surfaced. You can opt-in or opt-out, adjust sensitivity, and scoring all with a few clicks.
+* [ ] **Ask The Data Questions** -  Probe it from many different perspectives. Interrogate it over several time periods. Measure it from many different angles. 
+* [ ] **Use these Answers** - Create data monitoring checks, based on the answers. 
+* [ ] **Implement Controls** - Control checks will be brought to your attention. Potential issues will be surfaced. You can easily add/remove checks, adjust sensitivity, and scoring all with a few clicks.
 
 The answer is in the data if you ask the right questions. 
 
@@ -77,6 +81,8 @@ Owl provides a data quality assessment that scans 9 dimensions. The 9 dimensions
 7. Schema - Columns added or dropped. 
 8. Dupes - Fuzzy matching, Identify similar but not exact entries
 9. Shapes - Typos, Formatting Anomalies
+
+[Video Descriptions to Learn More](https://owldq.com/videos.html)
 
 ## **Use cases**
 

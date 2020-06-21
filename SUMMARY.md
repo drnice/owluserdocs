@@ -163,9 +163,9 @@
 
 ---
 
-* [Owl's Scorecard and 9 Dimensions of DQ](owl-dq-screen-shots.md)
 * [What is OwlDQ](what-is-owldq.md)
 * [DQ is the difference](data-quality.md)
+* [Owl's Scorecard and 9 Dimensions of DQ](owl-dq-screen-shots.md)
 * [Best Practices](best-practices.md)
 * [Healthcare  Data Quality](healthcare-dq-in-2-minutes.md)
 * [Smart Meter Data](smart-meter-data.md)
