@@ -11,7 +11,7 @@ To make data quality easier.
 ## How can OwlDQ help?
 
 {% hint style="info" %}
-On average 60% of a data worker's time is spent analyzing data quality**.** 
+On average 60% of a data worker's time is spent on data quality**.** 
 {% endhint %}
 
 The two most time-consuming aspects of data quality are:
@@ -32,7 +32,7 @@ The team is comprised of a variety of backgrounds and skillsets. While some spen
 
 _Regardless of the industry or experience, we all faced similar challenges as it related to data quality._
 
-{% hint style="info" %}
+{% hint style="danger" %}
 * Data teams overwhelmed with tickets 
 * Business users find issues first
 * Touchy pipelines get upset with minor updates
@@ -48,9 +48,9 @@ While very complex under the hood, the concept is simple.
 
 We want to use the data to tell us data quality rules that should be implemented. 
 
-* [ ] **Ask The Data Questions** -  Probe it from many different perspectives. Interrogate it over several time periods. Measure it from many different angles. 
+* [ ] **Ask The Data Questions** -  Probe it from many different perspectives. Interrogate it over several time periods. Measure it from many angles. 
 * [ ] **Use these Answers** - Create data monitoring checks, based on the answers. 
-* [ ] **Implement Controls** - Control checks will be brought to your attention. Potential issues will be surfaced. You can easily add/remove checks, adjust sensitivity, and scoring all with a few clicks.
+* [ ] **Implement Controls** - As control checks are brought to your attention and potential issues are surfaced, you can easily add/remove/adjust the checks and scoring all with a few clicks.
 
 > The answer is in the data if you ask the right questions.
 
