@@ -1,4 +1,4 @@
-# Why Owl?
+# Our Approach
 
 ### Because: using raw data to drive key decisions, leads to incorrect answers and end-user distrust.
 

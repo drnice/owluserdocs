@@ -1,7 +1,7 @@
 # Table of contents
 
 * [OwlDQ](README.md)
-* [Why Owl?](why-owl.md)
+* [Our Approach](why-owl.md)
 
 ## Security
 
