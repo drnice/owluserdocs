@@ -1,6 +1,52 @@
 # What is OwlDQ
 
-## **What is OWL?**
+## **Mission**
+
+Make data quality easier. 
+
+## How can OwlDQ help?
+
+On average 60% of a data worker's time is spent analyzing data quality**.** 
+
+The two most time-consuming aspects are:
+
+* Analyzing the data
+* Writing the checks 
+
+The software is designed to:
+
+1. Conduct all the manually-intensive analysis a human might do
+2. Then provide the suggested data quality checks a human might try to write
+
+We call it "Low Effort, High Stakes Protection". 
+
+## **Background**
+
+The team is comprised of a variety of backgrounds and skillsets. While some spent a decade using technology to detect financial crimes, others were tracking cyber fraud, and others were designing large scale infrastructure at fortune 100 companies. 
+
+Regardless of the industry or experience, we all faced similar challenges as it related to data quality.
+
+* Data teams overwhelmed with tickets 
+* Business users find issues first
+* Touchy pipelines get upset with minor updates
+* Too busy responding to fire drills to implement new projects
+* It takes hours to find out when and why the issue started
+
+After evaluating all the commercially available tools, and assessing costs and time of homegrown solutions, it was apparent no tool was available to do the things that we needed and wanted. 
+
+## **What is Data-Driven Data Monitoring?**
+
+While very complex under the hood, the concept is simple. 
+
+We want to use the data to tell us data quality rules that should be implemented. 
+
+1. **Ask The Data Questions** -  Probe it from many different perspectives. Interrogate it over several time periods. Measure it from many different angles. 
+2. **Use these Answers** - Create data monitoring checks, based on the answers. 
+3. **Implement Controls** - Control checks will be brought to your attention. Potential issues will be surfaced. You can opt-in or opt-out, adjust sensitivity, and scoring all with a few clicks.
+
+The answer is in the data if you ask the right questions. 
+
+## **Core Tenets**
 
 OwlDQ is an intelligent service that automates the heavy lifting involved in data monitoring and data quality. Owl was designed with 4 KPI's in mind:
 
@@ -18,15 +64,15 @@ The other component is usability. Creating a tool that will scale to additional 
 
 ## **Core Components**
 
-OwlDQ core components - Owl provides a data quality assessment that scans 9 dimensions of a data set to assure the integrity of that data.  The 9 dimensions are behavior, rules, outliers, pattern, source, record, schema, duplicates, and shapes. Owl offers a full DQ suite to cover the unique challenges of each dataset. Complete coverage and consistency drive trust. A single scoring and reporting framework with 9  features that can be activated in a custom DQ pipeline. Owl is horizontally scalable, it can scan data from any location and scale as the data grows in size and complexity. Data quality needs to be abstracted from data ingestion for management to have a single normalized view of data health.  Owl will scan your data with the same frequency, that you load your data.
+Owl provides a data quality assessment that scans 9 dimensions. The 9 dimensions are behavior, rules, outliers, pattern, source, record, schema, duplicates, and shapes. Owl offers a full DQ suite to cover the unique challenges of each dataset. Complete coverage and consistency drive trust. A single scoring and reporting framework can be activated in a custom DQ pipeline. OwlDQ is horizontally scalable. It can scan data from any location and scale as the data grows in size and complexity. Data quality needs to be abstracted from data ingestion for management to have a single normalized view of data health.  Owl will scan your data with the same frequency, that you load your data.
 
-**Owl Scans 9 dimensions of DQ out of the box**
+**9 Dimensions of DQ**
 
 1. Behavior - Metadata and technical data monitoring checks
 2. Rules - SQL-based rules engine
 3. Outliers - Large spikes or drops in values
 4. Pattern - Cross-column categorical anomalies 
-5. Source - Source to target reconcilliation
+5. Source - Source to target reconciliation
 6. Record - Deltas for a given column
 7. Schema - Columns added or dropped. 
 8. Dupes - Fuzzy matching, Identify similar but not exact entries
@@ -62,6 +108,10 @@ Wealth Management \(De-duping\)
 
 ![](https://lh5.googleusercontent.com/FtJYdL4983JvNNjhMch5xCmVPUrMHHTyRQcun3JInFYqnRDWtEnIBz9vC8KPEiHXU5AK7zz-93VhKVfX_ugsjcMMNLWl9q9twX2YPRU4izxjop73YKdtJ0TA66zwG3J8JahTIK-d)
 
-In order to avoid getting lost in the latest marketing jargon, a fundamental description is provided under each of the 4 stages.  There are many ways to ingest and transform data; the descriptions are not meant to be exhaustive. Imagine a scenario where data is loaded in either a batch or stream, then joined to another dataset with some column transformations, and finally made viewable in a BI tool for consumption.  But what about quality? What checks and verifications are in place to guarantee data accuracy and completeness? After all, showing someone a housing report with incorrect estimated housing values or a stock report with the wrong stock prices won’t go over well. Figure 2 below has popular company logos overlaid in each stage to bring more context to the discussion. There are easily 30+ software companies in each of the 4 stages.  ****   
+In order to avoid getting lost in the latest marketing jargon, a fundamental description is provided under each of the 4 stages.  There are many ways to ingest and transform data; the descriptions are not meant to be exhaustive \(There are easily 30+ software companies in each of the 4 stages\).
+
+## Trust
+
+What checks and verifications are in place to guarantee data accuracy and completeness? After all, showing someone a housing report with incorrect estimated housing values or a stock report with the wrong stock prices won’t go over well.   
 
 
