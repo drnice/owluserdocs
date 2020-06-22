@@ -59,7 +59,7 @@ We want to use the data to tell us data quality rules that should be implemented
 
 ## **Background**
 
-The team is comprised of a variety of backgrounds and skillsets. While some spent a decade using technology to detect financial crimes, others were tracking cyber fraud, and others were designing big data infrastructure at fortune 100 companies. 
+The team comes from a variety of backgrounds. While some spent a decade building technology to detect financial crimes, while others were designing big data infrastructure at fortune 100 companies. 
 
 > _Regardless of the industry or experience, we all faced similar challenges as it related to data quality._
 
