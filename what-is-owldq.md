@@ -81,9 +81,13 @@ The other component is usability. Creating a tool that will scale to additional 
 
 **Measurement -** And in the end, you can't manage what you can't measure. It's important to get macro and micro views of data quality, the ability to cross-cut between different departments, and across varying periods in time. These overarching themes \(speed, scale, unification, measurement\) go hand in hand, in order to create a robust framework.
 
+[See Why Owl For More Information](https://owldq.com/about.html)
+
 ## **Core Components**
 
 Owl provides a data quality assessment that scans 9 dimensions. The 9 dimensions are behavior, rules, outliers, pattern, source, record, schema, duplicates, and shapes. Owl offers a full DQ suite to cover the unique challenges of each dataset. Complete coverage and consistency drive trust. A single scoring and reporting framework can be activated in a custom DQ pipeline. OwlDQ is horizontally scalable. It can scan data from any location and scale as the data grows in size and complexity. Data quality needs to be abstracted from data ingestion for management to have a single normalized view of data health.  Owl will scan your data with the same frequency, that you load your data.
+
+[See Complete Feature List Breakdown For More Information](https://owldq.com/features.html)
 
 **9 Dimensions of DQ**
 
@@ -97,7 +101,7 @@ Owl provides a data quality assessment that scans 9 dimensions. The 9 dimensions
 8. Dupes - Fuzzy matching, Identify similar but not exact entries
 9. Shapes - Typos, Formatting Anomalies
 
-[Check out our videos  to Learn More](https://owldq.com/videos.html)
+[Check out our videos to Learn More](https://owldq.com/videos.html)
 
 ## **Who uses OwlDQ?**
 
@@ -127,6 +131,10 @@ In order to avoid getting lost in the latest marketing jargon, a fundamental des
 What checks and verifications are in place to guarantee data accuracy and completeness? If you can't trust your data, then what's the point? After all, showing someone a housing report with incorrect estimated housing values or a stock report with the wrong stock prices won’t go over well. 
 
 Consistent data monitoring helps you sleep better at night, but also lets the business know they can trust the data. 
+
+## Pricing
+
+[View Here for Details](https://owldq.com/pricing.html)
 
 ## Learn More
 
