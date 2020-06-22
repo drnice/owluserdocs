@@ -8,16 +8,16 @@ In no uncertain terms, data quality can impact your business \(in dollar amounts
 
 | Use Case | Problem |
 | :--- | :--- |
-| **Invoicing** | Our late payments indicator switched from true/false to 1,0. We were very surprised when many bills were not sent. This caused tremendous headaches to rectify the situation. |
-| **Investment** | One of our 200+ reference data feeds introduced a pipe into a position field. An upstream change to indicate long and short legs. Our models thought we breached risk limits, we ended up selling out of positions \(losing millions\). Only to uncover the root cause after the fact. |
-| **Cyber** | We pull data from many APIs. One platform accounts for 10% of enrichment activities \(i.e. how we monetize our data\). Our auth token had a daily quota accidentally imposed, yet job control said green light \(successful connection\). We still loaded _some_ rows \(1k\), just not entire payloads. This was super nuanced. We literally lost ~10% revenue that month. |
+| **Invoicing** | Our late payments indicator switched from true/false to 1,0. We were very surprised when many bills were not sent. This caused tremendous headaches to rectify the situation. The rework and reconciliation was very cumbersome.  |
+| **Investment** | One of our 200+ reference data feeds introduced a pipe \(\|\) into a position field. The field was defined as VARCHAR so the technical metadata did not change. An upstream provided add this to indicate the long and short legs. Our models went crazy and thought we breached risk limits, we ended up selling out of positions \(losing millions\). Only to uncover the root cause much later that week. |
+| **Digital** | We pull data from many APIs. One platform accounts for 10% of enrichment activities \(i.e. how we monetize our data\). Our auth token accidentally had a daily quota imposed, yet job control said green light \(successful connection\). We still loaded _some_ rows \(1k\), just not entire payloads. This was super nuanced. We literally lost ~10% revenue that month. |
 | **IoT** | We introduced new appliances. They were hooked up and sending valid readings. They were valid values within valid ranges. Turned out, their default setting was rounding the actual values. Devastating, considering the amount of precision required with blood values. |
 
 {% hint style="info" %}
-One common theme in all these cases is they were **unanticipated, unexpected, unintended** data issues.
+One common theme in all these cases is they were **unanticipated, unexpected, unintended** changes that caused the actual data issues.
 {% endhint %}
 
-You could never imagine some of these scenarios. And they never happened before so you never even thought to validate these scenarios.
+You would never imagine some of these scenarios. These were things that never happened before. You certainly wouldn't think to write the appropriate validation checks.
 
 We call it "[Low Effort, High Stakes Protection](https://www.youtube.com/watch?v=S5cI3mYyCFw&t=26s)". 
 
