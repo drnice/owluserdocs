@@ -1,14 +1,6 @@
----
-description: 'Who, What, How and Why'
----
-
 # What is OwlDQ
 
-## **Mission**
-
-To make data quality easier. 
-
-## Low Effort, High Stakes
+## Low Effort, High Stakes Protection
 
 In no uncertain terms, data quality can impact your business \(in dollar terms\).
 
@@ -22,7 +14,7 @@ In no uncertain terms, data quality can impact your business \(in dollar terms\)
 | **IoT** | We introduced new appliances. They were hooked up and sending valid readings. They were valid values within valid ranges. Turned out, their default setting was rounding the actual values. Devastating, considering the amount of precision required with blood values. |
 
 {% hint style="info" %}
-One common theme among all these cases is they were **unanticipated, unexpected, unintended** data issues.
+One common theme in all these cases is they were **unanticipated, unexpected, unintended** data issues.
 {% endhint %}
 
 You could never imagine some of these scenarios. And they never happened before so you never even thought to validate these scenarios.
@@ -33,26 +25,6 @@ This is where rapid data quality controls can provide more coverage with less ef
 
 ## How can OwlDQ help?
 
-{% hint style="info" %}
-On average 60% of a data worker's time is spent on data quality**.** 
-{% endhint %}
-
-The two most time-consuming aspects of data quality are:
-
-* Analyzing the data
-* Writing the checks 
-
-OwlDQ is designed to:
-
-1. Conduct all the manually-intensive analysis a human would do
-2. Then provide the suggested data quality checks a human might try to write
-
-## **Background**
-
-The team is comprised of a variety of backgrounds and skillsets. While some spent a decade using technology to detect financial crimes, others were tracking cyber fraud, and others were designing big data infrastructure at fortune 100 companies. 
-
-_Regardless of the industry or experience, we all faced similar challenges as it related to data quality._
-
 {% hint style="danger" %}
 * Data teams overwhelmed with tickets 
 * Business users find issues first
@@ -61,7 +33,19 @@ _Regardless of the industry or experience, we all faced similar challenges as it
 * It takes hours to find out when and why the issue started
 {% endhint %}
 
-After evaluating all the commercially available tools, and assessing costs and time of homegrown solutions, it was apparent no tool was available to do the things that we needed and wanted. 
+The two most time-consuming aspects of data quality are:
+
+* Analyzing the data
+* Writing the checks 
+
+{% hint style="info" %}
+On average 60% of a data worker's time is spent on data quality**.** 
+{% endhint %}
+
+OwlDQ is designed to:
+
+1. Conduct all the manually-intensive analysis a human would do
+2. Then provide the suggested data quality checks a human might try to write
 
 ## **What is Data-Driven Data Monitoring?**
 
@@ -74,6 +58,14 @@ We want to use the data to tell us data quality rules that should be implemented
 * [ ] **Get Control** - As control checks are brought to your attention and potential DQ issues are surfaced, you can easily add/remove/adjust the checks and scoring.
 
 > The answer is in the data if you ask the right questions.
+
+## **Background**
+
+The team is comprised of a variety of backgrounds and skillsets. While some spent a decade using technology to detect financial crimes, others were tracking cyber fraud, and others were designing big data infrastructure at fortune 100 companies. 
+
+> _Regardless of the industry or experience, we all faced similar challenges as it related to data quality._
+
+After evaluating all the commercially available tools, and assessing costs and time of homegrown solutions, it was apparent no tool was available to do the things that we needed and wanted. 
 
 ## **Core Tenets**
 
@@ -109,6 +101,14 @@ Owl provides a data quality assessment that scans 9 dimensions. The 9 dimensions
 
 [Check out our videos  to Learn More](https://owldq.com/videos.html)
 
+## **Who uses OwlDQ?**
+
+* Data Quality
+* Data Governance
+* Data Engineers
+* Data Scientists
+* Data Analysts
+
 ## **Use cases**
 
 FX Rates \(Outlier Detection\)
@@ -126,14 +126,6 @@ Cloud Migrations \(Validate Source\)
 Wealth Management \(De-duping\) 
 
 [**https://docs.owl-analytics.com/dq-visuals/duplicates**](https://docs.owl-analytics.com/dq-visuals/duplicates)
-
-## **Who uses OwlDQ?**
-
-* Data Quality
-* Data Governance
-* Data Engineers
-* Data Scientists
-* Data Analysts
 
 ## **Competitive Landscape** 
 
