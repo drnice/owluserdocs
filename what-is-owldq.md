@@ -8,6 +8,29 @@ description: 'Who, What, How and Why'
 
 To make data quality easier. 
 
+## Low Effort, High Stakes
+
+In no uncertain terms, data quality can impact your business \(in dollar terms\).
+
+### Often times _**the biggest issues are the things you least expect** to happen_.
+
+| Use Case | Problem |
+| :--- | :--- |
+| **Invoicing** | Our late payments indicator switched from true/false to 1,0. We were very surprised when many bills were not sent. This caused tremendous headaches to rectify the situation. |
+| **Investment** | One of our 200+ reference data feeds introduced a pipe into a position field. An upstream change to indicate long and short legs. Our models thought we breached risk limits, we ended up selling out of positions \(losing millions\). Only to uncover the root cause after the fact. |
+| **Cyber** | We pull data from many APIs. One platform accounts for 10% of enrichment activities \(i.e. how we monetize our data\). Our auth token had a daily quota accidentally imposed, yet job control said green light \(successful connection\). We still loaded _some_ rows \(1k\), just not entire payloads. This was super nuanced. We literally lost ~10% revenue that month. |
+| **IoT** | We introduced new appliances. They were hooked up and sending valid readings. They were valid values within valid ranges. Turned out, their default setting was rounding the actual values. Devastating, considering the amount of precision required with blood values. |
+
+{% hint style="info" %}
+One common theme among all these cases is they were **unanticipated, unexpected, unintended** data issues.
+{% endhint %}
+
+You could never imagine some of these scenarios. And they never happened before so you never even thought to validate these scenarios.
+
+We call it "[Low Effort, High Stakes Protection](https://www.youtube.com/watch?v=S5cI3mYyCFw&t=26s)". 
+
+This is where rapid data quality controls can provide more coverage with less effort and protect against significant business-impacting scenarios.
+
 ## How can OwlDQ help?
 
 {% hint style="info" %}
@@ -21,10 +44,8 @@ The two most time-consuming aspects of data quality are:
 
 OwlDQ is designed to:
 
-1. Conduct all the manually-intensive analysis a human might do
+1. Conduct all the manually-intensive analysis a human would do
 2. Then provide the suggested data quality checks a human might try to write
-
-We call it "[Low Effort, High Stakes Protection](https://www.youtube.com/watch?v=S5cI3mYyCFw&t=26s)". 
 
 ## **Background**
 
