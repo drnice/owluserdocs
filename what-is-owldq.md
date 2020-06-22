@@ -6,7 +6,7 @@ description: 'Low Effort, High Stakes Protection'
 
 ## From A Business Perspective
 
-Data quality causes significant time, money, and productivity loss.
+Data quality gaps cause significant time, money, and productivity loss. The number one reason for data quality gaps is time. Specifically, the time it takes to analyze and implement controls. Our goal is to enable users to do more in less time.
 
 ### _Often times **the biggest issues are the things you least expect** to happen._
 
