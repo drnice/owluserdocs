@@ -8,7 +8,7 @@ In no uncertain terms, data quality can impact your business \(in dollar amounts
 
 | Use Case | Problem |
 | :--- | :--- |
-| **Invoicing** | Our late payments indicator switched from true/false to 1,0. We were very surprised when many bills were not sent. This caused tremendous headaches to rectify the situation. The rework and reconciliation was very cumbersome.  |
+| **Invoicing** | Our late payments indicator switched from true/false to 1,0. We were very surprised when many bills were not sent. This caused tremendous headaches to rectify the situation. The rework and reconciliation were very cumbersome.  |
 | **Investment** | One of our 200+ reference data feeds introduced a pipe \(\|\) into a position field. The field was defined as VARCHAR so the technical metadata did not change. An upstream provided add this to indicate the long and short legs. Our models went crazy and thought we breached risk limits, we ended up selling out of positions \(losing millions\). Only to uncover the root cause much later that week. |
 | **Digital** | We pull data from many APIs. One platform accounts for 10% of enrichment activities \(i.e. how we monetize our data\). Our auth token accidentally had a daily quota imposed, yet job control said green light \(successful connection\). We still loaded _some_ rows \(1k\), just not entire payloads. This was super nuanced. We literally lost ~10% revenue that month. |
 | **IoT** | We introduced new appliances. They were hooked up and sending valid readings. They were valid values within valid ranges. Turned out, their default setting was rounding the actual values. Devastating, considering the amount of precision required with blood values. |
@@ -111,21 +111,10 @@ Owl provides a data quality assessment that scans 9 dimensions. The 9 dimensions
 
 ## **Use cases**
 
-FX Rates \(Outlier Detection\)
-
-[**https://docs.owl-analytics.com/use-cases/financial-fxrate-data**](https://docs.owl-analytics.com/use-cases/financial-fxrate-data)
-
-Reference Data \(Pattern Detection\)
-
-[**https://docs.owl-analytics.com/use-cases/security-reference-data**](https://docs.owl-analytics.com/use-cases/security-reference-data)
-
-Cloud Migrations \(Validate Source\)
-
-[**https://docs.owl-analytics.com/use-cases/copying-or-moving-data**](https://docs.owl-analytics.com/use-cases/copying-or-moving-data)
-
-Wealth Management \(De-duping\) 
-
-[**https://docs.owl-analytics.com/dq-visuals/duplicates**](https://docs.owl-analytics.com/dq-visuals/duplicates)
+* [ ] [FX Rates](https://docs.owl-analytics.com/use-cases/financial-fxrate-data) \(Outlier Detection\)
+* [ ] [Reference Data](https://docs.owl-analytics.com/use-cases/security-reference-data) \(Pattern Detection\)
+* [ ] [Cloud Migrations](https://docs.owl-analytics.com/use-cases/copying-or-moving-data) \(Validate Source\)
+* [ ] [Wealth Management](https://docs.owl-analytics.com/dq-visuals/duplicates) \(De-duping\) 
 
 ## **Competitive Landscape** 
 
