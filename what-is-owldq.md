@@ -142,7 +142,7 @@ Consistent data monitoring helps you sleep better at night, but also lets the bu
 
 ## Pricing
 
-[Details](https://owldq.com/pricing.html)
+\*\*\*\*[**Details**](https://owldq.com/pricing.html)\*\*\*\*
 
 ## Learn More
 
