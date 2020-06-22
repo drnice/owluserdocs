@@ -13,7 +13,7 @@ In no uncertain terms, data quality can impact your business \(in dollar amounts
 | **Digital** | We pull data from many APIs. One platform accounts for 10% of enrichment activities \(i.e. how we monetize our data\). Our auth token accidentally had a daily quota imposed, yet job control said green light \(successful connection\). We still loaded _some_ rows \(1k\), just not entire payloads. This was super nuanced. We literally lost ~10% revenue that month. |
 | **IoT** | We introduced new appliances. They were hooked up and sending valid readings. They were valid values within valid ranges. Turned out, their default setting was rounding the actual values. Devastating, considering the amount of precision required with blood values. |
 
-{% hint style="info" %}
+{% hint style="warning" %}
 One common theme in all these cases is they were **unanticipated, unexpected, unintended** changes that caused the actual data issues.
 {% endhint %}
 
