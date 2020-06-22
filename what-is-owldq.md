@@ -6,7 +6,7 @@ description: 'Low Effort, High Stakes Protection'
 
 ## From A Business Perspective
 
-In no uncertain terms, data quality can cause significant time, money, and productivity loss.
+Data quality causes significant time, money, and productivity loss.
 
 ### _Often times **the biggest issues are the things you least expect** to happen._
 
