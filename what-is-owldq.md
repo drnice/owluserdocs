@@ -1,10 +1,14 @@
+---
+description: 'Low Effort, High Stakes Protection'
+---
+
 # What is OwlDQ
 
-## Low Effort, High Stakes Protection
+## From A Business Perspective
 
-In no uncertain terms, data quality can impact your business \(in dollar amounts\).
+In no uncertain terms, data quality can cause significant time, money, and productivity loss.
 
-### Often times _**the biggest issues are the things you least expect** to happen_.
+### _Often times **the biggest issues are the things you least expect** to happen._
 
 | Use Case | Problem |
 | :--- | :--- |
@@ -14,7 +18,7 @@ In no uncertain terms, data quality can impact your business \(in dollar amounts
 | **IoT** | We introduced new appliances. They were hooked up and sending valid readings. They were valid values within valid ranges. Turned out, their default setting was rounding the actual values. Devastating, considering the amount of precision required with blood values. |
 
 {% hint style="warning" %}
-One common theme in all these cases is they were **unanticipated, unexpected, unintended** changes that caused the actual data issues.
+In each of these cases, the common theme is they were **unanticipated, unexpected, unintended** changes that caused the actual data issues.
 {% endhint %}
 
 You would never imagine some of these scenarios. These were things that never happened before. You certainly wouldn't think to write the appropriate validation checks.
@@ -22,6 +26,8 @@ You would never imagine some of these scenarios. These were things that never ha
 This is where rapid data quality controls can provide more coverage with less effort and protect against significant business-impacting scenarios.
 
 ## How can OwlDQ help?
+
+Do more with less. Do more in less time. Whether you're getting started or adding advanced controls, OwlDQ is [purpose-built](https://docs.owl-analytics.com/what-is-owldq#purpose-built-one-focus) to boost your efforts.
 
 {% hint style="danger" %}
 * Data teams overwhelmed with tickets 
@@ -65,11 +71,13 @@ The team comes from a variety of backgrounds. While some spent a decade building
 
 After evaluating all the commercially available tools, and assessing costs and time of homegrown solutions, it was apparent no tool was available to do the things that we needed and wanted. 
 
-## **Core Tenets**
+## **Purpose-Built \(One Focus\)**
 
-OwlDQ is an intelligent service that automates the heavy lifting involved in data monitoring and data quality. Owl was designed with 4 KPI's in mind:
+{% hint style="info" %}
+Every feature, visual, and component within Owl is intended to make the analysis and implementation of data quality easier.
+{% endhint %}
 
-_Speed, Scale, Unification, and Measurement._  
+OwlDQ is an intelligent service that automates the heavy lifting involved in data monitoring and data quality.  Owl was designed with 4 KPI's in mind:
 
 **Speed -** Owl will check that data is valid, complete, accurate, and consistent.  Data Quality is derived from intuitive clicks, not unnecessary code. Our goal is to deliver DQ in minutes, not days or weeks. 
 
@@ -128,13 +136,13 @@ In order to avoid getting lost in the latest marketing jargon, a fundamental des
 
 ## Trust
 
-What checks and verifications are in place to guarantee data accuracy and completeness? If you can't trust your data, then what's the point? After all, showing someone a housing report with incorrect estimated housing values or a stock report with the wrong stock prices won’t go over well. 
+What it boils down to is the ability to trust the data. What checks and verifications are in place to guarantee data accuracy and completeness? If you can't trust your data, then what's the point? After all, showing someone a housing report with incorrect estimated housing values or a stock report with the wrong stock prices won’t go over well. 
 
 Consistent data monitoring helps you sleep better at night, but also lets the business know they can trust the data. 
 
 ## Pricing
 
-[View Here for Details](https://owldq.com/pricing.html)
+[Details](https://owldq.com/pricing.html)
 
 ## Learn More
 
