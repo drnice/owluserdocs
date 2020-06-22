@@ -2,7 +2,7 @@
 
 ## Low Effort, High Stakes Protection
 
-In no uncertain terms, data quality can impact your business \(in dollar terms\).
+In no uncertain terms, data quality can impact your business \(in dollar amounts\).
 
 ### Often times _**the biggest issues are the things you least expect** to happen_.
 
