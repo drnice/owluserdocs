@@ -106,7 +106,9 @@ description: Guide for tuning
       <td style="text-align:left">30 mins</td>
     </tr>
   </tbody>
-</table>Using a 10/1 ratio of RAM to Executors is often a good rule of thumb, another and more simple option is to turn on dynamic.allocation and allow the resources to be provided as needed on demand.  
+</table>
+
+Using a 10/1 ratio of RAM to Executors is often a good rule of thumb, another and more simple option is to turn on dynamic.allocation and allow the resources to be provided as needed on demand.  
 
 ### Limit Columns
 

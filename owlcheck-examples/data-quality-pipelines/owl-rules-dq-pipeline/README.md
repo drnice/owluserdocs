@@ -65,7 +65,9 @@ description: >-
       <td style="text-align:left">Adding the owner</td>
     </tr>
   </tbody>
-</table>## Rule types
+</table>
+
+## Rule types
 
 {% page-ref page="sql-based-rules/" %}
 
