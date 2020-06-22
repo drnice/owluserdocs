@@ -44,7 +44,9 @@ It is common for banks to lend money in return for monthly payments with interes
       <td style="text-align:left">AUTO</td>
     </tr>
   </tbody>
-</table>##  2. SSN Validation
+</table>
+
+##  2. SSN Validation
 
 | Business Check | OwlDQ Feature |  |
 | :--- | :--- | :--- |
@@ -78,7 +80,9 @@ It is common for banks to lend money in return for monthly payments with interes
       <td style="text-align:left">loan / asset_value &lt; .95</td>
     </tr>
   </tbody>
-</table>## 4. Interest Rate
+</table>
+
+## 4. Interest Rate
 
 <table>
   <thead>
@@ -102,7 +106,9 @@ It is common for banks to lend money in return for monthly payments with interes
       </td>
     </tr>
   </tbody>
-</table>## 5. Duplicate Loan Applications
+</table>
+
+## 5. Duplicate Loan Applications
 
 Can't give someone the same loan twice!
 
@@ -135,7 +141,9 @@ Can't give someone the same loan twice!
       <td style="text-align:left">loan_amount between 50000 and 3000000</td>
     </tr>
   </tbody>
-</table>### Resulting OwlCheck
+</table>
+
+### Resulting OwlCheck
 
 ```bash
 -lib "/home/opt/owl/drivers/postgres" \
