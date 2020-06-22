@@ -2,6 +2,7 @@
 
 * [OwlDQ](README.md)
 * [Our Approach](why-owl.md)
+* [What is OwlDQ](what-is-owldq.md)
 
 ## Security
 
@@ -163,7 +164,6 @@
 
 ---
 
-* [What is OwlDQ](what-is-owldq.md)
 * [DQ is the difference](data-quality.md)
 * [Owl's Scorecard and 9 Dimensions of DQ](owl-dq-screen-shots.md)
 * [Best Practices](best-practices.md)

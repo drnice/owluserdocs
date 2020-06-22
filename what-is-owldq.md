@@ -19,8 +19,6 @@ One common theme in all these cases is they were **unanticipated, unexpected, un
 
 You would never imagine some of these scenarios. These were things that never happened before. You certainly wouldn't think to write the appropriate validation checks.
 
-We call it "[Low Effort, High Stakes Protection](https://www.youtube.com/watch?v=S5cI3mYyCFw&t=26s)". 
-
 This is where rapid data quality controls can provide more coverage with less effort and protect against significant business-impacting scenarios.
 
 ## How can OwlDQ help?
@@ -115,6 +113,8 @@ Owl provides a data quality assessment that scans 9 dimensions. The 9 dimensions
 * [ ] [Reference Data](https://docs.owl-analytics.com/use-cases/security-reference-data) \(Pattern Detection\)
 * [ ] [Cloud Migrations](https://docs.owl-analytics.com/use-cases/copying-or-moving-data) \(Validate Source\)
 * [ ] [Wealth Management](https://docs.owl-analytics.com/dq-visuals/duplicates) \(De-duping\) 
+
+More uses cases [available here](https://docs.owl-analytics.com/use-cases/bank-loans)
 
 ## **Competitive Landscape** 
 
