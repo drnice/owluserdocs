@@ -100,17 +100,17 @@ The team comes from a variety of backgrounds. While some spent a decade building
 Every feature, visual, and component within Owl is intended to make the analysis and implementation of data quality easier.
 {% endhint %}
 
-OwlDQ is an intelligent service that automates the heavy lifting involved in data monitoring and data quality.  Owl was designed with 4 KPI's in mind:
+OwlDQ is an intelligent service that automates the heavy lifting involved in data monitoring. Owl was designed with 4 KPI's in mind:
 
 **Speed -** Owl will check that data is valid, complete, accurate, and consistent.  Data Quality is derived from intuitive clicks, not unnecessary code. Our goal is to deliver DQ in minutes, not days or weeks. 
 
 **Scale -**  Owl considers scale from two perspectives. First, scale is critical from a technical viewpoint. The underlying Owl architecture is designed to work in distributed and elastic environments. 
 
-The other consideration is usability. Creating a tool that will scale to additional users, outside of a few experts, is equally important. Overly complex configuration, proprietary syntaxes, and unintuitive interfaces create friction. 
+The other piece is usability. Creating a tool that will scale to additional users, outside of a few experts, is equally important. Overly complex configuration, proprietary syntaxes, and unintuitive interfaces create friction. 
 
-**Unification -** To avoid fragmentation challenges of the past, it was critical to unify data quality.  OwlDQ will scan files the same way as a database so you can do all in your data monitoring in one place.  Often times you'll have piecemeal approaches that lead to data debt and inconsistent controls.  It's also quite challenging to measure data quality without creating a single pane of glass to report from.
+**Unification -**   OwlDQ will scan files the same way as a database so you can do all in your data monitoring in one place.  Often times you'll have piecemeal approaches that lead to data debt and inconsistent controls.  
 
-**Measurement -** You can't manage what you can't measure. It's important to get macro and micro views of data quality, the ability to cross-cut between different departments, and across varying periods in time. These overarching themes \(speed, scale, unification, measurement\) go hand in hand, in order to create a robust framework.
+**Measurement -** You can't manage what you can't measure. It's important to get macro and micro views of data quality, the ability to cross-cut between different departments, and across varying periods in time. 
 
 [See Why Owl For More Information](https://owldq.com/about.html)
 
