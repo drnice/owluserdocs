@@ -21,7 +21,7 @@ The single biggest reason for data quality issues is the amount of time it takes
 In each of these cases, the common theme is they were **unanticipated, unexpected, unintended** changes that caused the actual data issues.
 {% endhint %}
 
-You would never imagine some of these scenarios. These were things that never happened before. You certainly wouldn't think to write the appropriate validation checks.
+You would never imagine some of these scenarios. These were things that never happened before so you might not think to write validation checks for these events.
 
 This is where rapid data quality controls can provide more coverage with less effort and protect against significant business-impacting scenarios.
 
