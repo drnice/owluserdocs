@@ -43,13 +43,13 @@ The two most time-consuming aspects of data quality are:
 * Writing the checks 
 
 {% hint style="info" %}
-On average 60% of a data worker's time is spent on data quality**.** 
+On average, 60% of a data worker's time is spent on data quality**.** 
 {% endhint %}
 
 OwlDQ is designed to:
 
-1. Conduct all the manually-intensive analysis a human would do
-2. Then provide the suggested data quality checks a human might try to write
+1. Conduct the manual analysis a human would do
+2. Provide the suggested data quality checks would write
 
 ## **What is Data-Driven Data Monitoring?**
 
