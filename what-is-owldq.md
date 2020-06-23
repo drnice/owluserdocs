@@ -8,26 +8,30 @@ description: 'Low Effort, High Stakes Protection'
 
 The single biggest reason for data quality issues is the amount of time it takes to analyze the data and implement the controls. 
 
-### _Often times **the biggest data quality issues are the things you least expect** to happen._
+### _**And the biggest data issues are things you would never anticipate.**_
 
-| Use Case | Problem |
+| Type | Example |
 | :--- | :--- |
-| **Invoicing** | An ETL update changed our late payments indicator true/false to 1/0. We were very surprised when many bills were not sent. This caused tremendous headaches to rectify the situation. The rework and reconciliation were very cumbersome.  |
-| **Investment** | One of our 200+ reference data feeds introduced a pipe \(\|\) into a position field. The field was defined as VARCHAR so the technical metadata did not change. An upstream provided add this to indicate the long and short legs. Our models went crazy and thought we breached risk limits, we ended up selling out of positions \(losing millions\). Only to uncover the root cause much later that week. |
-| **Digital** | We pull data from many APIs. One platform accounts for 10% of enrichment activities \(i.e. how we monetize our data\). Our auth token accidentally had a daily quota imposed, yet job control said green light \(successful connection\). We still loaded _some_ rows \(1k\), just not entire payloads. This was super nuanced. We literally lost ~10% revenue that month. |
-| **IoT** | We introduced new appliances. They were hooked up and sending valid readings. They were valid values within valid ranges. Turned out, their default setting was rounding the actual values and we were losing precision. Devastating, considering the amount of precision required with blood values. |
+| **Invoicing** | _"An ETL update changed our late payments indicator from true/false to 1/0. We were very surprised when many bills were not sent. This caused tremendous headaches to rectify the situation. The rework and reconciliation were very cumbersome."_ |
+| **Investment** | _"One of our 200+ reference data feeds introduced a pipe \(\|\) into a position field. The field was defined as VARCHAR so the technical metadata did not change. An upstream provided add this to indicate the long and short legs. Our models went crazy and thought we breached risk limits, we ended up selling out of positions \(losing millions\). Only to uncover the root cause much later that week."_ |
+| **Digital** | _"We pull data from many APIs. One platform accounts for 10% of enrichment activities \(i.e. how we monetize our data\). Our auth token accidentally had a daily quota imposed, yet job control said green light \(successful connection\). We still loaded some rows \(1k\), just not entire payloads. This was super nuanced. We literally lost ~10% revenue that month."_ |
+| **IoT** | _"We introduced new appliances. They were hooked up and sending valid readings. They were valid values within valid ranges. Turned out, their default setting was rounding the actual values and we were losing precision. Devastating, considering the amount of precision required with blood values."_ |
 
 {% hint style="warning" %}
 In each of these cases, the common theme is they were **unanticipated, unexpected, unintended** changes that caused the actual data issues.
 {% endhint %}
 
-You would never imagine some of these scenarios. These were things that never happened before so you might not think to write validation checks for these events.
-
-This is where rapid data quality controls can provide more coverage with less effort and protect against these types of scenarios.
+Owl provides protection for these types of data "surprises", and we all know they happen more often than we'd like to admit.
 
 ## How can OwlDQ help?
 
-Do more with less. Do more in less time. Whether you're getting started or adding advanced controls, OwlDQ is [purpose-built](https://docs.owl-analytics.com/what-is-owldq#purpose-built-one-focus) to boost your efforts.
+Do more in less time. 
+
+{% hint style="info" %}
+On average, 60% of a data worker's time is spent on data quality**.** 
+{% endhint %}
+
+Whether you're getting started or applying advanced controls, OwlDQ is [purpose-built](https://docs.owl-analytics.com/what-is-owldq#purpose-built-one-focus) to boost your efforts.
 
 {% hint style="danger" %}
 * Data teams overwhelmed with tickets 
@@ -37,51 +41,52 @@ Do more with less. Do more in less time. Whether you're getting started or addin
 * It takes hours to find out when and why the issue started
 {% endhint %}
 
-The two most time-consuming aspects of data quality are:
+## **So what is OwlDQ?** 
 
-* Analyzing the data
-* Writing the checks 
-
-{% hint style="info" %}
-On average, 60% of a data worker's time is spent on data quality**.** 
-{% endhint %}
+Think of it as data-driven data monitoring. 
 
 OwlDQ is designed to:
 
 1. Conduct the manual analysis a human would do
 2. Provide the suggested data quality checks would write
 
-## **What is Data-Driven Data Monitoring?**
+## How It Works
 
-We want to use the data to tell us data quality rules that should be implemented. 
+With a few flicks, Owl will conduct the following steps: 
 
-* [ ] **Ask The Data Questions** -  Probe it from many different perspectives. Interrogate it over several time periods. Measure it from many angles. 
-* [ ] **Use The Answers** - Create data monitoring checks, based on the answers. 
-* [ ] **Get Control** - As control checks are brought to your attention and potential DQ issues are surfaced, you can easily add/remove/adjust the checks and scoring.
+1. **Collect Data Quality KPIs** -  Probe it from many different perspectives. Interrogate it over several time periods. Measure it across several dimensions.
+2. **Generate The Conditions** - Create the data monitoring checks, based on the data points collected. 
+3. **Implement Controls** - After several scans, the checks are deployed. You can easily remove or adjust them if needed.
 
 > The answer is in the data if you ask the right questions.
 
 ## **Background**
 
-We tried many of the traditional tools and techniques. What did we notice in the data quality space? 
+We tried many of the traditional tools and techniques. 
 
-The single biggest problem was the amount of time it took to do the analysis and write the checks. 
+The biggest problem was the amount of time it took to do the analysis and write the checks. 
 
 This left gaps in data quality coverage where controls were only added after data issues occurred.
 
 The result was a never-ending cycle of missed data issues, fire-drills, and a mad scramble to fix it. Fast. All within the context of real-time business operations. 
 
-See traditional approaches, before data became so prevalent are very manual. Open a sample or spreadsheet and comb through for analysis. Then manually craft the rule, conditions, tolerances, and thresholds. 
+Traditional approaches, before data saturated every corner of every organization, are very manual. Open a sample or spreadsheet and comb through for analysis \(Table-by-table, column-by-column and item-by-item\). 
+
+Next, manually craft the rules, conditions, tolerances, and thresholds. Then plug-in the scoring, alerting, and reporting. And you wonder why bare-minimum coverage is common.
 
 Now that the surface area of the data in an organization is so much larger, these techniques don't hold up. The primary limitation being a human is required to subjectively do this. 
 
 We wanted a tool that could alert us when data changes occurred, even if we didn't know what those changes might look like.  After all, nobody can predict the future.
 
+Upon evaluating all the commercially available tools, and assessing costs and time of homegrown solutions, it was apparent no tool was available to do the things that we needed and wanted. 
+
+## About
+
 The team comes from a variety of backgrounds. While some spent a decade building technology to detect financial crimes, while others were designing big data infrastructure at fortune 100 companies. 
 
 > _Regardless of the industry or experience, we all faced similar challenges as it related to data quality._
 
-After evaluating all the commercially available tools, and assessing costs and time of homegrown solutions, it was apparent no tool was available to do the things that we needed and wanted. 
+
 
 ## **Purpose-Built \(One Focus\)**
 
@@ -99,7 +104,7 @@ The other component is usability. Creating a tool that will scale to additional 
 
 **Unification -** To avoid fragmentation, it was critical to unify all data quality.  OwlDQ will scan files the same way as a database so you can do all in your data monitoring in one place.  Often times you'll have piecemeal or fragmented approaches that lead to data debt and inconsistent controls.  It's also quite challenging to scale and effectively measure data quality without creating a single pane of glass to report and respond from. 
 
-**Measurement -** And in the end, you can't manage what you can't measure. It's important to get macro and micro views of data quality, the ability to cross-cut between different departments, and across varying periods in time. These overarching themes \(speed, scale, unification, measurement\) go hand in hand, in order to create a robust framework.
+**Measurement -** You can't manage what you can't measure. It's important to get macro and micro views of data quality, the ability to cross-cut between different departments, and across varying periods in time. These overarching themes \(speed, scale, unification, measurement\) go hand in hand, in order to create a robust framework.
 
 [See Why Owl For More Information](https://owldq.com/about.html)
 
@@ -148,7 +153,7 @@ In order to avoid getting lost in the latest marketing jargon, a fundamental des
 
 ## Trust
 
-What it boils down to is the ability to trust the data. What checks and verifications are in place to guarantee data accuracy and completeness? If you can't trust your data, then what's the point? After all, showing someone a housing report with incorrect estimated housing values or a stock report with the wrong stock prices won’t go over well. 
+What it boils down to is the ability to trust the data. What checks and verifications are in place to guarantee data accuracy and completeness? After all, showing someone a housing report with incorrect estimated housing values or a stock report with the wrong stock prices won’t go over well. 
 
 Consistent data monitoring helps you sleep better at night, but also lets the business know they can trust the data. 
 
