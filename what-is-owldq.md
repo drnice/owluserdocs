@@ -53,8 +53,6 @@ OwlDQ is designed to:
 
 ## **What is Data-Driven Data Monitoring?**
 
-While very complex under the hood, the concept is simple. 
-
 We want to use the data to tell us data quality rules that should be implemented. 
 
 * [ ] **Ask The Data Questions** -  Probe it from many different perspectives. Interrogate it over several time periods. Measure it from many angles. 
