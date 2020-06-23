@@ -63,7 +63,7 @@ We want to use the data to tell us data quality rules that should be implemented
 
 ## **Background**
 
-We tried many of the tools and approaches. What did we notice in the data quality space? 
+We tried many of the traditional tools and techniques. What did we notice in the data quality space? 
 
 The single biggest problem was the amount of time it took to do the analysis and write the checks. 
 
