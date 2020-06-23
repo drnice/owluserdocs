@@ -16,16 +16,16 @@ This friction leads to patchy and incomplete coverage and leaves your organizati
 
 | Type | Example |
 | :--- | :--- |
-| **Invoicing** | _"An ETL update changed our late payments indicator from true/false to 1/0. We were very surprised when many bills were not sent. This caused tremendous headaches to rectify the situation. The rework and reconciliation were very cumbersome."_ |
+| **Invoicing** | _"An ETL update changed our late payments indicator from true/false to 1/0. We were very surprised when many bills were not sent. The rework and reconciliation were super painful."_ |
 | **Investment** | _"One of our 200+ reference data feeds introduced a pipe \(\|\) into a position field. The field was defined as VARCHAR so the technical metadata did not change. An upstream provided add this to indicate the long and short legs. Our models went crazy and thought we breached risk limits, we ended up selling out of positions \(losing millions\). Only to uncover the root cause much later that week."_ |
 | **Digital** | _"We pull data from many APIs. One platform accounts for 10% of enrichment activities \(i.e. how we monetize our data\). Our auth token accidentally had a daily quota imposed, yet job control said green light \(successful connection\). We still loaded some rows \(1k\), just not entire payloads. This was super nuanced. We literally lost ~10% revenue that month."_ |
-| **IoT** | _"We introduced new appliances. They were hooked up and sending valid readings. They were valid values within valid ranges. Turned out, their default setting was rounding the actual values and we were losing precision. Devastating, considering the amount of precision required with blood values."_ |
+| **IoT** | _"We introduced new meters. They were hooked up and sending valid readings. They were valid values within valid ranges. Turned out, their default setting was rounding the actual values and we were losing precision. Devastating, considering the amount of precision required with blood values."_ |
 
 {% hint style="warning" %}
 In each of these cases, the issues were **unanticipated, unexpected, and unintentional.**
 {% endhint %}
 
-Owl provides protection for these types of data "surprises". And we all know they happen more than we'd like to admit.
+Owl provides protection for these types of data "surprises".  We all know they happen more than we would like.
 
 ## How can OwlDQ help?
 
@@ -48,7 +48,7 @@ Think of it as data-driven data monitoring.
 OwlDQ is designed to:
 
 1. Conduct the manual analysis a human would do
-2. Provide the suggested data quality checks would write
+2. Provide the data quality checks would write
 
 ## How It Works
 
@@ -62,11 +62,9 @@ With a few flicks, Owl will conduct the following steps:
 
 ## What did we notice? 
 
-We tried many of the traditional tools and techniques. 
+We tried many of the traditional tools and techniques. The biggest problem was the amount of time it took to do the analysis and write the checks. 
 
-The biggest problem was the amount of time it took to do the analysis and write the checks. 
-
-You get left with half-baked data quality coverage and appropriate controls are only added after issues occur.
+You get left with half-baked data quality coverage and the right controls are added only after issues occur.
 
 {% hint style="danger" %}
 The result was a never-ending cycle of data issues, fire-drills, and a mad scramble to fix it. Fast. All within the context of real-time business operations. 
@@ -74,23 +72,31 @@ The result was a never-ending cycle of data issues, fire-drills, and a mad scram
 
 ## Traditional Approach
 
-Traditional approaches, before data was filling every corner of every organization, are very manual. Open a sample or spreadsheet and conduct your analysis \(Table-by-table, column-by-column, query-by-query, and item-by-item\). 
+Traditional approaches are very manual. They are legacy cruft from before data was everywhere. 
 
-Next, manually craft the rules, conditions, tolerances, and thresholds. Then stitch together the dashboards, scoring, workflows, alerts, and reporting. And you wonder why bare-minimum coverage is common.
+Start by opening a sample or spreadsheet and conduct analysis \(Table-by-table, column-by-column, query-by-query, and item-by-item\). 
+
+Next, manually craft the rules, conditions, tolerances, and thresholds. 
+
+Then stitch together the dashboards, scoring, workflows, alerts, and reporting. And you wonder why bare-minimum coverage is common.
+
+{% hint style="warning" %}
+Even then you're only as good as the rules you thought to write. 
+{% endhint %}
 
 #### Fast Forward
 
 Now that the surface area of the data in an organization is so much larger, these techniques don't hold up. 
-
-We wanted a tool that could alert us when data changes occurred, even if we didn't know what those changes might look like.  After all, nobody can predict the future.
-
-Upon evaluating all the commercially available tools, and assessing costs and time of homegrown solutions, there were no great options.
 
 ## Background
 
 The team comes from a variety of backgrounds. While some spent a decade building technology to detect financial crimes, others were designing big data infrastructure at fortune 100 companies. 
 
 > _Regardless of the industry or experience, we all faced similar challenges as it related to data quality._
+
+These unique vantage points have allowed us to understand the most common data quality challenges organizations are facing.
+
+We wanted a tool that could alert us when data changes occurred, even if we didn't know what those changes might look like.  Upon evaluating all the commercially available tools, and assessing costs and time of homegrown solutions, there were no great options.
 
 ## **Purpose-Built \(One Focus\)**
 
@@ -102,7 +108,7 @@ OwlDQ is an intelligent service that automates the heavy lifting involved in dat
 
 **Speed -** Owl will check that data is valid, complete, accurate, and consistent.  Data Quality is derived from intuitive clicks, not unnecessary code. Our goal is to deliver DQ in minutes, not days or weeks. 
 
-**Scale -**  Owl considers scale from two perspectives. First, scale is critical from a technical viewpoint. The underlying Owl architecture is designed to work in distributed and elastic environments. 
+**Scale -**  Owl considers scale from two perspectives. Scale is critical from a technical viewpoint. The underlying Owl architecture is designed to work in distributed and elastic environments. 
 
 The other piece is usability. Creating a tool that will scale to additional users, outside of a few experts, is equally important. Overly complex configuration, proprietary syntaxes, and unintuitive interfaces create friction. 
 
