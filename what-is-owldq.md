@@ -6,7 +6,7 @@ description: 'Low Effort, High Stakes Protection'
 
 ## From A Business Perspective
 
-The number one reason for data quality issues is the amount of time it takes to analyze the data and implement the controls. Our goal is to enable users to do more in less time. 
+The single biggest reason for data quality issues is the amount of time it takes to analyze the data and implement the controls. 
 
 ### _Often times **the biggest data quality issues are the things you least expect** to happen._
 
