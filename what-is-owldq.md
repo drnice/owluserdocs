@@ -6,7 +6,11 @@ description: 'Low Effort, High Stakes Protection'
 
 ## From A Business Perspective
 
-The single biggest reason for data quality issues is the amount of time it takes to analyze the data and implement the controls. 
+{% hint style="info" %}
+On average, 60% of a data worker's time is spent on data quality**.** It takes a tremendous amount of time to do the analysis and write the checks. 
+{% endhint %}
+
+This excessive friction leads to patchy and incomplete coverage and leaves your organization vulnerable to data quality issues.  
 
 ### _**And the biggest issues are the things you would never anticipate \(see below\).**_
 
@@ -26,10 +30,6 @@ Owl provides protection for these types of data "surprises". And we all know the
 ## How can OwlDQ help?
 
 Do more in less time. 
-
-{% hint style="info" %}
-On average, 60% of a data worker's time is spent on data quality**.** 
-{% endhint %}
 
 Whether you're getting started or applying advanced controls, OwlDQ is [purpose-built](https://docs.owl-analytics.com/what-is-owldq#purpose-built-one-focus) to boost your efforts.
 
