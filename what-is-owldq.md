@@ -124,11 +124,11 @@ Owl provides a data quality assessment that scans 9 dimensions. The 9 dimensions
 
 1. Behavior - Metadata and technical data monitoring checks
 2. Rules - SQL-based rules engine
-3. Outliers - Large spikes or drops in values
+3. Outliers - Anomalous records
 4. Pattern - Cross-column categorical anomalies 
 5. Source - Source to target reconciliation
-6. Record - Deltas for a given column
-7. Schema - Columns added or dropped. 
+6. Record - Deltas for a given column\(s\)
+7. Schema - Columns added or dropped
 8. Dupes - Fuzzy matching, Identify similar but not exact entries
 9. Shapes - Typos, Formatting Anomalies
 
