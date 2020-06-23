@@ -6,7 +6,7 @@ description: 'Low Effort, High Stakes Protection'
 
 ## From A Business Perspective
 
-The number one reason for data quality gaps is the amount of time it takes to analyze and implement controls. Our goal is to enable users to do more in less time. 
+The number one reason for data quality issues is the amount of time it takes to analyze and implement the controls. Our goal is to enable users to do more in less time. 
 
 ### _Often times **the biggest issues are the things you least expect** to happen._
 
@@ -64,6 +64,20 @@ We want to use the data to tell us data quality rules that should be implemented
 > The answer is in the data if you ask the right questions.
 
 ## **Background**
+
+What did we notice in the data quality space? 
+
+We tried many of the tools and approaches, the single biggest problem was the amount of time it took to do the analysis and write the checks. 
+
+This left many checks missing, and us reactively adding controls only after breaking changes occurred.
+
+The result was a never-ending cycle of missed data issues, fire-drills, and a mad scramble to fix it. Fast. All within the context of real-time business operations. 
+
+See traditional approaches, before data became so prevalent are very manual. Open a sample or spreadsheet and comb through for analysis. Then manually craft the rule, conditions, tolerances, and thresholds. 
+
+Now that the surface area of the data in an organization is so much larger, these techniques don't hold up. The primary limitation being a human is required to subjectively do this. 
+
+We wanted a tool that could alert us when data changes occurred, even if we didn't know what those changes might look like.  After all, nobody can predict the future.
 
 The team comes from a variety of backgrounds. While some spent a decade building technology to detect financial crimes, while others were designing big data infrastructure at fortune 100 companies. 
 
