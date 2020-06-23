@@ -8,7 +8,7 @@ description: 'Low Effort, High Stakes Protection'
 
 The single biggest reason for data quality issues is the amount of time it takes to analyze the data and implement the controls. 
 
-### _**And the biggest data issues are things you would never anticipate.**_
+### _**And the biggest issues are the things you would never anticipate \(see below\).**_
 
 | Type | Example |
 | :--- | :--- |
@@ -18,10 +18,10 @@ The single biggest reason for data quality issues is the amount of time it takes
 | **IoT** | _"We introduced new appliances. They were hooked up and sending valid readings. They were valid values within valid ranges. Turned out, their default setting was rounding the actual values and we were losing precision. Devastating, considering the amount of precision required with blood values."_ |
 
 {% hint style="warning" %}
-In each of these cases, the common theme is they were **unanticipated, unexpected, unintended** changes that caused the actual data issues.
+In each of these cases, the issues were **unanticipated, unexpected, and unintentional.**
 {% endhint %}
 
-Owl provides protection for these types of data "surprises", and we all know they happen more than we'd like to admit.
+Owl provides protection for these types of data "surprises". And we all know they happen more than we'd like to admit.
 
 ## How can OwlDQ help?
 
