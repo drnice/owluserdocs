@@ -12,7 +12,7 @@ On average, 60% of a data worker's time is spent on data quality**.** It takes a
 
 This friction leads to patchy and incomplete coverage and leaves your organization vulnerable to data quality issues.  
 
-### _**And the biggest issues are the things you would never anticipate \(see below\).**_
+### _**And the biggest issues are the things you never expect \(see below\).**_
 
 | Type | Example |
 | :--- | :--- |
@@ -68,23 +68,27 @@ The biggest problem was the amount of time it took to do the analysis and write 
 
 You get left with half-baked data quality coverage and appropriate controls are only added after issues occur.
 
-The result was a never-ending cycle of missed data issues, fire-drills, and a mad scramble to fix it. Fast. All within the context of real-time business operations. 
+{% hint style="danger" %}
+The result was a never-ending cycle of data issues, fire-drills, and a mad scramble to fix it. Fast. All within the context of real-time business operations. 
+{% endhint %}
 
 ## Traditional Approach
 
-Traditional approaches, before data saturated every corner of every organization, are very manual. Open a sample or spreadsheet and comb through for analysis \(Table-by-table, column-by-column, and item-by-item\). 
+Traditional approaches, before data was filling every corner of every organization, are very manual. Open a sample or spreadsheet and conduct your analysis \(Table-by-table, column-by-column, query-by-query, and item-by-item\). 
 
-Next, manually craft the rules, conditions, tolerances, and thresholds. Then plug-in the scoring, workflows, alerts, and reporting. And you wonder why bare-minimum coverage is common.
+Next, manually craft the rules, conditions, tolerances, and thresholds. Then stitch together the dashboards, scoring, workflows, alerts, and reporting. And you wonder why bare-minimum coverage is common.
 
-Now that the surface area of the data in an organization is so much larger, these techniques don't hold up. The primary limitation being a human is required to subjectively do this. 
+#### Fast Forward
+
+Now that the surface area of the data in an organization is so much larger, these techniques don't hold up. 
 
 We wanted a tool that could alert us when data changes occurred, even if we didn't know what those changes might look like.  After all, nobody can predict the future.
 
-Upon evaluating all the commercially available tools, and assessing costs and time of homegrown solutions, it was apparent no tool was available to do the things that we needed and wanted. 
+Upon evaluating all the commercially available tools, and assessing costs and time of homegrown solutions, there were no great options.
 
 ## Background
 
-The team comes from a variety of backgrounds. While some spent a decade building technology to detect financial crimes, while others were designing big data infrastructure at fortune 100 companies. 
+The team comes from a variety of backgrounds. While some spent a decade building technology to detect financial crimes, others were designing big data infrastructure at fortune 100 companies. 
 
 > _Regardless of the industry or experience, we all faced similar challenges as it related to data quality._
 
@@ -100,11 +104,11 @@ OwlDQ is an intelligent service that automates the heavy lifting involved in dat
 
 **Speed -** Owl will check that data is valid, complete, accurate, and consistent.  Data Quality is derived from intuitive clicks, not unnecessary code. Our goal is to deliver DQ in minutes, not days or weeks. 
 
-**Scale -**  Owl considers scale from two perspectives. Commonly, scale is thought of in terms of processing and compute efficiency.  We agree. Scale is critical from a technical viewpoint. The underlying Owl architecture is designed to work within distributed and elastic environments.  Expertise in this area helped shape the framework. Several engineering team members come from big data backgrounds.  
+**Scale -**  Owl considers scale from two perspectives. First, scale is critical from a technical viewpoint. The underlying Owl architecture is designed to work in distributed and elastic environments. 
 
-The other component is usability. Creating a tool that will scale to additional users, outside of a few experts or those with specific skill sets, is a guiding principle. Overly complex configuration, proprietary syntaxes, and unintuitive interfaces added friction.  For these reasons, Owl contains a simple interface available to a wide range of end-users. Collective ownership is critical to avoid bottlenecks within your organization. 
+The other consideration is usability. Creating a tool that will scale to additional users, outside of a few experts, is equally important. Overly complex configuration, proprietary syntaxes, and unintuitive interfaces create friction. 
 
-**Unification -** To avoid fragmentation, it was critical to unify all data quality.  OwlDQ will scan files the same way as a database so you can do all in your data monitoring in one place.  Often times you'll have piecemeal or fragmented approaches that lead to data debt and inconsistent controls.  It's also quite challenging to scale and effectively measure data quality without creating a single pane of glass to report and respond from. 
+**Unification -** To avoid fragmentation challenges of the past, it was critical to unify data quality.  OwlDQ will scan files the same way as a database so you can do all in your data monitoring in one place.  Often times you'll have piecemeal approaches that lead to data debt and inconsistent controls.  It's also quite challenging to measure data quality without creating a single pane of glass to report from.
 
 **Measurement -** You can't manage what you can't measure. It's important to get macro and micro views of data quality, the ability to cross-cut between different departments, and across varying periods in time. These overarching themes \(speed, scale, unification, measurement\) go hand in hand, in order to create a robust framework.
 
