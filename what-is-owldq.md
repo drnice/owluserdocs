@@ -66,7 +66,7 @@ We tried many of the traditional tools and techniques.
 
 The biggest problem was the amount of time it took to do the analysis and write the checks. 
 
-This left gaps in data quality coverage where controls were only added after data issues occurred.
+You get left with half-baked data quality coverage and controls are only added after issues occur.
 
 The result was a never-ending cycle of missed data issues, fire-drills, and a mad scramble to fix it. Fast. All within the context of real-time business operations. 
 
