@@ -48,7 +48,7 @@ Think of it as data-driven data monitoring.
 OwlDQ is designed to:
 
 1. Conduct the manual analysis a human would do
-2. Provide the data quality checks would write
+2. Provide the data quality checks a human would write
 
 ## How It Works
 
