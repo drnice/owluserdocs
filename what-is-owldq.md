@@ -21,7 +21,7 @@ The single biggest reason for data quality issues is the amount of time it takes
 In each of these cases, the common theme is they were **unanticipated, unexpected, unintended** changes that caused the actual data issues.
 {% endhint %}
 
-Owl provides protection for these types of data "surprises", and we all know they happen more often than we'd like to admit.
+Owl provides protection for these types of data "surprises", and we all know they happen more than we'd like to admit.
 
 ## How can OwlDQ help?
 
