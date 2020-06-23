@@ -60,7 +60,7 @@ With a few flicks, Owl will conduct the following steps:
 
 > The answer is in the data if you ask the right questions.
 
-## **Background**
+## What did we notice? 
 
 We tried many of the traditional tools and techniques. 
 
@@ -70,9 +70,11 @@ You get left with half-baked data quality coverage and appropriate controls are 
 
 The result was a never-ending cycle of missed data issues, fire-drills, and a mad scramble to fix it. Fast. All within the context of real-time business operations. 
 
-Traditional approaches, before data saturated every corner of every organization, are very manual. Open a sample or spreadsheet and comb through for analysis \(Table-by-table, column-by-column and item-by-item\). 
+## Traditional Approach
 
-Next, manually craft the rules, conditions, tolerances, and thresholds. Then plug-in the scoring, alerting, and reporting. And you wonder why bare-minimum coverage is common.
+Traditional approaches, before data saturated every corner of every organization, are very manual. Open a sample or spreadsheet and comb through for analysis \(Table-by-table, column-by-column, and item-by-item\). 
+
+Next, manually craft the rules, conditions, tolerances, and thresholds. Then plug-in the scoring, workflows, alerts, and reporting. And you wonder why bare-minimum coverage is common.
 
 Now that the surface area of the data in an organization is so much larger, these techniques don't hold up. The primary limitation being a human is required to subjectively do this. 
 
@@ -80,7 +82,7 @@ We wanted a tool that could alert us when data changes occurred, even if we didn
 
 Upon evaluating all the commercially available tools, and assessing costs and time of homegrown solutions, it was apparent no tool was available to do the things that we needed and wanted. 
 
-## About
+## Background
 
 The team comes from a variety of backgrounds. While some spent a decade building technology to detect financial crimes, while others were designing big data infrastructure at fortune 100 companies. 
 
