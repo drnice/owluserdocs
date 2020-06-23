@@ -92,8 +92,6 @@ The team comes from a variety of backgrounds. While some spent a decade building
 
 > _Regardless of the industry or experience, we all faced similar challenges as it related to data quality._
 
-
-
 ## **Purpose-Built \(One Focus\)**
 
 {% hint style="info" %}
@@ -108,15 +106,15 @@ OwlDQ is an intelligent service that automates the heavy lifting involved in dat
 
 The other piece is usability. Creating a tool that will scale to additional users, outside of a few experts, is equally important. Overly complex configuration, proprietary syntaxes, and unintuitive interfaces create friction. 
 
-**Unification -**   OwlDQ will scan files the same way as a database so you can do all in your data monitoring in one place.  Often times you'll have piecemeal approaches that lead to data debt and inconsistent controls.  
+**Unification -**   OwlDQ will scan files the same way as a database so you can do all in your data monitoring in one place, rather than piecemeal approaches that lead to data debt and inconsistent controls.  Data quality needs to be unified to have a single normalized view of data health.
 
-**Measurement -** You can't manage what you can't measure. It's important to get macro and micro views of data quality, the ability to cross-cut between different departments, and across varying periods in time. 
+**Measurement -** You can't manage what you can't measure. It's important to get macro and micro views of data quality, the ability to compare between different departments, and time periods. 
 
 [See Why Owl For More Information](https://owldq.com/about.html)
 
 ## **Core Components**
 
-Owl provides a data quality assessment that scans 9 dimensions. The 9 dimensions are behavior, rules, outliers, pattern, source, record, schema, duplicates, and shapes. Owl offers a full DQ suite to cover the unique challenges of each dataset. Complete coverage and consistency drive trust. A single scoring and reporting framework can be activated in a custom DQ pipeline. OwlDQ is horizontally scalable. It can scan data from any location and scale as the data grows in size and complexity. Data quality needs to be abstracted from data ingestion for management to have a single normalized view of data health.  Owl will scan your data with the same frequency, that you load your data.
+Owl provides a data quality assessment that scans 9 dimensions. Owl offers a full DQ suite to cover the unique challenges of each dataset. OwlDQ is horizontally scalable. It can scan data from any location. Owl will scan your data with the same frequency, that you load your data.
 
 [See Complete Feature List Breakdown For More Information](https://owldq.com/features.html)
 
