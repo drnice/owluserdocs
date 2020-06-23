@@ -8,7 +8,7 @@ description: 'Low Effort, High Stakes Protection'
 
 The number one reason for data quality issues is the amount of time it takes to analyze the data and implement the controls. Our goal is to enable users to do more in less time. 
 
-### _Often times **the biggest issues are the things you least expect** to happen._
+### _Often times **the biggest data quality issues are the things you least expect** to happen._
 
 | Use Case | Problem |
 | :--- | :--- |
