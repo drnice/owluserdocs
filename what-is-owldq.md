@@ -69,7 +69,7 @@ What did we notice in the data quality space?
 
 We tried many of the tools and approaches, the single biggest problem was the amount of time it took to do the analysis and write the checks. 
 
-This left many checks missing, and us reactively adding controls only after breaking changes occurred.
+This left gaps in data quality coverage where controls were only added after data issues occurred.
 
 The result was a never-ending cycle of missed data issues, fire-drills, and a mad scramble to fix it. Fast. All within the context of real-time business operations. 
 
