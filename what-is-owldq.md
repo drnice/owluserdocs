@@ -23,7 +23,7 @@ In each of these cases, the common theme is they were **unanticipated, unexpecte
 
 You would never imagine some of these scenarios. These were things that never happened before so you might not think to write validation checks for these events.
 
-This is where rapid data quality controls can provide more coverage with less effort and protect against significant business-impacting scenarios.
+This is where rapid data quality controls can provide more coverage with less effort and protect against these types of scenarios.
 
 ## How can OwlDQ help?
 
