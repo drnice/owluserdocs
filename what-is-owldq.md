@@ -62,7 +62,7 @@ Getting started the easy way.
 * Metadata Monitoring
 * Rapid Rules \(auto-Applied\) 
 
-_Fast to implement, no code to activate, must-have protection._
+_Fast to implement, must-have protection, no code._
 {% endtab %}
 
 {% tab title="DQ Discover" %}
