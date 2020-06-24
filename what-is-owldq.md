@@ -56,7 +56,7 @@ With a few flicks, Owl will conduct the following steps:
 
 1. **Collect Data Quality KPIs** -  Probe it from many different perspectives. Interrogate it over several time periods. Measure it across several dimensions.
 2. **Generate The Conditions** - Under the hood Owl creates SQL-based data monitoring checks, based on the data points collected. 
-3. **Implement The Controls** - After several scans, the checks are deployed. You can easily remove or adjust them if needed.
+3. **Implement The Controls** - After several scans, the checks are deployed. You can easily remove or adjust them as needed.
 
 > The answer is in the data if you ask the right questions.
 
