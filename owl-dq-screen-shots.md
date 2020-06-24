@@ -10,39 +10,57 @@ Owl provides a data quality assessment that that scans 9 dimensions of a data se
 
 Owl will scan your data with the same frequency, that you load your data - Owl scans 9 dimensions of DQ out of the box 
 
-**1. Behavior - imagine a column going null, automatic row count checks - does you data behave/look/feel the same way it has in the past** 
+## **1. Behavior** 
+
+**Imagine a column going null, automatic row count checks - does your data behave/look/feel the same way it has in the past.**
 
 ![](.gitbook/assets/behavior.jpg)
 
-**2. Rules - assures only values compliant with your data rules are allowed within a data object** 
+## **2. Rules**
+
+**Assures only values compliant with your data rules are allowed within a data object.** 
 
 ![](.gitbook/assets/rules.jpg)
 
-**3. Outliers - data point that differs significantly from other observations** 
+## **3. Outliers**
+
+**Data points that differ significantly from other observations.**
 
 ![](.gitbook/assets/outliers.jpg)
 
-**4. Pattern - recognizing relevant patterns between data examples** 
+## **4. Pattern**
+
+**Recognizing relevant patterns between data examples.** 
 
 ![](.gitbook/assets/pattern.jpg)
 
-**5. Source- validating source to target accuracy** 
+## **5. Source**
+
+**Validating source to target accuracy.**
 
 ![](.gitbook/assets/source.jpg)
 
-**6. Record - deltas for a given column** 
+## **6. Record**
+
+**Deltas for a given column.** 
 
 ![](.gitbook/assets/record.jpg)
 
-**7. Schema - columns dropped** 
+## **7. Schema** 
+
+**Columns add or dropped.**
 
 ![](.gitbook/assets/schema.jpg)
 
-8. Dupes - fuzzy matching to identify entries that have been added multiple times with similar but not exact detail 
+## 8. Dupes 
+
+**Fuzzy matching to identify entries that have been added multiple times with similar but not exact detail.**
 
 ![](.gitbook/assets/dupes.jpg)
 
-**9. Shapes - infrequent formats**
+## **9. Shapes**
+
+**Infrequent formats.**
 
 ![](.gitbook/assets/shapes.jpg)
 
