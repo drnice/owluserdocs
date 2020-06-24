@@ -88,9 +88,9 @@ _All the things you need to make it work for you._
 {% endtab %}
 {% endtabs %}
 
-#### This 4 step process is our framework to add data quality checks in just a few hours. 
+#### Our 4 step process is our framework to add data quality checks in just a few hours. 
 
-{% embed url="https://www.youtube.com/watch?v=pySMbEtNFoU&t=15s" caption="Rapid data quality controls in 2 minutes" %}
+{% embed url="https://www.youtube.com/watch?v=pySMbEtNFoU&t=15s" caption="Data quality controls in 2 minutes \(DQ Now\) " %}
 
 ## Background
 
