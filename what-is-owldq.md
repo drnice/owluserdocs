@@ -90,6 +90,8 @@ _All the things you need to make it work for you._
 
 #### This 4 step process is our framework to add data quality checks in just a few hours. 
 
+{% embed url="https://www.youtube.com/watch?v=pySMbEtNFoU&t=15s" caption="Rapid data quality controls in 2 minutes" %}
+
 ## Background
 
 The team comes from a variety of backgrounds. While some spent a decade building technology to detect financial crimes, others were designing big data infrastructure at fortune 100 companies. 
