@@ -56,7 +56,7 @@ Getting started the easy way.
 
 {% tabs %}
 {% tab title="DQ Now" %}
-Critical Control Layer
+#### Critical Control Layer
 
 * Always-On Profiling
 * Metadata Monitoring
@@ -66,7 +66,7 @@ _Fast to implement, no code to activate, must-have protection._
 {% endtab %}
 
 {% tab title="DQ Discover" %}
-Analysis Layer
+#### Analysis Layer
 
 * Format Finder
 * Outlier Detect
@@ -76,17 +76,17 @@ Analysis Layer
 {% endtab %}
 
 {% tab title="DQ Select" %}
-Guided Layer
+#### Guided Layer
 
 * B.Y.O.R. \(bring your own rules\)
 * Reconciliation
 * Fuzzy Matching
 
-_Blending human input to perform precise checks._
+_Blend human input to perform precise checks._
 {% endtab %}
 
 {% tab title="DQ Deploy" %}
-Operational Layer
+#### Operational Layer
 
 * Report Repo
 * Scheduler 
