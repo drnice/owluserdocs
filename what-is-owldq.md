@@ -45,7 +45,7 @@ Whether you're getting started or applying advanced controls, OwlDQ is [purpose-
 
 Getting started the easy way. 
 
-Our 4 step process allows you to rapidly apply data quality checks.
+This 4 step process allows you to rapidly apply data quality checks.
 
 {% tabs %}
 {% tab title="DQ Now" %}
