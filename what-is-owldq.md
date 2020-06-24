@@ -108,11 +108,11 @@ OwlDQ is an intelligent service that automates the heavy lifting involved in dat
 
 **Speed -** Owl will check that data is valid, complete, accurate, and consistent.  Data Quality is derived from intuitive clicks, not unnecessary code. Our goal is to deliver DQ in minutes, not days or weeks. 
 
-**Scale -**  Owl considers scale from two perspectives. From a technical viewpoint, OwlDQ is horizontally scalable. It can scan data from any location. The underlying Owl architecture is designed to work in distributed and elastic environments. 
+**Scale -**  Owl considers scale from two perspectives. From a technical viewpoint, OwlDQ is designed to work in distributed and elastic environments. It can scan any data from any location. 
 
-The other piece is usability. Creating a tool that will scale to additional users, outside of a few experts, is equally important. Overly complex configuration, proprietary syntaxes, and unintuitive interfaces create friction. 
+The other piece is usability. Creating a tool that will scale to additional users, outside of a few experts, is equally important.  
 
-**Unification -**   OwlDQ will scan files the same way as a database so you can do all in your data monitoring in one place, rather than piecemeal approaches that lead to data debt and inconsistent controls.  Data quality needs to be unified to have a single normalized view of data health.
+**Unification -**   OwlDQ will scan files the same way as a database so you can do all in your data monitoring in one place, rather than piecemeal approaches.  Data quality needs to be unified to have a single normalized view of data health.
 
 **Measurement -** You can't manage what you can't measure. It's important to get macro and micro views of data quality, the ability to compare between different departments, and time periods. 
 
