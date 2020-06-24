@@ -41,7 +41,7 @@ Whether you're getting started or applying advanced controls, OwlDQ is [purpose-
 * It takes hours to find out when and why the issue started
 {% endhint %}
 
-## How Do You Get Started \(4 step process\)? 
+## How Do I Get Better Data In Less Time? 
 
 Getting started the easy way. 
 
@@ -88,15 +88,7 @@ _All the things you need to make it work for you._
 {% endtab %}
 {% endtabs %}
 
-## How Does it Work?
-
-With a few flicks, Owl will conduct the following steps: 
-
-1. **Collect Data Quality KPIs** -  Probe the data from many different perspectives. Interrogate it over several time periods. Measure it across several dimensions.
-2. **Generate The Conditions** - Under the hood Owl creates SQL-based data monitoring checks, based on the data points collected. 
-3. **Implement The Controls** - After several scans, the checks are deployed. You can easily remove or adjust them as needed.
-
-> The answer is in the data if you ask the right questions.
+#### This 4 step process is our framework to add data quality checks in place in just a few hours. 
 
 ## Background
 
