@@ -55,7 +55,7 @@ OwlDQ is designed to:
 With a few flicks, Owl will conduct the following steps: 
 
 1. **Collect Data Quality KPIs** -  Probe it from many different perspectives. Interrogate it over several time periods. Measure it across several dimensions.
-2. **Generate The Conditions** - Create the data monitoring checks, based on the data points collected. 
+2. **Generate The Conditions** - Under the hood Owl creates SQL-based data monitoring checks, based on the data points collected. 
 3. **Implement The Controls** - After several scans, the checks are deployed. You can easily remove or adjust them if needed.
 
 > The answer is in the data if you ask the right questions.
@@ -108,7 +108,7 @@ OwlDQ is an intelligent service that automates the heavy lifting involved in dat
 
 **Speed -** Owl will check that data is valid, complete, accurate, and consistent.  Data Quality is derived from intuitive clicks, not unnecessary code. Our goal is to deliver DQ in minutes, not days or weeks. 
 
-**Scale -**  Owl considers scale from two perspectives. Scale is critical from a technical viewpoint. The underlying Owl architecture is designed to work in distributed and elastic environments. 
+**Scale -**  Owl considers scale from two perspectives. From a technical viewpoint, OwlDQ is horizontally scalable. It can scan data from any location. The underlying Owl architecture is designed to work in distributed and elastic environments. 
 
 The other piece is usability. Creating a tool that will scale to additional users, outside of a few experts, is equally important. Overly complex configuration, proprietary syntaxes, and unintuitive interfaces create friction. 
 
@@ -120,7 +120,7 @@ The other piece is usability. Creating a tool that will scale to additional user
 
 ## **Core Components**
 
-Owl provides a data quality assessment that scans 9 dimensions. Owl offers a full DQ suite to cover the unique challenges of each dataset. OwlDQ is horizontally scalable. It can scan data from any location. Owl will scan your data with the same frequency, that you load your data.
+Owl provides a data quality assessment that scans 9 dimensions. Owl offers a full DQ suite to cover the unique challenges of each dataset. 
 
 [See Complete Feature List Breakdown For More Information](https://owldq.com/features.html)
 
