@@ -72,7 +72,7 @@ The result was a never-ending cycle of data issues, fire-drills, and a mad scram
 
 ## Traditional Approach
 
-Traditional approaches are very manual. They are legacy cruft from before data was everywhere. 
+Traditional approaches are very manual. 
 
 Start by opening a sample or spreadsheet and conduct analysis \(Table-by-table, column-by-column, query-by-query, and item-by-item\). 
 
@@ -126,7 +126,7 @@ Owl provides a data quality assessment that scans 9 dimensions. Owl offers a ful
 
 **9 Dimensions of DQ**
 
-1. Behavior - Metadata and technical data monitoring checks
+1. Behavior - Metadata monitoring
 2. Rules - SQL-based rules engine
 3. Outliers - Anomalous records
 4. Pattern - Cross-column categorical anomalies 
