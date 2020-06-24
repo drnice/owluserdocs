@@ -70,7 +70,7 @@ Analysis Layer
 
 * Format Finder
 * Outlier Detect
-* Basket Analyzer
+* Cross-Column Basket Analyzer
 
  _Auto-discovery and deeper analysis to uncover hard-to-find data quality issues._
 {% endtab %}
