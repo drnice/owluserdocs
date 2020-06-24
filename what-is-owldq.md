@@ -45,6 +45,8 @@ Whether you're getting started or applying advanced controls, OwlDQ is [purpose-
 
 Getting started the easy way. 
 
+Our 4 step process allows you to rapidly apply data quality checks.
+
 {% tabs %}
 {% tab title="DQ Now" %}
 #### Critical Control Layer
@@ -88,9 +90,9 @@ _All the things you need to make it work for you._
 {% endtab %}
 {% endtabs %}
 
-#### Our 4 step process is our framework to add data quality checks in just a few hours. 
+#### Step 1\) DQ Now
 
-{% embed url="https://www.youtube.com/watch?v=pySMbEtNFoU&t=15s" caption="Data quality controls in 2 minutes \(DQ Now\) " %}
+{% embed url="https://www.youtube.com/watch?v=pySMbEtNFoU&t=15s" caption="Data quality controls in 2 minutes" %}
 
 ## Background
 
