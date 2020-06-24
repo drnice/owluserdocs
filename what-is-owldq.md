@@ -62,7 +62,7 @@ _Fast to implement, must-have protection, no code._
 #### Analysis Layer
 
 * Format Finder
-* Outlier Detection
+* Anomaly Detection
 * Cross-Column Basket Analyzer
 
  _Auto-discovery and deeper analysis to uncover hard-to-find data quality issues._
