@@ -88,7 +88,7 @@ _All the things you need to make it work for you._
 {% endtab %}
 {% endtabs %}
 
-#### This 4 step process is our framework to add data quality checks in place in just a few hours. 
+#### This 4 step process is our framework to add data quality checks in just a few hours. 
 
 ## Background
 
