@@ -41,15 +41,6 @@ Whether you're getting started or applying advanced controls, OwlDQ is [purpose-
 * It takes hours to find out when and why the issue started
 {% endhint %}
 
-## **So What is OwlDQ?** 
-
-Think of it as data-driven data monitoring. 
-
-OwlDQ is designed to:
-
-1. Conduct the manual analysis a human would do
-2. Provide the data quality checks a human would write
-
 ## How Do You Get Started \(4 step process\)? 
 
 Getting started the easy way. 
