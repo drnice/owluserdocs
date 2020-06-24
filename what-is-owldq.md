@@ -90,7 +90,7 @@ _All the things you need to make it work for you._
 {% endtab %}
 {% endtabs %}
 
-#### Step 1\) DQ Now
+#### Step 1. DQ Now
 
 {% embed url="https://www.youtube.com/watch?v=pySMbEtNFoU&t=15s" caption="Data quality controls in 2 minutes" %}
 
