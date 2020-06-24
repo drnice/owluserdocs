@@ -59,7 +59,7 @@ Getting started the easy way.
 Critical Control Layer
 
 * Always-On Profiling
-* Metadata Monitor
+* Metadata Monitoring
 * Rapid Rules \(auto-Applied\) 
 
 _Fast to implement, no code to activate, must-have protection._
