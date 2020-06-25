@@ -4,7 +4,7 @@ description: 'Low Effort, High Stakes Protection'
 
 # What is OwlDQ
 
-## Would you like more data quality controls in half the time?
+## Would you like less data quality issues and more data quality controls in half the time?
 
 {% hint style="info" %}
 On average, 60% of a data worker's time is spent on data quality**.** It takes a tremendous amount of time to do the analysis and write the checks. 
