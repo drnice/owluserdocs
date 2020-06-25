@@ -90,7 +90,7 @@ _All the things you need to make it work for you._
 {% endtab %}
 {% endtabs %}
 
-#### Watch this 2-minute video to see how
+#### Watch this 2-minute video to see how.
 
 {% embed url="https://www.youtube.com/watch?v=pySMbEtNFoU&t=15s" caption="Step 1. DQ Now" %}
 
