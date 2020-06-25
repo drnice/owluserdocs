@@ -130,7 +130,7 @@ You're only as good as the rules you thought to write.
 
 #### Fast Forward
 
-Now that the surface area of the data in an organization is so much larger, these techniques don't hold up. 
+Now that the surface area of the data in an organization is so much larger, these traditional techniques don't hold up. 
 
 ## What Did We Need?
 
