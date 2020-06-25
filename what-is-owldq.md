@@ -96,7 +96,7 @@ _All the things you need to make it work for you._
 
 ## Background
 
-The team comes from a variety of backgrounds. While some spent a decade building technology to detect financial crimes, others were designing big data infrastructure at fortune 100 companies. 
+The team comes from a variety of backgrounds. While some spent a decade building technology to detect financial crimes, others were architecting data fabrics at fortune 100 companies. 
 
 > _Regardless of the industry or experience, we all faced similar challenges as it related to data quality._
 
