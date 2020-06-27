@@ -220,5 +220,5 @@ Consistent data monitoring helps you sleep better at night, but also lets the bu
 
 ## \*\*\*\*[**See a Demo**](https://calendly.com/brian-556/calendar)
 
-## [**Request a Trial License**](https://calendly.com/brian-556/calendar)\*\*\*\*
+## [**Request a Trial**](https://calendly.com/brian-556/calendar)\*\*\*\*
 
