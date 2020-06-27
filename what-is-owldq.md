@@ -94,6 +94,14 @@ _All the things you need to make it work for you._
 
 {% embed url="https://www.youtube.com/watch?v=pySMbEtNFoU&t=15s" caption="Step 1. DQ Now" %}
 
+## Success Stories
+
+* Top FS firm went from spreadsheet bottlenecks to DQ breakthroughs in 2 months
+* Top 10 Healthcare Org. Completed a 6 Month Data Quality effort + $1.7M in Cost savings in weeks 
+* Top Wealth Management firm Implemented data quality checks across Snowflake in 30 days 
+* Top 10 Bank Replaced 60% of their manual workload for data quality rules
+* Top Insurance Org. Rolled out data quality to business users to democratize quality efforts 
+
 ## Background
 
 The team comes from a variety of backgrounds. While some spent a decade building technology to detect financial crimes, others were architecting data fabrics at fortune 100 companies. 
