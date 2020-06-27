@@ -101,6 +101,7 @@ _All the things you need to make it work for you._
 * Top Wealth Management firm Implemented data quality checks across Snowflake in 30 days 
 * Top 10 Bank Replaced 60% of their manual workload for data quality rules
 * Top Insurance Org. Rolled out data quality to business users to democratize quality efforts 
+* Top Insurance Org. satisfied regulatory controls & standards in a 3-week program
 
 ## Background
 
