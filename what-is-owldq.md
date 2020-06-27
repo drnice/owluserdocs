@@ -10,7 +10,7 @@ description: 'Low Effort, High Stakes Protection'
 On average, 60% of a data worker's time is spent on data quality**.** It takes a tremendous amount of time to do the analysis and write the checks. 
 {% endhint %}
 
-This causes patchy and incomplete coverage and leaves your organization vulnerable to _**data quality issues**_.  
+This causes patchy/incomplete coverage and leaves your organization vulnerable to _**data quality issues**_.  
 
 ### _**And the biggest issues are the things you never expect \(see below\).**_
 
