@@ -84,7 +84,7 @@ _Blend human input to perform precise checks._
 * Report Repo
 * Scheduler 
 * Alert Center
-* Security Control 
+* Enterprise Security
 
 _All the things you need to make it work for you._
 {% endtab %}
