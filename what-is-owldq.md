@@ -55,7 +55,7 @@ This 4 step process allows you to rapidly apply data quality checks.
 * Metadata Monitoring
 * Rapid Rules \(auto-Applied\) 
 
-_Fast to implement, must-have protection, no code._
+_Fast to implement, must-have protection, no code, sanity check._
 {% endtab %}
 
 {% tab title="DQ Discover" %}
