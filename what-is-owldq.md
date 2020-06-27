@@ -65,7 +65,7 @@ _Fast to implement, must-have protection, no code, sanity check._
 * Anomaly Detection
 * Cross-Column Basket Analyzer
 
- _Auto-discovery and deeper analysis to uncover hard-to-find data quality issues._
+ _Auto-discovery, deeper analysis to uncover hard-to-find data quality issues._
 {% endtab %}
 
 {% tab title="DQ Select" %}
