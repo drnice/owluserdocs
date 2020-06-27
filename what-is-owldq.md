@@ -79,12 +79,12 @@ _Blend human input to perform precise checks._
 {% endtab %}
 
 {% tab title="DQ Deploy" %}
-#### Operational Layer
+#### Enterprise Layer
 
 * Report Repo
 * Scheduler 
 * Alert Center
-* Enterprise Security
+* Security, Masking, Roles, and Permissions
 
 _All the things you need to make it work for you._
 {% endtab %}
