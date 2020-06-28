@@ -101,7 +101,7 @@ _All the things you need to make it work for you._
 * Top 10 Bank Replaced 60% of their manual workload for data quality rules
 * Top 10 Healthcare Org. Completed a 6 Month Data Quality requirement in six weeks 
 * Top Insurance Org. Rolled out data quality to business users to democratize quality efforts 
-* Top Insurance Org. satisfied regulatory second line controls in a 3-week program
+* Top Insurance Org. Satisfied Regulatory second line controls in a 3-week program
 
 ## Background
 
