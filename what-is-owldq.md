@@ -97,9 +97,9 @@ _All the things you need to make it work for you._
 ## Success Stories
 
 * Top 10 Bank Replaced 60% of their manual workload + $1.7M cost savings
-* Top 10 Healthcare Org. Completed a 6 Month Data Quality migration requirement in six weeks 
+* Top 10 Healthcare Organization Completed a 6 Month Data Quality migration requirement in six weeks 
 * Top Investment Advisor Implemented data quality checks across Snowflake warehouse in 30 days 
-* Top Insurance Org. Satisfied Regulatory Second Line Controls in a 4-week program
+* Top Insurance Organization Satisfied Regulatory Second Line Controls in a 4-week program
 * Top FS Firm Rolled out data quality to business users to consolidate Excel, python scripts, and one-off handling 
 
 ## Background
