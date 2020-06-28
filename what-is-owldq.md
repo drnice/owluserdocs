@@ -96,11 +96,11 @@ _All the things you need to make it work for you._
 
 ## Success Stories
 
-* Top FS firm went from spreadsheet bottlenecks to DQ breakthroughs in 2 months
+* Top FS firm went from spreadsheet bottlenecks to DQ breakthroughs
 * Top Wealth Management firm Implemented data quality checks across Snowflake warehouse in 30 days 
 * Top 10 Bank Replaced 60% of their manual workload for data quality rules
 * Top 10 Healthcare Org. Completed a 6 Month Data Quality requirement in six weeks 
-* Top Insurance Org. Rolled out data quality to business users to democratize quality efforts 
+* Top Insurance Org. Rolled out data quality to business users to distribute quality efforts 
 * Top Insurance Org. Satisfied Regulatory second line controls in a 3-week program
 
 ## Background
