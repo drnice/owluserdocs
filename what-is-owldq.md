@@ -96,7 +96,7 @@ _All the things you need to make it work for you._
 
 Simple. Do more in less time. 
 
-Whether you're getting started or applying advanced controls, OwlDQ is [purpose-built](https://docs.owl-analytics.com/what-is-owldq#purpose-built-one-focus) to boost your efforts.
+Whether you're getting started or applying advanced controls, OwlDQ is an all-in-one, [purpose-built](https://docs.owl-analytics.com/what-is-owldq#purpose-built-one-focus) software to boost your data monitoring efforts.
 
 {% hint style="danger" %}
 * Data teams overwhelmed with tickets 
