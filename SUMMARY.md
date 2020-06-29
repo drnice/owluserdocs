@@ -3,7 +3,7 @@
 * [OwlDQ](README.md)
 * [Our Approach](why-owl.md)
 * [What is OwlDQ](what-is-owldq.md)
-* [Free Assessment](demo.md)
+* [Free Assessment](assessment.md)
 
 ## Security
 
