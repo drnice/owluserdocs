@@ -27,19 +27,7 @@ In each of these cases, the issues were **unanticipated, unexpected, and uninten
 
 Owl provides protection for these types of data "surprises".  We all know they happen more than we would like.
 
-## How can OwlDQ help?
-
-Do more in less time. 
-
-Whether you're getting started or applying advanced controls, OwlDQ is [purpose-built](https://docs.owl-analytics.com/what-is-owldq#purpose-built-one-focus) to boost your efforts.
-
-{% hint style="danger" %}
-* Data teams overwhelmed with tickets 
-* Business users find issues first
-* Touchy pipelines get upset with minor updates
-* Too busy responding to fire drills to implement new projects
-* It takes hours to find out when and why the issue started
-{% endhint %}
+It takes hours to find out when and why the issue started
 
 ## Success Stories
 
@@ -105,6 +93,19 @@ _All the things you need to make it work for you._
 #### Watch this 2-minute video to see how.
 
 {% embed url="https://www.youtube.com/watch?v=pySMbEtNFoU&t=15s" caption="Step 1. DQ Now" %}
+
+## How can OwlDQ help?
+
+Simple. Do more in less time. 
+
+Whether you're getting started or applying advanced controls, OwlDQ is [purpose-built](https://docs.owl-analytics.com/what-is-owldq#purpose-built-one-focus) to boost your efforts.
+
+{% hint style="danger" %}
+* Data teams overwhelmed with tickets 
+* Business users find issues first
+* Touchy pipelines get upset with minor updates
+* Too busy responding to fire drills to implement new projects
+{% endhint %}
 
 ## Background
 
