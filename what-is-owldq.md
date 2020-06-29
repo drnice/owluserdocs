@@ -41,6 +41,18 @@ Whether you're getting started or applying advanced controls, OwlDQ is [purpose-
 * It takes hours to find out when and why the issue started
 {% endhint %}
 
+## Success Stories
+
+How industry leaders are accelerating initiatives using OwlDQ
+
+{% hint style="success" %}
+* **Top 10 Bank** - Replaced 60% of their manual workload + $1.7M cost savings
+* **Top 10 Healthcare Organization** - Completed a 6 Month Data Quality migration requirement in six weeks
+* **Top Insurance Organization** - Satisfied Regulatory Second Line Controls in a 4-week program
+* **Top FS Firm** - Implemented Data Quality checks across their data warehouse in 30 days 
+* **Top Investment Advisor** - Rolled out the OwlDQ Rules Engine to business users to stop spreadsheets bottlenecks
+{% endhint %}
+
 ## How Do I Get Better Data In Less Time? 
 
 Getting started the easy way. 
@@ -93,18 +105,6 @@ _All the things you need to make it work for you._
 #### Watch this 2-minute video to see how.
 
 {% embed url="https://www.youtube.com/watch?v=pySMbEtNFoU&t=15s" caption="Step 1. DQ Now" %}
-
-## Success Stories
-
-How industry leaders are accelerating initiatives using OwlDQ
-
-{% hint style="success" %}
-* **Top 10 Bank** - Replaced 60% of their manual workload + $1.7M cost savings
-* **Top 10 Healthcare Organization** - Completed a 6 Month Data Quality migration requirement in six weeks
-* **Top Insurance Organization** - Satisfied Regulatory Second Line Controls in a 4-week program
-* **Top FS Firm** - Implemented Data Quality checks across their data warehouse in 30 days 
-* **Top Investment Advisor** - Rolled out the OwlDQ Rules Engine to business users to stop spreadsheets bottlenecks
-{% endhint %}
 
 ## Background
 
