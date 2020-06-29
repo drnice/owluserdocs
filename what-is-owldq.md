@@ -100,7 +100,7 @@ _All the things you need to make it work for you._
 * Top 10 Healthcare Organization Completed a 6 Month Data Quality migration requirement in six weeks
 * Top Insurance Organization Satisfied Regulatory Second Line Controls in a 4-week program
 * Top FS firm Implemented Data Quality checks across their data warehouse in 30 days 
-* Top Investment Advisor Rolled out Rules Engine to business users to stop spreadsheets bottlenecks
+* Top Investment Advisor Rolled out the OwlDQ Rules Engine to business users to stop spreadsheets bottlenecks
 
 ## Background
 
