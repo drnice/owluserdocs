@@ -39,6 +39,8 @@ How industry leaders are accelerating initiatives using OwlDQ
 * **Top Investment Advisor** - Rolled out the OwlDQ Rules Engine to business users to stop spreadsheets bottlenecks
 {% endhint %}
 
+### [**Click Here to See a Demo**](https://calendly.com/brian-556/calendar)
+
 ## How Do I Get Better Data In Less Time? 
 
 Getting started the easy way. 
@@ -91,8 +93,6 @@ _All the things you need to make it work for you._
 #### Watch this 2-minute video to see how.
 
 {% embed url="https://www.youtube.com/watch?v=pySMbEtNFoU&t=15s" caption="Step 1. DQ Now" %}
-
-## [**Click Here to See a Demo**](https://calendly.com/brian-556/calendar)
 
 ## How can OwlDQ help?
 
@@ -222,5 +222,7 @@ Consistent data monitoring helps you sleep better at night, but also lets the bu
 
 ## Learn More
 
-## [Click Here to Learn More](https://calendly.com/brian-556/calendar)\*\*\*\*
+### \*\*\*\*[**Click Here to See a Demo**](https://calendly.com/brian-556/calendar)\*\*\*\*
+
+### [Click Here to Request a Trial](https://calendly.com/brian-556/calendar)
 
