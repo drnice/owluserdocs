@@ -25,9 +25,7 @@ This causes patchy/incomplete coverage and leaves your organization vulnerable t
 In each of these cases, the issues were **unanticipated, unexpected, and unintentional.**
 {% endhint %}
 
-Owl provides protection for these types of data "surprises".  We all know they happen more than we would like.
-
-It takes hours to find out when and why the issue started
+Owl provides protection for these types of data "surprises".  We all know they happen more than we would like and it takes hours to find out when and why the issue started
 
 ## Success Stories
 
