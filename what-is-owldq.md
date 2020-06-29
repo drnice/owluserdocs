@@ -92,6 +92,8 @@ _All the things you need to make it work for you._
 
 {% embed url="https://www.youtube.com/watch?v=pySMbEtNFoU&t=15s" caption="Step 1. DQ Now" %}
 
+## [**Click Here to See a Demo**](https://calendly.com/brian-556/calendar)
+
 ## How can OwlDQ help?
 
 Simple. Do more in less time. 
@@ -220,7 +222,5 @@ Consistent data monitoring helps you sleep better at night, but also lets the bu
 
 ## Learn More
 
-## \*\*\*\*[**Click Here to See a Demo**](https://calendly.com/brian-556/calendar)
-
-## [Click Here to **Request a Trial**](https://calendly.com/brian-556/calendar)\*\*\*\*
+## [Click Here to Learn More](https://calendly.com/brian-556/calendar)\*\*\*\*
 
