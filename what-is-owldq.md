@@ -7,7 +7,7 @@ description: 'Low Effort, High Stakes Protection'
 ## Would you like fewer issues and better data quality...in the next 30 days?
 
 {% hint style="info" %}
-On average, 60% of a data worker's time is spent on data quality. It takes far too long to analyze and validate the data. 
+On average, 60% of a data professional's time is spent on data quality. It takes far too long to analyze and validate the data. 
 {% endhint %}
 
 Time constraints cause patchy/incomplete coverage and leave your organization vulnerable to _**data quality issues**_.  
