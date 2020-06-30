@@ -10,7 +10,7 @@ description: 'Low Effort, High Stakes Protection'
 On average, 60% of a data professional's time is spent on data quality. It takes far too long to analyze and validate the data. 
 {% endhint %}
 
-Time constraints cause patchy/incomplete coverage and leave your organization vulnerable to _**data quality issues**_.  
+This time tax causes patchy/incomplete coverage and leaves your organization vulnerable to _**data quality issues**_.  
 
 ### _**And the biggest issues are the things you never expect \(see below\).**_
 
