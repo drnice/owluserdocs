@@ -32,11 +32,18 @@ Owl provides protection for these types of data "surprises".  We all know they h
 How industry leaders are accelerating initiatives using OwlDQ
 
 {% hint style="success" %}
-* **Top 10 Bank** - Replaced 60% of their manual data quality workload + $1.7M cost savings
-* **Top 10 Healthcare Organization** - Completed a 6 Month Data Quality migration requirement in six weeks
-* **Top Insurance Organization** - Satisfied Regulatory Second Line Controls in a 4-week program
-* **Top FS Firm** - Implemented Data Quality checks across their data warehouse in 30 days 
-* **Top Investment Advisor** - Rolled out the OwlDQ Rules Engine to business users to stop spreadsheets bottlenecks
+* **Top 10 Bank** 
+  * Replaced 60% of their manual data quality workload + $1.7M cost savings
+* **Top 10 Healthcare Organization** 
+  * Completed a 6 Month Data Quality migration requirement in six weeks
+* **Top Insurance Organization** 
+  * Satisfied Regulatory Second Line Controls in a 4-week program
+* **Top FS Firm** 
+  * Implemented Data Quality checks across their data warehouse in 30 days 
+* **Top Investment Advisor** 
+  * Rolled out the OwlDQ Rules Engine to business users to stop spreadsheets bottlenecks
+* **Top Asset Manager** 
+  * Implemented DQ Monitoring on 900+ Reference Datasets in less than 9 hours
 {% endhint %}
 
 ### [**Click Here to See a Demo**](https://calendly.com/brian-556/calendar)
