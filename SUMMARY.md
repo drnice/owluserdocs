@@ -4,6 +4,7 @@
 * [Our Approach](why-owl.md)
 * [What is OwlDQ](what-is-owldq.md)
 * [Free Assessment](assessment.md)
+* [Free Trial](free-trial.md)
 
 ## Security
 
