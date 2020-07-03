@@ -158,7 +158,7 @@ Owl was designed with 4 KPI's in mind:
 
 ### Trust
 
-Because showing someone a housing report with incorrect estimated housing values or a stock report with the wrong stock prices won’t go over well. Consistent data monitoring helps you sleep better at night, but also lets the business know they can trust the data. 
+Because showing someone a housing report with incorrect estimated housing values or a positions report with the wrong stock prices won’t go over well. Consistent data monitoring helps you sleep better at night, but also lets the business know they can trust the data. 
 
 ## **Core Components**
 
