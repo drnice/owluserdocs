@@ -187,7 +187,7 @@ There are many ways to ingest and transform data; the descriptions are not meant
 
 ## Trust
 
-What it boils down to is the ability to trust the data. What checks and verifications are in place to guarantee data accuracy and completeness? After all, showing someone a housing report with incorrect estimated housing values or a stock report with the wrong stock prices won’t go over well. 
+What checks and verifications are in place to guarantee data accuracy and completeness? After all, showing someone a housing report with incorrect estimated housing values or a stock report with the wrong stock prices won’t go over well. 
 
 Consistent data monitoring helps you sleep better at night, but also lets the business know they can trust the data. 
 
@@ -197,7 +197,5 @@ Consistent data monitoring helps you sleep better at night, but also lets the bu
 
 ## Learn More
 
-### \*\*\*\*[**Click Here to See a Demo**](https://calendly.com/brian-556/calendar)\*\*\*\*
-
-### [Click Here to Request a Trial](https://calendly.com/brian-556/calendar)
+### \*\*\*\*[**Click Here to Learn More**](https://calendly.com/brian-556/calendar)\*\*\*\*
 
