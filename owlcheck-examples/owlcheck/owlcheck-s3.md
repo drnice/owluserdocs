@@ -2,7 +2,7 @@
 
 S3 permissions need to be setup appropriately\) \(Needs appropriate driver\) [http://central.maven.org/maven2/org/apache/hadoop/hadoop-aws/](http://central.maven.org/maven2/org/apache/hadoop/hadoop-aws/) Hadoop AWS Driver hadoop-aws-2.7.3.2.6.5.0-292.jar
 
-```text
+```bash
 -f "s3a://s3-price-history/testfile.csv" \
 -d "," \
 -rd "2018-01-08" \
@@ -13,7 +13,7 @@ S3 permissions need to be setup appropriately\) \(Needs appropriate driver\) [ht
 
 ### Databricks Utils Or Spark Conf
 
-```text
+```bash
 val AccessKey = "AKIAJ47QL3SBWY5BOFGA"
 val SecretKey = "aaRmxpiiaEpAQT14P2gnGKgeiB+ZivFSrIuTTv2B"
 //val EncodedSecretKey = SecretKey.replace("/", "%2F")
@@ -31,7 +31,7 @@ dbutils.fs.mount(s"s3a://$AccessKey:$SecretKey@$AwsBucketName", s"/mnt/$MountNam
 
 ### Databricks Notebooks using S3 buckets
 
-```text
+```bash
 val AccessKey = "ABCDED"
 val SecretKey = "aaasdfwerwerasdfB"
 val EncodedSecretKey = SecretKey.replace("/", "%2F")

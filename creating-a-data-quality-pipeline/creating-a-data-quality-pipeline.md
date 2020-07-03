@@ -6,7 +6,7 @@ Data Scientists are trying to find insights in data to solve complex problems fo
 
 Azure Databricks Allows the ability for Scala code to be written in a Jupyter Notebook against an Azure backed Databricks cluster in order to scale the work out to more nodes in order to support the model and the amount of data being crunched by a business’s data scientists. The simplistic nature of Azure and Databricks along with the unification of Spark and Jupyter Notebooks on top of a robust infrastructure from storage to compute allows for Owl-Analytics Data Qualified pipelines to be built and executed seamlessly reducing the time to valuable insights.
 
-Here is how you can build such great DQ pipelines………?
+Here is how you can build such great DQ pipelines………
 
 ### Step 1: Build a Databricks Cluster in Azure.  
 
