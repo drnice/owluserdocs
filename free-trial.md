@@ -1,4 +1,4 @@
 # Start for free
 
-## Get Started
+## [Get Started](https://owldq.com/free.html)
 
