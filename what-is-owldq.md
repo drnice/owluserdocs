@@ -124,52 +124,10 @@ Whether you're getting started or applying advanced controls, OwlDQ is an all-in
 * Too busy responding to fire drills to implement new projects
 {% endhint %}
 
-## Background
-
-The team comes from a variety of backgrounds. While some spent a decade building technology to detect financial crimes, others were architecting data fabrics at fortune 100 companies. 
-
-> _Regardless of the industry or experience, we all faced similar challenges as it related to data quality._
-
-These unique vantage points have allowed us to understand the most common data quality challenges organizations are facing.
-
-## What Did We Notice? 
-
-We tried many of the traditional tools and techniques. The biggest problem was always the amount of time it took to do everything needed to implement and maintain data quality controls. 
-
-You get left with half-baked data quality coverage and the right controls are added only after issues occur.
-
-It turned out teams were doing the same tasks for every dataset and for each department, building the exact same tools over and over. 
-
-{% hint style="danger" %}
-The result was a never-ending cycle of data issues, fire-drills, and a mad scramble to fix it. Fast. All within the context of real-time business operations. 
-{% endhint %}
-
-## Traditional Approach
-
-Traditional approaches are very manual. 
-
-Start by opening a sample or spreadsheet and conduct analysis \(Table-by-table, column-by-column, query-by-query, and item-by-item\). 
-
-Next, manually craft the rules, conditions, tolerances, and thresholds. 
-
-Then stitch together the dashboards, scoring, workflows, alerts, and reporting. And you wonder why bare-minimum coverage is common.
-
-{% hint style="warning" %}
-You're only as good as the rules you thought to write. 
-{% endhint %}
-
-#### Fast Forward
-
-Now that the surface area of the data in an organization is so much larger, these traditional techniques don't hold up. 
-
-## What Did We Need?
-
-What we needed didn't exist. As lifelong data enthusiasts, we wanted a tool that could alert us when data changes occurred without complicated setup and lengthy analysis.  We sought something that could work on big, medium, and small data and across all storage formats. Upon evaluating all the commercially available tools, and assessing costs and time of homegrown solutions, there were no great options.
-
 ## **Purpose-Built \(One Focus\)**
 
 {% hint style="info" %}
-Every feature, visual, and component within Owl is intended to make the analysis and implementation of data quality easier.
+### Every feature, visual, and component within Owl is intended to make the analysis and implementation of data quality easier.
 {% endhint %}
 
 Owl was designed with 4 KPI's in mind:
@@ -203,7 +161,7 @@ More uses cases [available here](https://docs.owl-analytics.com/use-cases/bank-l
 
 ## **Core Components**
 
-Owl provides a data quality assessment that scans 9 dimensions. Owl offers a full DQ suite to cover the unique challenges of each dataset. 
+Owl offers a full DQ suite to cover the unique challenges of each dataset. 
 
 [See Complete Feature List Breakdown For More Information](https://owldq.com/features.html)
 
@@ -212,20 +170,20 @@ Owl provides a data quality assessment that scans 9 dimensions. Owl offers a ful
 1. Behavior - Metadata monitoring
 2. Rules - SQL-based rules engine
 3. Outliers - Anomalous records
-4. Pattern - Cross-column categorical anomalies 
+4. Pattern - Classification, cross-column & parent/child anomalies 
 5. Source - Source to target reconciliation
 6. Record - Deltas for a given column\(s\)
-7. Schema - Columns added or dropped
+7. Schema - When columns are added or dropped
 8. Dupes - Fuzzy matching, Identify similar but not exact entries
-9. Shapes - Typos, Formatting Anomalies
+9. Shapes - Typos and Formatting Anomalies
 
 [Check out our videos to Learn More](https://owldq.com/videos.html)
 
-## **Competitive Landscape** 
+## **Where does OwlDQ fit?**
 
 ![](https://lh5.googleusercontent.com/FtJYdL4983JvNNjhMch5xCmVPUrMHHTyRQcun3JInFYqnRDWtEnIBz9vC8KPEiHXU5AK7zz-93VhKVfX_ugsjcMMNLWl9q9twX2YPRU4izxjop73YKdtJ0TA66zwG3J8JahTIK-d)
 
-In order to avoid getting lost in the latest marketing jargon, a fundamental description is provided under each of the 4 stages.  There are many ways to ingest and transform data; the descriptions are not meant to be exhaustive \(There are easily 30+ software companies in each of the 4 stages\).
+There are many ways to ingest and transform data; the descriptions are not meant to be exhaustive \(There are easily 30+ software companies in each of the 4 stages\).
 
 ## Trust
 

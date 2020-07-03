@@ -2,6 +2,7 @@
 
 * [OwlDQ](README.md)
 * [Our Approach](why-owl.md)
+* [Our Story](our-story.md)
 * [What is OwlDQ](what-is-owldq.md)
 * [Free Assessment](assessment.md)
 * [Start for free](free-trial.md)
