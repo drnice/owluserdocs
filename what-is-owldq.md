@@ -172,7 +172,7 @@ What we needed didn't exist. As lifelong data enthusiasts, we wanted a tool that
 Every feature, visual, and component within Owl is intended to make the analysis and implementation of data quality easier.
 {% endhint %}
 
-OwlDQ is an intelligent service that automates the heavy lifting involved in data monitoring. Owl was designed with 4 KPI's in mind:
+Owl was designed with 4 KPI's in mind:
 
 **Speed -** Owl will check that data is valid, complete, accurate, and consistent.  Data Quality is derived from intuitive clicks, not unnecessary code. Our goal is to deliver DQ in minutes, not days or weeks. 
 
