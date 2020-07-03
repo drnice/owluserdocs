@@ -124,6 +124,23 @@ Whether you're getting started or applying advanced controls, OwlDQ is an all-in
 * Too busy responding to fire drills to implement new projects
 {% endhint %}
 
+## **Who uses OwlDQ?**
+
+* Data Quality
+* Data Governance
+* Data Engineers
+* Data Scientists
+* Data Analysts
+
+## **Use cases**
+
+* [ ] [FX Rates](https://docs.owl-analytics.com/use-cases/financial-fxrate-data) \(Outlier Detection\)
+* [ ] [Reference Data](https://docs.owl-analytics.com/use-cases/security-reference-data) \(Pattern Detection\)
+* [ ] [Cloud Migrations](https://docs.owl-analytics.com/use-cases/copying-or-moving-data) \(Validate Source\)
+* [ ] [Wealth Management](https://docs.owl-analytics.com/dq-visuals/duplicates) \(De-duping\) 
+
+More uses cases [available here](https://docs.owl-analytics.com/use-cases/bank-loans)
+
 ## **Purpose-Built \(One Focus\)**
 
 {% hint style="info" %}
@@ -141,23 +158,6 @@ Owl was designed with 4 KPI's in mind:
 **Measurement -** You can't manage what you can't measure. It's important to get macro and micro views of data quality, the ability to compare between different departments, and time periods. 
 
 [See Why Owl For More Information](https://owldq.com/about.html)
-
-## **Who uses OwlDQ?**
-
-* Data Quality
-* Data Governance
-* Data Engineers
-* Data Scientists
-* Data Analysts
-
-## **Use cases**
-
-* [ ] [FX Rates](https://docs.owl-analytics.com/use-cases/financial-fxrate-data) \(Outlier Detection\)
-* [ ] [Reference Data](https://docs.owl-analytics.com/use-cases/security-reference-data) \(Pattern Detection\)
-* [ ] [Cloud Migrations](https://docs.owl-analytics.com/use-cases/copying-or-moving-data) \(Validate Source\)
-* [ ] [Wealth Management](https://docs.owl-analytics.com/dq-visuals/duplicates) \(De-duping\) 
-
-More uses cases [available here](https://docs.owl-analytics.com/use-cases/bank-loans)
 
 ## **Core Components**
 
@@ -179,17 +179,19 @@ Owl offers a full DQ suite to cover the unique challenges of each dataset.
 
 [Check out our videos to Learn More](https://owldq.com/videos.html)
 
+## Trust
+
+What checks and verifications are in place to guarantee data accuracy and completeness? After all, showing someone a housing report with incorrect estimated housing values or a stock report with the wrong stock prices won’t go over well. 
+
+Consistent data monitoring helps you sleep better at night, but also lets the business know they can trust the data. 
+
 ## **Where does OwlDQ fit?**
 
 ![](https://lh5.googleusercontent.com/FtJYdL4983JvNNjhMch5xCmVPUrMHHTyRQcun3JInFYqnRDWtEnIBz9vC8KPEiHXU5AK7zz-93VhKVfX_ugsjcMMNLWl9q9twX2YPRU4izxjop73YKdtJ0TA66zwG3J8JahTIK-d)
 
 There are many ways to ingest and transform data; the descriptions are not meant to be exhaustive \(There are easily 30+ software companies in each of the 4 stages\).
 
-## Trust
-
-What checks and verifications are in place to guarantee data accuracy and completeness? After all, showing someone a housing report with incorrect estimated housing values or a stock report with the wrong stock prices won’t go over well. 
-
-Consistent data monitoring helps you sleep better at night, but also lets the business know they can trust the data. 
+## 
 
 ## Pricing
 
