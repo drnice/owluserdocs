@@ -24,10 +24,8 @@ This time suck causes patchy/incomplete coverage and leaves your organization vu
 | **IoT** | _"When we introduced new meters, they were hooked up and sending valid readings. They were valid values within valid ranges. Turned out their default setting was rounding the actual values and we were losing precision. Devastating, considering the amount of precision required with blood values."_ |
 
 {% hint style="warning" %}
-In each case, the issues were **unanticipated, unexpected, and unintentional.**
+In each case, the issues were **unanticipated, unexpected, and unintentional.** Owl provides protection for these types of data "surprises".  
 {% endhint %}
-
-Owl provides protection for these types of data "surprises".  We all know they happen more than we would like and it takes hours to find out when and why the issue started
 
 ## Success Stories
 
