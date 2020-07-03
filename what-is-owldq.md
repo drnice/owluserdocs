@@ -1,7 +1,3 @@
----
-description: 'Low Effort, High Stakes Protection'
----
-
 # What is OwlDQ
 
 OwlDQ is an all-in-one tool that reduces the time spent implementing data monitoring.
@@ -11,36 +7,36 @@ OwlDQ is an all-in-one tool that reduces the time spent implementing data monito
 {% endhint %}
 
 1. _This **taxes every other department** that relies on the data_ 
-2. _Leaves your organization **vulnerable to data quality issues**._ 
+2. _This leaves your organization **vulnerable to data quality issues**._ 
 
 ## What Actually Happens
 
 The BIGGEST issues are the things you never expect.
 
 {% tabs %}
-{% tab title="Billing" %}
-| "An unexpected conversion that occurred during a migration changed our up-to-date-payments indicator from TRUE/FALSE to 1/0. Needless to say, we were very surprised when invoices were not sent. The rework and reconciliation were super painful. An enormous amount of my time was wasted." |
+{% tab title="Billing Issue Example" %}
+| "An unexpected conversion occurred during a migration that changed our up-to-date-payments indicator from TRUE/FALSE to 1/0. Needless to say, we were very surprised when invoices were not sent. The rework and reconciliation were super painful. An enormous amount of my time was wasted." |
 | :--- |
 {% endtab %}
 
-{% tab title="Finance" %}
+{% tab title="Financial Data Example" %}
 | "One of our 200+ reference data feeds introduced a pipe \(\|\) into a position field. The field was defined as VARCHAR so this was allowed. Our models went crazy and we thought we breached risk limits. We ended up selling out of positions \(losing millions\). Only to uncover the root cause much later that week." |
 | :--- |
 {% endtab %}
 
-{% tab title="Digital" %}
+{% tab title="API Example" %}
 | "We pull data from many APIs. One platform accounts for 10% of enrichment activities \(i.e. how we monetize our data\). Our auth token accidentally had a daily quota imposed, yet job control said green light \(successful connection\). We still loaded some rows \(1k\), just not entire payloads. This was super nuanced. We literally lost ~10% revenue that month." |
 | :--- |
 {% endtab %}
 
-{% tab title="IoT" %}
+{% tab title="IoT / Meter Example" %}
 | "When we introduced new meters, they were hooked up and sending valid readings. They were valid values within valid ranges. Turned out their default setting was rounding the actual values and we were losing precision. Devastating, considering the amount of precision required with blood values." |
 | :--- |
 {% endtab %}
 {% endtabs %}
 
 {% hint style="warning" %}
-OwlDQ protects against these types of data "_surprises_". **In the end, you're only as good as the rules you thought to write.** 
+OwlDQ provides Low Effort, High Stakes protection against these types of data "_surprises_". **In the end, you're only as good as the rules you thought to write.** 
 {% endhint %}
 
 ## How We Help
@@ -72,9 +68,9 @@ How industry leaders are accelerating initiatives using OwlDQ
   * Implemented DQ Monitoring on 900+ Reference Datasets in less than 9 hours
 {% endhint %}
 
-## How Do I Get Better Data In Less Time? 
+Recent customers have been able to get better data while reducing system-wide costs, in much less time, and for a fraction of the cost to build their own solutions.  
 
-Getting started the easy way. 
+## How Do I Get Started? 
 
 This 4 step process allows you to quickly apply data quality checks.
 
