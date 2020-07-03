@@ -123,7 +123,7 @@ _All the things you need to make it work for you._
 
 Would you like fewer issues and better data quality...in the next 30 days?
 
-### [**Click Here to See a Demo**](https://calendly.com/brian-556/calendar)
+### \*\*\*\*[**Click Here to See a Demo**](https://calendly.com/brian-556/owldq-session)\*\*\*\*
 
 ## Low Effort, High Stakes Protection.
 
@@ -209,5 +209,5 @@ More uses cases [available here](https://docs.owl-analytics.com/use-cases/bank-l
 
 ## Learn More
 
-### \*\*\*\*[**Click Here to Learn More**](https://calendly.com/brian-556/calendar)\*\*\*\*
+### \*\*\*\*[**Click Here to Learn More**](https://calendly.com/brian-556/owldq-session)\*\*\*\*
 
