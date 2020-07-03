@@ -1,7 +1,7 @@
 ---
 description: >-
-  OwlDQ is an intelligent service that automates the heavy lifting involved in
-  data monitoring.
+  OwlDQ is an all-in-one tool that reduces the time spent by data professionals
+  implementing data monitoring.
 ---
 
 # What is OwlDQ
@@ -12,19 +12,34 @@ description: >-
 On average, 60% of a data professional's time is spent on data quality. It takes far too long to analyze and validate the data. 
 {% endhint %}
 
-This time suck causes patchy/incomplete coverage and leaves your organization vulnerable to _**data quality issues**_.  
+This taxes every other department that relies on the data, creates patchy coverage, and **leaves your organization vulnerable to** _**data quality issues**_**.**  
 
-### _And the biggest issues are the things you never expect \(see below\)._
+### _And the biggest issues are the things you never expect._
 
-| Type | Example |
-| :--- | :--- |
-| **Invoicing** | _"An ETL update changed our late payments indicator from true/false to 1/0. We were very surprised when the invoices were not sent. The rework and reconciliation were super painful."_ |
-| **Investment** | _"One of our 200+ reference data feeds introduced a pipe \(\|\) into a position field. The field was defined as VARCHAR so the technical metadata did not change. An upstream provided add this to indicate the long and short legs. Our models went crazy and thought we breached risk limits, we ended up selling out of positions \(losing millions\). Only to uncover the root cause much later that week."_ |
-| **Digital** | _"We pull data from many APIs. One platform accounts for 10% of enrichment activities \(i.e. how we monetize our data\). Our auth token accidentally had a daily quota imposed, yet job control said green light \(successful connection\). We still loaded some rows \(1k\), just not entire payloads. This was super nuanced. We literally lost ~10% revenue that month."_ |
-| **IoT** | _"When we introduced new meters, they were hooked up and sending valid readings. They were valid values within valid ranges. Turned out their default setting was rounding the actual values and we were losing precision. Devastating, considering the amount of precision required with blood values."_ |
+{% tabs %}
+{% tab title="Invoicing" %}
+| _"An ETL update changed our up-to-date payments indicator from true/false to 1/0. We were very surprised when the invoices were not sent. The rework and reconciliation were super painful."_ |
+| :--- |
+{% endtab %}
+
+{% tab title="Investment" %}
+| _"One of our 200+ reference data feeds introduced a pipe \(\|\) into a position field. The field was defined as VARCHAR so the technical metadata did not change. An upstream provided add this to indicate the long and short legs. Our models went crazy and thought we breached risk limits, we ended up selling out of positions \(losing millions\). Only to uncover the root cause much later that week."_ |
+| :--- |
+{% endtab %}
+
+{% tab title="Digital" %}
+| _"We pull data from many APIs. One platform accounts for 10% of enrichment activities \(i.e. how we monetize our data\). Our auth token accidentally had a daily quota imposed, yet job control said green light \(successful connection\). We still loaded some rows \(1k\), just not entire payloads. This was super nuanced. We literally lost ~10% revenue that month."_ |
+| :--- |
+{% endtab %}
+
+{% tab title="IoT" %}
+| _"When we introduced new meters, they were hooked up and sending valid readings. They were valid values within valid ranges. Turned out their default setting was rounding the actual values and we were losing precision. Devastating, considering the amount of precision required with blood values."_ |
+| :--- |
+{% endtab %}
+{% endtabs %}
 
 {% hint style="warning" %}
-In each case, the issues were **unanticipated, unexpected, and unintentional.** Owl provides protection for these types of data "surprises".  
+In the end, you're only as good as the rules you thought to write. 
 {% endhint %}
 
 ## Success Stories
@@ -115,7 +130,7 @@ _All the things you need to make it work for you._
 
 Do more with fewer resources.
 
-Whether you're getting started or applying advanced controls, OwlDQ is an all-in-one, [purpose-built](https://docs.owl-analytics.com/what-is-owldq#purpose-built-one-focus) software to boost your data monitoring efforts. OwlDQ enables organizations to quickly do things that would otherwise take months to develop and cost significantly more.
+Whether you're getting started or applying advanced controls, OwlDQ is an all-in-one, [purpose-built](https://docs.owl-analytics.com/what-is-owldq#purpose-built-one-focus) software to boost your data monitoring efforts. OwlDQ enables organizations to quickly do things that would _**otherwise take months to develop and cost significantly more.**_
 
 {% hint style="danger" %}
 * Data teams overwhelmed with tickets 
@@ -124,27 +139,10 @@ Whether you're getting started or applying advanced controls, OwlDQ is an all-in
 * Too busy responding to fire drills to implement new projects
 {% endhint %}
 
-## **Who uses OwlDQ?**
-
-* Data Quality
-* Data Governance
-* Data Engineers
-* Data Scientists
-* Data Analysts
-
-## **Use cases**
-
-* [ ] [FX Rates](https://docs.owl-analytics.com/use-cases/financial-fxrate-data) \(Outlier Detection\)
-* [ ] [Reference Data](https://docs.owl-analytics.com/use-cases/security-reference-data) \(Pattern Detection\)
-* [ ] [Cloud Migrations](https://docs.owl-analytics.com/use-cases/copying-or-moving-data) \(Validate Source\)
-* [ ] [Wealth Management](https://docs.owl-analytics.com/dq-visuals/duplicates) \(De-duping\) 
-
-More uses cases [available here](https://docs.owl-analytics.com/use-cases/bank-loans)
-
 ## **Purpose-Built \(One Focus\)**
 
 {% hint style="info" %}
-### Every feature, visual, and component within Owl is intended to make the analysis and implementation of data quality easier.
+### _Every feature, visual, and component within Owl is intended to make the analysis and implementation of data quality easier._
 {% endhint %}
 
 Owl was designed with 4 KPI's in mind:
@@ -158,6 +156,10 @@ Owl was designed with 4 KPI's in mind:
 **Measurement -** You can't manage what you can't measure. It's important to get macro and micro views of data quality, the ability to compare between different departments, and time periods. 
 
 [See Why Owl For More Information](https://owldq.com/about.html)
+
+### Trust
+
+Because showing someone a housing report with incorrect estimated housing values or a stock report with the wrong stock prices won’t go over well. Consistent data monitoring helps you sleep better at night, but also lets the business know they can trust the data. 
 
 ## **Core Components**
 
@@ -179,19 +181,28 @@ Owl offers a full DQ suite to cover the unique challenges of each dataset.
 
 [Check out our videos to Learn More](https://owldq.com/videos.html)
 
-## Trust
-
-What checks and verifications are in place to guarantee data accuracy and completeness? After all, showing someone a housing report with incorrect estimated housing values or a stock report with the wrong stock prices won’t go over well. 
-
-Consistent data monitoring helps you sleep better at night, but also lets the business know they can trust the data. 
-
 ## **Where does OwlDQ fit?**
 
 ![](https://lh5.googleusercontent.com/FtJYdL4983JvNNjhMch5xCmVPUrMHHTyRQcun3JInFYqnRDWtEnIBz9vC8KPEiHXU5AK7zz-93VhKVfX_ugsjcMMNLWl9q9twX2YPRU4izxjop73YKdtJ0TA66zwG3J8JahTIK-d)
 
 There are many ways to ingest and transform data; the descriptions are not meant to be exhaustive \(There are easily 30+ software companies in each of the 4 stages\).
 
-## 
+## **Who uses OwlDQ?**
+
+* Data Quality
+* Data Governance
+* Data Engineers
+* Data Scientists
+* Data Analysts
+
+## **Use cases**
+
+* [ ] [FX Rates](https://docs.owl-analytics.com/use-cases/financial-fxrate-data) \(Outlier Detection\)
+* [ ] [Reference Data](https://docs.owl-analytics.com/use-cases/security-reference-data) \(Pattern Detection\)
+* [ ] [Cloud Migrations](https://docs.owl-analytics.com/use-cases/copying-or-moving-data) \(Validate Source\)
+* [ ] [Wealth Management](https://docs.owl-analytics.com/dq-visuals/duplicates) \(De-duping\) 
+
+More uses cases [available here](https://docs.owl-analytics.com/use-cases/bank-loans)
 
 ## Pricing
 
