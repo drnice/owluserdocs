@@ -113,9 +113,9 @@ _All the things you need to make it work for you._
 
 ### [**Click Here to See a Demo**](https://calendly.com/brian-556/calendar)
 
-## How can OwlDQ help?
+## Low Effort, High Stakes Protection.
 
-Simple. Do more in less time. 
+Do more with fewer resources.
 
 Whether you're getting started or applying advanced controls, OwlDQ is an all-in-one, [purpose-built](https://docs.owl-analytics.com/what-is-owldq#purpose-built-one-focus) software to boost your data monitoring efforts. OwlDQ enables organizations to quickly do things that would otherwise take months to develop and cost significantly more.
 
