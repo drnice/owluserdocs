@@ -1,55 +1,56 @@
 ---
-description: >-
-  OwlDQ is an all-in-one tool that reduces the time spent by data professionals
-  implementing data monitoring.
+description: 'Low Effort, High Stakes Protection'
 ---
 
 # What is OwlDQ
 
-## Would you like fewer issues and better data quality...in the next 30 days?
+OwlDQ is an all-in-one tool that reduces the time spent implementing data monitoring.
 
 {% hint style="info" %}
-On average, 60% of a data professional's time is spent on data quality. It takes far too long to analyze and validate the data. 
+###  **On average, 60% of a data professional's time is spent on data quality. It takes far too long to analyze and validate the data.** 
 {% endhint %}
 
-This taxes every other department that relies on the data, creates patchy coverage, and **leaves your organization vulnerable to** _**data quality issues**_**.**  
+1. _This **taxes every other department** that relies on the data_ 
+2. _Leaves your organization **vulnerable to data quality issues**._ 
 
-### _And the biggest issues are the things you never expect._
+## What Actually Happens
+
+The BIGGEST issues are the things you never expect.
 
 {% tabs %}
-{% tab title="Invoicing" %}
-| _"An ETL update changed our up-to-date payments indicator from true/false to 1/0. We were very surprised when the invoices were not sent. The rework and reconciliation were super painful."_ |
+{% tab title="Billing" %}
+| "An unexpected conversion that occurred during a migration changed our up-to-date-payments indicator from TRUE/FALSE to 1/0. Needless to say, we were very surprised when invoices were not sent. The rework and reconciliation were super painful. An enormous amount of my time was wasted." |
 | :--- |
 {% endtab %}
 
-{% tab title="Investment" %}
-| _"One of our 200+ reference data feeds introduced a pipe \(\|\) into a position field. The field was defined as VARCHAR so the technical metadata did not change. An upstream provided add this to indicate the long and short legs. Our models went crazy and thought we breached risk limits, we ended up selling out of positions \(losing millions\). Only to uncover the root cause much later that week."_ |
+{% tab title="Finance" %}
+| "One of our 200+ reference data feeds introduced a pipe \(\|\) into a position field. The field was defined as VARCHAR so this was allowed. Our models went crazy and we thought we breached risk limits. We ended up selling out of positions \(losing millions\). Only to uncover the root cause much later that week." |
 | :--- |
 {% endtab %}
 
 {% tab title="Digital" %}
-| _"We pull data from many APIs. One platform accounts for 10% of enrichment activities \(i.e. how we monetize our data\). Our auth token accidentally had a daily quota imposed, yet job control said green light \(successful connection\). We still loaded some rows \(1k\), just not entire payloads. This was super nuanced. We literally lost ~10% revenue that month."_ |
+| "We pull data from many APIs. One platform accounts for 10% of enrichment activities \(i.e. how we monetize our data\). Our auth token accidentally had a daily quota imposed, yet job control said green light \(successful connection\). We still loaded some rows \(1k\), just not entire payloads. This was super nuanced. We literally lost ~10% revenue that month." |
 | :--- |
 {% endtab %}
 
 {% tab title="IoT" %}
-| _"When we introduced new meters, they were hooked up and sending valid readings. They were valid values within valid ranges. Turned out their default setting was rounding the actual values and we were losing precision. Devastating, considering the amount of precision required with blood values."_ |
+| "When we introduced new meters, they were hooked up and sending valid readings. They were valid values within valid ranges. Turned out their default setting was rounding the actual values and we were losing precision. Devastating, considering the amount of precision required with blood values." |
 | :--- |
 {% endtab %}
 {% endtabs %}
 
 {% hint style="warning" %}
-In the end, you're only as good as the rules you thought to write. 
+OwlDQ protects against these types of data "_surprises_". **In the end, you're only as good as the rules you thought to write.** 
 {% endhint %}
 
-## Success Stories
+## How We Help
 
 How industry leaders are accelerating initiatives using OwlDQ
 
 {% hint style="success" %}
 * **Top 10 Bank** 
 
-  * Replaced 60% of their manual data quality workload + $1.7M cost savings
+  * Reduced 60% of their manual data quality workload + $1.7M cost savings
 
 * **Top 10 Healthcare Organization** 
 
@@ -123,6 +124,8 @@ _All the things you need to make it work for you._
 #### Watch this 2-minute video to see how.
 
 {% embed url="https://www.youtube.com/watch?v=pySMbEtNFoU&t=15s" caption="Step 1. DQ Now" %}
+
+Would you like fewer issues and better data quality...in the next 30 days?
 
 ### [**Click Here to See a Demo**](https://calendly.com/brian-556/calendar)
 
