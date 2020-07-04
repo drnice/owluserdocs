@@ -68,7 +68,7 @@ How industry leaders are accelerating initiatives using OwlDQ
   * Implemented DQ Monitoring on 900+ Reference Datasets in less than 9 hours
 {% endhint %}
 
-Recent customers have been able to **get better data**, _**in much less time, and for a fraction of the cost**_ of building it themselves.  
+Recent customers have been able to _**get better data**, **in much less time, and for a fraction of the cost**_.  
 
 ## How Do I Get Started? 
 
