@@ -6,8 +6,9 @@ OwlDQ is an all-in-one tool that reduces the time spent implementing data monito
 ###  **On average, 60% of a data professional's time is consumed by data quality. It takes far too long to analyze and validate the data.** 
 {% endhint %}
 
-1. _This **taxes every other department** that relies on the data_ 
-2. _This leaves your organization **vulnerable to data quality issues**._ 
+1. _This **taxes every other department** that relies on the data_
+2. _This **slows down every employee** that works with the data_ 
+3. _This leaves your organization **vulnerable to data quality issues**._ 
 
 ## What Actually Happens
 
