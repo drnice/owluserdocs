@@ -37,7 +37,7 @@ The BIGGEST issues are the things you never expect.
 {% endtabs %}
 
 {% hint style="warning" %}
-OwlDQ provides **Low Effort, High Stakes protection** **for** these types of **data "**_**surprises**_**".** In the end, you're only as good as the rules you thought to write. 
+OwlDQ provides **Low Effort, High Stakes protection** **for** these types of **data "**_**surprises**_**".** 
 {% endhint %}
 
 ## How We Help
