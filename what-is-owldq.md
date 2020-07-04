@@ -15,7 +15,7 @@ The BIGGEST issues are the things you never expect.
 
 {% tabs %}
 {% tab title="Billing Issue Example" %}
-| "An unexpected conversion occurred during a migration that changed our up-to-date-payments indicator from TRUE/FALSE to 1/0. Needless to say, we were very surprised when invoices were not sent. The rework and reconciliation were super painful. An enormous amount of my time was wasted." |
+| "An unexpected ETL update occurred during a migration that changed our up-to-date-payments indicator from TRUE/FALSE to 1/0. Needless to say, we were very surprised when invoices were not sent. The rework and reconciliation were super painful. An enormous amount of my time was wasted." |
 | :--- |
 {% endtab %}
 
