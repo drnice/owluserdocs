@@ -8,7 +8,7 @@ OwlDQ is an all-in-one tool that reduces the time spent implementing data monito
 
 1. _This **taxes every other department** that relies on the data_
 2. _This **slows down every employee** that works with the data_ 
-3. _This leaves your organization **vulnerable to data quality issues**._ 
+3. _This **leaves you vulnerable to data quality issues**._ 
 
 ## What Actually Happens
 
