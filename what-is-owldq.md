@@ -48,35 +48,35 @@ Industry leaders are accelerating initiatives using OwlDQ
 * **Top 10 Bank** 
 
   * Reduced 60% of their manual Data Quality workload + $1.7M cost savings 
-    * \[Metadata Monitoring\] 
-    * \[Data Catalog Integration\]
+    * _\[Metadata Monitoring\]_ 
+    * _\[Data Catalog Integration\]_
 
 * **Top 10 Healthcare Organization** 
 
   * Completed a 6 Month Data Quality migration requirement in six weeks 
-    * \[Migrations & Upgrades\]
+    * _\[Migrations & Upgrades\]_
 
 * **Top Insurance Organization** 
 
   * Satisfied Regulatory Second Line Controls in a 4-week program 
-    * \[Regulatory Requirements\]
-    * \[Data Catalog Integration\]
+    * _\[Regulatory Requirements\]_
+    * _\[Data Catalog Integration\]_
 
 * **Top FS Firm** 
 
   * Implemented Data Quality checks across their data warehouse in 30 days 
-    * \[Migrations and Upgrades\]
+    * _\[Migrations and Upgrades\]_
 
 * **Top Investment Advisor** 
 
   * Rolled out the OwlDQ Rules Engine to business users to stop spreadsheets bottlenecks 
-    * \[Democratizing Data\] 
-    * \[Data Literacy\]
+    * _\[Democratizing Data\]_ 
+    * _\[Data Literacy\]_
 
 * **Top Asset Manager** 
   * Implemented DQ Monitoring on 900+ Reference Datasets in less than 9 hours 
-    * \[Metadata Monitoring\]
-    * \[Data Quality Consolidation\]
+    * _\[Metadata Monitoring\]_
+    * _\[Tool Consolidation\]_
 {% endhint %}
 
 ### Recent customers have been able to **accelerate projects** _**in half the time, and 1/10 the cost, without hiring engineers or wasting time on inefficient methods that don't scale.**_
