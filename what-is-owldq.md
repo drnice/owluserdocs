@@ -51,7 +51,7 @@ Industry leaders are accelerating initiatives using OwlDQ
 
 * **Top 10 Healthcare Organization** 
 
-  * Completed a 6 Month Data Quality migration requirement in six weeks \(Migrations & Upgrades\) 
+  * Completed a 6 Month Data Quality migration requirement in six weeks \(Migrations & Data Catalog Integration\) 
 
 * **Top Insurance Organization** 
 
