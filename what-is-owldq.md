@@ -8,7 +8,7 @@ OwlDQ is an all-in-one tool that reduces the time spent implementing data monito
 
 1. _This **taxes every other department** that relies on the data_
 2. _This **slows down every employee** that works with the data_ 
-3. _This **leaves you vulnerable to data quality issues**._ 
+3. _This **leaves you vulnerable to issues and patchy coverage**._ 
 
 ## What Actually Happens
 
@@ -37,7 +37,7 @@ The BIGGEST issues are the things you never expect.
 {% endtabs %}
 
 {% hint style="warning" %}
-OwlDQ provides **Low Effort, High Stakes protection** **for** these types of **data "**_**surprises**_**".** 
+OwlDQ provides **protection** **for** these types of **data "**_**surprises**_**".** 
 {% endhint %}
 
 ## How We Help
@@ -47,8 +47,9 @@ Industry leaders are accelerating initiatives using OwlDQ
 {% hint style="success" %}
 * **Top 10 Bank** 
 
-  * Reduced 60% of their manual data quality workload + $1.7M cost savings 
-    * \[Metadata Monitoring & Data Catalog Integration\]
+  * Reduced 60% of their manual Data Quality workload + $1.7M cost savings 
+    * \[Metadata Monitoring\] 
+    * \[Data Catalog Integration\]
 
 * **Top 10 Healthcare Organization** 
 
@@ -59,6 +60,7 @@ Industry leaders are accelerating initiatives using OwlDQ
 
   * Satisfied Regulatory Second Line Controls in a 4-week program 
     * \[Regulatory Requirements\]
+    * \[Data Catalog Integration\]
 
 * **Top FS Firm** 
 
@@ -68,14 +70,16 @@ Industry leaders are accelerating initiatives using OwlDQ
 * **Top Investment Advisor** 
 
   * Rolled out the OwlDQ Rules Engine to business users to stop spreadsheets bottlenecks 
-    * \[Democratizing Data\]
+    * \[Democratizing Data\] 
+    * \[Data Literacy\]
 
 * **Top Asset Manager** 
   * Implemented DQ Monitoring on 900+ Reference Datasets in less than 9 hours 
-    * \[Metadata Monitoring & Integrity Checks\]
+    * \[Metadata Monitoring\]
+    * \[Data Quality Consolidation\]
 {% endhint %}
 
-### Recent customers have been able to **get better data** _**in half the time, and 1/10 the cost**._  
+### Recent customers have been able to **accelerate projects** _**in half the time, and 1/10 the cost, without hiring engineers or wasting time on inefficient methods that don't scale.**_
 
 ## How Do I Get Started? 
 
@@ -177,7 +181,7 @@ Owl offers a full DQ suite to cover the unique challenges of each dataset.
 
 1. Behavior - Metadata monitoring
 2. Rules - SQL-based rules engine
-3. Outliers - Anomalous records
+3. Outliers - Anomalous records, clustering, time-series, categorical
 4. Pattern - Classification, cross-column & parent/child anomalies 
 5. Source - Source to target reconciliation
 6. Record - Deltas for a given column\(s\)
