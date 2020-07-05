@@ -42,7 +42,7 @@ OwlDQ provides **Low Effort, High Stakes protection** **for** these types of **d
 
 ## How We Help
 
-How industry leaders are accelerating initiatives using OwlDQ
+Industry leaders are accelerating initiatives using OwlDQ
 
 {% hint style="success" %}
 * **Top 10 Bank** 
