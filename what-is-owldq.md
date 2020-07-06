@@ -18,6 +18,10 @@ OwlDQ is an all-in-one tool that reduces the time spent implementing data monito
 
 The BIGGEST issues are the things you never expect.
 
+{% hint style="warning" %}
+OwlDQ provides **protection** **for** these types of **data "**_**surprises**_**".** 
+{% endhint %}
+
 {% tabs %}
 {% tab title="Billing Issue Example" %}
 | "An unexpected ETL update occurred during a migration that changed our up-to-date-payments indicator from TRUE/FALSE to 1/0. Needless to say, we were very surprised when invoices were not sent. The rework and reconciliation were super painful. An enormous amount of my time was wasted." |
@@ -39,10 +43,6 @@ The BIGGEST issues are the things you never expect.
 | :--- |
 {% endtab %}
 {% endtabs %}
-
-{% hint style="warning" %}
-OwlDQ provides **protection** **for** these types of **data "**_**surprises**_**".** 
-{% endhint %}
 
 ## How We Help
 
