@@ -157,19 +157,25 @@ Whether you're getting started or applying advanced controls, OwlDQ is an all-in
 
 Owl was designed with 4 KPI's in mind:
 
-**Speed -** Owl will check that data is valid, complete, accurate, and consistent.  Data Quality is derived from intuitive clicks, not unnecessary code. Our goal is to deliver DQ in minutes, not days or weeks. 
+{% tabs %}
+{% tab title="Speed" %}
+Owl will check that data is valid, complete, accurate, and consistent.  Data Quality is derived from intuitive clicks, not unnecessary code. Our goal is to deliver DQ in minutes, not days or weeks. 
+{% endtab %}
 
-**Scale -**  Owl considers scale from two perspectives. From a technical viewpoint, OwlDQ is designed to work in distributed and elastic environments. It can scan any data from any location. The other piece is usability. Creating a tool that will scale to additional users, outside of a few experts, is equally important.  
+{% tab title="Scale" %}
+Owl considers scale from two perspectives. From a technical viewpoint, OwlDQ is designed to work in distributed and elastic environments. It can scan any data from any location. The other piece is usability. Creating a tool that will scale to additional users, outside of a few experts, is equally important.  
+{% endtab %}
 
-**Unification -**   OwlDQ will scan files the same way as a database so you can do all in your data monitoring in one place, rather than piecemeal approaches.  Data quality needs to be unified to have a single normalized view of data health.
+{% tab title="Measurement" %}
+You can't manage what you can't measure. It's important to get macro and micro views of data quality, the ability to compare between different departments, and time periods. 
+{% endtab %}
 
-**Measurement -** You can't manage what you can't measure. It's important to get macro and micro views of data quality, the ability to compare between different departments, and time periods. 
+{% tab title="Unification" %}
+OwlDQ will scan files the same way as a database so you can do all in your data monitoring in one place, rather than piecemeal approaches.  Data quality needs to be unified to have a single normalized view of data health. ****
+{% endtab %}
+{% endtabs %}
 
 [See Why Owl For More Information](https://owldq.com/about.html)
-
-### Trust
-
-Because showing someone a housing report with incorrect estimated housing values or a positions report with the wrong stock prices won’t go over well. Consistent data monitoring helps you sleep better at night, but also lets the business know they can trust the data. 
 
 ## **Core Components**
 
