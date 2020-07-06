@@ -1,3 +1,7 @@
+---
+description: For Data Teams That Want to Move Faster
+---
+
 # What is OwlDQ
 
 OwlDQ is an all-in-one tool that reduces the time spent implementing data monitoring.
