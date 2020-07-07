@@ -20,9 +20,9 @@ Owl will automatically learn the normal behavior of your Strings and Categorical
 
 ### Real World Example
 
-Imagine you are the data manager at Iowa Department of Commerce, Alcoholic Beverage Division. As part of the Department's open data initiative, the monthly [Iowa liquor sales are available to the public](https://data.iowa.gov/Sales-Distribution/Iowa-Liquor-Sales/m3tr-qhgy) for analysis. \(Thank you Iowa!\)
+Imagine you are the data manager at Iowa Department of Commerce, Alcoholic Beverage Division. As part of the Department's open data initiative, the monthly[ Iowa liquor sales data](https://data.iowa.gov/Sales-Distribution/Iowa-Liquor-Sales/m3tr-qhgy) are available to the public for analysis. \(Thank you Iowa!\)
 
-Your reporting analyst flags a data quality issue with **address** for store \#2508 in year 2016. You quickly run a SQL query on your data warehouse to see what is going on.   
+An Iowan data analyst emails you about a data quality issue with **address** for store \#2508 in the year 2016. You quickly run a SQL query on your data warehouse to see what is going on.   
 ****
 
 ```sql
@@ -49,9 +49,9 @@ order by date_month, address
 |  2016-11-01 00:00:00 | 1843 Johnson Avenue, N.W. |  1062 |
 |  2016-12-01 00:00:00 | 1843 Johnson Avenue, N.W. |  992 |
 
-Because **store\_number** is an unique number assigned to the store who ordered the liquor, the inconsistent **address** values for the same store is a potential data quality issue. But **address** is a string value that can take many forms. For store \#2508, the reported address value has a shifted behavior from all capital letters starting on May 2016. For other cases, it might be completely different behavior change that you would have to manually check one by one. With over 2,000 unique stores, 19 million rows, and 8 years of data, you need an automated way to detect meaningful categorical outliers.
+Because `store_number` is an unique number assigned to the store who ordered the liquor, the inconsistent `address` values for the same store pose data quality problem. But `address` is a string value that can take many forms. For store \#2508, the reported address value has a shifted behavior from all capital letters starting on May 2016. For other cases, it might be completely different behavior change that you would have to manually check one by one. With over 2,000 unique stores, 19 million rows, and 8 years of data, you need an automated way to detect meaningful categorical outliers.
 
-The following command shows an example of running monthly OwlDQ Checks, from the month of Jan 2016 to the month of December 2016. Each monthly run looks back 3 months of data to establish a baseline for categorical columns **city**, **store**, and **store\_name**.
+The following command shows an example of running monthly OwlDQ Checks, from the month of Jan 2016 to the month of December 2016. Each monthly run looks back 3 months of data to establish a baseline for categorical columns that you suspect would have similar data quality issues: `store_name`, `address`, and`city`.
 
 ```bash
 /opt/owl/bin/owlcheck 
