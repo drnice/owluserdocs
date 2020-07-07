@@ -137,12 +137,12 @@ Would you like fewer issues and better data quality...in the next 30 days?
 
 ## What Sets OwlDQ Apart
 
-_**The only tool**_ 
+_**OwlDQ is the only tool that**_ 
 
-* That contains all-in-one analysis, autodiscovery, workflows, and reporting
-* That allows UI-driven and programmatic workflows 
-* That deploys on-prem or within distributed and cloud environments
-* That provides enterprise security, encryption, and masking functionality
+* Contains all-in-one analysis, autodiscovery, workflows, and reporting
+* Allows UI-driven and programmatic workflows 
+* Deploys on-prem or within distributed and cloud environments
+* Provides enterprise security, encryption, and masking functionality
 
 OwlDQ enables organizations to quickly do things that would _**otherwise take months to develop and cost significantly more.**_
 
