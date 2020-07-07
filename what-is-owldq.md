@@ -1,12 +1,12 @@
 # What is OwlDQ
 
-## The Low Effort Data Monitoring Software That Eliminates Data Quality Headaches At Scale 
+## The Low-Effort Data Monitoring Software That Eliminates Data Quality Headaches At Scale 
 
 OwlDQ is an intelligent service that reduces the heavy lifting involved in data monitoring. It is built for data professionals that want to be efficient.
 
 ## What Actually Happens
 
-Without efficient data monitoring built-in by design, the biggest issues are the things you never expect.
+Without data monitoring built-in by design, the biggest issues are the things you least expect & you don't immediately notice.
 
 {% tabs %}
 {% tab title="Billing Issue Example" %}
@@ -69,9 +69,7 @@ Industry leaders are accelerating initiatives using OwlDQ
     * _\[Tool Consolidation\]_
 {% endhint %}
 
-### **Finish projects** **in half the time, and 1/10 the cost**_**, without hiring or wasting time on inefficient methods that don't scale.**_
-
-### ...while eliminating team-wide headaches 
+### **Finish projects** **in half the time, and 1/10 the cost**...while eliminating system-wide headaches**...without hiring more resources**
 
 {% hint style="danger" %}
 * Data teams overwhelmed with tickets 
@@ -144,8 +142,7 @@ _**OwlDQ is the only tool that**_
 * Deploys on-prem or within distributed and cloud environments
 * Provides enterprise security, encryption, and masking functionality
 * Works on big, medium, and small data \(Files, Streams, RDBMS, Hadoop\)
-
-OwlDQ enables organizations to quickly do things that would _**otherwise take months to develop and cost significantly more.**_
+* Reduces efforts that would _**otherwise take months to develop and cost significantly more.**_
 
 ## **Purpose-Built \(One Focus\)**
 
