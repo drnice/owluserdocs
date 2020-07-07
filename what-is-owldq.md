@@ -2,7 +2,7 @@
 
 ## The One Missing Tool in Your Toolset To Eliminate Data Quality Headaches At Scale 
 
-OwlDQ is an intelligent service that reduces the heavy lifting involved in data monitoring. It is built for data professionals That Want to Be Efficient.
+OwlDQ is an intelligent service that reduces the heavy lifting involved in data monitoring. It is built for data professionals that want to be efficient.
 
 ## What Actually Happens
 
