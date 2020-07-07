@@ -10,6 +10,8 @@ Data Quality as a consistent pain point suggests there's a lot of attention and 
 
 Instead of spending hours analyzing data to write the checks, more organizations are using statistically driven techniques to reduce the workload. 
 
+OwlDQ offers a low-hanging fruit opportunity to extend data quality capabilities \(without hiring\).
+
 ## What Actually Happens
 
 Without data monitoring built-in by design, the biggest issues are the things you least expect & you don't immediately notice.
