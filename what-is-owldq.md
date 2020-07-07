@@ -152,7 +152,7 @@ Would you like fewer issues and better data quality...in the next 30 days?
 * Works on big, medium, and small data \(Files, Streams, RDBMS, Hadoop\)
 * Reduces efforts that would **otherwise take months to develop and cost significantly more.**
 
-![Based on customer averages. Results may vary.](.gitbook/assets/image%20%2833%29.png)
+![A 90% reduction in manual analysis and rule generation workload.](.gitbook/assets/image%20%2834%29.png)
 
 ## **Purpose-Built \(One Focus\)**
 
