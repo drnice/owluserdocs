@@ -6,7 +6,7 @@ OwlDQ is an intelligent service that reduces the heavy lifting involved in data 
 
 ## What Actually Happens
 
-Without data monitoring built-in by design, the biggest issues are the things you never expect.
+Without efficient data monitoring built-in by design, the biggest issues are the things you never expect.
 
 {% tabs %}
 {% tab title="Billing Issue Example" %}
