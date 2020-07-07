@@ -8,7 +8,7 @@ OwlDQ is an intelligent service that reduces the heavy lifting involved in data 
 
 Data Quality as a consistent pain point suggests there's a lot of attention and not a lot of good solutions.
 
-Instead of spending hours analyzing data to write the checks, data-driven organizations are using statistically driven data monitoring to reduce the workload. 
+Instead of spending hours analyzing data to write the checks, more organizations are using statistically driven techniques to reduce the workload. 
 
 ## What Actually Happens
 
@@ -96,7 +96,7 @@ This 4 step process allows you to quickly layer-in data quality checks.
 * Metadata Monitoring
 * Rapid Rules \(auto-generated, auto-Applied\) 
 
-_Fast to implement, must-have protection, no code, sanity checks._
+_Fast to implement, must-have protection, sanity checks_
 {% endtab %}
 
 {% tab title="DQ Discover" %}
@@ -141,14 +141,16 @@ Would you like fewer issues and better data quality...in the next 30 days?
 
 ## What Sets OwlDQ Apart
 
-_**OwlDQ is the only tool that**_ 
+**OwlDQ is the only tool that** 
 
 * Contains all-in-one analysis, autodiscovery, cataloging, job control, and ticketing
 * Allows UI-driven and programmatic workflows 
 * Deploys on-prem or within distributed and cloud environments
 * Provides enterprise security, encryption, and masking functionality
 * Works on big, medium, and small data \(Files, Streams, RDBMS, Hadoop\)
-* Reduces efforts that would _**otherwise take months to develop and cost significantly more.**_
+* Reduces efforts that would **otherwise take months to develop and cost significantly more.**
+
+![Based on customer averages. Results may vary.](.gitbook/assets/image%20%2833%29.png)
 
 ## **Purpose-Built \(One Focus\)**
 
