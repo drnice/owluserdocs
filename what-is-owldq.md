@@ -71,7 +71,7 @@ Industry leaders are accelerating initiatives using OwlDQ
 
 ### **Finish projects** **in half the time, and 1/10 the cost**_**, without hiring or wasting time on inefficient methods that don't scale.**_
 
-### While eliminating team-wide headaches 
+### ...while eliminating team-wide headaches 
 
 {% hint style="danger" %}
 * Data teams overwhelmed with tickets 
