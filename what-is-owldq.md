@@ -2,7 +2,7 @@
 
 ## The Only Enterprise-Ready Software To Eliminate Data Quality Headaches At Scale 
 
-OwlDQ is an intelligent service that automates the heavy lifting involved in data monitoring. It is built for data professionals That Want to Be Efficient.
+OwlDQ is an intelligent service that reduces the heavy lifting involved in data monitoring. It is built for data professionals That Want to Be Efficient.
 
 ## What Actually Happens
 
