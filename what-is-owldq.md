@@ -75,7 +75,7 @@ Industry leaders are accelerating initiatives using OwlDQ
     * _\[Tool Consolidation\]_
 {% endhint %}
 
-### **Finish projects** **in half the time and fraction of the cost**
+### **Finish projects** **in half the time and fraction of the cost, while reducing system-wide headaches**
 
 {% hint style="danger" %}
 * Data teams overwhelmed with tickets 
