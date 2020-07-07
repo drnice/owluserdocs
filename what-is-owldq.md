@@ -2,7 +2,7 @@
 
 ## The Low-Effort Data Monitoring Software That Eliminates Data Quality Headaches At Scale 
 
-OwlDQ is an intelligent service that reduces the heavy lifting involved in data monitoring. It is built for data professionals that want to be efficient.
+OwlDQ is an intelligent service that reduces the heavy lifting involved in data monitoring. 
 
 ### A Constant Challenge
 
