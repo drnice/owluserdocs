@@ -4,6 +4,12 @@
 
 OwlDQ is an intelligent service that reduces the heavy lifting involved in data monitoring. It is built for data professionals that want to be efficient.
 
+## A Constant Challenge
+
+Data Quality as a consistent pain point suggests there's a lot of attention and not a lot of good solutions.
+
+Instead of spending hours analyzing data to write the checks, data-driven organizations are using statistically driven data monitoring to reduce the workload. 
+
 ## What Actually Happens
 
 Without data monitoring built-in by design, the biggest issues are the things you least expect & you don't immediately notice.
