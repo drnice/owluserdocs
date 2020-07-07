@@ -73,7 +73,7 @@ Industry leaders are accelerating initiatives using OwlDQ
     * _\[Tool Consolidation\]_
 {% endhint %}
 
-### A**ccelerate projects** _**in half the time, and 1/10 the cost,**_ **without hiring engineers or wasting time on inefficient methods that don't scale**_**.**_
+### **Projects** _**in half the time, and 1/10 the cost,**_ **without hiring or wasting time on inefficient methods that don't scale**_**.**_
 
 ## How Do I Get Started? 
 
