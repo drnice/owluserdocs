@@ -30,7 +30,7 @@ The BIGGEST issues are the things you never expect.
 {% endtab %}
 {% endtabs %}
 
-OwlDQ provides protection for these types of data "surprises". 
+OwlDQ constantly monitors to spot these types of data "surprises". 
 
 ## How We Help
 
