@@ -71,6 +71,15 @@ Industry leaders are accelerating initiatives using OwlDQ
 
 ### **Finish projects** **in half the time, and 1/10 the cost**_**, without hiring or wasting time on inefficient methods that don't scale.**_
 
+### While eliminating team-wide headaches 
+
+{% hint style="danger" %}
+* Data teams overwhelmed with tickets 
+* Business users find issues first
+* Touchy pipelines get upset with minor updates
+* Too busy responding to fire drills to implement new projects
+{% endhint %}
+
 ## How Do I Get Started? 
 
 This 4 step process allows you to quickly layer-in data quality checks.
@@ -126,16 +135,16 @@ Would you like fewer issues and better data quality...in the next 30 days?
 
 ### \*\*\*\*[**Click Here to See a Demo**](https://calendly.com/brian-556/owldq-session)\*\*\*\*
 
-## Low Effort, High Stakes Protection.
+## What Sets OwlDQ Apart
+
+_**The only tool**_ 
+
+* That contains all-in-one analysis, autodiscovery, workflows, and reporting
+* That allows UI-driven and programmatic workflows 
+* That deploys on-prem or within distributed and cloud environments
+* That provides enterprise security, encryption, and masking functionality
 
 Whether you're getting started or applying advanced controls, OwlDQ is an all-in-one, [purpose-built](https://docs.owl-analytics.com/what-is-owldq#purpose-built-one-focus) software to boost your data monitoring efforts. OwlDQ enables organizations to quickly do things that would _**otherwise take months to develop and cost significantly more.**_
-
-{% hint style="danger" %}
-* Data teams overwhelmed with tickets 
-* Business users find issues first
-* Touchy pipelines get upset with minor updates
-* Too busy responding to fire drills to implement new projects
-{% endhint %}
 
 ## **Purpose-Built \(One Focus\)**
 
