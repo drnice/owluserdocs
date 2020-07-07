@@ -7,7 +7,7 @@ description: For Data Teams That Want to Move Faster
 OwlDQ is an all-in-one tool that reduces the time spent implementing data monitoring.
 
 {% hint style="info" %}
-###  **On average, 60% of a data professional's time is consumed by data quality. It takes far too long to analyze and validate the data.** 
+###  **On average, 60% of a data professional's time is consumed by data quality.** 
 {% endhint %}
 
 1. _This **taxes every other department** that relies on the data_
