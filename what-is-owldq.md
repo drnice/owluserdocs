@@ -139,10 +139,11 @@ Would you like fewer issues and better data quality...in the next 30 days?
 
 _**OwlDQ is the only tool that**_ 
 
-* Contains all-in-one analysis, autodiscovery, workflows, and reporting
+* Contains all-in-one analysis, autodiscovery, cataloging, job control, and ticketing
 * Allows UI-driven and programmatic workflows 
 * Deploys on-prem or within distributed and cloud environments
 * Provides enterprise security, encryption, and masking functionality
+* Works on big, medium, small data \(Files, Streams, RDBMS, Hadoop\)
 
 OwlDQ enables organizations to quickly do things that would _**otherwise take months to develop and cost significantly more.**_
 
