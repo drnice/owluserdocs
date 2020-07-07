@@ -81,7 +81,7 @@ This 4 step process allows you to quickly apply data quality checks.
 
 * Always-On Profiling
 * Metadata Monitoring
-* Rapid Rules \(auto-Applied\) 
+* Rapid Rules \(auto-generated, auto-Applied\) 
 
 _Fast to implement, must-have protection, no code, sanity checks._
 {% endtab %}
