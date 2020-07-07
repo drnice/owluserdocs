@@ -2,9 +2,13 @@
 
 ### Rules.  Can't live with them, can't live without them.
 
-Owl takes a strong stance that data should first be profiled, auto-discovered and learned before applying basic rules.  This methodology commonly removes thousands of rules that will never need to be written and evolve naturally overtime.  However there are still many cases to add a simple rule, complex rule or domain specific rule.  Simply search for any dataset and add a rule.
+Owl takes a strong stance that data should first be profiled, auto-discovered and learned before applying basic rules.  This methodology commonly removes thousands of rules that will never need to be written and evolve naturally overtime.  However there are still many cases to add a simple rule, complex rule or domain specific rule.  Simply search for any dataset and add a rule. You can use the optional Column Name/Category/Description to add meta-data to your rules for future reporting.
 
-![](../../.gitbook/assets/owl-rule-builder-zoomed.png)
+![](../../.gitbook/assets/screen-shot-2020-07-07-at-5.37.54-am.png)
+
+Quick rules are another great way to apply rules at the click of a button in the preview tab.
+
+![](../../.gitbook/assets/screen-shot-2020-07-07-at-5.38.48-am.png)
 
 ### Current Rule Set
 
