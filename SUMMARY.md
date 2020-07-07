@@ -173,3 +173,17 @@
 * [Smart Meter Data](smart-meter-data.md)
 * [Health Insurance Claims Data](insurance-data.md)
 
+## Observation Assignments <a id="observation-assignment"></a>
+
+* [Assignment Queue\(s\)](observation-assignment/assignment-architecture.md)
+* [Internal Assignment](observation-assignment/internal-assignment.md)
+* [External Assignment](observation-assignment/external-assignment.md)
+* [APIs](observation-assignment/apis.md)
+* [ERD](observation-assignment/erd.md)
+* [FAQ](observation-assignment/faq.md)
+* [Training Video](observation-assignment/training-video.md)
+
+---
+
+* [Release Notes](release-notes.md)
+
