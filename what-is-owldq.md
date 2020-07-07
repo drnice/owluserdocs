@@ -144,7 +144,7 @@ _**The only tool**_
 * That deploys on-prem or within distributed and cloud environments
 * That provides enterprise security, encryption, and masking functionality
 
-Whether you're getting started or applying advanced controls, OwlDQ is an all-in-one, [purpose-built](https://docs.owl-analytics.com/what-is-owldq#purpose-built-one-focus) software to boost your data monitoring efforts. OwlDQ enables organizations to quickly do things that would _**otherwise take months to develop and cost significantly more.**_
+OwlDQ enables organizations to quickly do things that would _**otherwise take months to develop and cost significantly more.**_
 
 ## **Purpose-Built \(One Focus\)**
 
