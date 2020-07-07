@@ -6,7 +6,7 @@ OwlDQ is an intelligent service that reduces the heavy lifting involved in data 
 
 ## What Actually Happens
 
-The BIGGEST issues are the things you never expect.
+Without data monitoring built-in by design, the biggest issues are the things you never expect.
 
 {% tabs %}
 {% tab title="Billing Issue Example" %}
@@ -29,8 +29,6 @@ The BIGGEST issues are the things you never expect.
 | :--- |
 {% endtab %}
 {% endtabs %}
-
-OwlDQ constantly monitors to spot these types of data "surprises". 
 
 ## How We Help
 
