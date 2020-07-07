@@ -73,7 +73,7 @@ Industry leaders are accelerating initiatives using OwlDQ
 
 ## How Do I Get Started? 
 
-This 4 step process allows you to quickly apply data quality checks.
+This 4 step process allows you to quickly layer-in data quality checks.
 
 {% tabs %}
 {% tab title="DQ Now" %}
