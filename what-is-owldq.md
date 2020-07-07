@@ -35,7 +35,7 @@ The BIGGEST issues are the things you never expect.
 {% endtabs %}
 
 {% hint style="warning" %}
-OwlDQ provides **protection** **for** these types of **data "**_**surprises**_**".** 
+OwlDQ provides **protection** **for** these types of **data "surprises".** 
 {% endhint %}
 
 ## How We Help
