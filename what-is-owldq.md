@@ -1,6 +1,6 @@
 # What is OwlDQ
 
-## The One Missing Tool in Your Toolset That Eliminates Data Quality Headaches At Scale 
+## The Only Data Monitoring Tool That Eliminates Data Quality Headaches At Scale 
 
 OwlDQ is an intelligent service that reduces the heavy lifting involved in data monitoring. It is built for data professionals that want to be efficient.
 
@@ -143,7 +143,7 @@ _**OwlDQ is the only tool that**_
 * Allows UI-driven and programmatic workflows 
 * Deploys on-prem or within distributed and cloud environments
 * Provides enterprise security, encryption, and masking functionality
-* Works on big, medium, small data \(Files, Streams, RDBMS, Hadoop\)
+* Works on big, medium, and small data \(Files, Streams, RDBMS, Hadoop\)
 
 OwlDQ enables organizations to quickly do things that would _**otherwise take months to develop and cost significantly more.**_
 
