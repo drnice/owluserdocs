@@ -6,7 +6,15 @@ The main goal of OwlDQ is to provide enterprise data quality insight while great
 
 ## Training Behavioral Model
 
-Typically, data quality checks \(Owlcheck\) is scheduled to run on a given dataset daily. With each run, Owl will profile the dataset at the column level and begin to establish a model for the dataset. Initially, there is no need for any manual intervention, just keep the data coming. Within a few runs, the model will become sufficiently robust to begin detecting data quality issues that would otherwise be covered by manual rules. For example, Owl may detect that particular column experienced a spike in the number of NULL values \(typical manually defined rule\). 
+Typically, data quality checks \(Owlcheck\) is scheduled to run on a given dataset daily. Behavior Model is built on top of data calculated by the Profile activity. The default settings will often work just fine, however, Owl allows the user to specify two key parameters:
+
+* Behavior Lookback - Number of Owlchecks that model will encompass. Lookback of 10 means that the model will be based on the combined statistics from the last 10 Owlchecks of this dataset. 
+* Learning Phase - Minimum number of Owlchecks before the Behavior model should begin to apply. Owl will not attempt to apply Behavioral scoring to a dataset until at least this many Owlchecks have been run on it.
+* Applicable Behavioral  Factors - The user can choose to forego the application of any of the above factors to the scoring of the model. For example, the user can instruct Owl to not track MIN and MAX ranges of values in columns by unchecking the MIN and MAX checkbox. This would prevent Owl from detecting any extreme values in any column of the dataset using the Behavioral model.
+
+![](../.gitbook/assets/screen-shot-2020-07-08-at-12.28.39-pm.png)
+
+With each run, Owl will profile the dataset at the column level and begin to establish a model for the dataset. Initially, there is no need for any manual intervention, just keep the data coming. Within a few runs, the model will become sufficiently robust to begin detecting data quality issues that would otherwise be covered by manual rules. For example, Owl may detect that particular column experienced a spike in the number of NULL values \(typical manually defined rule\). 
 
 {% hint style="info" %}
  Owl's behavioral model consist of the following factors:
