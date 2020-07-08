@@ -22,7 +22,11 @@ Owl will automatically learn the normal behavior of your String and Categorical 
 
 Owl is able to detect Categorical Outliers both with and without taking time into account. If a time dimension is not provided, Owl will figure calculate the distribution of categorical values within the available data, and identify the values that fall into the most infrequent percentile \(configurable\).  
 
+![Categorical Outliers without Time](../.gitbook/assets/screen-shot-2020-07-07-at-9.43.19-pm.png)
+
 If a time dimension is provided, Owl will first identify infrequent categories in the historical context and then in the context of the current Owlcheck. Only values that are historically infrequent or non-existent and are infrequent in the current run will be considered Outliers.
+
+![Categorical Outliers with Time](../.gitbook/assets/screen-shot-2020-07-07-at-9.37.17-pm.png)
 
 ## Training Outlier Detection Model
 
