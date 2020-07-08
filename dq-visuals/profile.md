@@ -9,7 +9,7 @@ Owl automatically profiles datasets over time to enable drill-in for detailed in
 Owl creates a detailed profile of each dataset under management. This profile will later be used to both provide insight and automatically identify data quality issues.
 
 {% hint style="info" %}
-Owl can compute the profile of a dataset either via Spark or the Data Warehouse where the data lives as the engine. The following DBMS systems are supported for "Profile Pushdown"
+Owl can compute the profile of a dataset either via Spark \(Default\) or the Data Warehouse where the data lives as the engine. The following DBMS systems are supported for "Profile Pushdown"
 
 * Impala 
 * Hive 
