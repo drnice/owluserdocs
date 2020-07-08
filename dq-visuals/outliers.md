@@ -26,21 +26,31 @@ Although Owl uses different techniques to detect Numerical and Categorical Outli
 
 At a minimum,  Owl requires historical data that can be used as the training dataset. If no other input is provided, Owl will calculate the normal range for each selected column and look for numerical and categorical outliers within the training dataset without any further context. The output will essentially consist of infrequent values that fall outside the normal range fo each column.
 
+![](../.gitbook/assets/screen-shot-2020-07-07-at-8.17.02-pm.png)
+
 To obtain more targeted results, the Owl requires a "key" column. This column will be used to provide context by grouping each column by the key column. Defining a good key column tends to provide results that are a better indicators of actual data quality issues instead of simply infrequent values.
+
+![](../.gitbook/assets/screen-shot-2020-07-07-at-8.18.40-pm.png)
 
 Another input that can make outlier detection more precise is a data/time column and a look back period.   This enables a more precise calculation of the normal range for a column and in the case of numerical outliers, makes it possible for Owl to establish a trend. Given a time column and key column, Owl will not only identify numerical outliers, it will plot the historical trend of the column value trailing the outlier. 
 
+![](../.gitbook/assets/screen-shot-2020-07-07-at-8.19.14-pm.png)
+
 Owl also allows further refinement of the time dimension by defining time bins and processing intervals. By default, when given a time column, Owl will bin the data into days and process the data in daily interval. However, if the data is high frequency, day bins and day intervals might be too coarse grained. In this case,  it might make more sense to group the data into bins on the minute and process the data in hour or minute intervals. The same concept applies in the other direction. What if the data is already aggregated on the month or year? In this case, it makes more sense to set the bins and intervals to month by month or month by year. 
 
-Once Outlier detection is complete for a given run, it's time to tune the scoring of the model. Owl allows the user to label any outlier findings as legitimate, thus preventing that outlier from being detected in the future or effecting the score of the current run. In addition, it is possible to define the significance of an outlier finding to a given dataset. This can be accomplished by setting how many quality points should be deducted for each outlier finding on any given run on that dataset.  
+![](../.gitbook/assets/screen-shot-2020-07-07-at-8.20.18-pm.png)
+
+Some data may be measured in really small or large units or contain a lot of noise. In this case, Owl allows  the user to adjust the sensitivity level and unit of measure for outlier detection on each column. Click the advanced tab to make these adjustments.
+
+![](../.gitbook/assets/screen-shot-2020-07-07-at-8.20.33-pm.png)
+
+Once Outlier detection is complete for a given run, it's time to tune the scoring of the model. Owl allows the user to label any outlier findings as legitimate, thus preventing that outlier from being detected in the future or effecting the score of the current run. In addition, it is possible to define the significance of an outlier finding to a given dataset. This can be accomplished by setting how many quality points should be deducted for each outlier finding on any given run on that dataset.  It is also possibly to adjust sensitivity and unit of measure of future runs by clicking on the small gear icon on the far left of the screen.
+
+![](../.gitbook/assets/screen-shot-2020-07-07-at-8.38.05-pm.png)
 
 ## Spark DataFrame Example
 
 ![](../.gitbook/assets/owl-categorical-outlier.png)
 
-### Outlier Tuning - Filter out the Noise
 
-By clicking the gear icon in the upper right corner of the OUTLIER tab on the HOOT page you will see this modal.  Below is a common example of how we at Owl tune end of day stock data.
-
-![](../.gitbook/assets/outlier-tuning.png)
 
