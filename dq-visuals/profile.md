@@ -8,8 +8,15 @@ Owl automatically profiles datasets over time to enable drill-in for detailed in
 
 Owl creates a detailed profile of each dataset under management. This profile will later be used to both provide insight and automatically identify data quality issues.
 
+![](../.gitbook/assets/screen-shot-2020-07-08-at-12.45.19-am.png)
+
+Owl can compute the Profile of a dataset either via Spark \(No Pushdown\) or the Data Warehouse \(Profile Pushdown\) where the data lives as the engine. When the Profile is computed using the datasource DBMS the user can choose two levels of pushdown: 
+
+* Full Profile - Perform full profile calculation except for TopN 
+* Count - Only perform row and column counts
+
 {% hint style="info" %}
-Owl can compute the profile of a dataset either via Spark \(Default\) or the Data Warehouse where the data lives as the engine. The following DBMS systems are supported for "Profile Pushdown"
+The following DBMS systems are supported for "Profile Pushdown"
 
 * Impala 
 * Hive 
@@ -22,8 +29,6 @@ Owl can compute the profile of a dataset either via Spark \(Default\) or the Dat
 * Mysql 
 * Oracle 
 * DB2 
-
-When the Profile is computed using the datasource DBMS, TopN visualization is not computed.
 {% endhint %}
 
 ![](../.gitbook/assets/screen-shot-2020-05-07-at-7.28.25-pm.png)
@@ -50,7 +55,31 @@ Profile includes a range of statistics
 * Value Quartiles
 {% endhint %}
 
-## Correlation Matrix
+## Sensitive Data Detection \(Semantic\)
+
+Owl can automatically identify any types of common PII columns. 
+
+{% hint style="info" %}
+Owl is able to detect the following types of PII
+
+* EMAIL
+* PHONE
+* ZIP CODE
+* STATE CD
+* CREDIT CARD
+* GENDER
+* SSN
+* IP ADDRESS
+* EIN
+{% endhint %}
+
+![](../.gitbook/assets/screen-shot-2020-07-08-at-12.37.10-am.png)
+
+Once detected, Owl will tag the column in the Profile as the discovered type as well as automatically apply a rule. If the user can choose to decline any discovered tag by simply clicking on it and confirming the delete action. This action can also remove the rule associated with the tag.
+
+![](../.gitbook/assets/screen-shot-2020-07-08-at-12.39.13-am.png)
+
+## Correlation Matrix \(Relationship\)
 
 Discover hidden relationships and measure the strength of those relationships.
 

@@ -2,6 +2,8 @@
 
 ## The Low-Effort Data Monitoring Software That Eliminates Data Quality Headaches At Scale 
 
+OwlDQ offers a low-hanging fruit opportunity to extend data quality capabilities beyond what you can do today \(without hiring, adding hardware, or writing more rules\).
+
 OwlDQ is an intelligent service that reduces the heavy lifting involved in data monitoring. 
 
 ### A Constant Challenge
@@ -9,8 +11,6 @@ OwlDQ is an intelligent service that reduces the heavy lifting involved in data 
 Data Quality as a consistent pain point suggests there's a lot of attention and not a lot of good solutions.
 
 Instead of spending hours analyzing data to write the checks, more organizations are using statistically driven techniques to reduce the workload. 
-
-OwlDQ offers a low-hanging fruit opportunity to extend data quality capabilities \(without hiring\).
 
 ## What Actually Happens
 
