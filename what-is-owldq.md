@@ -1,14 +1,14 @@
 ---
 description: >-
-  OwlDQ is an intelligent service that reduces the heavy lifting involved in
-  data monitoring.
+  OwlDQ is a low-effort data monitoring software that reduces the heavy lifting
+  involved in data monitoring.
 ---
 
 # What is OwlDQ
 
-## A Low-Effort Data Monitoring Software That Eliminates Data Quality Headaches At Scale 
+## Little-Known Techniques That Eliminate Data Quality Headaches At Scale 
 
-OwlDQ uses little-known techniques to create a low-hanging fruit opportunity to extend data quality capabilities beyond what you have today \(without hiring, adding hardware, or learning a new rule syntax\).
+OwlDQ offers a low-hanging fruit opportunity to extend data quality capabilities beyond what you have today \(without hiring, adding hardware, or learning a new rule syntax\).
 
 ### A Consistent Challenge
 
