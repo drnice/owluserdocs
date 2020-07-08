@@ -8,7 +8,7 @@ description: >-
 
 ## A Low-Effort Data Monitoring Software That Eliminates Data Quality Headaches At Scale 
 
-OwlDQ offers a low-hanging fruit opportunity to extend data quality capabilities beyond what you have today \(without hiring, adding hardware, or learning a new rule syntax\).
+OwlDQ uses little-known techniques to create a low-hanging fruit opportunity to extend data quality capabilities beyond what you have today \(without hiring, adding hardware, or learning a new rule syntax\).
 
 ### A Consistent Challenge
 
