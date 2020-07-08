@@ -20,6 +20,10 @@ Categorical Outliers are much different than numerical outliers and require sepa
 
 Owl will automatically learn the normal behavior of your String and Categorical attributes such as STOCK,OPTION,FUTURE or state codes such as MD,NC,D.C. When a strange pattern occurs \(e.g NYC instead of NY\), Owl will show this as a categorical outlier.
 
+Owl is able to detect Categorical Outliers both with and without taking time into account. If a time dimension is not provided, Owl will figure calculate the distribution of categorical values within the available data, and identify the values that fall into the most infrequent percentile \(configurable\).  
+
+If a time dimension is provided, Owl will first identify infrequent categories in the historical context and then in the context of the current Owlcheck. Only values that are historically infrequent or non-existent and are infrequent in the current run will be considered Outliers.
+
 ## Training Outlier Detection Model
 
 Although Owl uses different techniques to detect Numerical and Categorical Outliers, the training process is very similar.
