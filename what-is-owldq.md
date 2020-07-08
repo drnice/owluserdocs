@@ -6,7 +6,7 @@ description: >-
 
 # What is OwlDQ
 
-## The Low-Effort Data Monitoring Software That Eliminates Data Quality Headaches At Scale 
+## A Low-Effort Data Monitoring Software That Eliminates Data Quality Headaches At Scale 
 
 OwlDQ offers a low-hanging fruit opportunity to extend data quality capabilities beyond what you can do today \(without hiring, adding hardware, or writing more rules\).
 
