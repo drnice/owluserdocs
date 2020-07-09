@@ -4,7 +4,7 @@ description: >-
   involved in data monitoring.
 ---
 
-# What is OwlDQ
+# What is OwlDQ...Data Quality, Faster
 
 ## Apply Little-Known Techniques That Eliminate Data Quality Headaches At Scale 
 
