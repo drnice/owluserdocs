@@ -6,7 +6,7 @@ description: >-
 
 # What is OwlDQ
 
-## Little-Known Techniques That Eliminate Data Quality Headaches At Scale 
+## Apply Little-Known Techniques That Eliminate Data Quality Headaches At Scale 
 
 OwlDQ offers a low-hanging fruit opportunity to extend data quality capabilities beyond what you have today \(without hiring, adding hardware, or learning a new rule syntax\).
 
