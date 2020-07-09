@@ -44,7 +44,7 @@ Without data monitoring built-in by design, the biggest issues are the things yo
 
 ## How We Help
 
-Industry leaders are accelerating initiatives using OwlDQ
+Accelerate Projects, Reduce Workloads, Better Data
 
 {% hint style="success" %}
 * **Top 10 Bank** 
