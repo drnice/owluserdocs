@@ -214,6 +214,8 @@ There are many ways to ingest and transform data; the descriptions are not meant
 
 ## **Who uses OwlDQ?**
 
+For forward-thinking organizations that want to maximize efficiencies.  ****
+
 * Data Quality
 * Data Governance
 * Data Engineers
