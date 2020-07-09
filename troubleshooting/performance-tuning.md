@@ -155,12 +155,11 @@ add more memory to the driver node as it will be responsible for the initial lan
 ### Limit Features, Turn Flags Off
 
 ```text
--corroff    //only losing visuals
--histoff    //only losing visuals 
--statsoff   //only losing visuals
+-corroff    //only losing visuals, 5% speed gain
+-histoff    //only losing visuals, 4% speed gain 
 -hootonly   //speeds up 1% based on less logging
--cardoff    //losing a portion of behavior detection 10% gain
 -readonly   //remove owl webapp read writes, 1% gain
+-datashapeoff //removes Shape Detection 3% speed gain
 ```
 
 ### Real World Scenario

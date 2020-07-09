@@ -15,6 +15,8 @@ If you are in a notebook or pipeline you may prefer to use the Scala/Spark API t
 
 ### Setting up an Email Server using the WebApp
 
+Navigate to OwlWeb URL.  Then click the gear icon on the left in the admin section and click alerts.
+
 ![](../.gitbook/assets/owl-alert-email-server.png)
 
 ### Creating a Condition to Send an Alert
