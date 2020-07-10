@@ -1,66 +1,87 @@
 ---
-description: 'Low Effort, High Stakes Protection'
+description: 'Data Quality, Faster'
 ---
 
 # What is OwlDQ
 
-## Would you like fewer issues and better data quality...in the next 30 days?
+OwlDQ is a low-effort data monitoring software that reduces the heavy lifting involved in data monitoring.
 
-{% hint style="info" %}
-On average, 60% of a data professional's time is spent on data quality. It takes far too long to analyze and validate the data. 
-{% endhint %}
+## Apply Little-Known Techniques That Eliminate Data Quality Headaches At Scale 
 
-This time tax causes patchy/incomplete coverage and leaves your organization vulnerable to _**data quality issues**_.  
+OwlDQ offers a low-hanging fruit opportunity to add data validation checks in minutes \(without hiring, adding hardware, or learning a new rule syntax\).
 
-### _**And the biggest issues are the things you never expect \(see below\).**_
+### A Consistent Challenge
 
-| Type | Example |
-| :--- | :--- |
-| **Invoicing** | _"An ETL update changed our late payments indicator from true/false to 1/0. We were very surprised when the invoices were not sent. The rework and reconciliation were super painful."_ |
-| **Investment** | _"One of our 200+ reference data feeds introduced a pipe \(\|\) into a position field. The field was defined as VARCHAR so the technical metadata did not change. An upstream provided add this to indicate the long and short legs. Our models went crazy and thought we breached risk limits, we ended up selling out of positions \(losing millions\). Only to uncover the root cause much later that week."_ |
-| **Digital** | _"We pull data from many APIs. One platform accounts for 10% of enrichment activities \(i.e. how we monetize our data\). Our auth token accidentally had a daily quota imposed, yet job control said green light \(successful connection\). We still loaded some rows \(1k\), just not entire payloads. This was super nuanced. We literally lost ~10% revenue that month."_ |
-| **IoT** | _"When we introduced new meters, they were hooked up and sending valid readings. They were valid values within valid ranges. Turned out their default setting was rounding the actual values and we were losing precision. Devastating, considering the amount of precision required with blood values."_ |
+Data Quality as a consistent pain point suggests there's a lot of attention and not a lot of good solutions.
 
-{% hint style="warning" %}
-In each case, the issues were **unanticipated, unexpected, and unintentional.**
-{% endhint %}
+Instead of spending hours analyzing data to write the checks, more organizations are using statistically driven techniques to reduce the workload. 
 
-Owl provides protection for these types of data "surprises".  We all know they happen more than we would like and it takes hours to find out when and why the issue started
+## Because Real Stuff Happens in The Real World
 
-## Success Stories
+Without data monitoring built-in by design, the biggest issues are the things you least expect & you don't immediately notice.
 
-How industry leaders are accelerating initiatives using OwlDQ
+{% tabs %}
+{% tab title="Billing Issue Example" %}
+| "An unexpected ETL update occurred during a migration that changed our up-to-date-payments indicator from TRUE/FALSE to 1/0. Needless to say, we were very surprised when invoices were not sent. The rework and reconciliation were super painful. An enormous amount of my time was wasted." |
+| :--- |
+{% endtab %}
+
+{% tab title="Financial Data Example" %}
+| "One of our 200+ reference data feeds introduced a pipe \(\|\) into a position field. The field was defined as VARCHAR so this was allowed. Our models went crazy and we thought we breached risk limits. We ended up selling out of positions \(losing millions\). Only to uncover the root cause much later that week." |
+| :--- |
+{% endtab %}
+
+{% tab title="API Example" %}
+| "We pull data from many APIs. One platform accounts for 10% of enrichment activities \(i.e. how we monetize our data\). Our auth token accidentally had a daily quota imposed, yet job control said green light \(successful connection\). We still loaded some rows \(1k\), just not entire payloads. This was super nuanced. We literally lost ~10% revenue that month." |
+| :--- |
+{% endtab %}
+
+{% tab title="IoT / Meter Example" %}
+| "When we introduced new meters, they were hooked up and sending valid readings. They were valid values within valid ranges. Turned out their default setting was rounding the actual values and we were losing precision. Devastating, considering the amount of precision required with blood values." |
+| :--- |
+{% endtab %}
+{% endtabs %}
+
+## How We Help
+
+Accelerate Projects, Reduce Workloads, Better Data
 
 {% hint style="success" %}
 * **Top 10 Bank** 
 
-  * Replaced 60% of their manual data quality workload + $1.7M cost savings
+  * Reduced 60% of their manual Data Quality workload + $1.7M cost savings 
+    * _\[Metadata Monitoring\]_ 
+    * _\[Data Catalog Integration\]_
 
 * **Top 10 Healthcare Organization** 
 
-  * Completed a 6 Month Data Quality migration requirement in six weeks
+  * Completed a 6 Month Data Quality migration requirement in six weeks 
+    * _\[Migrations & Upgrades\]_
 
 * **Top Insurance Organization** 
 
-  * Satisfied Regulatory Second Line Controls in a 4-week program
+  * Satisfied Regulatory Second Line Controls in a 4-week program 
+    * _\[Regulatory Requirements\]_
+    * _\[Data Catalog Integration\]_
 
 * **Top FS Firm** 
 
   * Implemented Data Quality checks across their data warehouse in 30 days 
+    * _\[Migrations and Upgrades\]_
 
 * **Top Investment Advisor** 
 
-  * Rolled out the OwlDQ Rules Engine to business users to stop spreadsheets bottlenecks
+  * Rolled out the OwlDQ Rules Engine to business users to stop spreadsheets bottlenecks 
+    * _\[Democratizing Data\]_ 
+    * _\[Data Literacy\]_
 
 * **Top Asset Manager** 
-  * Implemented DQ Monitoring on 900+ Reference Datasets in less than 9 hours
+  * Implemented DQ Monitoring on 900+ Reference Datasets in less than 9 hours 
+    * _\[Metadata Monitoring\]_
+    * _\[Tool Consolidation\]_
 {% endhint %}
 
-## How can OwlDQ help?
-
-Simple. Do more in less time. 
-
-Whether you're getting started or applying advanced controls, OwlDQ is an all-in-one, [purpose-built](https://docs.owl-analytics.com/what-is-owldq#purpose-built-one-focus) software to boost your data monitoring efforts. OwlDQ enables organizations to quickly do things that would otherwise take months to develop and cost significantly more.
+### **Finish projects** **in half the time and fraction of the cost, while reducing system-wide headaches**
 
 {% hint style="danger" %}
 * Data teams overwhelmed with tickets 
@@ -69,11 +90,9 @@ Whether you're getting started or applying advanced controls, OwlDQ is an all-in
 * Too busy responding to fire drills to implement new projects
 {% endhint %}
 
-## How Do I Get Better Data In Less Time? 
+## How Do I Get Started? 
 
-Getting started the easy way. 
-
-This 4 step process allows you to rapidly apply data quality checks.
+This 4 step process allows you to quickly layer-in data quality checks.
 
 {% tabs %}
 {% tab title="DQ Now" %}
@@ -81,9 +100,9 @@ This 4 step process allows you to rapidly apply data quality checks.
 
 * Always-On Profiling
 * Metadata Monitoring
-* Rapid Rules \(auto-Applied\) 
+* Rapid Rules \(auto-generated, auto-Applied\) 
 
-_Fast to implement, must-have protection, no code, sanity checks._
+_Fast to implement, must-have protection, sanity checks_
 {% endtab %}
 
 {% tab title="DQ Discover" %}
@@ -122,69 +141,80 @@ _All the things you need to make it work for you._
 
 {% embed url="https://www.youtube.com/watch?v=pySMbEtNFoU&t=15s" caption="Step 1. DQ Now" %}
 
-### [**Click Here to See a Demo**](https://calendly.com/brian-556/calendar)
+Would you like fewer issues and better data quality...in the next 30 days?
 
-## Background
+### \*\*\*\*[**Click Here to See a Demo**](https://calendly.com/brian-556/owldq-session)\*\*\*\*
 
-The team comes from a variety of backgrounds. While some spent a decade building technology to detect financial crimes, others were architecting data fabrics at fortune 100 companies. 
+## What Sets OwlDQ Apart
 
-> _Regardless of the industry or experience, we all faced similar challenges as it related to data quality._
+**OwlDQ is the only tool that** 
 
-These unique vantage points have allowed us to understand the most common data quality challenges organizations are facing.
+* Contains all-in-one analysis, autodiscovery, cataloging, job control, and ticketing
+* Allows UI-driven and programmatic workflows 
+* Deploys on-prem or within distributed and cloud environments
+* Provides enterprise security, encryption, and masking functionality
+* Works on big, medium, and small data \(Files, Streams, RDBMS, Hadoop\)
+* Reduces efforts that would **otherwise take months to develop and cost significantly more.**
 
-## What Did We Notice? 
-
-We tried many of the traditional tools and techniques. The biggest problem was always the amount of time it took to do everything needed to implement and maintain data quality controls. 
-
-You get left with half-baked data quality coverage and the right controls are added only after issues occur.
-
-It turned out teams were doing the same tasks for every dataset and for each department, building the exact same tools over and over. 
-
-{% hint style="danger" %}
-The result was a never-ending cycle of data issues, fire-drills, and a mad scramble to fix it. Fast. All within the context of real-time business operations. 
-{% endhint %}
-
-## Traditional Approach
-
-Traditional approaches are very manual. 
-
-Start by opening a sample or spreadsheet and conduct analysis \(Table-by-table, column-by-column, query-by-query, and item-by-item\). 
-
-Next, manually craft the rules, conditions, tolerances, and thresholds. 
-
-Then stitch together the dashboards, scoring, workflows, alerts, and reporting. And you wonder why bare-minimum coverage is common.
-
-{% hint style="warning" %}
-You're only as good as the rules you thought to write. 
-{% endhint %}
-
-#### Fast Forward
-
-Now that the surface area of the data in an organization is so much larger, these traditional techniques don't hold up. 
-
-## What Did We Need?
-
-What we needed didn't exist. As lifelong data enthusiasts, we wanted a tool that could alert us when data changes occurred without complicated setup and lengthy analysis.  We sought something that could work on big, medium, and small data and across all storage formats. Upon evaluating all the commercially available tools, and assessing costs and time of homegrown solutions, there were no great options.
+![A 90% reduction in manual analysis and rule generation workload.](.gitbook/assets/image%20%2834%29.png)
 
 ## **Purpose-Built \(One Focus\)**
 
 {% hint style="info" %}
-Every feature, visual, and component within Owl is intended to make the analysis and implementation of data quality easier.
+### _Every feature, visual, and component within Owl is intended to make the analysis and implementation of data quality easier._
 {% endhint %}
 
-OwlDQ is an intelligent service that automates the heavy lifting involved in data monitoring. Owl was designed with 4 KPI's in mind:
+Owl was designed with 4 KPI's in mind:
 
-**Speed -** Owl will check that data is valid, complete, accurate, and consistent.  Data Quality is derived from intuitive clicks, not unnecessary code. Our goal is to deliver DQ in minutes, not days or weeks. 
+{% tabs %}
+{% tab title="Speed" %}
+Owl will check that data is valid, complete, accurate, and consistent.  Data Quality is derived from intuitive clicks, not unnecessary code. Our goal is to deliver DQ in minutes, not days or weeks. 
+{% endtab %}
 
-**Scale -**  Owl considers scale from two perspectives. From a technical viewpoint, OwlDQ is designed to work in distributed and elastic environments. It can scan any data from any location. The other piece is usability. Creating a tool that will scale to additional users, outside of a few experts, is equally important.  
+{% tab title="Scale" %}
+Owl considers scale from two perspectives. From a technical viewpoint, OwlDQ is designed to work in distributed and elastic environments. It can scan any data from any location. The other piece is usability. Creating a tool that will scale to additional users, outside of a few experts, is equally important.  
+{% endtab %}
 
-**Unification -**   OwlDQ will scan files the same way as a database so you can do all in your data monitoring in one place, rather than piecemeal approaches.  Data quality needs to be unified to have a single normalized view of data health.
+{% tab title="Measurement" %}
+You can't manage what you can't measure. It's important to get macro and micro views of data quality, the ability to compare between different departments, and time periods. 
+{% endtab %}
 
-**Measurement -** You can't manage what you can't measure. It's important to get macro and micro views of data quality, the ability to compare between different departments, and time periods. 
+{% tab title="Unification" %}
+OwlDQ will scan files the same way as a database so you can do all in your data monitoring in one place, rather than piecemeal approaches.  Data quality needs to be unified to have a single normalized view of data health. ****
+{% endtab %}
+{% endtabs %}
 
 [See Why Owl For More Information](https://owldq.com/about.html)
 
+## **Core Components**
+
+Owl offers a full DQ suite to cover the unique challenges of each dataset. 
+
+[See Complete Feature List Breakdown For More Information](https://owldq.com/features.html)
+
+**9 Dimensions of DQ**
+
+1. Behavior - Metadata monitoring
+2. Rules - SQL-based rules engine
+3. Outliers - Anomalous records, clustering, time-series, categorical
+4. Pattern - Classification, cross-column & parent/child anomalies 
+5. Source - Source to target reconciliation
+6. Record - Deltas for a given column\(s\)
+7. Schema - When columns are added or dropped
+8. Dupes - Fuzzy matching, Identify similar but not exact entries
+9. Shapes - Typos and Formatting Anomalies
+
+[Check out our videos to Learn More](https://owldq.com/videos.html)
+
+## **Where does OwlDQ fit?**
+
+![](https://lh5.googleusercontent.com/FtJYdL4983JvNNjhMch5xCmVPUrMHHTyRQcun3JInFYqnRDWtEnIBz9vC8KPEiHXU5AK7zz-93VhKVfX_ugsjcMMNLWl9q9twX2YPRU4izxjop73YKdtJ0TA66zwG3J8JahTIK-d)
+
+There are many ways to ingest and transform data; the descriptions are not meant to be exhaustive \(There are easily 30+ software companies in each of the 4 stages\).
+
 ## **Who uses OwlDQ?**
+
+For forward-thinking organizations that want to maximize efficiencies.  ****
 
 * Data Quality
 * Data Governance
@@ -201,45 +231,11 @@ OwlDQ is an intelligent service that automates the heavy lifting involved in dat
 
 More uses cases [available here](https://docs.owl-analytics.com/use-cases/bank-loans)
 
-## **Core Components**
-
-Owl provides a data quality assessment that scans 9 dimensions. Owl offers a full DQ suite to cover the unique challenges of each dataset. 
-
-[See Complete Feature List Breakdown For More Information](https://owldq.com/features.html)
-
-**9 Dimensions of DQ**
-
-1. Behavior - Metadata monitoring
-2. Rules - SQL-based rules engine
-3. Outliers - Anomalous records
-4. Pattern - Cross-column categorical anomalies 
-5. Source - Source to target reconciliation
-6. Record - Deltas for a given column\(s\)
-7. Schema - Columns added or dropped
-8. Dupes - Fuzzy matching, Identify similar but not exact entries
-9. Shapes - Typos, Formatting Anomalies
-
-[Check out our videos to Learn More](https://owldq.com/videos.html)
-
-## **Competitive Landscape** 
-
-![](https://lh5.googleusercontent.com/FtJYdL4983JvNNjhMch5xCmVPUrMHHTyRQcun3JInFYqnRDWtEnIBz9vC8KPEiHXU5AK7zz-93VhKVfX_ugsjcMMNLWl9q9twX2YPRU4izxjop73YKdtJ0TA66zwG3J8JahTIK-d)
-
-In order to avoid getting lost in the latest marketing jargon, a fundamental description is provided under each of the 4 stages.  There are many ways to ingest and transform data; the descriptions are not meant to be exhaustive \(There are easily 30+ software companies in each of the 4 stages\).
-
-## Trust
-
-What it boils down to is the ability to trust the data. What checks and verifications are in place to guarantee data accuracy and completeness? After all, showing someone a housing report with incorrect estimated housing values or a stock report with the wrong stock prices won’t go over well. 
-
-Consistent data monitoring helps you sleep better at night, but also lets the business know they can trust the data. 
-
 ## Pricing
 
 \*\*\*\*[**Details**](https://owldq.com/pricing.html)\*\*\*\*
 
 ## Learn More
 
-### \*\*\*\*[**Click Here to See a Demo**](https://calendly.com/brian-556/calendar)\*\*\*\*
-
-### [Click Here to Request a Trial](https://calendly.com/brian-556/calendar)
+### \*\*\*\*[**Click Here to Learn More**](https://calendly.com/brian-556/owldq-session)\*\*\*\*
 
