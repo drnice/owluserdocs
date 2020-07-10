@@ -67,7 +67,8 @@
 
 ## DQ Visuals
 
-* [Profile](dq-visuals/profile.md)
+* [Profile](dq-visuals/profile/README.md)
+  * [AutoProfile](dq-visuals/profile/autoprofile.md)
 * [Behaviors](dq-visuals/behaviors.md)
 * [Schema Evolution](dq-visuals/schema-evolution.md)
 * [Outliers](dq-visuals/outliers.md)
