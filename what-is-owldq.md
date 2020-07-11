@@ -42,7 +42,7 @@ Without data monitoring built-in by design, the biggest issues are the things yo
 {% endtab %}
 {% endtabs %}
 
-You probably don't want to take chances with your mission-critical data.
+You probably don't want to take chances with your critical data elements.
 
 ## How We Help
 
