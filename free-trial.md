@@ -1,4 +1,4 @@
-# Free Trial
+# Start for free
 
-## [Sign Up For Free](https://www.owldq.com/free.html)
+## [Get Started](https://owldq.com/free.html)
 
