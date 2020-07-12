@@ -51,11 +51,12 @@
   * option.profile.behaviorUniqueCheck - Controls if behavioral model factors in Cardinality count stats
 * Caching Efficiency
   * Improved efficiency of memory usage
-* Known Issues
-  * Estimate Jobs function may produce suboptimal configuration
-  * Kerberos Exception when attempting to generate preview for JSON/XML files on HDFS
-  * Explorer2 fails to pass S3 credentials to Owlcheck when job executes
-  * Auto Profile AGENT status indicator \(GREEN/RED\) missing
+
+**Known Issues**
+
+* Estimate Jobs function may produce suboptimal configuration
+* Kerberos Exception when attempting to generate preview for JSON/XML files on HDF
+* Auto Profile AGENT status indicator \(GREEN/RED\) missing
 
 ## **2.9.0 = 4.5.2020**
 
