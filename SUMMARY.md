@@ -1,6 +1,7 @@
 # Table of contents
 
 * [OwlDQ](README.md)
+* [Release Notes](release-notes.md)
 * [Our Approach](why-owl.md)
 * [Our Story](our-story.md)
 * [What is OwlDQ](what-is-owldq.md)
