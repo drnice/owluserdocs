@@ -7,6 +7,7 @@
 * [What is OwlDQ](what-is-owldq.md)
 * [Free Assessment](assessment.md)
 * [Start for free](free-trial.md)
+* [CCPA & GDPR](ccpa-and-gdpr.md)
 
 ## Security
 
