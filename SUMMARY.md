@@ -7,9 +7,12 @@
 * [What is OwlDQ](what-is-owldq.md)
 * [Free Assessment](assessment.md)
 * [Start for free](free-trial.md)
-* [Data Quality Monitoring](data-quality-monitoring.md)
-* [Migrations](migrations.md)
-* [CCPA & GDPR](ccpa-and-gdpr.md)
+
+## Projects
+
+* [How Owl DQ and Schema Learned makes your Data Lake better.](projects/data-quality-monitoring.md)
+* [Migrations](projects/migrations.md)
+* [CCPA & GDPR](projects/ccpa-and-gdpr.md)
 
 ## Security
 
