@@ -4,7 +4,7 @@ description: The only tool that reduces implementation times by a 60%
 
 # What is OwlDQ
 
-OwlDQ is a low-effort data monitoring software that reduces the heavy lifting involved in data monitoring.
+OwlDQ is a low-effort data monitoring software that reduces manual steps in the data quality process.
 
 ## Apply Little-Known Techniques That Eliminate Data Quality Headaches At Scale 
 
@@ -158,7 +158,7 @@ Would you like fewer issues and better data quality...in the next 30 days?
 * Works on big, medium, and small data \(Files, Streams, RDBMS, Hadoop\)
 * Reduces efforts that would **otherwise take months to develop and cost significantly more.**
 
-![A 90% reduction in manual analysis and rule generation workload.](.gitbook/assets/image%20%2834%29.png)
+![A 90% reduction in manual analysis and rule creation.](.gitbook/assets/image%20%2834%29.png)
 
 ## **Purpose-Built \(One Focus\)**
 

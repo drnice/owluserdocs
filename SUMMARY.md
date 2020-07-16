@@ -8,11 +8,13 @@
 * [Free Assessment](assessment.md)
 * [Start for free](free-trial.md)
 
-## Projects
+## How OwlDQ <a id="projects"></a>
 
-* [How Owl DQ and Schema Learned makes your Data Lake better.](projects/data-quality-monitoring.md)
-* [Migrations](projects/migrations.md)
-* [CCPA & GDPR](projects/ccpa-and-gdpr.md)
+* [Makes your Data Lake better.](projects/data-quality-monitoring.md)
+* [Speeds Migrations/Enables Replications](projects/migrations.md)
+* [Assists Data Aggregation](projects/assists-data-aggregation.md)
+* [Ensures CCPA & GDPR](projects/ccpa-and-gdpr.md)
+* [Builds a Better DQ Dashboard](projects/builds-a-better-dq-dashboard.md)
 
 ## Security
 
