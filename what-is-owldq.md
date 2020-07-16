@@ -1,5 +1,5 @@
 ---
-description: The only tool that reduces rules by a 70%
+description: The only tool that reduces implementation times by a 60%
 ---
 
 # What is OwlDQ
