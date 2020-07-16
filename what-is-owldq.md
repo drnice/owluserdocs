@@ -18,7 +18,7 @@ Instead of spending hours analyzing data to write the checks, more organizations
 
 ## Because Real Stuff Happens in The Real World
 
-Without data monitoring built-in by design, the biggest issues are the things you least expect & you don't immediately notice.
+Without data monitoring built-in by design, the biggest issues are the things you least expect & you don't notice in real-time.
 
 {% tabs %}
 {% tab title="Billing Issue Example" %}
