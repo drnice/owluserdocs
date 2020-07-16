@@ -50,9 +50,11 @@ Can you take action on data developed in a Data Lake, real-time or not, without 
 
   * **Improved SLAs.**  When DQ is fixed immediately, all SLAs can be improved not just DQ SLAs.  
 
+## Scorecard DQ Dashboard
+
 {% embed url="https://www.youtube.com/watch?v=Lu2I7n\_nRlc&t=6s" %}
 
-## Data Aggregator Video
+## Data Aggregator
 
 Aggregation from 100s of locations.  The dashboard for what is within spec based on AI observation – not handmade rules.  
 

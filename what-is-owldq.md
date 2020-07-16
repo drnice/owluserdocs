@@ -1,5 +1,5 @@
 ---
-description: 'Data Quality, Faster'
+description: The only tool that reduces rules by a 70%
 ---
 
 # What is OwlDQ
