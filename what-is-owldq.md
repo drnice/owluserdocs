@@ -46,7 +46,9 @@ You probably don't want to take chances with your critical data elements.
 
 ## How We Help
 
-Accelerate Projects, Reduce Workloads, Better Data
+1. Accelerate Projects
+2. Reduce Manual Steps
+3. Better Data
 
 {% hint style="success" %}
 * **Top 10 Bank** 
@@ -149,6 +151,8 @@ Would you like fewer issues and better data quality...in the next 30 days?
 
 ## What Sets OwlDQ Apart
 
+![A 90% reduction in rule creation and manual workload](.gitbook/assets/image%20%2850%29.png)
+
 **OwlDQ is the only tool that** 
 
 * Contains all-in-one analysis, autodiscovery, cataloging, job control, and ticketing
@@ -157,8 +161,6 @@ Would you like fewer issues and better data quality...in the next 30 days?
 * Provides enterprise security, encryption, and masking functionality
 * Works on big, medium, and small data \(Files, Streams, RDBMS, Hadoop\)
 * Reduces efforts that would **otherwise take months to develop and cost significantly more.**
-
-![A 90% reduction in rule creation and manual workload](.gitbook/assets/image%20%2850%29.png)
 
 ## **Purpose-Built \(One Focus\)**
 

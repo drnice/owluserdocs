@@ -74,7 +74,7 @@
 * [Owl DB Connection](connecting-to-dbs-in-owl-web/owl-db-connection/README.md)
   * [Connecting to CDH 5.16 Hive SSL/TLS/Kerberos Setup](connecting-to-dbs-in-owl-web/owl-db-connection/connecting-to-cdh-5.16-hive-ssl-tls-kerberos-setup.md)
 
-## DQ Visuals
+## Core Components <a id="dq-visuals"></a>
 
 * [Profile](dq-visuals/profile/README.md)
   * [AutoProfile](dq-visuals/profile/autoprofile.md)
