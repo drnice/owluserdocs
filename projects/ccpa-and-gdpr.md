@@ -1,7 +1,3 @@
----
-description: Coming Soon
----
-
 # Ensures CCPA & GDPR
 
 Aggregation from 100s of locations.  The dashboard for what is within spec based on AI observation – not handmade rules.  
