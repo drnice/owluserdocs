@@ -6,6 +6,8 @@ description: The only tool that reduces implementation times by a 60%
 
 OwlDQ is a low-effort data monitoring software that reduces manual steps in the data quality process.
 
+![On average, customers see ~70-80% reduction in manual rules.](.gitbook/assets/screenshot-2020-07-18-at-1.47.01-pm%20%281%29.png)
+
 ## Apply Little-Known Techniques That Eliminate Data Quality Headaches At Scale 
 
 OwlDQ offers a low-hanging fruit opportunity to add data validation checks in minutes \(without hiring, adding hardware, or learning a new rule syntax\).
@@ -150,8 +152,6 @@ Would you like fewer issues and better data quality...in the next 30 days?
 ### \*\*\*\*[**Click Here to See a Demo**](https://calendly.com/brian-556/owldq-session)\*\*\*\*
 
 ## What Sets OwlDQ Apart
-
-![A 90% reduction in rule creation and manual workload](.gitbook/assets/image%20%2850%29.png)
 
 **OwlDQ is the only tool that** 
 
