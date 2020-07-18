@@ -12,7 +12,7 @@ OwlDQ is a low-effort data monitoring software that reduces manual steps in the 
 
 The fact that data quality is a consistent pain point suggests there is a lot of attention and not a lot of good solutions.
 
-OwlDQ offers a low-hanging fruit opportunity to accelerate projects and reduce manual analysis. 
+OwlDQ offers a low-hanging fruit opportunity to accelerate projects and cut inefficient processes.
 
 ### **We help data teams implement quality controls quickly**
 
@@ -20,7 +20,7 @@ OwlDQ offers a low-hanging fruit opportunity to accelerate projects and reduce m
 
 ## How is OwlDQ Used? 
 
-### **To complete projects** **in less time and with less manual effort**
+### **To complete data quality requirements** **in less time and with less manual effort**
 
 {% hint style="success" %}
 * **Top 10 Bank** 
