@@ -18,7 +18,7 @@ Data Quality as a consistent pain point suggests there is a lot of attention and
 
 Instead of spending hours doing the same things over & over, more organizations are using automation to reduce their manual workloads. 
 
-#### Watch this 2-minute video to see how.
+#### Watch this 2-minute video to see how
 
 {% embed url="https://youtu.be/pySMbEtNFoU?t=20s" caption="Onboarding a dataset with just a few clicks." %}
 
