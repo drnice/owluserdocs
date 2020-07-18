@@ -8,17 +8,13 @@ OwlDQ is a low-effort data monitoring software that reduces manual steps in the 
 
 ![On average, customers see ~70-80% reduction in manual validations.](.gitbook/assets/screenshot-2020-07-18-at-1.47.01-pm%20%281%29.png)
 
-## Apply Little-Known Techniques That Eliminate Data Quality Headaches At Scale 
+## Little-Known Techniques That Eliminate Data Quality Headaches At Scale 
+
+The fact that data quality is a consistent pain point suggests there is a lot of attention and not a lot of good solutions.
 
 OwlDQ offers a low-hanging fruit opportunity to add data validation checks in minutes \(without hiring, adding hardware, or learning a new rule language\).
 
-### A Consistent Challenge
-
-The fact that data quality is a consistent pain point suggests there is a lot of attention and traditional approaches are not getting the job done.
-
-Instead of spending hours doing the same things over & over, more organizations are using automation to reduce their manual workloads. 
-
-Would you like fewer issues and better data quality in the next 30 days?
+### **We help data teams get data quality controls with just a few clicks**
 
 ### \*\*\*\*[**Click Here to Schedule a Demo**](https://calendly.com/brian-556/owldq-session)\*\*\*\*
 
