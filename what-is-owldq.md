@@ -6,50 +6,45 @@ description: The only tool that reduces implementation times by a 60%
 
 OwlDQ is a low-effort data monitoring software that reduces manual steps in the data quality process.
 
-![On average, customers see ~70-80% reduction in manual validations.](.gitbook/assets/screenshot-2020-07-18-at-1.47.01-pm%20%281%29.png)
+![Based on totals provided by our customers](.gitbook/assets/screenshot-2020-07-18-at-1.47.01-pm.png)
 
-## Little-Known Techniques That Eliminate Data Quality Headaches At Scale 
+## Apply Little-Known Techniques That Eliminate Data Quality Headaches At Scale 
 
 The fact that data quality is a consistent pain point suggests there is a lot of attention and not a lot of good solutions.
 
-OwlDQ offers a low-hanging fruit opportunity to add data validation checks in minutes \(without hiring, adding hardware, or learning a new rule language\).
+OwlDQ offers a low-hanging fruit opportunity to accelerate projects and reduce manual analysis. 
 
-### **We help data teams get data quality controls with just a few clicks**
+### **We help data teams implement quality controls quickly**
 
-### \*\*\*\*[**Click Here to Schedule a Demo**](https://calendly.com/brian-556/owldq-session)\*\*\*\*
+### \*\*\*\*[**Request a Demo**](https://calendly.com/brian-556/owldq-session)\*\*\*\*
 
-## How We Help
+## How is OwlDQ Used? 
 
-1. Accelerate Projects
-2. Reduce Manual Steps
-3. Better Data
+### **To complete projects** **in less time and with less manual effort**
 
 {% hint style="success" %}
 * **Top 10 Bank** 
 
-  * Reduced 60% of their manual Data Quality workload + $1.7M cost savings 
+  Reduced 60% of their manual Data Quality workload + $1.7M cost savings 
 
 * **Top 10 Healthcare Organization** 
 
-  * Completed a 6 Month Data Quality migration requirement in six weeks 
+  Completed a 6 Month Data Quality migration requirement in six weeks 
 
 * **Top Insurance Organization** 
 
-  * Satisfied Regulatory Second Line Controls in a 4-week program 
+  Satisfied Regulatory Second Line Controls in a 4-week program 
 
 * **Top FS Firm** 
 
-  * Implemented Data Quality checks across their data warehouse in 30 days 
-
-* **Top Investment Advisor** 
-
-  * Rolled out the OwlDQ Rules Engine to business users to stop spreadsheets bottlenecks 
+  Implemented Data Quality checks across their data warehouse in 30 days 
 
 * **Top Asset Manager** 
-  * Implemented DQ Monitoring on 900+ Reference Datasets in less than 9 hours 
+
+  Implemented DQ Monitoring on 900+ Reference Datasets in less than 9 hours 
 {% endhint %}
 
-### **Complete requirements** **in half the time and fraction of the cost, while reducing system-wide headaches**
+### **While reducing system-wide headaches**
 
 {% hint style="danger" %}
 * Data teams overwhelmed with tickets 
@@ -60,7 +55,7 @@ OwlDQ offers a low-hanging fruit opportunity to add data validation checks in mi
 
 ## Because Real Stuff Happens in The Real World
 
-Without data monitoring built-in by design, the biggest issues are the things you don't anticipate and you don't notice in real-time.
+Without data monitoring built-in by design, the biggest issues are the things you don't anticipate and you don't immediately notice.
 
 {% tabs %}
 {% tab title="Billing Issue Example" %}
@@ -83,8 +78,6 @@ Without data monitoring built-in by design, the biggest issues are the things yo
 | :--- |
 {% endtab %}
 {% endtabs %}
-
-You probably don't want to take chances with your critical data elements.
 
 ## What sets OwlDQ apart?
 
@@ -113,7 +106,7 @@ There are many ways to ingest and transform data; the descriptions are not meant
 
 ## **Who uses OwlDQ?**
 
-For forward-thinking organizations that want to maximize efficiencies.  ****
+For data-driven organizations that want to be efficient.
 
 * Data Quality
 * Data Governance
@@ -178,11 +171,5 @@ _All the things you need to make it work for you._
 {% endtab %}
 {% endtabs %}
 
-## Pricing
-
-\*\*\*\*[**Details**](https://owldq.com/pricing.html)\*\*\*\*
-
-## Learn More
-
-### \*\*\*\*[**Click Here to Learn More**](https://calendly.com/brian-556/owldq-session)\*\*\*\*
+### \*\*\*\*[**Click Here to Get Started**](https://calendly.com/brian-556/owldq-session)\*\*\*\*
 
