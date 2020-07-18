@@ -14,13 +14,9 @@ OwlDQ offers a low-hanging fruit opportunity to add data validation checks in mi
 
 ### A Consistent Challenge
 
-Data Quality as a consistent pain point suggests there is a lot of attention and legacy tools are not getting the job done.
+The fact that data quality is a consistent pain point suggests there is a lot of attention and traditional approaches are not getting the job done.
 
 Instead of spending hours doing the same things over & over, more organizations are using automation to reduce their manual workloads. 
-
-#### Watch this 2-minute video to see how
-
-{% embed url="https://youtu.be/pySMbEtNFoU?t=20s" caption="Onboarding a dataset with just a few clicks." %}
 
 Would you like fewer issues and better data quality in the next 30 days?
 
