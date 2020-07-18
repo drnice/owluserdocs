@@ -56,35 +56,25 @@ You probably don't want to take chances with your critical data elements.
 * **Top 10 Bank** 
 
   * Reduced 60% of their manual Data Quality workload + $1.7M cost savings 
-    * _\[Metadata Monitoring\]_ 
-    * _\[Data Catalog Integration\]_
 
 * **Top 10 Healthcare Organization** 
 
   * Completed a 6 Month Data Quality migration requirement in six weeks 
-    * _\[Migrations & Upgrades\]_
 
 * **Top Insurance Organization** 
 
   * Satisfied Regulatory Second Line Controls in a 4-week program 
-    * _\[Regulatory Requirements\]_
-    * _\[Data Catalog Integration\]_
 
 * **Top FS Firm** 
 
   * Implemented Data Quality checks across their data warehouse in 30 days 
-    * _\[Migrations and Upgrades\]_
 
 * **Top Investment Advisor** 
 
   * Rolled out the OwlDQ Rules Engine to business users to stop spreadsheets bottlenecks 
-    * _\[Democratizing Data\]_ 
-    * _\[Data Literacy\]_
 
 * **Top Asset Manager** 
   * Implemented DQ Monitoring on 900+ Reference Datasets in less than 9 hours 
-    * _\[Metadata Monitoring\]_
-    * _\[Tool Consolidation\]_
 {% endhint %}
 
 ### **Finish projects** **in half the time and fraction of the cost, while reducing system-wide headaches**
