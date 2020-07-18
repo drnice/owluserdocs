@@ -76,6 +76,7 @@
 
 ## Core Components <a id="dq-visuals"></a>
 
+* [Overview](dq-visuals/overview.md)
 * [Profile](dq-visuals/profile/README.md)
   * [AutoProfile](dq-visuals/profile/autoprofile.md)
 * [Behaviors](dq-visuals/behaviors.md)

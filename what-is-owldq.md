@@ -6,45 +6,25 @@ description: The only tool that reduces implementation times by a 60%
 
 OwlDQ is a low-effort data monitoring software that reduces manual steps in the data quality process.
 
-![On average, customers see ~70-80% reduction in manual rules.](.gitbook/assets/screenshot-2020-07-18-at-1.47.01-pm%20%281%29.png)
+![On average, customers see ~70-80% reduction in manual validations.](.gitbook/assets/screenshot-2020-07-18-at-1.47.01-pm%20%281%29.png)
 
 ## Apply Little-Known Techniques That Eliminate Data Quality Headaches At Scale 
 
-OwlDQ offers a low-hanging fruit opportunity to add data validation checks in minutes \(without hiring, adding hardware, or learning a new rule syntax\).
+OwlDQ offers a low-hanging fruit opportunity to add data validation checks in minutes \(without hiring, adding hardware, or learning a new rule language\).
 
 ### A Consistent Challenge
 
-Data Quality as a consistent pain point suggests there is a lot of attention and legacy solutions are not getting the job done.
+Data Quality as a consistent pain point suggests there is a lot of attention and legacy tools are not getting the job done.
 
-Instead of spending hours analyzing data to write the checks, more organizations are using statistically driven techniques to reduce their manual workloads. 
+Instead of spending hours doing the same things over & over, more organizations are using automation to reduce their manual workloads. 
 
-## Because Real Stuff Happens in The Real World
+#### Watch this 2-minute video to see how.
 
-Without data monitoring built-in by design, the biggest issues are the things you least expect & you don't notice in real-time.
+{% embed url="https://youtu.be/pySMbEtNFoU?t=20s" caption="Onboarding a dataset with just a few clicks." %}
 
-{% tabs %}
-{% tab title="Billing Issue Example" %}
-| "An unexpected ETL update occurred during a migration that changed our up-to-date-payments indicator from TRUE/FALSE to 1/0. Needless to say, we were very surprised when invoices were not sent. The rework and reconciliation were super painful. An enormous amount of my time was wasted." |
-| :--- |
-{% endtab %}
+Would you like fewer issues and better data quality in the next 30 days?
 
-{% tab title="Financial Data Example" %}
-| "One of our 200+ reference data feeds introduced a pipe \(\|\) into a position field. The field was defined as VARCHAR so this was allowed. Our models went crazy and we thought we breached risk limits. We ended up selling out of positions \(losing millions\). Only to uncover the root cause much later that week." |
-| :--- |
-{% endtab %}
-
-{% tab title="API Example" %}
-| "We pull data from many APIs. One platform accounts for 10% of enrichment activities \(i.e. how we monetize our data\). Our auth token accidentally had a daily quota imposed, yet job control said green light \(successful connection\). We still loaded some rows \(1k\), just not entire payloads. This was super nuanced. We literally lost ~10% revenue that month." |
-| :--- |
-{% endtab %}
-
-{% tab title="IoT / Meter Example" %}
-| "When we introduced new meters, they were hooked up and sending valid readings. They were valid values within valid ranges. Turned out their default setting was rounding the actual values and we were losing precision. Devastating, considering the amount of precision required with blood values." |
-| :--- |
-{% endtab %}
-{% endtabs %}
-
-You probably don't want to take chances with your critical data elements.
+### \*\*\*\*[**Click Here to Schedule a Demo**](https://calendly.com/brian-556/owldq-session)\*\*\*\*
 
 ## How We Help
 
@@ -77,7 +57,7 @@ You probably don't want to take chances with your critical data elements.
   * Implemented DQ Monitoring on 900+ Reference Datasets in less than 9 hours 
 {% endhint %}
 
-### **Finish projects** **in half the time and fraction of the cost, while reducing system-wide headaches**
+### **Complete requirements** **in half the time and fraction of the cost, while reducing system-wide headaches**
 
 {% hint style="danger" %}
 * Data teams overwhelmed with tickets 
@@ -86,62 +66,35 @@ You probably don't want to take chances with your critical data elements.
 * Too busy responding to fire drills to implement new projects
 {% endhint %}
 
-## How Do I Get Started? 
+## Because Real Stuff Happens in The Real World
 
-This 4 step process allows you to quickly layer-in data quality checks.
+Without data monitoring built-in by design, the biggest issues are the things you don't anticipate and you don't notice in real-time.
 
 {% tabs %}
-{% tab title="DQ Now" %}
-#### Critical Control Layer
-
-* Always-On Profiling
-* Metadata Monitoring
-* Rapid Rules \(auto-generated, auto-Applied\) 
-
-_Fast to implement, must-have protection, sanity checks_
+{% tab title="Billing Issue Example" %}
+| "An unexpected ETL update occurred during a migration that changed our up-to-date-payments indicator from TRUE/FALSE to 1/0. Needless to say, we were very surprised when invoices were not sent. The rework and reconciliation were super painful. An enormous amount of my time was wasted." |
+| :--- |
 {% endtab %}
 
-{% tab title="DQ Discover" %}
-#### Analysis Layer
-
-* Format Finder
-* Anomaly Detection
-* Cross-Column Basket Analyzer
-
- _Auto-discovery, deeper analysis to uncover hard-to-find data quality issues._
+{% tab title="Financial Data Example" %}
+| "One of our 200+ reference data feeds introduced a pipe \(\|\) into a position field. The field was defined as VARCHAR so this was allowed. Our models went crazy and we thought we breached risk limits. We ended up selling out of positions \(losing millions\). Only to uncover the root cause much later that week." |
+| :--- |
 {% endtab %}
 
-{% tab title="DQ Select" %}
-#### Guided Layer
-
-* B.Y.O.R. \(bring your own rules\)
-* Reconciliation
-* Fuzzy Matching
-
-_Blend human input to perform precise checks._
+{% tab title="API Example" %}
+| "We pull data from many APIs. One platform accounts for 10% of enrichment activities \(i.e. how we monetize our data\). Our auth token accidentally had a daily quota imposed, yet job control said green light \(successful connection\). We still loaded some rows \(1k\), just not entire payloads. This was super nuanced. We literally lost ~10% revenue that month." |
+| :--- |
 {% endtab %}
 
-{% tab title="DQ Deploy" %}
-#### Enterprise Layer
-
-* Report Repo
-* Scheduler 
-* Alert Center
-* Security, Masking, Roles, and Permissions
-
-_All the things you need to make it work for you._
+{% tab title="IoT / Meter Example" %}
+| "When we introduced new meters, they were hooked up and sending valid readings. They were valid values within valid ranges. Turned out their default setting was rounding the actual values and we were losing precision. Devastating, considering the amount of precision required with blood values." |
+| :--- |
 {% endtab %}
 {% endtabs %}
 
-#### Watch this 2-minute video to see how.
+You probably don't want to take chances with your critical data elements.
 
-{% embed url="https://www.youtube.com/watch?v=pySMbEtNFoU&t=15s" caption="Step 1. DQ Now" %}
-
-Would you like fewer issues and better data quality...in the next 30 days?
-
-### \*\*\*\*[**Click Here to See a Demo**](https://calendly.com/brian-556/owldq-session)\*\*\*\*
-
-## What Sets OwlDQ Apart
+## What sets OwlDQ apart?
 
 **OwlDQ is the only tool that** 
 
@@ -152,53 +105,13 @@ Would you like fewer issues and better data quality...in the next 30 days?
 * Works on big, medium, and small data \(Files, Streams, RDBMS, Hadoop\)
 * Reduces efforts that would **otherwise take months to develop and cost significantly more.**
 
-## **Purpose-Built \(One Focus\)**
+### **Purpose-Built \(One Focus\)**
 
 {% hint style="info" %}
 ### _Every feature, visual, and component within Owl is intended to make the analysis and implementation of data quality easier._
 {% endhint %}
 
-Owl was designed with 4 KPI's in mind:
-
-{% tabs %}
-{% tab title="Speed" %}
-Owl will check that data is valid, complete, accurate, and consistent.  Data Quality is derived from intuitive clicks, not unnecessary code. Our goal is to deliver DQ in minutes, not days or weeks. 
-{% endtab %}
-
-{% tab title="Scale" %}
-Owl considers scale from two perspectives. From a technical viewpoint, OwlDQ is designed to work in distributed and elastic environments. It can scan any data from any location. The other piece is usability. Creating a tool that will scale to additional users, outside of a few experts, is equally important.  
-{% endtab %}
-
-{% tab title="Measurement" %}
-You can't manage what you can't measure. It's important to get macro and micro views of data quality, the ability to compare between different departments, and time periods. 
-{% endtab %}
-
-{% tab title="Unification" %}
-OwlDQ will scan files the same way as a database so you can do all in your data monitoring in one place, rather than piecemeal approaches.  Data quality needs to be unified to have a single normalized view of data health. ****
-{% endtab %}
-{% endtabs %}
-
 [See Why Owl For More Information](https://owldq.com/about.html)
-
-## **Core Components**
-
-Owl offers a full DQ suite to cover the unique challenges of each dataset. 
-
-[See Complete Feature List Breakdown For More Information](https://owldq.com/features.html)
-
-**9 Dimensions of DQ**
-
-1. Behavior - Metadata monitoring
-2. Rules - SQL-based rules engine
-3. Outliers - Anomalous records, clustering, time-series, categorical
-4. Pattern - Classification, cross-column & parent/child anomalies 
-5. Source - Source to target reconciliation
-6. Record - Deltas for a given column\(s\)
-7. Schema - When columns are added or dropped
-8. Dupes - Fuzzy matching, Identify similar but not exact entries
-9. Shapes - Typos and Formatting Anomalies
-
-[Check out our videos to Learn More](https://owldq.com/videos.html)
 
 ## **Where does OwlDQ fit?**
 
@@ -224,6 +137,54 @@ For forward-thinking organizations that want to maximize efficiencies.  ****
 * [ ] [Wealth Management](https://docs.owl-analytics.com/dq-visuals/duplicates) \(De-duping\) 
 
 More uses cases [available here](https://docs.owl-analytics.com/use-cases/bank-loans)
+
+## How Do I Get Started?
+
+Our 4 step process allows you to quickly layer-in data quality checks.
+
+{% tabs %}
+{% tab title="DQ Now" %}
+#### Automatic Layer
+
+* Single-Column Rules \(auto-generated, auto-Applied\) 
+* Always-On Profiling
+* Metadata Monitoring
+
+_Fast to implement, must-have protection, sanity checks_
+{% endtab %}
+
+{% tab title="DQ Select" %}
+#### Opt-In Layer
+
+* Cross-Table Validations 
+* Referential Validations
+* Parent-Child Validations
+* Deduping
+
+_Blend human input with suggested validations._
+{% endtab %}
+
+{% tab title="DQ Discover" %}
+#### Autodiscovery Layer
+
+* Format Finder
+* Anomaly Detection
+* Cross-Column Basket Analyzer
+
+ _Deeper analysis to uncover hard-to-find data quality issues._
+{% endtab %}
+
+{% tab title="DQ Deploy" %}
+#### Workflow Layer
+
+* Report Repo
+* Scheduler 
+* Alert Center
+* Security, Masking, Roles, and Permissions
+
+_All the things you need to make it work for you._
+{% endtab %}
+{% endtabs %}
 
 ## Pricing
 
