@@ -6,7 +6,7 @@ description: A low-effort data monitoring software
 
 OwlDQ reduces the manual steps to identify and implement data validation checks.
 
-![](.gitbook/assets/screenshot-2020-07-18-at-10.42.49-pm.png)
+![Based on survey results from OwlDQ users](.gitbook/assets/screenshot-2020-07-18-at-10.42.49-pm.png)
 
 ## Little-Known Techniques That Eliminate Data Quality Headaches At Scale 
 
