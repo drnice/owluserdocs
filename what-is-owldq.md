@@ -10,7 +10,7 @@ OwlDQ reduces the manual steps to identify and implement data validation checks.
 
 ## Leading Organizations Are Applying Little-Known Techniques to Eliminate Data Quality Headaches Faster
 
-The fact that data quality is a consistent pain point suggests there is a lot of attention and legacy tools are just too slow to keep up.
+The fact that data quality is a consistent pain point suggests there is a lot of attention and legacy tools are just too manual to keep up.
 
 OwlDQ offers a low-hanging fruit opportunity to extend your data quality toolset.
 
