@@ -6,7 +6,7 @@ description: A low-effort data monitoring software
 
 OwlDQ reduces the manual steps to identify and implement data validation checks.
 
-![Based on survey totals provided by OwlDQ users](.gitbook/assets/screenshot-2020-07-18-at-1.47.01-pm.png)
+![](.gitbook/assets/screenshot-2020-07-18-at-10.42.49-pm.png)
 
 ## Little-Known Techniques That Eliminate Data Quality Headaches At Scale 
 
@@ -81,7 +81,7 @@ Without data monitoring built-in by design, the biggest issues are the things yo
 
 ## What sets OwlDQ apart?
 
-**OwlDQ is the only tool that** 
+**OwlDQ is the only enterprise-ready intelligent data monitoring software**  
 
 * Contains all-in-one analysis, autodiscovery, cataloging, job control, and ticketing
 * Allows UI-driven and programmatic workflows 
@@ -102,7 +102,7 @@ Without data monitoring built-in by design, the biggest issues are the things yo
 
 ![](https://lh5.googleusercontent.com/FtJYdL4983JvNNjhMch5xCmVPUrMHHTyRQcun3JInFYqnRDWtEnIBz9vC8KPEiHXU5AK7zz-93VhKVfX_ugsjcMMNLWl9q9twX2YPRU4izxjop73YKdtJ0TA66zwG3J8JahTIK-d)
 
-There are many ways to ingest and transform data; the descriptions are not meant to be exhaustive \(There are easily 30+ software companies in each of the 4 stages\).
+There are many ways to ingest and transform data; the descriptions are not meant to be exhaustive.
 
 ## **Who uses OwlDQ?**
 
