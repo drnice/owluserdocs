@@ -14,7 +14,7 @@ The fact that data quality is a consistent pain point suggests there is a lot of
 
 OwlDQ offers a low-hanging fruit opportunity to extend your data quality toolset.
 
-### **We help data teams implement quality controls quickly**
+### **We help data teams get control quickly**
 
 ### \*\*\*\*[**Request a Demo**](https://calendly.com/brian-556/owldq-session)\*\*\*\*
 
