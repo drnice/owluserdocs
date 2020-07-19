@@ -4,7 +4,7 @@ description: A low-effort data monitoring software
 
 # What is OwlDQ
 
-OwlDQ reduces the manual work to identify and implement data validation checks.
+OwlDQ reduces the manual steps to identify and implement data validation checks.
 
 ![Based on survey totals provided by OwlDQ users](.gitbook/assets/screenshot-2020-07-18-at-1.47.01-pm.png)
 
