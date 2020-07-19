@@ -1,14 +1,14 @@
 ---
-description: Smarter. Data. Quality.
+description: A low-effort data monitoring software
 ---
 
 # What is OwlDQ
 
-OwlDQ is a low-effort data monitoring software that reduces manual steps in the data quality process.
+OwlDQ reduces the manual work to identify and implement data validation checks.
 
 ![Based on survey totals provided by OwlDQ users](.gitbook/assets/screenshot-2020-07-18-at-1.47.01-pm.png)
 
-## Apply Little-Known Techniques That Eliminate Data Quality Headaches At Scale 
+## Little-Known Techniques That Eliminate Data Quality Headaches At Scale 
 
 The fact that data quality is a consistent pain point suggests there is a lot of attention and not a lot of good solutions.
 
