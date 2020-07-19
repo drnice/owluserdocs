@@ -81,13 +81,13 @@ Without data monitoring built-in by design, the biggest issues are the things yo
 
 ## What sets OwlDQ apart?
 
-**OwlDQ is the only enterprise-ready intelligent data monitoring software**  
+**OwlDQ is the most complete, all-in-one data monitoring software**  
 
-* Contains all-in-one analysis, autodiscovery, cataloging, job control, and ticketing
-* Allows UI-driven and programmatic workflows 
 * Deploys on-prem or within distributed and cloud environments
 * Provides enterprise security, encryption, and masking functionality
 * Works on big, medium, and small data \(Files, Streams, RDBMS, Hadoop\)
+* Contains all-in-one analysis, autodiscovery, cataloging, job control, and ticketing
+* Allows UI-driven and programmatic workflows 
 * Reduces efforts that would **otherwise take months to develop and cost significantly more.**
 
 ### **Purpose-Built \(One Focus\)**
