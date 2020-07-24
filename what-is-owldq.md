@@ -16,6 +16,8 @@ OwlDQ offers a low-hanging fruit opportunity to extend your data quality toolset
 
 ### **We help data teams get control quickly**
 
+{% embed url="https://www.youtube.com/watch?v=ei66s-6ILWg&feature=youtu.be" caption="Quick tour of the application" %}
+
 ### \*\*\*\*[**Request a Demo**](https://calendly.com/brian-556/owldq-session)\*\*\*\*
 
 ## How is OwlDQ Used? 
