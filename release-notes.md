@@ -12,52 +12,13 @@
 * Alert Enhancements \([docs](https://docs.owl-analytics.com/alerts/email-alerts)\)
   * Setup alert batches for quick distribution list and consolidated alerts per dataset
   * Configure all alerts to run via OwlWeb
-* Auto Profile Phase 2 \([docs](https://docs.owl-analytics.com/dq-visuals/profile/autoprofile)\)
-  * Schema filter \(option to limit fields profiled per table\)
-  * Profile Pushdown \(push compute to data warehouse\)
-  * Scan concurrency throttle \(limit number of simultaneous Profiling jobs\)
-  * Date filter \(option to focus profiling to a date orange per table\)
-* Profile UX Enhancements \([docs](https://docs.owl-analytics.com/dq-visuals/profile)\)
-  * Add Business terms/descriptions to profiled columns
-  * PII/MNPI designations automagically identified by Owl \(Profile Semantic\) can be removed by the user from the dataset Profile screen
-  * One click to create a rule based on TopN values
-* Catalog UX Enhancements \([docs](https://docs.owl-analytics.com/catalog/catalog)\)
-  * List of Actions to edit/govern datasets
-  * Publish Dataset
-* Explorer 2 Enhancements \([docs](https://docs.owl-analytics.com/dq-visuals/explorer-2)\)
-  * Support for HDFS
-  * Support for ad-hoc files
-* Pushdown Processing to the Data Warehouse storing the data \([docs](https://docs.owl-analytics.com/dq-visuals/profile)\)
-  * Push compute of Profile to the Data Warehouse where the data is stored
-  * Push compute of Validate Source to the Data Warehouse where the data is stored. Schema and Row Counts only, validate values functionality not supported when pushdown is enabled
-* Outliers \([docs](https://docs.owl-analytics.com/dq-visuals/outliers)\)
-  * Functionality \(Categorical Outliers\)
-    * Categorical Outliers take history into account when date column is provided
-    * Categorical Outliers offers visualization of Most frequent along side of the Outlier for context
-  * Performance \(Numerical Outliers\)
-    * Improved performance when limit on number of Outliers is increased
-    * improved performance when No Date and/or Key is provided
-    * Outlier key values are delimited by a user defined delimiter \(~~ by default\)
-* Validate Source \([docs](https://docs.owl-analytics.com/dq-visuals/validate-source)\)
-  * Improved performance when validate values function is enabled
 * Behaviors \([docs](https://docs.owl-analytics.com/dq-visuals/behaviors)\)
-  * Control behavior module by subtype
-* Notebook API
-  * option.keyDelimiter - Outlier key values are delimited by a user defined delimiter \(~~ by default\)
-  * option.coreMaxActiveConnections - Maximum number of threads that an Owlcheck metastore connection pool contain. This option is only honored when the connection pool first initializes \(Typically when the Spark Session first initializes\).
-  * option.profile.behaviorRowCheck - Controls if behavioral model factors in row count stats
-  * option.profile.behaviorTimeCheck - Controls if behavioral model factors in load time stats
-  * option.profile.behaviorMinValueCheck - Controls if behavioral model factors in min value stats
-  * option.profile.behaviorMaxValueCheck - Controls if behavioral model factors in max value stats
-  * option.profile.behaviorNullCheck - Controls if behavioral model factors in Null count stats
-  * option.profile.behaviorEmptyCheck - Controls if behavioral model factors in Empty count stats
-  * option.profile.behaviorUniqueCheck - Controls if behavioral model factors in Cardinality count stats
-* Caching Efficiency
-  * Improved efficiency of memory usage
+  * Ability to suppress behavior items
+  * UX modal enhancement for additional display values \(chart/top-N/functions\)  
 
 **Known Issues**
 
-* Estimate Jobs function may produce suboptimal configuration
+* Estimate Jobs function may produce suboptimal configuration and time estimate coming soon
 * Kerberos Exception when attempting to generate preview for JSON/XML files on HDF
 * Auto Profile AGENT status indicator \(GREEN/RED\) missing
 
