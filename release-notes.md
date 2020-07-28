@@ -4,11 +4,14 @@
 
 **Features**
 
-* Assignment Queue \([docs](https://docs.owl-analytics.com/observation-assignments/assignment-queue-s)\)
-  * Assign review and resolution of data quality issues to responsible users
-  * Push assignments to Service Now
-* Rules Features \([docs](https://docs.owl-analytics.com/dq-visuals/rules)\)
-  * Enriched Regex Builder to assist in Rule definition
+* Scheduler Enhancements \([docs](https://docs.owl-analytics.com/scheduler/schedule-management)\)
+  * Manage Schedule Restricted Times
+  * Schedule Jobs By quarter
+  * UX Mods on Schedule Template Save From Hoot
+  * Optional Schedule Save with custom Run Date for Reporting/Charting
+* Alert Enhancements \([docs](https://docs.owl-analytics.com/alerts/email-alerts)\)
+  * Setup alert batches for quick distribution list and consolidated alerts per dataset
+  * Configure all alerts to run via OwlWeb
 * Auto Profile Phase 2 \([docs](https://docs.owl-analytics.com/dq-visuals/profile/autoprofile)\)
   * Schema filter \(option to limit fields profiled per table\)
   * Profile Pushdown \(push compute to data warehouse\)
