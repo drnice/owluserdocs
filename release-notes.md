@@ -2,7 +2,7 @@
 
 ## 2.10.1
 
-**Features**
+**Enhancements**
 
 * Scheduler Enhancements \([docs](https://docs.owl-analytics.com/scheduler/schedule-management)\)
   * Manage Schedule Restricted Times
@@ -15,6 +15,14 @@
 * Behaviors \([docs](https://docs.owl-analytics.com/dq-visuals/behaviors)\)
   * Ability to suppress behavior items
   * UX modal enhancement for additional display values \(chart/top-N/functions\)  
+* Jobs \([docs](https://docs.owl-analytics.com/apis/job-server)\)
+  * Export All \(export all checkbox\)
+  * Detailed logging per job \(click jobs link\)
+* Scorecard Pages
+  * Require Page Name
+* Rules UX Enhancements \([docs](https://docs.owl-analytics.com/dq-visuals/rules)\)
+  * Required/Non-Required Styling
+  * Display with ellipsis on long rule names in hoot findings
 
 **Known Issues**
 
