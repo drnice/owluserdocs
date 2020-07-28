@@ -87,6 +87,7 @@
 * Estimate Jobs function may produce suboptimal configuration
 * Kerberos Exception when attempting to generate preview for JSON/XML files on HDF
 * Auto Profile AGENT status indicator \(GREEN/RED\) missing
+* Can not run multiple patterns or outliers from UI
 
 ## **2.9.0 = 4.5.2020**
 
