@@ -166,6 +166,12 @@
 * [Owl Summary Reports](reports/owl-summary-reports.md)
 * [Dataset Report](reports/profile.md)
 
+## Scheduler
+
+* [Schedule Management](scheduler/schedule-management.md)
+* [Schedule Owlchecks](scheduler/schedule-owlchecks.md)
+* [View/Re-Run Scheduled Jobs](scheduler/view-re-run-scheduled-jobs.md)
+
 ## API
 
 * [Notebook](api/notebook/README.md)
