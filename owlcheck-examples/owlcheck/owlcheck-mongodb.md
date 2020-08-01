@@ -4,7 +4,7 @@
 
 Using Owl's file tree explorer browse Mongo "collections" like "tables".  Then use the wizard to create standard DQ scans. 
 
-![](../../.gitbook/assets/screen-shot-2020-08-01-at-10.03.07-am.png)
+![](../../.gitbook/assets/screen-shot-2020-08-01-at-10.11.41-am.png)
 
 ### CMD Line
 
