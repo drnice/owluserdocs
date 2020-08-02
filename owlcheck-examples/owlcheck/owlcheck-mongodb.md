@@ -39,5 +39,11 @@ path: /opt/owl/drivers/mongodb/
 
 ![](../../.gitbook/assets/screen-shot-2020-08-01-at-10.09.20-am.png)
 
+### Discover Correlations, Relationships, DQ issues and Much More... 
+
 ![](../../.gitbook/assets/screen-shot-2020-08-01-at-10.10.45-am.png)
+
+The following table presents the various SQL statements related to table-level actions and the corresponding MongoDB statements.[https://docs.mongodb.com/manual/reference/sql-comparison/](https://docs.mongodb.com/manual/reference/sql-comparison/)
+
+![](../../.gitbook/assets/screen-shot-2020-08-02-at-2.17.34-pm.png)
 
