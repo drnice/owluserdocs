@@ -10,7 +10,7 @@ Reduce manual steps to identify and implement data validation checks.
 
 ## What Savings OwlDQ Provide? 
 
-### **To complete data quality requirements** **on time/budget**
+### **Complete data quality requirements** **on time/budget**
 
 {% hint style="success" %}
 * **Top 10 Bank** 
