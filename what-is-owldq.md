@@ -8,21 +8,9 @@ Reduce manual steps to identify and implement data validation checks.
 
 ![Based on results from OwlDQ users](.gitbook/assets/screenshot-2020-07-19-at-7.31.37-pm.png)
 
-## Use OwlDQ to Eliminate Data Quality Headaches at Scale
+## What Savings OwlDQ Provide? 
 
-The fact that data quality is a consistent pain point suggests it's very important and existing products are not keeping up with the growing workload.
-
-OwlDQ offers a low-hanging fruit opportunity to extend your data quality toolset.
-
-### **Get data quality control. Quickly.**
-
-{% embed url="https://www.youtube.com/watch?v=ei66s-6ILWg&feature=youtu.be" caption="Quick tour of the application" %}
-
-### \*\*\*\*[**Request a Demo**](https://calendly.com/brian-556/owldq-session)\*\*\*\*
-
-## How is OwlDQ Used? 
-
-### **To complete data quality requirements** **in less time and with much less effort**
+### **To complete data quality requirements** **on time/budget**
 
 {% hint style="success" %}
 * **Top 10 Bank** 
@@ -54,6 +42,18 @@ OwlDQ offers a low-hanging fruit opportunity to extend your data quality toolset
 * Touchy pipelines get upset with minor updates
 * Too busy responding to fire drills to implement new projects
 {% endhint %}
+
+## Use OwlDQ to Eliminate Data Quality Headaches at Scale
+
+The fact that data quality is a consistent pain point suggests it's very important and existing products are not keeping up with the growing workload.
+
+OwlDQ offers a low-hanging fruit opportunity to extend your data quality toolset.
+
+### **Get data quality control. Quickly.**
+
+{% embed url="https://www.youtube.com/watch?v=ei66s-6ILWg&feature=youtu.be" caption="Quick tour of the application" %}
+
+### \*\*\*\*[**Request a Demo**](https://calendly.com/brian-556/owldq-session)\*\*\*\*
 
 ## Because Real Stuff Happens in The Real World
 
