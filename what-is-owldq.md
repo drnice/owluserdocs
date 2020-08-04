@@ -4,7 +4,7 @@ description: OwlDQ is a data quality intelligence & proactive data monitoring ap
 
 # What is OwlDQ
 
-OwlDQ reduces the manual steps to identify and implement data validation checks.
+Reduce the manual steps to identify and implement data validation checks.
 
 ![Based on results from OwlDQ users](.gitbook/assets/screenshot-2020-07-19-at-7.31.37-pm.png)
 
