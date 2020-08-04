@@ -14,7 +14,7 @@ The fact that data quality is a consistent pain point suggests it's very importa
 
 OwlDQ offers a low-hanging fruit opportunity to extend your data quality toolset.
 
-### **We help data teams get control quickly**
+### **Get data quality control. Quickly.**
 
 {% embed url="https://www.youtube.com/watch?v=ei66s-6ILWg&feature=youtu.be" caption="Quick tour of the application" %}
 
