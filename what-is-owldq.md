@@ -34,7 +34,7 @@ Reduce manual steps to identify and implement data validation checks.
   Implemented DQ Monitoring on 900+ Reference Datasets in less than 9 hours 
 {% endhint %}
 
-### **While reducing system-wide headaches**
+### **While reducing system-wide pain points**
 
 {% hint style="danger" %}
 * Data teams overwhelmed with tickets 
