@@ -8,16 +8,16 @@ Reduce manual steps to identify and implement data validation checks.
 
 ![Based on results from OwlDQ users](.gitbook/assets/screenshot-2020-07-19-at-7.31.37-pm.png)
 
-## What Savings OwlDQ Provide? 
+## What Savings Does OwlDQ Provide \(time/effort/money\)? 
 
-### **Complete data quality requirements** **on time/budget**
+### **Accelerate data quality requirements**
 
 {% hint style="success" %}
 * **Top 10 Bank** 
 
   Reduced 60% of their manual Data Quality workload + $1.7M cost savings 
 
-* **Top 10 Healthcare Organization** 
+* **Top 3 Healthcare Organization** 
 
   Completed a 6 Month Data Quality migration requirement in six weeks 
 
@@ -43,9 +43,9 @@ Reduce manual steps to identify and implement data validation checks.
 * Too busy responding to fire drills to implement new projects
 {% endhint %}
 
-## Use OwlDQ to Eliminate Data Quality Headaches at Scale
+## Eliminate Data Quality Headaches at Scale
 
-The fact that data quality is a consistent pain point suggests it's very important and existing products are not keeping up with the growing workload.
+The fact that data quality is a consistent pain point suggests it's important to many business-critical functions and existing products are not keeping up with the growing workload.
 
 OwlDQ offers a low-hanging fruit opportunity to extend your data quality toolset.
 
@@ -55,9 +55,9 @@ OwlDQ offers a low-hanging fruit opportunity to extend your data quality toolset
 
 ### \*\*\*\*[**Request a Demo**](https://calendly.com/brian-556/owldq-session)\*\*\*\*
 
-## Because Real Stuff Happens in The Real World
+## If a user gets a wrong report because of poor DQ, what’s the impact?
 
-Without data monitoring built-in by design, the biggest issues are the things you don't anticipate and you don't immediately notice.
+The biggest issues are the things you don't anticipate and you don't immediately notice.
 
 {% tabs %}
 {% tab title="Billing Issue Example" %}
@@ -83,13 +83,13 @@ Without data monitoring built-in by design, the biggest issues are the things yo
 
 ## What sets OwlDQ apart?
 
-**OwlDQ is the most complete, all-in-one data monitoring software**  
+**OwlDQ the most complete, All-in-one data monitoring software**  
 
-* Deploys on-prem or within distributed and cloud environments
+* Deploys on-prem and cloud environments \(distributed and stand-alone\)
 * Provides enterprise security, encryption, and masking functionality
 * Works on big, medium, and small data \(Files, Streams, RDBMS, Hadoop\)
 * Contains all-in-one analysis, autodiscovery, cataloging, job control, and ticketing
-* Allows UI-driven and programmatic workflows 
+* UI-driven and programmatic workflows 
 * Reduces efforts that would **otherwise take months to develop and cost significantly more.**
 
 ### **Purpose-Built \(One Focus\)**

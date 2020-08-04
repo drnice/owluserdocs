@@ -26,8 +26,6 @@
 
 **Known Issues**
 
-* Estimate Jobs function may produce suboptimal configuration and time estimate coming soon
-* Kerberos Exception when attempting to generate preview for JSON/XML files on HDF
 * Auto Profile AGENT status indicator \(GREEN/RED\) missing
 * Can not run multiple patterns or outliers from UX on Tech Preview explorer2
 
