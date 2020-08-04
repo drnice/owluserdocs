@@ -8,7 +8,7 @@ OwlDQ reduces the manual steps to identify and implement data validation checks.
 
 ![Based on results from OwlDQ users](.gitbook/assets/screenshot-2020-07-19-at-7.31.37-pm.png)
 
-## Leading Organizations Use Advanced Techniques to Eliminate Data Quality Headaches
+## Use OwlDQ to Eliminate Data Quality Headaches at Scale
 
 The fact that data quality is a consistent pain point suggests there is a lot of attention and legacy tools are just too manual to keep up.
 
