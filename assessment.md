@@ -8,7 +8,7 @@ description: >-
 
 ### **Because humans can’t predict every which way data can go wrong.**
 
-{% embed url="https://www.youtube.com/watch?v=sR6ACeO8d34" caption="The fastest data mointoring" %}
+{% embed url="https://www.youtube.com/watch?v=sR6ACeO8d34" caption="The fastest way to implement data mointoring. Period." %}
 
 ## [Click to Get Started Eliminating Data Quality Headaches Today](https://calendly.com/brian-556/owldq-session)
 
