@@ -6,7 +6,7 @@ description: OwlDQ is a data quality intelligence & proactive data monitoring ap
 
 ### **Because humans can’t predict every which way data can go wrong.**
 
-![Reduce manual steps to identify and implement data validation checks.](.gitbook/assets/screenshot-2020-07-19-at-7.31.37-pm.png)
+{% embed url="https://www.youtube.com/watch?v=sR6ACeO8d34" %}
 
 ## What Savings Does OwlDQ Provide \(time/effort/money\)? 
 
@@ -49,11 +49,7 @@ The fact that data quality is a consistent pain point suggests it's important to
 
 OwlDQ offers a low-hanging fruit opportunity to extend your data quality toolset.
 
-### **Get data quality control. Quickly.**
-
-{% embed url="https://www.youtube.com/watch?v=ei66s-6ILWg&feature=youtu.be" caption="Quick tour of the application" %}
-
-### \*\*\*\*[**Request a Demo**](https://calendly.com/brian-556/owldq-session)\*\*\*\*
+### **Get data quality control. Faster.**
 
 ## If a user gets a wrong report because of poor DQ, what’s the impact?
 
@@ -83,7 +79,9 @@ The biggest issues are the things you don't anticipate and you don't immediately
 
 ## What sets OwlDQ apart?
 
-**OwlDQ the most complete, All-in-one data monitoring software**  
+**OwlDQ drastically reduces the manual steps**
+
+![Types of Checks Owl Automates](.gitbook/assets/screenshot-2020-07-19-at-7.31.37-pm.png)
 
 * Deploys on-prem and cloud environments \(distributed and stand-alone\)
 * Provides enterprise security, encryption, and masking functionality
@@ -100,7 +98,7 @@ The biggest issues are the things you don't anticipate and you don't immediately
 
 [See Why Owl For More Information](https://owldq.com/about.html)
 
-## **Where does OwlDQ fit?**
+## **OwlDQ is Low-Impact, Fits within Existing Architecture**
 
 ![](https://lh5.googleusercontent.com/FtJYdL4983JvNNjhMch5xCmVPUrMHHTyRQcun3JInFYqnRDWtEnIBz9vC8KPEiHXU5AK7zz-93VhKVfX_ugsjcMMNLWl9q9twX2YPRU4izxjop73YKdtJ0TA66zwG3J8JahTIK-d)
 
