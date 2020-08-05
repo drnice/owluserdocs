@@ -5,7 +5,7 @@
 * [Our Approach](why-owl.md)
 * [Our Story](our-story.md)
 * [What is OwlDQ](what-is-owldq.md)
-* [Free Assessment](assessment.md)
+* [Get Started](assessment.md)
 * [Start for free](free-trial.md)
 
 ## How OwlDQ <a id="projects"></a>
