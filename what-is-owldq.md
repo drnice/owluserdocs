@@ -8,7 +8,7 @@ description: OwlDQ is a data quality intelligence & proactive data monitoring ap
 
 {% embed url="https://www.youtube.com/watch?v=sR6ACeO8d34" %}
 
-### **Book a Conversation**
+### \*\*\*\*[**Book a Conversation**](https://calendly.com/brian-556/owldq-session)
 
 ## What Savings Does OwlDQ Provide \(time/effort/money\)? 
 
@@ -50,8 +50,6 @@ description: OwlDQ is a data quality intelligence & proactive data monitoring ap
 The fact that data quality is a consistent pain point suggests it's important to many business-critical functions and existing products are not keeping up with the growing workload.
 
 OwlDQ offers a low-hanging fruit opportunity to extend your data quality toolset.
-
-### **Get data quality control. Faster.**
 
 ## If a user gets a wrong report because of poor DQ, what’s the impact?
 
