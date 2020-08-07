@@ -4,15 +4,42 @@ description: OwlDQ is a seamless data integrity validation application.
 
 # What is OwlDQ
 
-### **Because humans can’t predict every which way data can go wrong.**
+## **OwlDQ d**etects unintended data errors without human bottlenecks.
+
+### _**Because humans can’t predict every which way data can go wrong.**_
 
 {% embed url="https://www.youtube.com/watch?v=sR6ACeO8d34" %}
 
-### \*\*\*\*[**Book a Conversation**](https://calendly.com/brian-556/owldq-session)
+## Problems OwlDQ Solves 
+
+* **Implementing Data Integrity Checks**
+
+  * Detects unintended data errors  
+  * Writes validations for you
+  * Rule suggestions 
+
+* **Taking Data Inventory** 
+
+  * Bulk Profiling
+  * Column Identification 
+  * Metadata Collection 
+
+* **Centralizing Data Integrity Intelligence**
+
+  * Collating All Data Integrity Checks
+  * Managing Across Sources / Platforms / Environments 
+  * Single Reporting for All Data Integrity Health
+
+* **Enabling More Users** 
+  * Easy to use Rule Editor 
+  * Curated Analytics and Charts 
+  * Extensible APIs, Open Architecture 
+
+### [**Book a Conversation**](https://calendly.com/brian-556/owldq-session)
 
 ## What Savings Does OwlDQ Provide \(time/effort/money\)? 
 
-### **Accelerate data quality requirements**
+### **Accelerate data projects**
 
 {% hint style="success" %}
 * **Top 10 Bank** 
@@ -45,12 +72,6 @@ description: OwlDQ is a seamless data integrity validation application.
 * Too busy responding to fire drills to implement new projects
 {% endhint %}
 
-## Eliminate Data Quality Headaches at Scale
-
-The fact that data quality is a consistent pain point suggests it's important to many business-critical functions and existing products are not keeping up with the growing workload.
-
-OwlDQ offers a low-hanging fruit opportunity to extend your data quality toolset.
-
 ## If a user gets a wrong report because of poor DQ, what’s the impact?
 
 The biggest issues are the things you don't anticipate and you don't immediately notice.
@@ -79,7 +100,7 @@ The biggest issues are the things you don't anticipate and you don't immediately
 
 ## What sets OwlDQ apart?
 
-**OwlDQ drastically reduces the manual steps**
+**OwlDQ drastically reduces the manual workloads**
 
 ![Types of Checks Owl Automates](.gitbook/assets/screenshot-2020-07-19-at-7.31.37-pm.png)
 
@@ -98,12 +119,6 @@ The biggest issues are the things you don't anticipate and you don't immediately
 
 [See Why Owl For More Information](https://owldq.com/about.html)
 
-## **OwlDQ is Low-Impact, Fits within Existing Architecture**
-
-![](https://lh5.googleusercontent.com/FtJYdL4983JvNNjhMch5xCmVPUrMHHTyRQcun3JInFYqnRDWtEnIBz9vC8KPEiHXU5AK7zz-93VhKVfX_ugsjcMMNLWl9q9twX2YPRU4izxjop73YKdtJ0TA66zwG3J8JahTIK-d)
-
-There are many ways to ingest and transform data; the descriptions are not meant to be exhaustive.
-
 ## **Who uses OwlDQ?**
 
 For data-driven organizations that want to be efficient.
@@ -114,62 +129,13 @@ For data-driven organizations that want to be efficient.
 * Data Scientists
 * Data Analysts
 
-## **Use cases**
+## Eliminate Data Quality Headaches at Scale
 
-* [ ] [FX Rates](https://docs.owl-analytics.com/use-cases/financial-fxrate-data) \(Outlier Detection\)
-* [ ] [Reference Data](https://docs.owl-analytics.com/use-cases/security-reference-data) \(Pattern Detection\)
-* [ ] [Cloud Migrations](https://docs.owl-analytics.com/use-cases/copying-or-moving-data) \(Validate Source\)
-* [ ] [Wealth Management](https://docs.owl-analytics.com/dq-visuals/duplicates) \(De-duping\) 
+OwlDQ offers a low-hanging fruit opportunity to extend your data quality toolset.
 
-More uses cases [available here](https://docs.owl-analytics.com/use-cases/bank-loans)
+The fact that data quality is a consistent pain point suggests it's important to many business-critical functions and existing products are not keeping up with the growing workload.
 
-## How Do I Get Started?
+### \*\*\*\*[**Get Started**](https://calendly.com/brian-556/owldq-session)\*\*\*\*
 
-Our 4 step process allows you to quickly layer-in data quality checks.
-
-{% tabs %}
-{% tab title="DQ Now" %}
-#### Automatic Layer
-
-* Single-Column Rules \(auto-generated, auto-Applied\) 
-* Always-On Profiling
-* Metadata Monitoring
-
-_Fast to implement, must-have protection, sanity checks_
-{% endtab %}
-
-{% tab title="DQ Select" %}
-#### Opt-In Layer
-
-* Cross-Table Validations 
-* Referential Validations
-* Parent-Child Validations
-* Deduping
-
-_Blend human input with suggested validations._
-{% endtab %}
-
-{% tab title="DQ Discover" %}
-#### Autodiscovery Layer
-
-* Format Finder
-* Anomaly Detection
-* Cross-Column Basket Analyzer
-
- _Deeper analysis to uncover hard-to-find data quality issues._
-{% endtab %}
-
-{% tab title="DQ Deploy" %}
-#### Workflow Layer
-
-* Report Repo
-* Scheduler 
-* Alert Center
-* Security, Masking, Roles, and Permissions
-
-_All the things you need to make it work for you._
-{% endtab %}
-{% endtabs %}
-
-### \*\*\*\*[**Click Here to Get Started**](https://calendly.com/brian-556/owldq-session)\*\*\*\*
+### \*\*\*\*
 
