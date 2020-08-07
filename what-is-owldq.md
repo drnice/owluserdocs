@@ -24,7 +24,7 @@ description: OwlDQ is a seamless data integrity validation software.
   * Bulk Profiling
   * Metadata Collection 
   * Column Identification 
-  * Column Matches
+  * Maps Column Fingerprints, Cross-Table Matches & PII Checks
 
 * **Consolidating Data Integrity Intelligence**
 
