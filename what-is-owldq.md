@@ -26,10 +26,10 @@ _**Because humans can’t predict every which way data can go wrong.**_
   * Column Identification 
   * Maps Column Fingerprints, Cross-Table Matches & PII Checks
 
-* [x] **Consolidating Data Integrity Intelligence**
+* [x] **Consolidating Data Integrity**
 
   * No more closed-systems, confusing scripts
-  * A single view of all Data Integrity Checks
+  * Macro &  micro views for measuring effectiveness over time
   * Global management Across Sources / Platforms / Environments 
 
 * [x] **Enabling More Users** 
