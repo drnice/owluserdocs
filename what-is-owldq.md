@@ -76,7 +76,7 @@ description: OwlDQ is a seamless data integrity validation software.
 
 ## [**Book a Conversation**](https://calendly.com/brian-556/owldq-session)
 
-## If a user gets a wrong report because of poor DQ, what’s the impact?
+## Most Operations and Strategic Decisions Rely on Data
 
 The biggest issues are the things you don't anticipate and you don't immediately notice.
 
