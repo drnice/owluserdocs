@@ -1,10 +1,10 @@
 ---
-description: OwlDQ is a seamless data integrity validation software.
+description: OwlDQ is a seamless data integrity application.
 ---
 
 # What is OwlDQ
 
-## **OwlDQ d**etects unintended data errors without human bottlenecks.
+## **OwlDQ D**etects Unintended Data Errors Without Human Bottlenecks.
 
 ### _**Because humans can’t predict every which way data can go wrong.**_
 
@@ -12,7 +12,7 @@ description: OwlDQ is a seamless data integrity validation software.
 
 ## How Can OwlDQ Help?
 
-### A number of ways:
+### A Number of Ways:
 
 * [x] **Implementing Checks**
 
@@ -41,7 +41,7 @@ description: OwlDQ is a seamless data integrity validation software.
 
 ## What Savings Does OwlDQ Provide? 
 
-### **Boost data projects**
+### **Boost Data Projects**
 
 {% hint style="success" %}
 * **Top 10 Bank** 
@@ -59,7 +59,7 @@ description: OwlDQ is a seamless data integrity validation software.
  
 {% endhint %}
 
-### _**While reducing system-wide pain points**_
+### _**While Reducing System-Wide Pain Points**_
 
 {% hint style="danger" %}
 * Overwhelmed with tickets 
