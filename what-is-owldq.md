@@ -104,34 +104,13 @@ The biggest issues are the things you don't anticipate and you don't immediately
 
 ## What sets OwlDQ apart?
 
-**OwlDQ drastically reduces the manual workloads**
+### _**OwlDQ is the only tool that drastically reduces manual workloads**_
 
 ![Types of Checks Owl Automates](.gitbook/assets/screenshot-2020-07-19-at-7.31.37-pm.png)
 
-* Deploys on-prem and cloud environments \(distributed and stand-alone\)
-* Provides enterprise security, encryption, and masking functionality
-* Works on big, medium, and small data \(Files, Streams, RDBMS, Hadoop\)
-* Contains all-in-one analysis, autodiscovery, cataloging, job control, and ticketing
-* UI-driven and programmatic workflows 
-* Reduces efforts that would **otherwise take months to develop and cost significantly more.**
-
-### **Purpose-Built \(One Focus\)**
-
-{% hint style="info" %}
-### _Every feature, visual, and component within Owl is intended to make the analysis and implementation of data integrity checks easier._
-{% endhint %}
+Every feature, visual, and component within Owl is intended to make the analysis and implementation of data integrity checks easier.
 
 [See Why Owl For More Information](https://owldq.com/about.html)
-
-## **Who uses OwlDQ?**
-
-For data-driven organizations that want to be efficient.
-
-* Data Quality
-* Data Governance
-* Data Engineers
-* Data Scientists
-* Data Analysts
 
 ## Eliminate Data Headaches at Scale
 
