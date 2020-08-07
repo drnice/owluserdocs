@@ -1,5 +1,5 @@
 ---
-description: OwlDQ is a seamless data integrity validation application.
+description: OwlDQ is a seamless data integrity validation software.
 ---
 
 # What is OwlDQ
