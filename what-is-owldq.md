@@ -6,11 +6,13 @@ description: OwlDQ is a seamless data integrity validation software.
 
 ## **OwlDQ d**etects unintended data errors without human bottlenecks.
 
-_**Because humans can’t predict every which way data can go wrong.**_
+### _**Because humans can’t predict every which way data can go wrong.**_
 
 {% embed url="https://www.youtube.com/watch?v=sR6ACeO8d34" %}
 
-## Problems OwlDQ Solves 
+## How Can OwlDQ Help?
+
+### A number of ways:
 
 * [x] **Implementing Checks**
 
@@ -22,11 +24,11 @@ _**Because humans can’t predict every which way data can go wrong.**_
 
   * Bulk Profiling & Metadata Collection 
   * Column Identification 
-  * Maps Column Fingerprints, Cross-Table Matches & PII Checks
+  * Map Column Fingerprints, Cross-Table Matches & PII Checks
 
 * [x] **Consolidating Systems**
 
-  * No more closed-systems, confusing scripts
+  * No more closed-systems or confusing scripts
   * Macro & micro views for measuring effectiveness over time
   * Global management Across Sources / Platforms / Environments 
 
@@ -54,29 +56,31 @@ _**Because humans can’t predict every which way data can go wrong.**_
 
   Satisfied Regulatory Second Line Controls in a 4-week program 
 
-* **Top FS Firm** 
-
-  Implemented Data Integrity checks across their data warehouse in 30 days 
-
-* **Top Asset Manager** 
-
-  Implemented DQ Monitoring on 900+ Reference Datasets in less than 9 hours 
+ 
 {% endhint %}
 
-### **While reducing system-wide pain points**
+### _**While reducing system-wide pain points**_
 
 {% hint style="danger" %}
-* Data teams overwhelmed with tickets 
+* Overwhelmed with tickets 
 * Business users find issues first
-* Touchy pipelines get upset with minor updates
+* Touchy pipelines break with minor updates
 * Too busy responding to fire drills to implement new projects
 {% endhint %}
 
 ## [**Book a Conversation**](https://calendly.com/brian-556/owldq-session)
 
-## Most Operations and Strategic Decisions Rely on Data
+## What **S**ets OwlDQ Apart?
 
-The biggest issues are the things you don't anticipate and you don't immediately notice.
+### **OwlDQ is The Only Tool That Drastically Reduces Manual Workloads**
+
+Every feature, visual, and component within Owl is intended to make the analysis and implementation of data integrity checks easier.
+
+![](.gitbook/assets/screenshot-2020-07-19-at-7.31.37-pm.png)
+
+## Why Use Owl?
+
+### Operations & Strategic Decisions Rely on Data.  And The Biggest Issues are the Things You Don't Anticipate and You Don't Immediately Notice. 
 
 {% tabs %}
 {% tab title="Billing Issue Example" %}
@@ -100,21 +104,13 @@ The biggest issues are the things you don't anticipate and you don't immediately
 {% endtab %}
 {% endtabs %}
 
-## What sets OwlDQ apart?
+## What's Next?
 
-### _**OwlDQ is the only tool that drastically reduces manual workloads**_
-
-![Types of Checks Owl Automates](.gitbook/assets/screenshot-2020-07-19-at-7.31.37-pm.png)
-
-Every feature, visual, and component within Owl is intended to make the analysis and implementation of data integrity checks easier.
-
-[See Why Owl For More Information](https://owldq.com/about.html)
-
-## Eliminate Data Headaches at Scale
+### Schedule a Conversation to Start Eliminating Data Headaches at Scale
 
 OwlDQ offers a low-hanging fruit opportunity to extend your data quality toolset.
 
-The fact that data integrity is a consistent pain point suggests it's important to many business-critical functions and existing products are not keeping up with the growing workload.
+The fact that data integrity is a consistent pain point suggests it's important to many business-critical functions and legacy products not getting the job done.
 
 ## \*\*\*\*[**Get Started**](https://calendly.com/brian-556/owldq-session)\*\*\*\*
 
