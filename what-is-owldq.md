@@ -34,7 +34,7 @@ description: OwlDQ is a seamless data integrity validation software.
 
 * **Enabling More Users** 
   * Easy to use Rule Editor 
-  * Curated Analytics and Charts 
+  * Pre-Built Analytics and Charts 
   * Extensible APIs, Open Architecture
 
 ## [**Learn More**](https://calendly.com/brian-556/owldq-session)
