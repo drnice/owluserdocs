@@ -37,9 +37,9 @@ _**Because humans can’t predict every which way data can go wrong.**_
 
 ## [**Learn More**](https://calendly.com/brian-556/owldq-session)
 
-## What Savings Does OwlDQ Provide \(time/effort/money\)? 
+## What Savings Does OwlDQ Provide? 
 
-### **Accelerate data projects**
+### **Boost data projects**
 
 {% hint style="success" %}
 * **Top 10 Bank** 
