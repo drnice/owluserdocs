@@ -12,27 +12,25 @@ _**Because humans can’t predict every which way data can go wrong.**_
 
 ## Problems OwlDQ Solves 
 
-* [x] **Implementing Data Integrity Checks**
+* [x] **Implementing Checks**
 
   * Autodiscovery
   * Writes validations for you
   * Rule suggestions 
-  * Detects unintended data errors  
 
-* [x] **Taking Data Inventory** 
+* [x] **Taking Inventory** 
 
-  * Bulk Profiling
-  * Metadata Collection 
+  * Bulk Profiling & Metadata Collection 
   * Column Identification 
   * Maps Column Fingerprints, Cross-Table Matches & PII Checks
 
-* [x] **Consolidating Data Integrity**
+* [x] **Consolidating Systems**
 
   * No more closed-systems, confusing scripts
-  * Macro &  micro views for measuring effectiveness over time
+  * Macro & micro views for measuring effectiveness over time
   * Global management Across Sources / Platforms / Environments 
 
-* [x] **Enabling More Users** 
+* [x] **Enabling More Users**
   * Easy to use Rule Editor 
   * Pre-Built Analytics and Charts 
   * Extensible APIs, Open Architecture
