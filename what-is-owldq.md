@@ -24,18 +24,18 @@ description: OwlDQ is a seamless data integrity validation software.
   * Column Identification 
   * Metadata Collection 
 
-* **Centralizing Data Integrity Intelligence**
+* **Consolidating Data Integrity Intelligence**
 
-  * Collating All Data Integrity Checks
-  * Managing Across Sources / Platforms / Environments 
-  * Single Reporting for All Data Integrity Health
+  * No more closed-systems, confusing scripts
+  * A single view of all Data Integrity Checks
+  * Global management Across Sources / Platforms / Environments 
 
 * **Enabling More Users** 
   * Easy to use Rule Editor 
   * Curated Analytics and Charts 
-  * Extensible APIs, Open Architecture 
+  * Extensible APIs, Open Architecture
 
-### [**Book a Conversation**](https://calendly.com/brian-556/owldq-session)
+## [**Learn More**](https://calendly.com/brian-556/owldq-session)
 
 ## What Savings Does OwlDQ Provide \(time/effort/money\)? 
 
@@ -44,11 +44,11 @@ description: OwlDQ is a seamless data integrity validation software.
 {% hint style="success" %}
 * **Top 10 Bank** 
 
-  Reduced 60% of their manual Data Quality workload + $1.7M cost savings 
+  Reduced 60% of their manual Data Integrity workload + $1.7M cost savings 
 
 * **Top 3 Healthcare Organization** 
 
-  Completed a 6 Month Data Quality migration requirement in six weeks 
+  Completed a 6 Month Data Check migration requirement in six weeks 
 
 * **Top Insurance Organization** 
 
@@ -56,7 +56,7 @@ description: OwlDQ is a seamless data integrity validation software.
 
 * **Top FS Firm** 
 
-  Implemented Data Quality checks across their data warehouse in 30 days 
+  Implemented Data Integrity checks across their data warehouse in 30 days 
 
 * **Top Asset Manager** 
 
@@ -71,6 +71,8 @@ description: OwlDQ is a seamless data integrity validation software.
 * Touchy pipelines get upset with minor updates
 * Too busy responding to fire drills to implement new projects
 {% endhint %}
+
+## [**Book a Conversation**](https://calendly.com/brian-556/owldq-session)
 
 ## If a user gets a wrong report because of poor DQ, what’s the impact?
 
@@ -114,7 +116,7 @@ The biggest issues are the things you don't anticipate and you don't immediately
 ### **Purpose-Built \(One Focus\)**
 
 {% hint style="info" %}
-### _Every feature, visual, and component within Owl is intended to make the analysis and implementation of data quality easier._
+### _Every feature, visual, and component within Owl is intended to make the analysis and implementation of data integrity checks easier._
 {% endhint %}
 
 [See Why Owl For More Information](https://owldq.com/about.html)
@@ -129,13 +131,13 @@ For data-driven organizations that want to be efficient.
 * Data Scientists
 * Data Analysts
 
-## Eliminate Data Quality Headaches at Scale
+## Eliminate Data Headaches at Scale
 
 OwlDQ offers a low-hanging fruit opportunity to extend your data quality toolset.
 
-The fact that data quality is a consistent pain point suggests it's important to many business-critical functions and existing products are not keeping up with the growing workload.
+The fact that data integrity is a consistent pain point suggests it's important to many business-critical functions and existing products are not keeping up with the growing workload.
 
-### \*\*\*\*[**Get Started**](https://calendly.com/brian-556/owldq-session)\*\*\*\*
+## \*\*\*\*[**Get Started**](https://calendly.com/brian-556/owldq-session)\*\*\*\*
 
 ### \*\*\*\*
 
