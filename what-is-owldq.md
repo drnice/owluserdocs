@@ -6,33 +6,33 @@ description: OwlDQ is a seamless data integrity validation software.
 
 ## **OwlDQ d**etects unintended data errors without human bottlenecks.
 
-### _**Because humans can’t predict every which way data can go wrong.**_
+_**Because humans can’t predict every which way data can go wrong.**_
 
 {% embed url="https://www.youtube.com/watch?v=sR6ACeO8d34" %}
 
 ## Problems OwlDQ Solves 
 
-* **Implementing Data Integrity Checks**
+* [x] **Implementing Data Integrity Checks**
 
   * Autodiscovery
   * Writes validations for you
   * Rule suggestions 
   * Detects unintended data errors  
 
-* **Taking Data Inventory** 
+* [x] **Taking Data Inventory** 
 
   * Bulk Profiling
   * Metadata Collection 
   * Column Identification 
   * Maps Column Fingerprints, Cross-Table Matches & PII Checks
 
-* **Consolidating Data Integrity Intelligence**
+* [x] **Consolidating Data Integrity Intelligence**
 
   * No more closed-systems, confusing scripts
   * A single view of all Data Integrity Checks
   * Global management Across Sources / Platforms / Environments 
 
-* **Enabling More Users** 
+* [x] **Enabling More Users** 
   * Easy to use Rule Editor 
   * Pre-Built Analytics and Charts 
   * Extensible APIs, Open Architecture
