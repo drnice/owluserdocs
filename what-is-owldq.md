@@ -1,5 +1,5 @@
 ---
-description: OwlDQ is a data quality intelligence & proactive data monitoring application.
+description: OwlDQ is a seamless data integrity validation application.
 ---
 
 # What is OwlDQ
