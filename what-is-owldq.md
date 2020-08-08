@@ -4,8 +4,6 @@ description: OwlDQ is a seamless data integrity application.
 
 # What is OwlDQ
 
-## **Save hours of effort with auto-generated data integrity checks.**
-
 ### **OwlDQ D**etects Unintended Data Errors Without Human Bottlenecks.
 
 {% embed url="https://www.youtube.com/watch?v=sR6ACeO8d34" %}
@@ -14,7 +12,7 @@ description: OwlDQ is a seamless data integrity application.
 
 ## How Can OwlDQ Help?
 
-### A Number of Ways:
+### **Save hours of effort with auto-generated data integrity checks.**
 
 * [x] **Implementing Checks**
 
