@@ -23,7 +23,7 @@ description: OwlDQ is a seamless data integrity application.
 * [x] **Taking Inventory** 
 
   * Bulk Profiling & Metadata Collection 
-  * Column Identification 
+  * Data Mapping with Column Identification 
   * Map Column Fingerprints, Cross-Table Matches & PII Checks
 
 * [x] **Consolidating Systems**
