@@ -4,22 +4,20 @@ description: OwlDQ is a seamless data integrity application.
 
 # What is OwlDQ
 
-### Systematically E**liminate Y**our Biggest Data Blind Spots.
+### Systematically E**liminate Y**our Biggest Data Integrity Blind Spots.
 
 ### **OwlDQ D**etects Unintended Data Errors Without Human Bottlenecks.
 
 {% embed url="https://www.youtube.com/watch?v=sR6ACeO8d34" %}
 
-### _**Because humans can’t predict every which way data can go wrong.**_
-
 ## How Can OwlDQ Help?
 
-### **Save hours of effort with auto-generated data integrity checks.**
+### **Save Hours of Effort with Auto-generated Data Integrity Checks.**
 
 * [x] **Implementing Checks**
 
   * Autodiscovery
-  * Generates validations for you
+  * Generates SQL validations, parameters & thresholds
   * Rule suggestions 
 
 * [x] **Taking Inventory** 
@@ -82,7 +80,7 @@ Every feature, visual, and component within Owl is intended to make the analysis
 
 ## Why Use Owl?
 
-### Operations & Strategic Decisions Rely on Data.  And The Biggest Issues are the Things You Don't Anticipate and You Don't Immediately Notice. 
+### Because Humans Can’t Predict Every Which Way Data Can Go Wrong.
 
 {% tabs %}
 {% tab title="Billing Issue Example" %}
