@@ -106,7 +106,7 @@ Every feature, visual, and component within Owl is intended to make the analysis
 
 ## What's Next?
 
-### Schedule a Conversation to Start Eliminating Data Headaches at Scale
+### Schedule a Conversation to Start 
 
 OwlDQ offers a low-hanging fruit opportunity to extend your data quality toolset.
 
