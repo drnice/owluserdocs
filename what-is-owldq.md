@@ -14,9 +14,9 @@ description: OwlDQ is a seamless data validation tool.
 
 ## How Can OwlDQ Help?
 
-### **Save Hours of Effort with Auto-generated Data Validation Checks.**
+### **Boost productivity. 80% faster than manual coding. Reduce development & maintenance costs. Get faster, easier access to data quality metrics. Show line of business users how to self-service.**
 
-Boost productivity. 80% faster than manual coding. Reduce development & maintenance costs. Get faster, easier access to data quality metrics. Show line of business users how to self-service.
+### **Save Hours of Effort with Auto-generated Data Validation Checks.**
 
 * [x] **Implementing Checks**
 
