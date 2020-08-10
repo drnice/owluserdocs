@@ -1,10 +1,10 @@
 ---
-description: OwlDQ is a seamless data integrity application.
+description: OwlDQ is a seamless data validation tool.
 ---
 
 # What is OwlDQ
 
-### Systematically E**liminate Y**our Biggest Data Integrity Blind Spots.
+### Systematically E**liminate Y**our Biggest Data Blind Spots.
 
 ### **OwlDQ D**etects Unintended Data Errors Without Human Bottlenecks.
 
@@ -12,7 +12,7 @@ description: OwlDQ is a seamless data integrity application.
 
 ## How Can OwlDQ Help?
 
-### **Save Hours of Effort with Auto-generated Data Integrity Checks.**
+### **Save Hours of Effort with Auto-generated Data Validation Checks.**
 
 * [x] **Implementing Checks**
 
@@ -46,7 +46,7 @@ description: OwlDQ is a seamless data integrity application.
 {% hint style="success" %}
 * **Top 10 Bank** 
 
-  Reduced 60% of their manual Data Integrity workload + $1.7M cost savings 
+  Reduced 60% of their manual Data qualityf workload + $1.7M cost savings 
 
 * **Top 3 Healthcare Organization** 
 
@@ -74,7 +74,7 @@ description: OwlDQ is a seamless data integrity application.
 
 ### **OwlDQ is The Only Tool That Drastically Reduces Manual Workloads**
 
-Every feature, visual, and component within Owl is intended to make the analysis and implementation of data integrity checks easier.
+Every feature, visual, and component within Owl is intended to make the analysis and implementation of data checks easier.
 
 ![](.gitbook/assets/screenshot-2020-07-19-at-7.31.37-pm.png)
 
@@ -110,7 +110,7 @@ Every feature, visual, and component within Owl is intended to make the analysis
 
 OwlDQ offers a low-hanging fruit opportunity to extend your data quality toolset.
 
-The fact that data integrity is a consistent pain point suggests it's important to many business-critical functions and legacy products not getting the job done.
+The fact that data quality is a consistent pain point suggests it's important to many business-critical functions and legacy products not getting the job done.
 
 ## \*\*\*\*[**Get Started**](https://calendly.com/brian-556/owldq-session)\*\*\*\*
 
