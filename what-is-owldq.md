@@ -6,21 +6,21 @@ description: OwlDQ is an intelligent data validation tool.
 
 ### OwlDQ Detects Unintended Data Errors Without Human Bottlenecks.
 
-### _You press a button and smile knowing validation checks are applied instead of spending hours manually digging through data & code_
-
 {% hint style="danger" %}
 * Tired of wasting an afternoon unwinding ETL / ingestion jobs?
 * Know the dread of another ‘missing data’ fire drill?
 * Is it crazy to think your time can be better spent than wading through data issues?
 {% endhint %}
 
-### Focus on Adding Business Value & Avoid Expensive, Complex Commitments
+### _You press a button and smile knowing validation checks are applied instead of spending hours manually digging through data & code_
 
 {% embed url="https://www.youtube.com/watch?v=sR6ACeO8d34" caption="Systematically Eliminate Your Biggest Data Blind Spots." %}
 
+### **Focus on Adding Business Value & Avoid Expensive, Complex Commitments**
+
 ## How Can OwlDQ Help?
 
-### **Boost productivity. 80% faster than manual coding. Reduce development costs. Get faster, easier access to data quality metrics. Show line of business users how to self-service.**
+#### **Boost productivity. 80% faster than manual coding. Reduce development costs. Get faster, easier access to data quality metrics. Show line of business users how to self-service.**
 
 * [x] **Implementing Checks**
 
