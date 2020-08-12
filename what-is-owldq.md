@@ -4,9 +4,9 @@ description: OwlDQ is an intelligent data validation tool.
 
 # What is OwlDQ
 
-### _You press a button and smile knowing validation checks are applied instead of spending hours manually digging through data & code_
-
 ### OwlDQ Detects Unintended Data Errors Without Human Bottlenecks.
+
+### _You press a button and smile knowing validation checks are applied instead of spending hours manually digging through data & code_
 
 {% hint style="danger" %}
 * Tired of wasting an afternoon unwinding ETL / ingestion jobs?
