@@ -12,7 +12,7 @@ description: OwlDQ is an intelligent data validation tool.
 * Is it crazy to think your time can be better spent than wading through data issues?
 {% endhint %}
 
-### _You press a button and smile knowing validation checks are applied instead of spending hours manually digging through data & code_
+### _Click a button and smile knowing validation checks are applied instead of spending hours manually digging through data & code_
 
 {% embed url="https://www.youtube.com/watch?v=sR6ACeO8d34" caption="Systematically Eliminate Your Biggest Data Blind Spots." %}
 
