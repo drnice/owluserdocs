@@ -58,7 +58,7 @@ description: OwlDQ is an intelligent data validation tool.
 
 * **Top 3 Healthcare Organization** 
 
-  Completed a 6 Month Data Check migration requirement in six weeks 
+  Saved 2000 hours during a cloud migration requirement
 
 * **Top Insurance Organization** 
 
