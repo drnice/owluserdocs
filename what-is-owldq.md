@@ -4,7 +4,7 @@ description: OwlDQ is an intelligent data validation tool.
 
 # What is OwlDQ
 
-### Relief For Backlogged Resources and Confidence in The Data You Rely on. 
+### Relief for Backlogged Resources and The Projects That Rely on Them. 
 
 {% hint style="danger" %}
 * Another expensive project missing deadlines?
