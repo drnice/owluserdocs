@@ -65,7 +65,7 @@ description: OwlDQ is an intelligent data validation tool.
 
 * **Top Insurance Organization** 
 
-  Satisfied Regulatory Second Line Controls in a 4-week program 
+  Satisfied Regulatory Second Line Controls in a 4-weeks \(took 2 years using their previous tool\)
 
  
 {% endhint %}
