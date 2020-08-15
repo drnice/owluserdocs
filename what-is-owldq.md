@@ -4,12 +4,12 @@ description: OwlDQ is an intelligent data validation tool.
 
 # What is OwlDQ
 
-### Relief for Backlogged Resources. No more bottlenecks for business users. Know your data is proactively checked
+### Relief for Backlogged Resources. No more bottlenecks for business users. Confidence your data is proactively validated.
 
 {% hint style="danger" %}
 * Another expensive project missing deadlines?
 * Tired of wasting an afternoon unwinding ETL / ingestion jobs?
-* Know the dread of another ‘missing data’ fire drill?
+* Know the dread of another fire drill?
 * Is it crazy to think your time can be better spent than wading through data issues?
 {% endhint %}
 
@@ -18,8 +18,6 @@ description: OwlDQ is an intelligent data validation tool.
 {% embed url="https://www.youtube.com/watch?v=sR6ACeO8d34" caption="Systematically Eliminate Your Biggest Data Blind Spots." %}
 
 ### **Focus on Adding Business Value & Avoid Expensive, Complex Commitments**
-
-## [**Learn More**](https://calendly.com/brian-556/owldq-session)
 
 ## What Savings Does OwlDQ Provide? 
 
@@ -36,7 +34,7 @@ description: OwlDQ is an intelligent data validation tool.
 
 * **Top Insurance Organization** 
 
-  Satisfied Regulatory Second Line Controls in a 4-weeks \(took 2 years using their previous tool\)
+  Satisfied Regulatory Second Line Controls in a 4-weeks \(what took 2 years using their previous tool\)
 
  
 {% endhint %}
@@ -49,8 +47,6 @@ description: OwlDQ is an intelligent data validation tool.
 * Touchy pipelines break with minor updates
 * Too busy responding to fire drills to implement new projects
 {% endhint %}
-
-## [**Book a Conversation**](https://calendly.com/brian-556/owldq-session)
 
 ## How Can OwlDQ Help?
 
@@ -75,7 +71,7 @@ description: OwlDQ is an intelligent data validation tool.
   * Global management Across Sources / Platforms / Environments 
 
 * [x] **Enabling More Users**
-  * Easy to use Rule Editor 
+  * Self-Service, Easy to use Rule Editor 
   * Pre-Built Analytics and Charts 
   * Extensible APIs, Open Architecture
 
@@ -115,15 +111,17 @@ Every feature, visual, and component within Owl is intended to make the analysis
 {% endtab %}
 {% endtabs %}
 
-## What's Next?
-
-### Schedule a Conversation to Start 
+### Schedule a Conversation
 
 OwlDQ offers a low-hanging fruit opportunity to extend your data quality toolset.
 
 The fact that data quality is a consistent pain point suggests it's important to many business-critical functions and legacy products not getting the job done.
 
 ## \*\*\*\*[**Get Started**](https://calendly.com/brian-556/owldq-session)\*\*\*\*
+
+## [**Learn More**](https://calendly.com/brian-556/owldq-session)
+
+## \*\*\*\*
 
 ### \*\*\*\*
 
