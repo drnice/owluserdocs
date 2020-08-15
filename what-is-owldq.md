@@ -19,35 +19,6 @@ description: OwlDQ is an intelligent data validation tool.
 
 ### **Focus on Adding Business Value & Avoid Expensive, Complex Commitments**
 
-## How Can OwlDQ Help?
-
-#### _Click a button and smile - knowing baseline validation checks are applied - instead of spending hours manually digging through data & stitching together scripts_
-
-* [x] **Implementing Checks**
-
-  * Autodiscovery
-  * Generates SQL validations, parameters & thresholds
-  * Rule suggestions 
-
-* [x] **Taking Inventory** 
-
-  * Bulk Profiling & Metadata Collection 
-  * Data Mapping with Column Identification 
-  * Map Column Fingerprints, Cross-Table Matches & PII Checks
-
-* [x] **Consolidating Systems**
-
-  * No more closed-systems or confusing scripts
-  * Macro & micro views for measuring effectiveness over time
-  * Global management Across Sources / Platforms / Environments 
-
-* [x] **Enabling More Users**
-  * Easy to use Rule Editor 
-  * Pre-Built Analytics and Charts 
-  * Extensible APIs, Open Architecture
-
-#### **Boost productivity. 80% faster than manual coding. Minimize development costs. Get faster, easier access to data quality metrics. Show line of business users how to self-service.**
-
 ## [**Learn More**](https://calendly.com/brian-556/owldq-session)
 
 ## What Savings Does OwlDQ Provide? 
@@ -81,7 +52,36 @@ description: OwlDQ is an intelligent data validation tool.
 
 ## [**Book a Conversation**](https://calendly.com/brian-556/owldq-session)
 
-## What **S**ets OwlDQ Apart?
+## How Can OwlDQ Help?
+
+#### _Click a button and smile - knowing baseline validation checks are applied - instead of spending hours manually digging through data & stitching together scripts_
+
+* [x] **Implementing Checks**
+
+  * Autodiscovery
+  * Generates SQL validations, parameters & thresholds
+  * Rule suggestions 
+
+* [x] **Taking Inventory** 
+
+  * Bulk Profiling & Metadata Collection 
+  * Data Mapping with Column Identification 
+  * Map Column Fingerprints, Cross-Table Matches & PII Checks
+
+* [x] **Consolidating Systems**
+
+  * No more closed-systems or confusing scripts
+  * Macro & micro views for measuring effectiveness over time
+  * Global management Across Sources / Platforms / Environments 
+
+* [x] **Enabling More Users**
+  * Easy to use Rule Editor 
+  * Pre-Built Analytics and Charts 
+  * Extensible APIs, Open Architecture
+
+#### **Boost productivity. 80% faster than manual coding. Minimize development costs. Get faster, easier access to data quality metrics. Show line of business users how to self-service.**
+
+## What **makes OwlDQ unique**?
 
 ### **OwlDQ is The Only Tool Business & Technical Users Will Love** 
 
