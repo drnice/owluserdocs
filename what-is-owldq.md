@@ -17,13 +17,11 @@ description: OwlDQ is an intelligent data validation tool.
 
 {% embed url="https://www.youtube.com/watch?v=sR6ACeO8d34" caption="Systematically Eliminate Your Biggest Data Blind Spots." %}
 
-#### _Click a button and smile - knowing baseline validation checks are applied - instead of spending hours manually digging through data & stitching together scripts_
-
 ### **Focus on Adding Business Value & Avoid Expensive, Complex Commitments**
 
 ## How Can OwlDQ Help?
 
-#### **Boost productivity. 80% faster than manual coding. Minimize development costs. Get faster, easier access to data quality metrics. Show line of business users how to self-service.**
+#### _Click a button and smile - knowing baseline validation checks are applied - instead of spending hours manually digging through data & stitching together scripts_
 
 * [x] **Implementing Checks**
 
@@ -47,6 +45,8 @@ description: OwlDQ is an intelligent data validation tool.
   * Easy to use Rule Editor 
   * Pre-Built Analytics and Charts 
   * Extensible APIs, Open Architecture
+
+#### **Boost productivity. 80% faster than manual coding. Minimize development costs. Get faster, easier access to data quality metrics. Show line of business users how to self-service.**
 
 ## [**Learn More**](https://calendly.com/brian-556/owldq-session)
 
