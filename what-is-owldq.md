@@ -6,11 +6,11 @@ description: OwlDQ is an intelligent data validation tool.
 
 ### Relief for Backlogged Resources. No more bottlenecks for business users. Confidence your data is validated.
 
-## 8 Ways to Add-Value
+## 8 Ways to Add-Value Using OwlDQ
 
 1. **Crowdsourcing**
 
-   “People that have never written sql are now helping with data quality” 
+   “People that have never written SQL are now helping with data quality” 
 
 2. **Rule Coverage**
 
@@ -26,7 +26,7 @@ description: OwlDQ is an intelligent data validation tool.
 
 5. **Technology Limitations** 
 
-   “We now scan files and kafka, avoiding downstream issues” 
+   “We now scan files and Kafka, avoiding downstream issues” 
 
 6. **Getting standard**  
 
