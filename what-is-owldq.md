@@ -6,6 +6,40 @@ description: OwlDQ is an intelligent data validation tool.
 
 ### Relief for Backlogged Resources. No more bottlenecks for business users. Confidence your data is validated.
 
+## 8 Ways to Add-Value
+
+1. **Crowdsourcing**
+
+   “People that have never written sql are now helping with data quality” 
+
+2. **Rule Coverage**
+
+   “Did in 20 days what took 2 years with our legacy tool” 
+
+3. **Audit & Identify Gaps** 
+
+   “Audited our existing checks and could not imagine the gaps we uncovered.” 
+
+4. **Automate Repeatable Processes**
+
+   “Owl cut 60% of our manual workloads” 
+
+5. **Technology Limitations** 
+
+   “We now scan files and kafka, avoiding downstream issues” 
+
+6. **Getting standard**  
+
+   “No more piecemeal reports. Files, Warehouse, Lake. All metrics in one, transparent place.” 
+
+7. **Building Reports, Visuals, Workflows** 
+
+   “This takes the place of 3 tools” 
+
+8. **Prioritized Efforts** 
+
+   “Easy to see top priorities for improvement” 
+
 {% hint style="danger" %}
 * Another expensive project missing deadlines?
 * Tired of wasting an afternoon unwinding ETL / ingestion jobs?
