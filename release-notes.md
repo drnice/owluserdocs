@@ -1,5 +1,27 @@
 # Release Notes
 
+
+
+## 2.11.0
+
+**Enhancements**
+
+* Notebook API Enhancements
+  * Support @dataset and @t1 syntax in freeform SQL for business rules
+  * Multiple Outlier definitions supporting full object
+  * Multiple Pattern definitions supporting full object
+  * Display full rulebreak rows in output Dataframe
+* Owlcheck Wizard supports multiple Outlier grouping with different keys 
+  * Wizard supports definition of multiple distinct Outlier definitions using includes and keys
+* Owlcheck Wizard supports multiple Pattern grouping with different keys 
+  * Wizard supports definition of multiple distinct Pattern definitions using includes and keys
+
+
+
+
+
+## 
+
 ## 2.10.1
 
 **Enhancements**
