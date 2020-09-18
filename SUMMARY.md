@@ -7,7 +7,6 @@
 * [What is OwlDQ](what-is-owldq.md)
 * [Get Started](assessment.md)
 * [Start for free](free-trial.md)
-* [Easier Rule Examples](easier-rule-examples.md)
 
 ## How OwlDQ <a id="projects"></a>
 
@@ -87,6 +86,7 @@
 * [Shapes](dq-visuals/shapes.md)
 * [Validate Source](dq-visuals/validate-source.md)
 * [Rules](dq-visuals/rules/README.md)
+  * [Easier Rule Examples](dq-visuals/rules/easier-rule-examples.md)
   * [The best DQ rule, is the one you don't have to write](dq-visuals/rules/dq-rule-automation.md)
   * [Creating a Business Rule](dq-visuals/rules/creating-a-business-rule.md)
 * [Duplicates](dq-visuals/duplicates.md)
