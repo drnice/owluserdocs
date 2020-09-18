@@ -4,7 +4,7 @@
 
 {% embed url="https://www.youtube.com/watch?v=uQ0tilvBUKc" %}
 
-## Join Example vs. of cross-table guided.
+## Join Example Example \(vs. cross-table guided seen above\).
 
 {% embed url="https://www.youtube.com/watch?v=BFw5ZIzwewQ" %}
 
