@@ -7,6 +7,7 @@
 * [What is OwlDQ](what-is-owldq.md)
 * [Get Started](assessment.md)
 * [Start for free](free-trial.md)
+* [Easier Rule Examples](easier-rule-examples.md)
 
 ## How OwlDQ <a id="projects"></a>
 
