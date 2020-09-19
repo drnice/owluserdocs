@@ -12,5 +12,46 @@
 
 {% embed url="https://www.youtube.com/watch?v=Zkw23umvf8o&feature=youtu.be&t=16" %}
 
+## In-Clause \(Single Column\)
+
+```sql
+select * from @table1
+where id not in ( select id from @table2 )
+```
+
+## Except \(Multi-Column\) 
+
+```sql
+select
+    id,
+    app_id,
+    email,
+    guid_num
+from
+    @table1
+    
+EXCEPT
+
+select
+    id,
+    app_id,
+    email,
+    guid_num
+from
+    @table2
+```
+
+## Join Example
+
+```sql
+SELECT
+    *
+FROM
+    @table1 A
+    LEFT JOIN @table2 B ON A.id = B.id
+where
+    A.email != B.email
+```
+
 ## 
 
