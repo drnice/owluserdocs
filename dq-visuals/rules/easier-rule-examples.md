@@ -39,5 +39,7 @@ where
     B.id is null OR (A.email != B.email)
 ```
 
-## 
+## Sample Results
+
+![](../../.gitbook/assets/image%20%2855%29.png)
 
