@@ -15,30 +15,16 @@
 ## In-Clause \(Single Column\)
 
 ```sql
-select * from @table1
-where id not in ( select id from @table2 )
+select * from @table1 where id 
+not in ( select id from @table2 )
 ```
 
 ## Except \(Multi-Column\) 
 
 ```sql
-select
-    id,
-    app_id,
-    email,
-    guid_num
-from
-    @table1
-    
+select id, app_id, email, guid_num from @table1
 EXCEPT
-
-select
-    id,
-    app_id,
-    email,
-    guid_num
-from
-    @table2
+select id, app_id, email, guid_num from @table2
 ```
 
 ## Join Example
