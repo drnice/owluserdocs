@@ -50,7 +50,7 @@ FROM
     @table1 A
     LEFT JOIN @table2 B ON A.id = B.id
 where
-    A.email != B.email
+    B.id is null OR (A.email != B.email)
 ```
 
 ## 
