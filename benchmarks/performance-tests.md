@@ -51,13 +51,13 @@
     <tr>
       <td style="text-align:left">NYSE</td>
       <td style="text-align:left">0.1G</td>
-      <td style="text-align:left">102K</td>
-      <td style="text-align:left">8</td>
+      <td style="text-align:left">103K</td>
+      <td style="text-align:left">9</td>
       <td style="text-align:left">816K</td>
       <td style="text-align:left">1</td>
       <td style="text-align:left">1</td>
       <td style="text-align:left">1G</td>
-      <td style="text-align:left">00:00:05</td>
+      <td style="text-align:left">00:00:15</td>
       <td style="text-align:left">00:00:48</td>
     </tr>
     <tr>
@@ -69,7 +69,7 @@
       <td style="text-align:left">6</td>
       <td style="text-align:left">1</td>
       <td style="text-align:left">4G</td>
-      <td style="text-align:left">00:00:49</td>
+      <td style="text-align:left">00:01:20</td>
       <td style="text-align:left">00:07:13</td>
     </tr>
     <tr>
@@ -128,5 +128,19 @@
 -deploymode client  \
 -numexecutors 3 \
 -executormemory 10g
+```
+
+## Load Profile Outliers
+
+### NYSE - 1:10 total runtime.  20 seconds for outliers
+
+```bash
+-bhtimeoff -owluser kirk -numexecutors 1 
+-lib "/opt/owl/drivers/postgres" -executormemory 1g 
+-dl -h metastore01.us-east1-b.c.owl-hadoop-cdh.internal:5432/dev?currentSchema=public 
+-drivermemory 1g -master k8s:// -ds public.nyse_128 -deploymode cluster 
+-q "select * from public.nyse" -bhlb 10 
+-rd "2020-10-27" -driver "org.postgresql.Driver" 
+-bhminoff -loglevel INFO -cxn postgres-gcp -bhmaxoff -agentjobid 7721 
 ```
 
