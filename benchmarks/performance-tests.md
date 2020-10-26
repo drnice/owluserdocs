@@ -13,12 +13,30 @@
         <p>GBs in</p>
         <p>Memory</p>
       </th>
-      <th style="text-align:left">Rows</th>
-      <th style="text-align:left">Cols</th>
-      <th style="text-align:left">Cells</th>
-      <th style="text-align:left">Execs</th>
-      <th style="text-align:left">Cores</th>
-      <th style="text-align:left">Memory</th>
+      <th style="text-align:left">
+        <p></p>
+        <p>Rows</p>
+      </th>
+      <th style="text-align:left">
+        <p></p>
+        <p>Cols</p>
+      </th>
+      <th style="text-align:left">
+        <p></p>
+        <p>Cells</p>
+      </th>
+      <th style="text-align:left">
+        <p>Num</p>
+        <p>Execs</p>
+      </th>
+      <th style="text-align:left">
+        <p>Num</p>
+        <p>Cores</p>
+      </th>
+      <th style="text-align:left">
+        <p>Exec</p>
+        <p>Memory</p>
+      </th>
       <th style="text-align:left">
         <p>Network</p>
         <p>Time</p>
