@@ -1,6 +1,37 @@
 # Release Notes
 
+## 2.12.0
 
+**Enhancements**
+
+* Rule Page Builder Enhancements 
+  * Native Rule Updates \(push-down\)
+  * Rule Freeform Section Usability
+  * Run with default Agent
+* AWS S3 Role Based Authorization 
+  * Leverage Instance Profile to assume a Role for authorization of S3 access
+* Enable LinkID in Owlcheck Explorer 
+  * Designate a column that contains a unique record identifier. The value contained in this column will be captured and stored along with DQ findings. This identifier enables data stewards to quickly find and remediate DQ findings in the source data.
+* Wizard driven windowed aggregates on datasets 
+  * A user can apply a SUM\(DURATION\) OVER \(PARTITION BY GRADE\)
+* Bulk Delete From CatalogSecurity admin role 
+  * A user can bulk delete based on time since last run, \# of total runs.
+* Rule Breaks to allow for different columns 
+  * A user can apply a rule that has different columns and we catch exception gracefully
+* Edit OwlCheck created from CLI 
+  * Allow Edit for Owlchecks initiated from CLI instead of directly from OwlDQ Explorer.
+* Explorer Edit on File Data Source 
+  * Ability to edit existing Olwchecks created on remote and local files. Expanded capabilities for editing Owlchecks on JDBC sources
+* Edit Score Card capabilities
+* Search and index dataset\_schema col in CATALOG
+* Notebook API - Expanded Outliers and Patterns Results Outliers output displays 
+  * Key Column names and an aggregate view that merges duplicate Outlier findings to display the number of occurrences. Patterns aggregate output denotes columns not relevant to a given finding.
+* TECH PREVIEW - Kubernetes Support \(V1\) 
+  * Deploy OwlDQ and run Owlchecks on Kubernetes 
+* TECH PREVIEW - Streaming Owlchecks - SSL Authentication 
+  * Run Streaming Owlchecks on Kafka topics protected by 2-Way SSL 
+* TECH PREVIEW - Validate Source Drill-in 
+  * Source activity shows more details regarding source findings. Currently view-only. Use the existing table for invalidation.
 
 ## 2.11.0
 
