@@ -202,3 +202,7 @@
 * [ERD](observation-assignments/erd.md)
 * [FAQ](observation-assignments/faq.md)
 
+## Benchmarks
+
+* [Performance Tests](benchmarks/performance-tests.md)
+
