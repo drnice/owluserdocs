@@ -89,6 +89,8 @@
 
 ### NYSE
 
+Postgres database call, no concurrent processing, simple case, small data.
+
 ```bash
 -bhtimeoff -numexecutors 1 
 -lib "/opt/owl/drivers/postgres" 
@@ -101,6 +103,8 @@
 ```
 
 ### AUM
+
+Postgres database call uses parallel JDBC, split on aum\_id serial id.  
 
 ```bash
 -owluser kirk 
@@ -117,6 +121,8 @@
 ```
 
 ### ENERGY
+
+HDFS file with 43 million rows, converting a string date to date type, deploy mode client.
 
 ```bash
 -f "hdfs:///demo/owl_usage_all.csv" \
