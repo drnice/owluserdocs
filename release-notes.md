@@ -437,7 +437,7 @@
 * OWL-661 Build new Model methods for Owl Web to Enable access to HDFS 
 * OWL-660 Expand File Explorer to achieve functional parity to JDBC Explorer 
 * OWL-638 User Profile Page with rich features 
-* OWL-627 Global Connection for JPMC Stops working after a few days 
+* OWL-627 Global Connection Stops working after a few days 
 * OWL-625 Automatic Scan of entire Database near Catalog on Explorer 
 * OWL-597 Handle File Charset Encoding other than UTF-8 
 * OWL-562 Data preview on hoot page with masking checkboxes in header 
