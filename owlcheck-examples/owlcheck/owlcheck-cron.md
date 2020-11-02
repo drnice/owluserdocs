@@ -42,7 +42,7 @@ You can also use -template to use Owl as a service hook and remove the need to p
 
 ```bash
 %sh
-~/owl/bin/owlcheck -template -ds lake.stock_nasdaq -rd $run_date
+~/owl/bin/owlcheck -usetemplate -ds lake.stock_nasdaq -rd $run_date
 ```
 
 ### Owl Scheduler - Built In
