@@ -6,6 +6,7 @@
 * [Our Story](our-story.md)
 * [What is OwlDQ](what-is-owldq.md)
 * [Get Started](assessment.md)
+* [Install](install.md)
 * [Start for free](free-trial.md)
 
 ## How OwlDQ <a id="projects"></a>
