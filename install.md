@@ -1,6 +1,6 @@
 # Install
 
-### Default Install
+### Linux Install
 
 1. Download Release Version
 2. Untar zip file
