@@ -40,5 +40,17 @@ EXPORT
 
 ## Upgrade
 
+1. Download Release Version
+2. Untar Zip file
+3.  Move Owl-\*.jar files into install directory
+4. Restart webapp
+
+```bash
+wget <https://download_link>
+tar -xvf <package.tar>
+mv owl-*.jar / <install_path>/bin
+/<install_path>/bin/owlmanage.sh start=owlweb
+```
+
 
 
