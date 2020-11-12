@@ -17,7 +17,7 @@ tar -xvf <package.tar>
 set license
 
 ```bash
-./owlmanage.sh setlic=<lic>
+./<install_path>/bin/owlmanage.sh setlic=<lic>
 ```
 
 ### Pre Reqs
@@ -30,10 +30,10 @@ Reach out to OwlDQ team for docker file.  DockerHub coming soon.
 
 ### Configuration Options
 
-| option | value |
-| :--- | :--- |
-| owlbase | install path |
-|  |  |
+| option | value | default value |
+| :--- | :--- | :--- |
+| owlbase | install path | /opt/owl/ |
+|  |  |  |
 
 ```bash
 EXPORT owlbase = 
