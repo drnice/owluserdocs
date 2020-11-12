@@ -14,15 +14,13 @@ tar -xvf <package.tar>
 ./setup.sh -port=9000 -owlbase=<install_path> -options=owlagent,owlweb,spark,postgres,zeppelin
 ```
 
-set license
+Set license
 
 ```bash
 ./<install_path>/bin/owlmanage.sh setlic=<lic>
 ```
 
-### Pre Reqs
-
-Requires Java 8
+Install requires Java 8.  Common install path as /opt/owl/.  Default port 9000, must not be in-use by another system.  Make sure you can chmod and own the install dir.  License key comes from OwlDQ.    
 
 ### Docker Install
 
