@@ -4,12 +4,12 @@
 
 1. Download Release Version
 2. Untar zip file
-3. Run install
+3. Run setup.sh
 
 ```bash
-wget 
-untar
-./owl_install.sh
+wget <https://download_link>
+tar -xvf <package.tar>
+./setup.sh -port=9000 -owlbase=<install_path> -options=owlagent,owlweb,spark,postgres,zeppelin
 ```
 
 set license
@@ -17,6 +17,10 @@ set license
 ```bash
 ./owlmanage.sh setlic=<lic>
 ```
+
+### Pre Reqs
+
+Requires Java 8
 
 ### Docker Install
 
