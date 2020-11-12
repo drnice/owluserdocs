@@ -6,6 +6,8 @@
 2. Untar zip file
 3. Run setup.sh
 
+Pre-req - Must have Java 8 installed on the machine
+
 ```bash
 wget <https://download_link>
 tar -xvf <package.tar>
