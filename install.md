@@ -31,11 +31,11 @@ Reach out to OwlDQ team for docker file.  DockerHub coming soon.
 | option | value | default value |
 | :--- | :--- | :--- |
 | owlbase | install path | /opt/owl/ |
-|  |  |  |
+| port | web app port | 9000 |
 
 ```bash
-EXPORT owlbase = 
-EXPORT     
+EXPORT owlbase = /opt/owl/
+EXPORT port = 9000    
 ```
 
 ## Upgrade
