@@ -51,6 +51,7 @@
 * [Data Quality Pipelines](owlcheck-examples/data-quality-pipelines/README.md)
   * [Simple Spark Data Pipeline](owlcheck-examples/data-quality-pipelines/simple-spark-data-pipeline.md)
   * [Notebook Outlier Example](owlcheck-examples/data-quality-pipelines/notebook-outlier-example.md)
+  * [Notebook ColMatch Example](owlcheck-examples/data-quality-pipelines/notebook-colmatch-example.md)
   * [Owl Options API](owlcheck-examples/data-quality-pipelines/owl-options-api.md)
   * [Owl Rules - DQ Pipeline](owlcheck-examples/data-quality-pipelines/owl-rules-dq-pipeline/README.md)
     * [Global rules](owlcheck-examples/data-quality-pipelines/owl-rules-dq-pipeline/global-rules.md)
