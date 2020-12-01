@@ -1,5 +1,9 @@
 # Performance Tests
 
+## Cells Per Second Performance Theory
+
+![](../.gitbook/assets/screen-shot-2020-12-01-at-10.31.09-am.png)
+
 ## Load and Profile
 
 <table>
