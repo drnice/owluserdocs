@@ -88,6 +88,18 @@
       <td style="text-align:left">00:00:00</td>
       <td style="text-align:left">00:04:35</td>
     </tr>
+    <tr>
+      <td style="text-align:left">INVEST_DATA</td>
+      <td style="text-align:left">9G</td>
+      <td style="text-align:left">3.8M</td>
+      <td style="text-align:left">158</td>
+      <td style="text-align:left">590M</td>
+      <td style="text-align:left">3</td>
+      <td style="text-align:left">2</td>
+      <td style="text-align:left">3G</td>
+      <td style="text-align:left">00:00:40</td>
+      <td style="text-align:left">00:03:32</td>
+    </tr>
   </tbody>
 </table>
 
