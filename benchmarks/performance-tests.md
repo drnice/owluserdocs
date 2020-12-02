@@ -1,6 +1,6 @@
 # Performance Tests
 
-## Cells Per Second Performance Theory
+## Cells Per Second Performance Theory \(9.5M CPS\)
 
 ![](../.gitbook/assets/screen-shot-2020-12-01-at-10.31.09-am.png)
 
@@ -70,11 +70,11 @@
       <td style="text-align:left">9M</td>
       <td style="text-align:left">48</td>
       <td style="text-align:left">432M</td>
-      <td style="text-align:left">6</td>
+      <td style="text-align:left">5</td>
       <td style="text-align:left">1</td>
       <td style="text-align:left">4G</td>
       <td style="text-align:left">00:01:20</td>
-      <td style="text-align:left">00:07:13</td>
+      <td style="text-align:left">00:03:50</td>
     </tr>
     <tr>
       <td style="text-align:left">ENERGY</td>
@@ -90,7 +90,7 @@
     </tr>
     <tr>
       <td style="text-align:left">INVEST_DATA</td>
-      <td style="text-align:left">9G</td>
+      <td style="text-align:left">20G</td>
       <td style="text-align:left">3.8M</td>
       <td style="text-align:left">158</td>
       <td style="text-align:left">590M</td>
