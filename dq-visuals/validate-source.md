@@ -40,3 +40,7 @@ In this example we loaded NYSE\_EOD data in both Oracle and Mysql and then used 
 
 ![](../.gitbook/assets/screen-shot-2019-10-09-at-9.40.55-am.png)
 
+### Latest View in 2.13+
+
+![](../.gitbook/assets/source.png)
+
