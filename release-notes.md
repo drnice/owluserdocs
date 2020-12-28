@@ -1,5 +1,35 @@
 # Release Notes
 
+## 2.13.0
+
+#### Enhancements
+
+* Schema
+  * Notify of quality issue on special characters in column names
+* Shapes
+  * Shape Top-N display in profile
+* Behaviors
+  * Chart enhancements including visible Min/Max ranges on AR drill in
+  * Force pass/fail at AR item level
+* Explorer
+  * Menu driven selections on existing datasets
+  * Run remote file scans at parent folder level
+* Scheduler
+  * Allow scheduling based on dataset timezone \(previously all UTC\)
+* Profile
+  * Enhanced Drill in display including new AR view & Shape Top-N values
+  * Data Preview Filtergram Export of distinct column values
+* Validate Source
+  * Additional UI parameters exposed: File Type/ File Delimiter
+  * Edit support in Explorer Wizard step
+  * Grouped display on Hoot Page with aggregate statistics
+* Business Units
+  * Organize datasets by [business-units](https://docs.owl-analytics.com/observation-assignments/business-units) visible in catalog and profile views
+* Hoot Page
+  * Ability to Clone datasets from a given dataset run
+* Rules Page
+  * Allow Vertical Resize
+
 ## 2.12.1
 
 #### Stability Enhancements
