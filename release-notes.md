@@ -1,6 +1,6 @@
 # Release Notes
 
-## 2.13.0
+## 2.13.0   \(**12-20-2020\)**
 
 #### Enhancements
 
@@ -30,7 +30,7 @@
 * Rules Page
   * Allow Vertical Resize
 
-## 2.12.1
+## 2.12.1   \(11-1-2020\)
 
 #### Stability Enhancements
 
@@ -71,7 +71,7 @@
 * Install
   * Version bump and rpm style installation for a local postgres in the Owl install script
 
-## 2.12.0
+## 2.12.0     \(10-01-2020\) 
 
 **Enhancements**
 
@@ -106,7 +106,7 @@
 
 
 
-## 2.11.0
+## 2.11.0     \(8-1-2020\) 
 
 **Enhancements**
 
@@ -124,9 +124,7 @@
 
 
 
-## 
-
-## 2.10.1
+## 2.10.1   \(6-1-2020\)
 
 **Enhancements**
 
@@ -155,7 +153,7 @@
 * Auto Profile AGENT status indicator \(GREEN/RED\) missing
 * Can not run multiple patterns or outliers from UX on Tech Preview explorer2
 
-## 2.10.0
+## 2.10.0    \(5-1-2020\)
 
 **Features**
 
