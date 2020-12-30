@@ -29,6 +29,10 @@
   * Ability to Clone datasets from a given dataset run
 * Rules Page
   * Allow Vertical Resize
+* Catalog
+  * Searchable filters for: rows, columns, scans, and more
+* Performance
+  * 2X faster on data loading activity based on revised caching and surrogate ID.
 
 ## 2.12.1   \(11-1-2020\)
 
