@@ -88,3 +88,47 @@ AS $function$
 
 ```
 
+## From Swagger
+
+Navigate to the API page
+
+ 
+
+![](.gitbook/assets/image%20%2865%29.png)
+
+Find the Rest APIs link
+
+![](.gitbook/assets/image%20%2861%29.png)
+
+Drill-in to the controller-scala section
+
+![](.gitbook/assets/image%20%2863%29.png)
+
+Find the get-rules-export call
+
+![](.gitbook/assets/image%20%2856%29.png)
+
+Click Try it out and enter a dataset name, Execute to run the call
+
+![](.gitbook/assets/image%20%2857%29.png)
+
+Copy the response body 
+
+![](.gitbook/assets/image%20%2866%29.png)
+
+Navigate to the controller-catalog section
+
+![](.gitbook/assets/image%20%2864%29.png)
+
+Find run-import and Try it out 
+
+![](.gitbook/assets/image%20%2862%29.png)
+
+Make any edits and paste in the response body from the previous step 
+
+![](.gitbook/assets/image%20%2858%29.png)
+
+Visually validate the rules were transferred to another dataset successfully
+
+![](.gitbook/assets/image%20%2860%29.png)
+
