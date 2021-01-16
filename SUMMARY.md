@@ -64,7 +64,7 @@
   * [AWS DataBricks - DQ Pipeline](owlcheck-examples/data-quality-pipelines/aws-databricks-dq-pipeline.md)
   * [Azure DataBricks - DQ Pipeline](owlcheck-examples/data-quality-pipelines/azure-databricks-dq-pipeline.md)
   * [Spark - DQ Pipeline](owlcheck-examples/data-quality-pipelines/spark-dq-pipeline.md)
-* [OwlCheck More...](owlcheck-examples/owlcheck/README.md)
+* [More...](owlcheck-examples/owlcheck/README.md)
   * [OwlCheck JSON](owlcheck-examples/owlcheck/owlcheck-json.md)
   * [OwlCheck 43M rows](owlcheck-examples/owlcheck/owlcheck-43m-rows.md)
 
