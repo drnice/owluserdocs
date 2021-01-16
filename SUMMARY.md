@@ -37,6 +37,7 @@
   * [OwlCheck Cron](owlcheck-examples/owlcheck/owlcheck-cron.md)
   * [OwlCheck JDBC](owlcheck-examples/owlcheck/owlcheck-jdbc.md)
   * [OwlCheck S3](owlcheck-examples/owlcheck/owlcheck-s3.md)
+  * [Owlcheck JSON](owlcheck-examples/owlcheck/owlcheck-json.md)
   * [OwlCheck Databricks](owlcheck-examples/owlcheck/owlcheck-databricks.md)
   * [OwlCheck HDFS](owlcheck-examples/owlcheck/owlcheck-hdfs.md)
   * [OwlCheck Spark](owlcheck-examples/owlcheck/owlcheck-spark.md)
