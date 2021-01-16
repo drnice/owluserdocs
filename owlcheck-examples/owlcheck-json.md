@@ -14,8 +14,42 @@ Run against a file using -json.  Additionally, options are available for -flatte
 -multiline 
 ```
 
+
+
 {% hint style="info" %}
 Automatic flattening will infer schema and explode all structs, arrays, and map types.
+{% endhint %}
+
+## Using Spark SQL 
+
+```bash
+-ds public.json_sample \ 
+-lib "/opt/owl/drivers/postgres/" \
+-h sandbox-owl.us-east4-c.c.owl-node.internal:5432/postgres \
+-master spark://sandbox-owl.us-east4-c.c.owl-node.internal:7077 
+-q "select * from public.jason" 
+-rd "2021-01-17" 
+-driver "org.postgresql.Driver" 
+-cxn postgres-gcp 
+-fq "select  \
+get_json_object(col_3, '$.data._customer_name') AS  `data_customer_name` , \
+get_json_object(col_3, '$.data._active_customer') AS  `data_active_customer` , \
+from dataset "  
+
+```
+
+{% hint style="info" %}
+Pass in the path to Owls' -fq parameter.  This is great for mixed data types within a database.  For example, if you store JSON data as a string or a blob among other data.
+{% endhint %}
+
+```bash
+// Flatten
+val colArr = new JsonReader().flattenSchema(df.schema)
+colArr.foreach(x => println(x))
+```
+
+{% hint style="success" %}
+This Owl utility will traverse the entire schema and print the proper get JSON object spark sql strings.  You can use this instead of typing each query statement into the command line -fq parameter as seen above. 
 {% endhint %}
 
 ## Using Owl Libraries
@@ -60,40 +94,10 @@ owl.owlCheck
 {% endcode %}
 
 {% hint style="info" %}
+### JsonReader\(\)
+
 This uses Owl's JsonReader to do the heavy lifting. 
 {% endhint %}
 
-## Using Spark SQL 
 
-```bash
--ds public.json_sample \ 
--lib "/opt/owl/drivers/postgres/" \
--h sandbox-owl.us-east4-c.c.owl-node.internal:5432/postgres \
--master spark://sandbox-owl.us-east4-c.c.owl-node.internal:7077 
--q "select * from public.jason" 
--rd "2021-01-17" 
--driver "org.postgresql.Driver" 
--cxn postgres-gcp 
--fq "select  \
-get_json_object(col_3, '$.data._customer_name') AS  `data_customer_name` , \
-get_json_object(col_3, '$.data._active_customer') AS  `data_active_customer` , \
-from dataset "  
-
-```
-
-{% hint style="info" %}
-This is great for mixed data types within a database.  For example, if you store JSON data as a string or a blob among other data.
-{% endhint %}
-
-### JsonReader\(\)
-
-```bash
-// Flatten
-val colArr = new JsonReader().flattenSchema(df.schema)
-colArr.foreach(x => println(x))
-```
-
-{% hint style="success" %}
-This Owl utility will traverse the entire schema and print the proper get JSON object spark sql strings.  You can use this instead of typing each query statement into the command line -fq parameter as seen above. 
-{% endhint %}
 
