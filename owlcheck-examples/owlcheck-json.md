@@ -14,8 +14,6 @@ Run against a file using -json.  Additionally, options are available for -flatte
 -multiline 
 ```
 
-
-
 {% hint style="info" %}
 Automatic flattening will infer schema and explode all structs, arrays, and map types.
 {% endhint %}

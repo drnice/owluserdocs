@@ -9,44 +9,14 @@
 * [Install](install.md)
 * [Start for free](free-trial.md)
 
-## How OwlDQ <a id="projects"></a>
-
-* [Makes your Data Lake better.](projects/data-quality-monitoring.md)
-* [Speeds Migrations/Enables Replications](projects/migrations.md)
-* [Assists Data Aggregation](projects/assists-data-aggregation.md)
-* [Ensures CCPA & GDPR](projects/ccpa-and-gdpr.md)
-* [Builds a Better DQ Dashboard](projects/builds-a-better-dq-dashboard.md)
-
-## Security
-
-* [Owl Security](security/owl-security/README.md)
-  * [Authentication With Active Directory LDAP](security/owl-security/authentication-with-active-directory-ldap/README.md)
-    * [AD Group to Owl Role Mapping](security/owl-security/authentication-with-active-directory-ldap/ad-group-to-owl-role-mapping.md)
-  * [Authentication With Local User Store](security/owl-security/authentication-with-local-user-store/README.md)
-    * [Adding Local Users](security/owl-security/authentication-with-local-user-store/adding-local-users.md)
-  * [Role Based Access Control \(RBAC\)](security/owl-security/role-based-access-control-rbac.md)
-  * [Connection Security](security/owl-security/connection-security.md)
-  * [Dataset Security](security/owl-security/dataset-security.md)
-  * [Dataset Masking](security/owl-security/dataset-masking.md)
-
 ## OwlCheck Examples
 
 * [OwlCheck JDBC](owlcheck-examples/owlcheck-jdbc.md)
 * [OwlCheck Hive](owlcheck-examples/owlcheck-hive.md)
 * [OwlCheck Files](owlcheck-examples/owlcheck-files.md)
 * [OwlCheck JSON](owlcheck-examples/owlcheck-json.md)
-* [OwlCheck MySql](owlcheck-examples/owlcheck-mysql.md)
 * [OwlCheck Kafka](owlcheck-examples/owlcheck-kafka.md)
-* [OwlCheck Spark](owlcheck-examples/owlcheck-spark.md)
-* [OwlCheck Databricks](owlcheck-examples/owlcheck-databricks.md)
-* [OwlCheck Cron](owlcheck-examples/owlcheck-cron.md)
-* [OwlCheck S3](owlcheck-examples/owlcheck-s3.md)
-* [OwlCheck HDFS](owlcheck-examples/owlcheck-hdfs.md)
-* [OwlCheck MongoDB](owlcheck-examples/owlcheck-mongodb.md)
-* [OwlCheck Zeppelin](owlcheck-examples/owlcheck-zeppelin.md)
-* [OwlCheck LinkId](owlcheck-examples/owlcheck-linkid.md)
-* [OwlCheck Back Run](owlcheck-examples/owlcheck-backrun.md)
-* [OwlCheck Validate Source](owlcheck-examples/owlcheck-validate-source.md)
+* [OwlCheck MySql](owlcheck-examples/owlcheck-mysql.md)
 * [Data Quality Pipelines](owlcheck-examples/data-quality-pipelines/README.md)
   * [Simple Spark Data Pipeline](owlcheck-examples/data-quality-pipelines/simple-spark-data-pipeline.md)
   * [Notebook Outlier Example](owlcheck-examples/data-quality-pipelines/notebook-outlier-example.md)
@@ -64,9 +34,39 @@
   * [AWS DataBricks - DQ Pipeline](owlcheck-examples/data-quality-pipelines/aws-databricks-dq-pipeline.md)
   * [Azure DataBricks - DQ Pipeline](owlcheck-examples/data-quality-pipelines/azure-databricks-dq-pipeline.md)
   * [Spark - DQ Pipeline](owlcheck-examples/data-quality-pipelines/spark-dq-pipeline.md)
+* [OwlCheck Spark](owlcheck-examples/owlcheck-spark.md)
+* [OwlCheck Databricks](owlcheck-examples/owlcheck-databricks.md)
+* [OwlCheck Cron](owlcheck-examples/owlcheck-cron.md)
+* [OwlCheck S3](owlcheck-examples/owlcheck-s3.md)
+* [OwlCheck HDFS](owlcheck-examples/owlcheck-hdfs.md)
+* [OwlCheck MongoDB](owlcheck-examples/owlcheck-mongodb.md)
+* [OwlCheck Zeppelin](owlcheck-examples/owlcheck-zeppelin.md)
+* [OwlCheck LinkId](owlcheck-examples/owlcheck-linkid.md)
+* [OwlCheck Back Run](owlcheck-examples/owlcheck-backrun.md)
+* [OwlCheck Validate Source](owlcheck-examples/owlcheck-validate-source.md)
+* [OwlCheck 43M rows](owlcheck-examples/owlcheck-43m-rows.md)
 * [More...](owlcheck-examples/owlcheck/README.md)
   * [OwlCheck JSON](owlcheck-examples/owlcheck/owlcheck-json.md)
-  * [OwlCheck 43M rows](owlcheck-examples/owlcheck/owlcheck-43m-rows.md)
+
+## How OwlDQ <a id="projects"></a>
+
+* [Builds a Better DQ Dashboard](projects/builds-a-better-dq-dashboard.md)
+* [Ensures CCPA & GDPR](projects/ccpa-and-gdpr.md)
+* [Makes your Data Lake better.](projects/data-quality-monitoring.md)
+* [Speeds Migrations/Enables Replications](projects/migrations.md)
+* [Assists Data Aggregation](projects/assists-data-aggregation.md)
+
+## Security
+
+* [Owl Security](security/owl-security/README.md)
+  * [Authentication With Active Directory LDAP](security/owl-security/authentication-with-active-directory-ldap/README.md)
+    * [AD Group to Owl Role Mapping](security/owl-security/authentication-with-active-directory-ldap/ad-group-to-owl-role-mapping.md)
+  * [Authentication With Local User Store](security/owl-security/authentication-with-local-user-store/README.md)
+    * [Adding Local Users](security/owl-security/authentication-with-local-user-store/adding-local-users.md)
+  * [Role Based Access Control \(RBAC\)](security/owl-security/role-based-access-control-rbac.md)
+  * [Connection Security](security/owl-security/connection-security.md)
+  * [Dataset Security](security/owl-security/dataset-security.md)
+  * [Dataset Masking](security/owl-security/dataset-masking.md)
 
 ## Scorecards
 
@@ -180,7 +180,8 @@
 
 ## API
 
-* [Notebook](api/notebook/README.md)
+* [Notebook/Spark](api/notebook/README.md)
+  * [Spark-shell Sample](api/notebook/spark-shell-sample.md)
   * [Dupe](api/notebook/dupe.md)
   * [Load](api/notebook/load.md)
   * [Source](api/notebook/source.md)
