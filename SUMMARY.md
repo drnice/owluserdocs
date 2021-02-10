@@ -110,6 +110,11 @@
 * [Process Dependency](graph/process-dependency.md)
 * [Dataset Dependency](graph/dataset-dependency.md)
 
+## Cloud Native Deployment
+
+* [Cloud Native OwlDQ](cloud-native-deployment/cloud-native-owldq.md)
+* [Preparing for Deployment](cloud-native-deployment/preparing-for-deployment.md)
+
 ## ARTICLES <a id="creating-a-data-quality-pipeline"></a>
 
 * [Creating a Data Quality Pipeline](creating-a-data-quality-pipeline/creating-a-data-quality-pipeline.md)
