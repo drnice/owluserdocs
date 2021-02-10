@@ -67,7 +67,7 @@ aws eks --region <region-code> update-kubeconfig --name <cluster_name>
 gcloud container clusters get-credentials <cluster-name>
 ```
 
-In private clouds, this process will vary from organization to organization, however, the team that manages the platform should be able to provide the target kube-context entry.
+In private clouds, this process will vary from organization to organization, however, the platform infrastructure team should be able to provide the target kube-context entry.
 
 ## Preparing Secrets
 
