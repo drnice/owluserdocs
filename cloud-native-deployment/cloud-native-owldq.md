@@ -41,16 +41,15 @@ This is where Helm comes in. Helm is a client side utility \(since V3\) that aut
 For Example, the command below deploys the OwlDQ with all of the components depicted in the above diagram into Google Kubernetes Engine with Google Cloud Storage as the storage location for Spark logs. The only perquisite is that the image pull secret \(credential to access container registry\) and secret containing credentials for a service account with access to GCS is already deployed to the namespace.
 
 ```
-helm upgrade --install --namespace dev \
---set global.platform=gke \
---set global.version.owl=2.13.0.8 \
---set global.version.spark=3.0.1-2.13.0.8 \
---set global.configMap.data.license_key=... \
+helm upgrade --install --namespace <namespace> \
+--set global.version.owl=<owl-version> \
+--set global.version.spark=<owl-spark-version> \
+--set global.configMap.data.license_key=<owl-license-key> \
 --set global.spark_history.enabled=true \
 --set global.spark_history.logDirectory=gs://logs/spark-history/ \
---set global.metastore.enabled=true \
---set global.cloudStorage.gcs.enableGCS=true 
-owldq-dev /path/to/chart/owldq
+--set global.cloudStorage.gcs.enableGCS=true \
+<deployment-name> \
+/path/to/chart/owldq
 ```
 
 {% hint style="info" %}
