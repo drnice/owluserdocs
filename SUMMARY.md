@@ -9,6 +9,11 @@
 * [Install](install.md)
 * [Start for free](free-trial.md)
 
+## Cloud Native Deployment
+
+* [Cloud Native OwlDQ](cloud-native-deployment/cloud-native-owldq.md)
+* [Preparing for Deployment](cloud-native-deployment/preparing-for-deployment.md)
+
 ## OwlCheck Examples
 
 * [OwlCheck JDBC](owlcheck-examples/owlcheck-jdbc.md)
@@ -109,11 +114,6 @@
 
 * [Process Dependency](graph/process-dependency.md)
 * [Dataset Dependency](graph/dataset-dependency.md)
-
-## Cloud Native Deployment
-
-* [Cloud Native OwlDQ](cloud-native-deployment/cloud-native-owldq.md)
-* [Preparing for Deployment](cloud-native-deployment/preparing-for-deployment.md)
 
 ## ARTICLES <a id="creating-a-data-quality-pipeline"></a>
 
