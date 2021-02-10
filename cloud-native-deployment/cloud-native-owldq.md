@@ -12,7 +12,7 @@ OwlDQ wholeheartedly embraces these principles in its design and deployment. The
 
 ![](../.gitbook/assets/owl-k8s-deployment.png)
 
-In this "form factor", OwlDQ can be deployed in any cloud or on-premise while maintaining a consistent experience, performance, and management runbook. 
+In this "form factor", OwlDQ can be deployed in any public or private cloud while maintaining a consistent experience, performance, and management runbook. 
 
 ### OwlDQ Microservices
 
@@ -30,15 +30,15 @@ The binaries and instruction sets described in each of the OwlDQ microservices a
 
 ### Kubernetes
 
-Kubernetes is a distributed container scheduler and has become synonymous with Cloud Native architecture. While Docker containers provide the logic and runtime at the application, most applications still require network, storage, and orchestration between multiple hosts in order to function. Kubernetes provides all of these facilities while abstracting away all of the complexities and variable technologies of the terrestrial or cloud datacenter hosting the application. 
+Kubernetes is a distributed container scheduler and has become synonymous with Cloud Native architecture. While Docker containers provide the logic and runtime at the application layer, most applications still require network, storage, and orchestration between multiple hosts in order to function. Kubernetes provides all of these facilities while abstracting away all of the complexities and variable technologies of the terrestrial or cloud datacenter hosting the application. 
 
 ### OwlDQ Helm Chart
 
 While Kubernetes currently provides the clearest path to gaining the benefits of a Cloud Native architecture, it is also one of the more complex technologies in existence. This has less to do with Kubernetes itself and more with the complexity of the constituent technologies it is trying to abstract. attached distributed storage and software defined networks are entire areas of specialisation that require extensive expertise to navigate. Well implemented Kubernetes platforms hide all of this complexity and make it possible for anyone to leverage these powerful concepts. However, a robust application like OwlDQ requires many descriptors \(K8s Manifests\) to deploy its various components and all of the required supporting resources like network and storage.
 
-This is where Helm comes in. Helm is a client side utility \(since V3\) that automatically generates all of the descriptors needed to deploy a Cloud Native application. Helm receives instructions in the form of a "Helm Chart" that includes templated versions of Kubernetes Manifests. Along with the Helm Chart, the user can also pass in parameters like names of artifacts, connection details, enable/disable commands, ect. Helm resolves the user defined parameters within the Manifests and submits them to Kubernetes for deployment. This enables the user to deploy the application without necessarily having a detailed understanding of the networking, storage, or compute that underpins the application. 
+This is where Helm comes in. Helm is a client side utility \(since V3\) that automatically generates all of the descriptors needed to deploy a Cloud Native application. Helm receives instructions in the form of a "Helm Chart" that includes templated and parameterized versions of Kubernetes Manifests. Along with the Helm Chart, the user can also pass in arguments like names of artifacts, connection details, enable/disable commands, ect. Helm resolves the user defined parameters within the Manifests and submits them to Kubernetes for deployment. This enables the user to deploy the application without necessarily having a detailed understanding of the networking, storage, or compute that underpins the application. 
 
-For Example, the command below deploys the OwlDQ with all of the components depicted in the above diagram into Google Kubernetes Engine with Google Cloud Storage as the storage location for Spark logs. The only prequisite is that the image pull secret \(credential to access container registry\) and secret containing credentials for a service account with access to GCS is already deployed to the namespace.
+For Example, the command below deploys the OwlDQ with all of the components depicted in the above diagram into Google Kubernetes Engine with Google Cloud Storage as the storage location for Spark logs. The only perquisite is that the image pull secret \(credential to access container registry\) and secret containing credentials for a service account with access to GCS is already deployed to the namespace.
 
 ```
 helm upgrade --install --namespace dev \

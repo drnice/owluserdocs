@@ -12,7 +12,7 @@
 ## Cloud Native Deployment
 
 * [Cloud Native OwlDQ](cloud-native-deployment/cloud-native-owldq.md)
-* [Preparing for Deployment](cloud-native-deployment/preparing-for-deployment.md)
+* [Preparing for Cloud Native Deployment](cloud-native-deployment/preparing-for-deployment.md)
 
 ## OwlCheck Examples
 

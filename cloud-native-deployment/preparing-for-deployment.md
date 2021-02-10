@@ -1,4 +1,4 @@
-# Preparing for Deployment
+# Preparing for Cloud Native Deployment
 
 ## Minimum Requirements
 
@@ -50,7 +50,34 @@ OwlDQ containers are stored in a secured repository in Google Container Registry
 
 In order for Owl Agent and Spark driver to create and destroy compute containers, a service account with a Role that allows get/list/create/delete operations on pods/services/secrets/configMaps within the target namespace. By default, OwlDQ will attempt to create the required service account as well as the required RoleBinding to the default role called "Edit". Edit is a default Role that is generally available in a Kubernetes clusters by default. If the Edit Role is not available, then it will need to be created manually.
 
+## Access the Platform
+
+In order to deploy anything to a Kubernetes cluster, the first step is to install the required client utilities and configure access. 
+
+* **kubectl** - the main method of communication with a Kubernetes cluster. All configuration or introspection tasks will be preformed using kubectl.
+* **helm** \(V3\) - used to deploy the OwlDQ helm chart without hand coding manifests.
+
+After utilities are installed, the next step is to configure a kube-context that points to and authenticates to the target platform. On cloud platforms like GKE and EKS, this process is completely automated through their respective CLI utilities.
+
+```text
+aws eks --region <region-code> update-kubeconfig --name <cluster_name>
+```
+
+```text
+gcloud container clusters get-credentials <cluster-name>
+```
+
+In private clouds, this process will vary from organization to organization, however, the team that manages the platform should be able to provide the target kube-context entry.
+
 ## Preparing Secrets
+
+Once access to the target platform is confirmed, namespace preparation can begin. Typically the namespace that OwlDQ is going to be deployed into will be pre-allocated by the platform team. 
+
+```text
+kubectl create namespace <namespace>
+```
+
+There is a lot more that can go into namespace create such as resource quota allocation, but that is generally a task for the platform team.
 
 #### Create SSL Keystore Secret
 
@@ -61,7 +88,7 @@ kubectl create secret generic owldq-ssl-secret \
 ```
 
 {% hint style="warning" %}
-The file name that is passed to the --from-file argument should be keystore.jks. If the file name is anything else, an additional argument specifying the keystore name must be included in the Helm command.
+The file name that is passed to the --from-file argument should be keystore.jks. If the file name is anything else, an additional argument specifying the keystore file name must be included in the Helm command.
 {% endhint %}
 
 #### Create Container Pull Secret
@@ -87,7 +114,7 @@ kubectl create secret docker-registry owldq-pull-secret \
 ```
 
 {% hint style="warning" %}
-Oauth tokens are usually only good for 1 hour. This type of credential is excellent if the gaol is to pull containers into a private registry. It can be used as the pull secret to access containers directly, however, the secret would have to be recreated with a fresh token before restarting any of the OwlDQ components. 
+GCP Oauth tokens are usually only good for 1 hour. This type of credential is excellent if the goal is to pull containers into a private registry. It can be used as the pull secret to access containers directly, however, the secret would have to be recreated with a fresh token before restarting any of the OwlDQ components. 
 {% endhint %}
 
 #### Create GSC Credential Secret
