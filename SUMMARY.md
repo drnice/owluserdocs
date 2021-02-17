@@ -15,6 +15,10 @@
 * [Preparing for Cloud Native Deployment](cloud-native-deployment/preparing-for-deployment.md)
 * [Deploying Cloud Native OwlDQ](cloud-native-deployment/deploying-cloud-native-owldq.md)
 
+## Cloud Hadoop Deployment
+
+* [EMR](cloud-hadoop-deployment/emr.md)
+
 ## OwlCheck Examples
 
 * [OwlCheck JDBC](owlcheck-examples/owlcheck-jdbc.md)
@@ -221,8 +225,4 @@
 ---
 
 * [Rules Import Export](rules-import-export.md)
-
-## Cloud Hadoop Deployment
-
-* [EMR](cloud-hadoop-deployment/emr.md)
 
