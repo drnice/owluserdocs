@@ -222,3 +222,7 @@
 
 * [Rules Import Export](rules-import-export.md)
 
+## Cloud Hadoop Deployment
+
+* [EMR](cloud-hadoop-deployment/emr.md)
+
