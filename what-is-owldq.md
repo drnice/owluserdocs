@@ -151,8 +151,6 @@ OwlDQ offers a low-hanging fruit opportunity to extend your data quality toolset
 
 The fact that data quality is a consistent pain point suggests it's important to many business-critical functions and legacy products not getting the job done.
 
-## \*\*\*\*[**Get Started**](https://calendly.com/brian-556/owldq-session)\*\*\*\*
-
 ## [**Learn More**](https://calendly.com/brian-556/owldq-session)
 
 ## \*\*\*\*

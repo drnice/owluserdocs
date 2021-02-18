@@ -36,11 +36,7 @@ Owl believes that data quality is such an important part of the data lifecycle t
 
 ## Get Started
 
-Give us a ring:  800-240-9554
-
-Email us:  info@owl-analytics.com
-
-
+Email us:  info@collibra.com
 
 ### Does your DQ Solution Have?
 
