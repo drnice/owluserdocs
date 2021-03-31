@@ -1,5 +1,42 @@
 # Release Notes
 
+## 2.14.0   \(**03-31-2021\)**
+
+#### Enhancements
+
+* Hoot
+  * Edit mode on Password Manager supported connections
+  * Edit mode on complex query
+  * Behavior charts
+* Explorer
+  * ValSrc auto Save
+  * Remote File
+    * Folder Scans in Val Src
+    * Auto generate ds name
+    * FullFile for S3
+    * {rd} in file path naming
+  * Livy support for K8s
+    * Estimate Jobs
+    * Analyze days
+* Connection
+  * Store source name to connect a column to its source db/table/schema
+  * Custom driver props for remove file connection
+* Profile
+  * Filtergram for Password Manager connections
+  * Filtergram for Alternate agent path connections
+* Rules
+  * UX on page size options
+* Tenants
+  * Support additional names in line with scheam names
+* Scheduler
+  * Support multiple db timezone vs dataset timezone
+* Shapes
+  * Default tiers mod to reduce noise
+  * Expanded options for numeric/aplha
+  * Expanded options for lenghth on alphanumerics
+* General
+  * Tooltip helpers
+
 ## 2.13.0   \(**12-20-2020\)**
 
 #### Enhancements
