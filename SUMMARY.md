@@ -182,6 +182,7 @@
 
 * [Owl Summary Reports](reports/owl-summary-reports.md)
 * [Dataset Report](reports/profile.md)
+* [Coverage Report](reports/coverage-report.md)
 
 ## Scheduler
 
