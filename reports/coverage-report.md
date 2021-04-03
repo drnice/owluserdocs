@@ -6,5 +6,9 @@ In the explorer view where you see the file tree explorer for each database you 
 
 {% embed url="https://www.youtube.com/watch?v=LIJDoIN82W8" %}
 
+### File tree explorer Generate Report
 
+22 out of 44 tables in public schema have been DQ jobs running on them.  Likely have profiles and auto rules for validation.  24 out of 44 have been cataloged, which means they are registered and have metadata.
+
+![](../.gitbook/assets/screen-shot-2021-04-03-at-7.02.23-pm.png)
 
