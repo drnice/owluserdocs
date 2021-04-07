@@ -11,29 +11,32 @@
 * Explorer
   * ValSrc auto Save
   * Remote File
+    * Support for Google Cloud Storage \(GCS\)
+    * Support for Google Big Query
     * Folder Scans in Val Src
     * Auto generate ds name
     * FullFile for S3
     * {rd} in file path naming
-  * Livy support for K8s
-    * Estimate Jobs
-    * Analyze days
+    * Estimate Jobs \(Only on K8s\)
+    * Analyze Days \(Only on K8s\)
+    * Preview Data \(Only on K8s\)
 * Connection
   * Store source name to connect a column to its source db/table/schema
   * Custom driver props for remove file connection
 * Profile
-  * Filtergram for Password Manager connections
-  * Filtergram for Alternate agent path connections
+  * Filtergrams for Password Manager connections
+  * Filtergrams for Alternate agent path connections
+  * Filtergrams on S3/GCS data source \(Only on K8s\)
 * Rules
   * UX on page size options
 * Tenants
-  * Support additional names in line with scheam names
+  * Support additional names in line with schema names
 * Scheduler
   * Support multiple db timezone vs dataset timezone
 * Shapes
   * Default tiers mod to reduce noise
-  * Expanded options for numeric/aplha
-  * Expanded options for lenghth on alphanumerics
+  * Expanded options for numeric/alpha
+  * Expanded options for length on alphanumerics
 * General
   * Tooltip helpers
 
