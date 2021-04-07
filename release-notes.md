@@ -33,6 +33,8 @@
   * Support additional names in line with schema names
 * Scheduler
   * Support multiple db timezone vs dataset timezone
+* Outliers
+  * Notebook API returns true physical null value in DataFrame instead of string "null"
 * Shapes
   * Default tiers mod to reduce noise
   * Expanded options for numeric/alpha
