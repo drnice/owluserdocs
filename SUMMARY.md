@@ -136,6 +136,7 @@
 ## Catalog
 
 * [Catalog](catalog/catalog.md)
+* [Catalog Bulk Actions](catalog/catalog-bulk-actions.md)
 * [Cluster Health Report](catalog/cluster-health-report.md)
 
 ## Use-Cases
