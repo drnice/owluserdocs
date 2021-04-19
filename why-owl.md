@@ -44,7 +44,7 @@ Email us:  info@collibra.com
 
 |  |  |
 | :--- | :--- |
-| **Unified DQ** | The ability to score and manage and report on all datasets \(files, tables, topics\) agnostically.  Providing a single pain of glass for DQ across all data sources. |
+| **Unified DQ** | The ability to score and manage and report on all datasets \(files, tables, topics\) agnostically.  Providing a single pane of glass for DQ across all data sources. |
 | **Collaboration** | The ability for end-users to down-train, annotate and audit each DQ item |
 | **Auto Discovery** | The ability to figure out issues in your data without requiring domain experts and rule writers |
 | **Anomaly Detection** | The ability to detect numeric and categorical outliers in a dataset |
