@@ -66,17 +66,17 @@ fname.$type != 'String' AND $rowCount < 800
 
 | Stat | Rule Example | Desc |
 | :--- | :--- | :--- |
-| $totalTimeInSeconds | $totalTimeInSeconds &gt; 25 | alert when DQ job runs longer than 25 seconds. |
-| $totalTimeInMinutes | $totalTimeInMinutes &gt; 5 | alert when DQ job runs longer than 5 mins. |
-| $totalTimeInHours | $totalTimeInHours &gt; 1 | alert when DQ job runs longer than 1 hour. |
-| $rowCount | $rowCount &lt; 9000 | alert when row count less than 9,000 |
-| .$type | fname.$type != 'String' | alert when fname is not a string |
-| .$min | fname.$min &gt; 'apple' | lexicographical sort works for strings and numbers |
-| .$minNum | age.$minNum &gt; 13 | type casted to a numeric for simple number checks |
-| .$max | fname.$max &gt; 'apple' |  |
-| .$maxNum | age.$maxNum &gt; 13 |  |
-| .$uniqueCount | id.$uniqueCount = $rowCount |  |
-| .$uniqueRatio | gender.$uniqueRatio between .4 and .6 |  |
+| **$totalTimeInSeconds** | $totalTimeInSeconds &gt; 25 | alert when DQ job runs longer than 25 seconds. |
+| **$totalTimeInMinutes** | $totalTimeInMinutes &gt; 5 | alert when DQ job runs longer than 5 mins. |
+| **$totalTimeInHours** | $totalTimeInHours &gt; 1 | alert when DQ job runs longer than 1 hour. |
+| **$rowCount** | $rowCount &lt; 9000 | alert when row count less than 9,000 |
+| **.$type** | fname.$type != 'String' | alert when fname is not a string |
+| **.$min** | fname.$min &gt; 'apple' | lexicographical sort works for strings and numbers |
+| **.$minNum** | age.$minNum &gt; 13 | type casted to a numeric for simple number checks |
+| **.$max** | fname.$max &gt; 'apple' |  |
+| **.$maxNum** | age.$maxNum &gt; 13 |  |
+| .**$uniqueCount** | id.$uniqueCount = $rowCount |  |
+| **.$uniqueRatio** | gender.$uniqueRatio between .4 and .6 |  |
 
 ### Quick Tips
 
