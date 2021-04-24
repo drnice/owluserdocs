@@ -59,6 +59,11 @@ If you have rules already written in Oracle, Sybase, or DB2 syntax - Copy/Paste 
 
 One really powerful technique is to access the profile statistics in your rules.  These are typically sub-second operations that do not require scanning or iterating.
 
+```sql
+select * from @dataset where 
+fname.$type != 'String' AND $rowCount < 800
+```
+
 | Stat | Rule Example | Desc |
 | :--- | :--- | :--- |
 | $totalTimeInSeconds | $totalTimeInSeconds &gt; 25 | alert when DQ job runs longer than 25 seconds. |
