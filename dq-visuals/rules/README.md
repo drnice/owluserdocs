@@ -55,6 +55,24 @@ Query builder will help generate SQL for more complex rules. You can apply to on
 
 If you have rules already written in Oracle, Sybase, or DB2 syntax - Copy/Paste the rule directly into the Native SQL section. 
 
+### Stat Rules
+
+One really powerful technique is to access the profile statistics in your rules.  These are typically sub-second operations that do not require scanning or iterating.
+
+| Stat | Rule Example | Desc |
+| :--- | :--- | :--- |
+| $totalTimeInSeconds | $totalTimeInSeconds &gt; 25 | alert when DQ job runs longer than 25 seconds. |
+| $totalTimeInMinutes | $totalTimeInMinutes &gt; 5 | alert when DQ job runs longer than 5 mins. |
+| $totalTimeInHours | $totalTimeInHours &gt; 1 | alert when DQ job runs longer than 1 hour. |
+| $rowCount | $rowCount &lt; 9000 | alert when row count less than 9,000 |
+| .$type | fname.$type != 'String' | alert when fname is not a string |
+| .$min | fname.$min &gt; 'apple' | lexicographical sort works for strings and numbers |
+| .$minNum | age.$minNum &gt; 13 | type casted to a numeric for simple number checks |
+| .$max | fname.$max &gt; 'apple' |  |
+| .$maxNum | age.$maxNum &gt; 13 |  |
+| .$uniqueCount | id.$uniqueCount = $rowCount |  |
+| .$uniqueRatio | gender.$uniqueRatio between .4 and .6 |  |
+
 ### Quick Tips
 
 If joining more than one data source, make sure both sets of drivers are in the -lib. Or separately supply a -libsrc pointing to the appropriate directory/jar file location.
