@@ -227,5 +227,6 @@
 
 ---
 
+* [Export and Import API](export-and-import-api.md)
 * [Rules Import Export](rules-import-export.md)
 
