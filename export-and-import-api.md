@@ -8,7 +8,7 @@ description: Promoting and moving datasets across environments
 
 Pass your dataset and tables to the following api call. This endpoint will create a JSON payload
 
-```
+```javascript
 http://<url>/v2/get-export?dataset=public.dataset_scan_2&schema=public&tables=owl_catalog,dataset_scan,owl_check_repo
 T
 ```
@@ -23,7 +23,7 @@ Examples:
 
 Run import on the desired environment, passing the output of the previous statement to the body of the request 
 
-```
+```javascript
 http://<url>/v2/run-import
 ```
 
@@ -36,4 +36,15 @@ This would be the body of the POST.
 You will want to modify the import payload to check for differences in connections, agents, spark and environment configurations.
 
 
+
+#### Get-Exports
+
+Passing in several tables and datasets at once
+
+```javascript
+http://<url>/v2/get-exports?dataset=public.dataset_scan_2,public.dataset_scan_1&schema=public&tables=owl_catalog,dataset_scan,owl_check_repo
+T
+```
+
+![](.gitbook/assets/image%20%2867%29.png)
 
