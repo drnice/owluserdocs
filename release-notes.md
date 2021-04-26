@@ -7,7 +7,7 @@
 * Hoot
   * Edit mode on Password Manager supported connections
   * Edit mode on complex query
-  * Behavior charts
+  * Behavior chart display of last 2 runs
 * Explorer
   * ValSrc auto Save
   * Remote File
@@ -22,25 +22,20 @@
     * Preview Data \(Only on K8s\)
 * Connection
   * Store source name to connect a column to its source db/table/schema
-  * Custom driver props for remove file connection
+  * Custom driver props for remote file connection
 * Profile
   * Filtergrams for Password Manager connections
   * Filtergrams for Alternate agent path connections
   * Filtergrams on S3/GCS data source \(Only on K8s\)
 * Rules
   * UX on page size options
-* Tenants
-  * Support additional names in line with schema names
 * Scheduler
   * Support multiple db timezone vs dataset timezone
 * Outliers
   * Notebook API returns true physical null value in DataFrame instead of string "null"
 * Shapes
-  * Default tiers mod to reduce noise
   * Expanded options for numeric/alpha
   * Expanded options for length on alphanumerics
-* General
-  * Tooltip helpers
 
 ## 2.13.0   \(**12-20-2020\)**
 
