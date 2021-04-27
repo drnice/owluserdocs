@@ -35,6 +35,12 @@ For example, Owl learned that a particular column typically has between 10% and 
 
 ![](../.gitbook/assets/screen-shot-2020-05-07-at-8.02.53-pm.png)
 
+#### Drill-in to see the predicted range of valid values
+
+Automatic flagging of break records with erroneous data.
+
+![](../.gitbook/assets/screen-shot-2021-04-27-at-8.07.58-am.png)
+
 The screenshot above shows some of the controls and visualizations that can be used to tune the Behavioral model. In this specific example, Owl has detected that the cardinality of the EXCH field has doubled from 1 to 2 unique values. However, a user can instruct Owl to disregard this finding and adjust the model by manually specifying the range of values acceptable in this column.  To assist the user, Owl provides a line chart and a historical topN visualization of this column's cardinality.
 
 ![](../.gitbook/assets/screen-shot-2020-05-07-at-8.17.14-pm.png)
