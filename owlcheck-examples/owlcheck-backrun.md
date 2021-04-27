@@ -4,6 +4,12 @@ description: Replay 30 days of data
 
 # OwlCheck Back Run
 
+### How to Replay a Data Test
+
+Many times you will want to see how a dataset plays out over time.  This could be 5 days or 5 months.  Using this slider the tool will automatically create training sets and profiles as well as run any rules or outliers you've put in place.
+
+![](../.gitbook/assets/screen-shot-2021-04-27-at-8.14.28-am.png)
+
 ### Quickly Replay 30 days of data, -br 30
 
 Add -br to any owlcheck and replay in time order.  Jan 1, Jan 2, Jan 3...  To do this we need to use the ${rd} variable that owl provides as a run\_date replacement for job control and templates.  Also note that if you run from the cmdline you need to escape "$"s.  so use \${rd}.   If you are running from a Notebook or Java or Scala or the Rest API you do not need to escape the ${rd} variable. 
