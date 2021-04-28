@@ -80,6 +80,12 @@ fname.$type != 'String' AND $rowCount < 800
 | **.$maxNum** | age.$maxNum &gt; 13 |  |
 | .**$uniqueCount** | id.$uniqueCount = $rowCount |  |
 | **.$uniqueRatio**              | gender.$uniqueRatio between .4 and .6 |  |
+| **.$nullRatio** | lname.$nullRatio not between .4 and .6 | \*\*\*\* |
+| **.$nullPercent** | lname.$nullPercent not between 40 and 60 | \*\*\*\* |
+| **.$emptyRatio** | \*\*\*\* | \*\*\*\* |
+| **.$emptyPercent** |  |  |
+| **.$mixedTypeRatio** | nc.$mixedTypeRation &gt; 0.2 | \*\*\*\* |
+| **.$mixedTypePercent** |  |  |
 
 ### Quick Tips
 
