@@ -57,7 +57,7 @@ If you have rules already written in Oracle, Sybase, or DB2 syntax - Copy/Paste 
 
 ### Stat Rules
 
-One really powerful technique is to access the profile statistics in your rules.  These are typically sub-second operations that do not require scanning or iterating.
+One really powerful technique is to access the profile statistics in your rules.  These are typically sub-second operations that do not require scanning or iterating.  There are several cases where SQL struggles to support rules, such as: isNull but not "null count" or nullRatio or nullPercent.  Or having access to types without doing crazy cast\(\) operations.  These are simplified below, i.e. fname.$type == 'String'
 
 ```sql
 select * from @dataset where 
