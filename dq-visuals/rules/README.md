@@ -71,21 +71,99 @@ fname.$type != 'String' AND $rowCount < 800
 | **$totalTimeInHours** | $totalTimeInHours &gt; 1 | alert when DQ job runs longer than 1 hour. |
 | **$rowCount** | $rowCount &lt; 9000 | alert when row count less than 9,000 |
 
-| Column Level Stat | Rule Example | Description |
-| :--- | :--- | :--- |
-| **.$type** | fname.$type != 'String' | alert when fname is not a string |
-| **.$min** | fname.$min &gt; 'apple' | lexicographical sort works for strings and numbers |
-| **.$minNum** | age.$minNum &gt; 13 | type casted to a numeric for simple number checks |
-| **.$max** | fname.$max &gt; 'apple' |  |
-| **.$maxNum** | age.$maxNum &gt; 13 |  |
-| .**$uniqueCount** | id.$uniqueCount = $rowCount |  |
-| **.$uniqueRatio**              | gender.$uniqueRatio between .4 and .6 |  |
-| **.$nullRatio** | lname.$nullRatio not between .4 and .6 | \*\*\*\* |
-| **.$nullPercent** | lname.$nullPercent not between 40 and 60 | \*\*\*\* |
-| **.$emptyRatio** | nc.$emptyRatio &gt; 0.2 | \*\*\*\* |
-| **.$emptyPercent** | nc.$emptyPercent &gt; 20 |  |
-| **.$mixedTypeRatio** | nc.$mixedTypeRatio &gt; 0.2 | \*\*\*\* |
-| **.$mixedTypePercent** | nc.$mixedTypeRatio &gt; 20 |  |
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:left">Column Level Stat</th>
+      <th style="text-align:left">Rule Example</th>
+      <th style="text-align:left">Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:left"><b>.$type</b>
+      </td>
+      <td style="text-align:left">fname.$type != &apos;String&apos;</td>
+      <td style="text-align:left">alert when fname is not a string</td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><b>.$min</b>
+      </td>
+      <td style="text-align:left">fname.$min &gt; &apos;apple&apos;</td>
+      <td style="text-align:left">lexicographical sort works for strings and numbers</td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><b>.$minNum</b>
+      </td>
+      <td style="text-align:left">age.$minNum &gt; 13</td>
+      <td style="text-align:left">type casted to a numeric for simple number checks</td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><b>.$max</b>
+      </td>
+      <td style="text-align:left">fname.$max &gt; &apos;apple&apos;</td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><b>.$maxNum</b>
+      </td>
+      <td style="text-align:left">age.$maxNum &gt; 13</td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">.<b>$uniqueCount</b>
+      </td>
+      <td style="text-align:left">id.$uniqueCount != $rowCount</td>
+      <td style="text-align:left">alert when the uniqueCount of a field doesn&apos;t match the rowCount</td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><b>.$uniqueRatio             </b>
+      </td>
+      <td style="text-align:left">gender.$uniqueRatio between .4 and .6</td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><b>.$nullRatio</b>
+      </td>
+      <td style="text-align:left">lname.$nullRatio not between .4 and .6</td>
+      <td style="text-align:left">alert when the ratio of nulls no longer falls within acceptable range</td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><b>.$nullPercent</b>
+      </td>
+      <td style="text-align:left">lname.$nullPercent not between 40 and 60</td>
+      <td style="text-align:left">alert when the percent of nulls no longer falls within acceptable range</td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><b>.$emptyRatio</b>
+      </td>
+      <td style="text-align:left">nc.$emptyRatio &gt; 0.2</td>
+      <td style="text-align:left">alert when the ratio of empties no longer falls within acceptable range</td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><b>.$emptyPercent</b>
+      </td>
+      <td style="text-align:left">nc.$emptyPercent &gt; 20</td>
+      <td style="text-align:left">alert when the percent of empties no longer falls within acceptable range</td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><b>.$mixedTypeRatio</b>
+      </td>
+      <td style="text-align:left">nc.$mixedTypeRatio &gt; 0.2</td>
+      <td style="text-align:left">&lt;b&gt;&lt;/b&gt;</td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><b>.$mixedTypePercent</b>
+      </td>
+      <td style="text-align:left">nc.$mixedTypeRatio &gt; 20</td>
+      <td style="text-align:left">
+        <p>alert when the percent of mixed data types</p>
+        <p>no longer falls within acceptable range.</p>
+        <p>i.e. Strings and Ints in the same field</p>
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 ### Quick Tips
 
