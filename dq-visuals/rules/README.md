@@ -82,10 +82,10 @@ fname.$type != 'String' AND $rowCount < 800
 | **.$uniqueRatio**              | gender.$uniqueRatio between .4 and .6 |  |
 | **.$nullRatio** | lname.$nullRatio not between .4 and .6 | \*\*\*\* |
 | **.$nullPercent** | lname.$nullPercent not between 40 and 60 | \*\*\*\* |
-| **.$emptyRatio** | \*\*\*\* | \*\*\*\* |
-| **.$emptyPercent** |  |  |
-| **.$mixedTypeRatio** | nc.$mixedTypeRation &gt; 0.2 | \*\*\*\* |
-| **.$mixedTypePercent** |  |  |
+| **.$emptyRatio** | nc.$emptyRatio &gt; 0.2 | \*\*\*\* |
+| **.$emptyPercent** | nc.$emptyPercent &gt; 20 |  |
+| **.$mixedTypeRatio** | nc.$mixedTypeRatio &gt; 0.2 | \*\*\*\* |
+| **.$mixedTypePercent** | nc.$mixedTypeRatio &gt; 20 |  |
 
 ### Quick Tips
 
