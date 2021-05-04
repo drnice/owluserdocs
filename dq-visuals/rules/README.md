@@ -70,6 +70,7 @@ fname.$type != 'String' AND $rowCount < 800
 | **$totalTimeInMinutes** | $totalTimeInMinutes &gt; 5 | alert when DQ job runs longer than 5 mins. |
 | **$totalTimeInHours** | $totalTimeInHours &gt; 1 | alert when DQ job runs longer than 1 hour. |
 | **$rowCount** | $rowCount &lt; 9000 | alert when row count less than 9,000 |
+| **$runId** | $runId = '2020-01-24' | use the ${rd} variable in rules |
 
 <table>
   <thead>
@@ -164,6 +165,8 @@ fname.$type != 'String' AND $rowCount < 800
     </tr>
   </tbody>
 </table>
+
+![](../../.gitbook/assets/colstatrules.png)
 
 ### Quick Tips
 
