@@ -136,6 +136,12 @@ fname.$type != 'String' AND $rowCount < 800
       <td style="text-align:left">alert when the percent of nulls no longer falls within acceptable range</td>
     </tr>
     <tr>
+      <td style="text-align:left"><b>.$nullCount</b>
+      </td>
+      <td style="text-align:left">lname.$nullCount &gt;= 1</td>
+      <td style="text-align:left">test for a single null</td>
+    </tr>
+    <tr>
       <td style="text-align:left"><b>.$emptyRatio</b>
       </td>
       <td style="text-align:left">nc.$emptyRatio &gt; 0.2</td>
@@ -146,6 +152,12 @@ fname.$type != 'String' AND $rowCount < 800
       </td>
       <td style="text-align:left">nc.$emptyPercent &gt; 20</td>
       <td style="text-align:left">alert when the percent of empties no longer falls within acceptable range</td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><b>.$emptyCount</b>
+      </td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
     </tr>
     <tr>
       <td style="text-align:left"><b>.$mixedTypeRatio</b>
@@ -162,6 +174,12 @@ fname.$type != 'String' AND $rowCount < 800
         <p>no longer falls within acceptable range.</p>
         <p>i.e. Strings and Ints in the same field</p>
       </td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><b>.$mixedTypeCount</b>
+      </td>
+      <td style="text-align:left">id.$mixedTypeCount &gt;= 1</td>
+      <td style="text-align:left"></td>
     </tr>
   </tbody>
 </table>
