@@ -196,8 +196,8 @@ gender['Male'].$uniquePercent between 40 and 60
 
 | Column Value Level | Rule |
 | :--- | :--- |
-| .$uniqueCount | credit\_rating\['FAIR'\].$uniqueCount &gt; 7 |
-| .$uniquePercent | credit\_rating\['GOOD'\].uniquePercent between 40 and 60 |
+| **.$uniqueCount** | credit\_rating\['FAIR'\].$uniqueCount &gt; 7 |
+| **.$uniquePercent** | credit\_rating\['GOOD'\].uniquePercent between 40 and 60 |
 
 ![](../../.gitbook/assets/screen-shot-2021-05-10-at-2.24.51-pm.png)
 
