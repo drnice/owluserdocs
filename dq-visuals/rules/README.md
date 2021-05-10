@@ -186,6 +186,19 @@ fname.$type != 'String' AND $rowCount < 800
 
 ![](../../.gitbook/assets/colstatrules.png)
 
+### Distribution Rule
+
+There is a common case in DQ where you want to know the distribution of a columns value.  Meaning if you have gender there may be an expectation that 40-60% are males and 40-60% are females if the dataset is large and represents the population.  This can be rather hard or expensive to express in vanilla SQL, but is very easy with the below syntax.
+
+```sql
+gender['Male'].$uniquePercent between 40 and 60
+```
+
+| Column Value Level | Rule |
+| :--- | :--- |
+| .$uniqueCount | credit\_rating\['FAIR'\].$uniqueCount &gt; 7 |
+| .$uniquePercent | credit\_rating\['GOOD'\].uniquePercent between 40 and 60 |
+
 ### Quick Tips
 
 If joining more than one data source, make sure both sets of drivers are in the -lib. Or separately supply a -libsrc pointing to the appropriate directory/jar file location.
