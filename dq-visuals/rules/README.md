@@ -199,6 +199,8 @@ gender['Male'].$uniquePercent between 40 and 60
 | .$uniqueCount | credit\_rating\['FAIR'\].$uniqueCount &gt; 7 |
 | .$uniquePercent | credit\_rating\['GOOD'\].uniquePercent between 40 and 60 |
 
+![](../../.gitbook/assets/screen-shot-2021-05-10-at-2.24.51-pm.png)
+
 ### Quick Tips
 
 If joining more than one data source, make sure both sets of drivers are in the -lib. Or separately supply a -libsrc pointing to the appropriate directory/jar file location.
