@@ -186,6 +186,8 @@ fname.$type != 'String' AND $rowCount < 800
 
 ![](../../.gitbook/assets/colstatrules.png)
 
+Known limitation.  Cannot combine stat rules or distribution rules with regex rules in the same rule.  Example car\__vin rlike '$\[asdf\]\[0-9\]' and car\_vin.$uniqueCount_
+
 ### Distribution Rule
 
 There is a common case in DQ where you want to know the distribution of a columns value.  Meaning if you have gender there may be an expectation that 40-60% are males and 40-60% are females if the dataset is large and represents the population.  This can be rather hard or expensive to express in vanilla SQL, but is very easy with the below syntax.
