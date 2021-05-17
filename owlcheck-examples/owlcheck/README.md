@@ -147,7 +147,7 @@ The above REST call returns the below OwlCheck. It is left up to the Job Control
 -fpgon -fpgkey usr_name,post_cd_num -fpgdc load_dt -fpglb 5 -fpgtbin DAY \
 -loglevel INFO \
 -h $host:5432/owltrunk \
--owluser geoff@owl.com
+-owluser {user}
 ```
 
 ## REST API End Point
@@ -192,7 +192,7 @@ yyyy-MM-dd format can add time or timezone.  if not passed it will not be used
   "pid": "13996",
   "runid": "2017-01-01",
   "starttime": "Thu Oct 17 13:27:01 EDT 2019",
-  "cmd": "cmd": "-ds lake.spotify -rd 2019-10-17   -q \"select * from lake.spotify\" -cxn mysql -lib /opt/owl/drivers/mysql/ -drivermemory 2G -histoff   -owluser admin",
+  "cmd": "cmd": "-ds lake.spotify -rd 2019-10-17   -q \"select * from lake.spotify\" -cxn mysql -lib /opt/owl/drivers/mysql/ -drivermemory 2G -histoff   -owluser {user}",
   "dataset": "lake.spotify"
 }
 ```
