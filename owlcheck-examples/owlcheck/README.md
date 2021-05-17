@@ -217,7 +217,7 @@ A generic and repeatable owlcheck script for job schedulers, that hooks into Owl
 
 ```bash
 #1 authenticate
-curl -sb -X POST -d username=admin -d password=admin123 http://$OWL_HOST/login -c cookies.txt
+curl -sb -X POST -d username={user} -d password={password} http://$OWL_HOST/login -c cookies.txt
 
 #2 get template
 owlcheck_args=$(curl -b cookies.txt -H "accept: application/json" -X GET http://$OWL_HOST/v2/getowlcheckcmdlinebydataset\?dataset=insurance | sed 's/.*\[\(.*\)\]/\1/' | sed -e "s/^\"//" -e "s/\"$//"  | sed 's/\\\"\(.*\)\\\"/\x27\1\x27/')
