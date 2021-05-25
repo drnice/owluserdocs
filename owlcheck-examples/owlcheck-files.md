@@ -2,8 +2,6 @@
 
 ## Owlchecks with **file** 
 
-If data is in one single file \(spanning multiple time periods\), you can apply the -fullfile option for outlier detection. This will load the entire file so you can do lookbacks across multiple dates.
-
 For example, a large file `transaction_2021-01-01.csv` might contain the following transaction data with two transaction per day spanning all of January.
 
 | transaction\_id | account\_id | date | amount |
