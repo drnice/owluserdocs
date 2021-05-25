@@ -1,6 +1,6 @@
 # OwlCheck Files
 
-### **Outliers on a single large file**  <a id="HOutliersonasinglelargefile"></a>
+## Owlchecks with **file** 
 
 If data is in one single file \(spanning multiple time periods\), you can apply the -fullfile option for outlier detection. This will load the entire file so you can do lookbacks across multiple dates.
 
@@ -132,6 +132,8 @@ In this scenario, our singular file `~/customer/transaction-2021-01-01/transacti
     ... # other relevant options
 ```
 
+## Owlchecks with files
+
 * **Run an Owlcheck on a single file with lookback using series of file**
 
 Recall our folder structure:
@@ -164,7 +166,7 @@ If we want to run an Owlcheck for December 2021 and use July 2021 to November 20
     ... # other relevant options
 ```
 
-One caveat to this `-fllb` method __is that the Owlcheck must be "primed" first so that the OwlDQ knows the filepath of the past series of files  
+One caveat to this `-fllb` method __is that the Owlcheck history must be "primed" first so that the OwlDQ knows the file path of the past series of files  
   
 Meaning in order to run an Owlcheck on "2021-12-01" and have that Owlcheck "look up" the files in     
   `~/customer/transaction-2021-07-01/transaction_2021-07-01.csv` ,  
@@ -241,5 +243,26 @@ The below command is identical to the above
     ... # other relevant options
 ```
 
+This pattern is designed so that a single owlcheck command can be scheduled and `${rd}` be used to replace the folder & file path. Your `~/customer` folder often contains transactions for all the years, spanning all the way back to 1992 and into the future like so:
 
+```bash
+~/customer
+
+  ├── transaction-1992-01-01
+  │   └── transaction_1992-01-01.csv
+  ├── transaction-1992-01-01
+  │   └── transaction_1992-01-01.csv
+  ... # ommitted for space
+  ├── transaction-2021-01-01
+  │   └── transaction_2021-01-01.csv
+  ├── transaction-2021-02-01
+  │   └── transaction_2021-02-01.csv
+  ... # ommitted for space
+  ├── transaction-2021-12-01
+  │   └── transaction_2021-12-01.csv
+  ... # hasn't happened yet!
+  
+```
+
+In this scenario, a monthly scheduled job would get rid of the need to "prime" the Owcheck history, since your past scheduled jobs would have ran the past Owlchecks.
 
