@@ -14,8 +14,7 @@ For example, a large file `transaction_2021-01-01.csv` might contain the followi
 | 61 | 1 | 2021-01-31 | 100 |
 | 62 | 2 | 2021-01-31 | 999 |
 
-and this file might be located on the directory `~/customer/transaction-2021-01-01/`.   
-Note that February data is located in a separate directory with a similar pattern for all the months of 2021 \(This will be relevant later\).
+and this file might be located on the directory `~/customer/transaction-2021-01-01/`. 
 
 ```bash
 ~/customer
@@ -23,10 +22,12 @@ Note that February data is located in a separate directory with a similar patter
   │   └── transaction_2021-01-01.csv
   ├── transaction-2021-02-01
   │   └── transaction_2021-02-01.csv
-  ... # ommitted for space
+  ... # folders for 2021-03-01 to 2021-11-01 ommitted
   ├── transaction-2021-12-01
   │   └── transaction_2021-12-01.csv
 ```
+
+Other folders with similar pattern may exist in your directory, such as `~/customer/transaction-2021-01-1`. Note that February data is located in a separate directory with a similar pattern for all the months of 2021. This dataset could similarly have 2 account IDs and 1 transaction per account per day \(= 28 x 2 = 56 rows of data\). For this example, let's assume this is the case for all the files.
 
 To run an Owlcheck on this single file containing multiple dates, you have the following choices:
 
@@ -65,7 +66,7 @@ This type of Owlcheck can also be used if `~/customer/transaction-2021-01-01/tra
 
 * **Run an Owlcheck on subset of rows from a single file**
 
-Our file contains daily data for January of 2021. To run Data Quality checks on January 1st, January 2nd, ... , January 31st, you should run 31 Owlchecks, each with subset of rows from the file 
+The single file contains daily data for January of 2021. To run Data Quality checks on January 1st, January 2nd, ... , and January 31st, you need to run 31 Owlchecks, each with subset of rows from the file. Note the `where` clause in `-fq` matching with the run date `-rd` 
 
 ```bash
 ./owlcheck 
@@ -82,7 +83,7 @@ Our file contains daily data for January of 2021. To run Data Quality checks on 
     -fq "select * from dataset where date = '2021-01-02'"
     ... # other relevant options
 
-... # ommitted for space
+... # Owlchecks for -rd 2021-01-03 to 2021-01-30 ommitted
 
 ./owlcheck 
     -ds DQCheck_transactions_jan21
@@ -93,9 +94,9 @@ Our file contains daily data for January of 2021. To run Data Quality checks on 
     
 ```
 
-This way, all 31 Owlchecks will appear under one dataset `DQCheck_transaction_jan21`
+By using the same dataset name `-ds`, all 31 Owlchecks will appear under one dataset `DQCheck_transaction_jan21` in the Hoot page.
 
-A convenient way to parameterize this run date is using `${rd}`
+A convenient way to parameterize this run date is to use `${rd}` in the query.
 
 ```bash
 ./owlcheck 
@@ -107,13 +108,13 @@ A convenient way to parameterize this run date is using `${rd}`
 
 ```
 
-A daily scheduled job starting on January 1st, 2021 to January 31, 2021 will automatically replace the `${rd}` with "2021-01-01", "2021-01-02", ... , "2021-01-31"
+A daily scheduled job starting on January 1st, 2021 to January 31, 2021 will automatically replace the `${rd}` with "2021-01-01", "2021-01-02", ... , and "2021-01-31" for the respective run date.
 
 * **Run an Owlcheck on subset of rows from a single file with day lookback**
 
-For certain core components like **Outlier**, a set of rows corresponding to historical training data can be used to establish a baseline. For example, the row with `transaction_id` 62 has amount of 999. This seems like an outlier that we would like to catch. This value of 999 seems to be an outlier because past transaction amounts for `account_id`2 are in the 100s range. We can use historical data from January 15th to January 30th and use that info to see if January 31st data contains any outliers.   
+For certain core components like **Outlier**, a set of rows corresponding to historical training data can be used to establish a baseline. For example, the row with `transaction_id` 62 has amount of 999. This looks like an outlier that we want to catch. This value of 999 seems to be an outlier because past transaction amounts for `account_id`2 are in the 100s range. We can use historical data from January 15th to January 30th and use that info to see if January 31st data contains any outliers.   
   
-In this scenario, our singular file `~/customer/transaction-2021-01-01/transaction_2021-01-01.csv` contains that historical data, so how do we use the same file for both current data \(January 31st\) and historical \(January 15th to January 30th\) data? You do not have to split the files into two. You can simply do exactly what you would do for Owlcheck on "2021-01-31" with a `-fullfile` flag. `-fullfile` flag tells the Owlcheck that "the file in `-f` contains the historical data. Construct a query and subset those rows for me".
+In this scenario, our single file `~/customer/transaction-2021-01-01/transaction_2021-01-01.csv` contains such historical data because that file contains all the data for all of January. How do we use the same file for both current data \(January 31st\) and historical \(January 15th to January 30th\) data? You do not have to split the files into two. You can simply do exactly what you would do for Owlcheck on "2021-01-31" with a `-fullfile` flag. The `-fullfile` flag tells the Owlcheck that "the file in `-f` contains the historical data. Construct a query and subset those rows for me".
 
 ```bash
 ./owlcheck 
@@ -125,12 +126,12 @@ In this scenario, our singular file `~/customer/transaction-2021-01-01/transacti
     # outlier options
     -dc "date"
     -dl
-    -tbin "DAY"
+    -tbin "DAY" # look back time bin is day
     -dllb 15 # look back up to 15 days
     ... # other relevant options
 ```
 
-## Owlchecks with files
+## Owlchecks with _multiple files_
 
 * **Run an Owlcheck on a single file with lookback using series of file**
 
@@ -147,7 +148,7 @@ Recall our folder structure:
   │   └── transaction_2021-12-01.csv
 ```
 
-If we want to run an Owlcheck for December 2021 and use July 2021 to November 2021 as our historical training dataset, how can we load multiple files? Just like how `-fullfile` provides a convenient way to create historical training dataset, `-fllb` provides a convenient way to load _series of files_ with patterns while still pointing to the target file \(December file\) in `-f`
+If we want to run an Owlcheck for December of 2021 and use July of 2021 to November of 2021 as our historical training dataset, how can we load _multiple_ _files_? Just like how `-fullfile` provides a convenient way to create historical training dataset on a single file, `-fllb` \(file lookback\) provides a convenient way to load _series of files_ with patterns while still pointing to the target file \(December file\) in `-f`
 
 ```bash
 ./owlcheck 
@@ -164,16 +165,16 @@ If we want to run an Owlcheck for December 2021 and use July 2021 to November 20
     ... # other relevant options
 ```
 
-One caveat to this `-fllb` method __is that the Owlcheck history must be "primed" first so that the OwlDQ knows the file path of the past series of files  
+One caveat to this `-fllb` method __is that the Owlcheck history must be "primed" first so that the OwlDQ knows the file path of the past series of files. In fact, `-fllb` does not use the file path provided in `-f` and loads different files from different folders. _It relies on the Owlcheck history_ under the same `-ds` name. `-fllb` means lookback up to N number of past consecutive Owlchecks. For each of those past Owlcheck, look up the file path `-f` used in the past and follow those paths. The number N is determined by the maximum number of lookbacks from Outlier \(`-dllb`\) and Patterns \(`-fpglb` \). In the Owlcheck above, because `-dllb 5` is provided along with `-fllb`, it means "Look up 5 past owlchecks and load those files as historical dataset".  
   
-Meaning in order to run an Owlcheck on "2021-12-01" and have that Owlcheck "look up" the files in     
+In summary, in order to run an Owlcheck on "2021-12-01" and have that Owlcheck for that date "look up" the files in     
   `~/customer/transaction-2021-07-01/transaction_2021-07-01.csv` ,  
   `~/customer/transaction-2021-08-01/transaction_2021-08-01.csv` ,  
   `~/customer/transaction-2021-09-01/transaction_2021-09-01.csv` ,  
   `~/customer/transaction-2021-10-01/transaction_2021-10-01.csv` , and  
   `~/customer/transaction-2021-11-01/transaction_2021-11-01.csv` ,   
   
-Then you need to have ran Owlchecks for "2021-07-01", "2021-08-01", ... , and "2021-11-01" under the same dataset name. Therefore, it would be more logical to name the dataset  `-ds DQCheck_transaction_2021` and run series of monthly owlchecks up to "2021-12-01"
+you need to have ran Owlchecks for "2021-07-01", "2021-08-01", ... , and "2021-11-01" under the same dataset name. Therefore, it would be more logical, best-practice is to name the dataset  `-ds DQCheck_transaction_2021` and run series of monthly owlchecks up to "2021-12-01" \(but the name of the dataset is up to you\)/
 
 ```bash
 # Prime past Owlchecks so that "2021-12-01" knows the file path of past months
@@ -189,7 +190,18 @@ Then you need to have ran Owlchecks for "2021-07-01", "2021-08-01", ... , and "2
     -f "~/customer/transaction-2021-08-01/transaction_2021-08-01.csv"
     -fq "select * from dataset"
 
-... # ommitted for space
+    
+./owlcheck 
+    -ds DQCheck_transactions_2021
+    -rd "2021-09-01"
+    -f "~/customer/transaction-2021-08-01/transaction_2021-09-01.csv"
+    -fq "select * from dataset"
+    
+./owlcheck 
+    -ds DQCheck_transactions_2021
+    -rd "2021-10-01"
+    -f "~/customer/transaction-2021-08-01/transaction_2021-10-01.csv"
+    -fq "select * from dataset"
 
 ./owlcheck 
     -ds DQCheck_transactions_2021
@@ -197,7 +209,7 @@ Then you need to have ran Owlchecks for "2021-07-01", "2021-08-01", ... , and "2
     -f "~/customer/transaction-2021-11-01/transaction_2021-11-01.csv"
     -fq "select * from dataset"
     
-# Priming complete. Now run the 2021-12-01
+# Priming 5 past Owlchecks complete. Now run the 2021-12-01
 ./owlcheck 
     -ds DQCheck_transactions_2021
     -rd "2021-12-01"
@@ -212,7 +224,7 @@ Then you need to have ran Owlchecks for "2021-07-01", "2021-08-01", ... , and "2
     ... # other relevant options
 ```
 
-In this scenario, since the folder paths have a pattern, we can use `-br` for priming. `-br` runs Owlchecks consecutively in the past. The different folder paths are replaced with `${rd}`  replacement with the run date.  
+In this scenario, since the folder paths have a pattern, we can use `-br` for priming in one command instead of writing 5 Owlcheck commands. The flag `-br` runs Owlchecks consecutively from the past and increments by monthly if `-tbin "MONTH"` \(by default `-tbin DAY`so the default behavior is to increment daily\). The different folder paths on each past consecutive run dates are replaced with `${rd}`.  
   
 The below command is identical to the above
 
@@ -241,7 +253,7 @@ The below command is identical to the above
     ... # other relevant options
 ```
 
-This pattern is designed so that a single owlcheck command can be scheduled and `${rd}` be used to replace the folder & file path. Your `~/customer` folder often contains transactions for all the years, spanning all the way back to 1992 and into the future like so:
+This pattern is designed so that a single Owlcheck command can be scheduled and `${rd}` be used to replace the folder & file path. Your `~/customer` folder could contain transactions for all the years, spanning all the way back to 1992 and into the future like so:
 
 ```bash
 ~/customer
@@ -262,5 +274,5 @@ This pattern is designed so that a single owlcheck command can be scheduled and 
   
 ```
 
-In this scenario, a monthly scheduled job would get rid of the need to "prime" the Owcheck history, since your past scheduled jobs would have ran the past Owlchecks.
+In this scenario, a monthly scheduled job would get rid of the need to "prime" the Owcheck history, since your past scheduled jobs would have already ran the past Owlchecks.
 
