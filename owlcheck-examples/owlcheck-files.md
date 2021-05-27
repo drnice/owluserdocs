@@ -1,7 +1,5 @@
 # OwlCheck Files
 
-## Owlchecks with **file** 
-
 For example, a large file `transaction_2021-01-01.csv` might contain the following transaction data with two transaction per day spanning all of January.
 
 | transaction\_id | account\_id | date | amount |
@@ -27,11 +25,13 @@ and this file might be located on the directory `~/customer/transaction-2021-01-
   │   └── transaction_2021-12-01.csv
 ```
 
-Other folders with similar pattern may exist in your directory, such as `~/customer/transaction-2021-01-1`. Note that February data is located in a separate directory with a similar pattern for all the months of 2021. This dataset could similarly have 2 account IDs and 1 transaction per account per day \(= 28 x 2 = 56 rows of data\). For this example, let's assume this is the case for all the files.
+Other folders with similar pattern may exist in your directory, such as `~/customer/transaction-2021-02-1`. Note that February data is located in a separate directory with a similar pattern for all the months of 2021. This dataset could similarly have 2 account IDs and 1 transaction per account per day \(= 28 x 2 = 56 rows of data\). For this example, let's assume this is the case for all the files.
 
-To run an Owlcheck on this single file containing multiple dates, you have the following choices:
+To run an Owlcheck on this single file containing multiple dates, you have the following choices.
 
-1. **Run an Owlcheck on all the rows in a single file.**
+## Owlchecks with **file** 
+
+**1. Run an Owlcheck on all the rows in a single file.**
 
 ```bash
 ./owlcheck 
@@ -64,7 +64,7 @@ This type of Owlcheck on a single file is suitable if you are verifying a static
   
 This type of Owlcheck can also be used if `~/customer/transaction-2021-01-01/transaction_20210101.csv` is changing \(the rows are changing values or new rows are being added\) and want to detect data quality changes. Transaction file doesn't fit with this scenario, but the idea is that the above command specifies Data Quality Owlchecks on the entirety of the file. The run date is a date that you choose to assign for that Owlcheck. It is conventional to have one-to-one mapping between run date and the date corresponding to the date that DQ checks are being performed. Run date does not have to match with the data underlying the file.
 
-* **Run an Owlcheck on subset of rows from a single file**
+**2. Run an Owlcheck on subset of rows from a single file**
 
 The single file contains daily data for January of 2021. To run Data Quality checks on January 1st, January 2nd, ... , and January 31st, you need to run 31 Owlchecks, each with subset of rows from the file. Note the `where` clause in `-fq` matching with the run date `-rd` 
 
@@ -110,7 +110,7 @@ A convenient way to parameterize this run date is to use `${rd}` in the query.
 
 A daily scheduled job starting on January 1st, 2021 to January 31, 2021 will automatically replace the `${rd}` with "2021-01-01", "2021-01-02", ... , and "2021-01-31" for the respective run date.
 
-* **Run an Owlcheck on subset of rows from a single file with day lookback**
+**3. Run an Owlcheck on subset of rows from a single file with day lookback**
 
 For certain core components like **Outlier**, a set of rows corresponding to historical training data can be used to establish a baseline. For example, the row with `transaction_id` 62 has amount of 999. This looks like an outlier that we want to catch. This value of 999 seems to be an outlier because past transaction amounts for `account_id`2 are in the 100s range. We can use historical data from January 15th to January 30th and use that info to see if January 31st data contains any outliers.   
   
@@ -133,7 +133,7 @@ In this scenario, our single file `~/customer/transaction-2021-01-01/transaction
 
 ## Owlchecks with _multiple files_
 
-* **Run an Owlcheck on a single file with lookback using series of file**
+**4. Run an Owlcheck on a single file with lookback using series of file**
 
 Recall our folder structure:
 
