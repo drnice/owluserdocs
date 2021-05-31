@@ -2,27 +2,39 @@
 
 ## 
 
-## 2.14.0   \(**05-31-2021\)**
+## 2.15.0   \(**05-31-2021\)**
 
 #### Enhancements
 
 * Hoot
   * ...
+* Logging
+  * Expose server logs on the jobs page from the agent and cluster
 * Explorer
-  * .....
-  * ...
+  * Enhanced Experience for display of stats for database tables
+  * Validation for Dupes section to ensure all input is validated before save
+  * Support for edit mode with Dremio connections
+  * Allow file scan skip-N to skip a number of rows if extra headers are present in the file
+  * Support Livy sessions over SSL for files
 * Connection
   * ...
 * Profile
-  * ...
+  * Add quick click rules based on profile distribution stats
 * Rules
   * ...
-* Scheduler
+* Behaviors
   * ...
+* Scheduler
+  * Support for $rdEnd in the template
+  * Auto update schedule template based on last successful run
+  * Support S3 custom config values in scheduled template
 * Outliers
   * ...
-* Shapes
-  * ...
+* Security
+  * SAML Auth
+  * Support for JWT Authentication to the Multi-Tenant management section
+* Multi-Tenant
+  * Support for an alternate display name for each tenant to be displayed in the UI and login tenant selection
 
 ## 2.14.0   \(**03-31-2021\)**
 
