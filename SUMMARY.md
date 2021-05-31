@@ -72,6 +72,7 @@
 * [Owl Security](security/owl-security/README.md)
   * [Authentication With Active Directory LDAP](security/owl-security/authentication-with-active-directory-ldap/README.md)
     * [AD Group to Owl Role Mapping](security/owl-security/authentication-with-active-directory-ldap/ad-group-to-owl-role-mapping.md)
+  * [Authentication with SAML IDP](security/owl-security/authentication-with-saml-idp.md)
   * [Authentication With Local User Store](security/owl-security/authentication-with-local-user-store/README.md)
     * [Adding Local Users](security/owl-security/authentication-with-local-user-store/adding-local-users.md)
   * [Role Based Access Control \(RBAC\)](security/owl-security/role-based-access-control-rbac.md)
