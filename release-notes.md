@@ -7,7 +7,7 @@
 #### Enhancements
 
 * Hoot
-  * ...
+  * Down-training per activity vs globally
 * Logging
   * Expose server logs on the jobs page from the agent and cluster
 * Explorer
@@ -16,20 +16,14 @@
   * Support for edit mode with Dremio connections
   * Allow file scan skip-N to skip a number of rows if extra headers are present in the file
   * Support Livy sessions over SSL for files
-* Connection
-  * ...
 * Profile
   * Add quick click rules based on profile distribution stats
-* Rules
-  * ...
 * Behaviors
-  * ...
+  * Down-training per issue type
 * Scheduler
   * Support for $rdEnd in the template
   * Auto update schedule template based on last successful run
   * Support S3 custom config values in scheduled template
-* Outliers
-  * ...
 * Security
   * SAML Auth
   * Support for JWT Authentication to the Multi-Tenant management section
