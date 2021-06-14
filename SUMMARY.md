@@ -6,7 +6,11 @@
 * [Our Story](our-story.md)
 * [What is OwlDQ](what-is-owldq.md)
 * [Get Started](assessment.md)
-* [Install](install.md)
+
+## Installation
+
+* [Basic Install](installation/basic-install-1.md)
+* [Full Standalone Install](installation/basic-install.md)
 
 ## Cloud Native Deployment
 
