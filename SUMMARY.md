@@ -9,8 +9,8 @@
 
 ## Installation
 
-* [Basic Install](installation/basic-install-1.md)
-* [Full Standalone Install](installation/basic-install.md)
+* [Basic Install](installation/basic-install.md)
+* [Full Standalone Install](installation/full-install.md)
 
 ## Cloud Native Deployment
 
