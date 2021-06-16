@@ -92,6 +92,10 @@ Manually map the columns by dragging left to right or deselect columns
 
 Select an agent
 
+\*Note if you do not see your agent, please verify the agent has been assigned to your connection via:
+
+_Admin Console--&gt;Remote Agent--&gt; \(Link icon on far right\)--&gt;Map connections to this agent and then reload the explorer page_
+
 Click Estimate Job
 
 Click Run to start the job

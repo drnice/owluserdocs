@@ -96,15 +96,15 @@ In the Agent Configuration dialog box, make sure to configure the following sett
 
 ## Run Test DQ Check
 
-Click on the Connections Tile \(top row, left side\) to navigate the to Connection configuration page.
+Click on the Connections Tile \(top row, left side\) to navigate to the Connection configuration page.
 
 ![](../.gitbook/assets/screenshot-2021-06-14-at-5.00.59-pm.png)
 
-Click on the Postgres connection template and configure the test connection and click save.
+Click on the Postgres connection template, configure the test connection, and click save.
 
 ![](../.gitbook/assets/screenshot-2021-06-14-at-5.02.00-pm.png)
 
-Before proceeding to create the run a test DQ check, the DQ Agent must be given rights to run DQ checks against the new JDBC connection. Navigate back to the Admin Console, and click the "Remote Agent" tile. On the left side of the screen select the chain link icon next to the agent that was configured during the installation process. Double click the "metastore" connection from the left text area. Click the "Update" button to save the configuration.
+Before proceeding to create the run a test DQ check, the DQ Agent must be given rights to run DQ checks against the new JDBC connection. Navigate back to the Admin Console, and click the "Remote Agent" tile. On the left side of the screen, select the chain link icon next to the agent that was configured during the installation process. Double click the "metastore" connection from the left text area. Click the "Update" button to save the configuration.
 
 ![](../.gitbook/assets/screenshot-2021-06-14-at-5.04.25-pm.png)
 
