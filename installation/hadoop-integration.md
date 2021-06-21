@@ -2,8 +2,10 @@
 
 For large scale processing and concurrency, a single vertically scaled Spark server is not enough. To address large scale processing, DQ has the ability to push compute to an external Hadoop cluster. This page describes the process by which the DQ Agent can be configured to push DQ jobs to Hadoop.
 
+![](../.gitbook/assets/screenshot-2021-06-21-at-9.05.39-am.png)
+
 {% hint style="info" %}
-In some cases, the required Hadoop client configuration simply requires the DQ Agent to run on an Hadoop Edge node within the cluster. This can happen because native dependency packages are required, network isolation from subnet that is hosting DQ server, complex security configuration, ect. In these circumstances, simply deploy the DQ Agent on a cluster Edge Node that contains the required configurations and packages. In this setup, the DQ Agent will use the existing Hadoop configuration and packages to run DQ checks on the Hadoop cluster.
+In some cases, the required Hadoop client configuration requires the DQ Agent to run on an Hadoop Edge node within the cluster. This can happen because native dependency packages are required, network isolation from subnet that is hosting DQ server, complex security configuration, ect. In these circumstances, simply deploy the DQ Agent on a cluster Edge Node that contains the required configurations and packages. In this setup, the DQ Agent will use the existing Hadoop configuration and packages to run DQ checks on the Hadoop cluster.
 {% endhint %}
 
 ## Hadoop Config Setup
@@ -76,6 +78,10 @@ EOF
 When deploying a Cloud Service Hadoop cluster from any of the major Cloud platforms, it is possible to use Cloud Storage rather than HDFS for dependency package staging and distribution. To achieve this, create a new storage bucket and ensure that both the Hadoop cluster and the instance running DQ Agent have access to it. This is usually accomplished using a Role that is attached to the infrastructure. For example, AWS Instance Role with bucket access policies. Then, set "fs.defaultFS" in core-site.xml to the bucket path instead of HDFS.
 {% endhint %}
 
+Once the Hadoop client configuration has been created, navigate to Agent Management console from the Admin Console and configure the agent to use Yarn \(Hadoop resource scheduler\) as the Default Master and set the Default Deployment Mode to "Cluster".
+
+![](../.gitbook/assets/screenshot-2021-06-21-at-8.42.19-am.png)
+
 ### Kerberos Secured with Resource Manager TLS enabled
 
 Typically, Hadoop cluster that are deployed on-premises are multi-tenant and not ephemeral. This means they must be secured using Kerberos. In addition, all endpoints with HTTP endpoints will have TLS enabled. In addition HDFS may be configured for a more secure communication using additional RPC encryption.
@@ -132,5 +138,5 @@ EOF
 
 When the target Hadoop cluster is secured by Kerberos, DQ checks require a Kerberos credential. This typically means that the DQ Agent will need to be configured to include a Kerberos keytab with each DQ check. Access the DQ Agent configuration page from the Admin Console and configure the "Freeform Append" setting with the -sparkprinc &lt;spark-submit-principal&gt; -sparkkeytab &lt;path-to-keytab&gt;.
 
-![](../.gitbook/assets/screenshot-2021-06-20-at-9.24.06-pm.png)
+![](../.gitbook/assets/screenshot-2021-06-21-at-8.38.56-am.png)
 
