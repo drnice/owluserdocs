@@ -11,6 +11,7 @@
 
 * [Basic Install](installation/basic-install.md)
 * [Full Standalone Install](installation/full-install.md)
+* [Hadoop Integration](installation/hadoop-integration.md)
 
 ## Cloud Native Deployment
 

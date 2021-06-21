@@ -9,7 +9,7 @@ OwlDQ is able to use EMR as the compute space for data quality jobs \(Owlchecks\
 ### Prepare for Deployment
 
 {% hint style="info" %}
-Before enabling OwlDQ to use EMR as the compute space, make sure that Owl Web and the Owl Metastore are already deployed \([https://docs.owl-analytics.com/install](https://docs.owl-analytics.com/install)\). 
+Before enabling OwlDQ to use EMR as the compute space, make sure that Owl Web and the Owl Metastore are already deployed \([https://docs.owl-analytics.com/installation/full-install](https://docs.owl-analytics.com/installation/full-install)\). 
 {% endhint %}
 
 1. Create a "bootstrap bucket" location in S3 where OwlDQ binaries and bootstrap script \(install-agent-emr.sh\) will be staged. The EMR cluster instances will need to include an attached Role that has access to this location in order to bootstrap the cluster. This location should not contain any data or any kind of sensitive materials and thus should not require any special permissions. It just needs to be accessible by EMR clusters for bootstrap purposes. 
