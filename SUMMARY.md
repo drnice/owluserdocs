@@ -13,15 +13,15 @@
 * [Full Standalone Install](installation/full-install.md)
 * [Hadoop Integration](installation/hadoop-integration.md)
 
+## Cloud Hadoop Deployment
+
+* [EMR](cloud-hadoop-deployment/emr.md)
+
 ## Cloud Native Deployment
 
 * [Cloud Native OwlDQ](cloud-native-deployment/cloud-native-owldq.md)
 * [Preparing for Cloud Native Deployment](cloud-native-deployment/preparing-for-deployment.md)
 * [Deploying Cloud Native OwlDQ](cloud-native-deployment/deploying-cloud-native-owldq.md)
-
-## Cloud Hadoop Deployment
-
-* [EMR](cloud-hadoop-deployment/emr.md)
 
 ## OwlCheck Examples
 
