@@ -10,7 +10,7 @@ In some cases, the required Hadoop client configuration requires the DQ Agent to
 
 ## Hadoop Config Setup
 
-Hadoop configuration can be incredibly complex. There can be hundreds of "knobs" across dozens of different components. However, DQ's goal is to simply leverage Hadoop to allocate compute resources in order to execute DQ checks \(Spark jobs\). This means that the only client side configurations required:
+Hadoop configuration can be incredibly complex. There can be hundreds of "knobs" across dozens of different components. However, DQ's goal is to simply leverage Hadoop to allocate compute resources in order to execute DQ checks \(Spark jobs\). This means that the only client side configurations required are:
 
 * Security protocol definition
 * Yarn Resource Manager endpoints
@@ -19,7 +19,7 @@ Hadoop configuration can be incredibly complex. There can be hundreds of "knobs"
 Once the Hadoop client configuration is defined, it is only a matter of pointing the DQ Agent at the folder that contains the client configuration files. The DQ Agent is then able to use the Hadoop client configuration to submit jobs to the specified Hadoop cluster.
 
 {% hint style="info" %}
-DQ job running on Hadoop are Spark jobs. DQ will use the storage platform defined in the "fs.defaultFS" setting to distribute all of the required Spark libraries and specified dependency packages like drivers files. This allows DQ to use a version of Spark that is different than the one provided by the cluster. If it is a requirement to use the Spark version provided by the target Hadoop cluster, obtain and use a copy of the yarn-site.xml and core-site.xml from the cluster.
+DQ jobs running on Hadoop are Spark jobs. DQ will use the storage platform defined in the "fs.defaultFS" setting to distribute all of the required Spark libraries and specified dependency packages like drivers files. This allows DQ to use a version of Spark that is different than the one provided by the cluster. If it is a requirement to use the Spark version provided by the target Hadoop cluster, obtain and use a copy of the yarn-site.xml and core-site.xml from the cluster.
 {% endhint %}
 
 ### Create Config Folder 
@@ -27,7 +27,7 @@ DQ job running on Hadoop are Spark jobs. DQ will use the storage platform define
 ```text
 cd $OWL_HOME
 mkdir -p config/hadoop
-echo "HADOOP_CONF_DIR=$OWL_HOME/config/hadoop" >> config/owl-env.sh
+echo "export HADOOP_CONF_DIR=$OWL_HOME/config/hadoop" >> config/owl-env.sh
 bin/owlmanage.sh restart=owlagent
 ```
 

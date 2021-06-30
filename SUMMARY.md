@@ -238,3 +238,7 @@
 * [Export and Import API](export-and-import-api.md)
 * [Rules Import Export](rules-import-export.md)
 
+## Data Retention
+
+* [Time Based Data Retention](data-retention/time-based-data-retention.md)
+
