@@ -98,3 +98,7 @@ The difference between a Sensor and a Stream in the above example is that in the
 
 Fortunately Owl has already thought and worked through the many nuances required to understand, monitor and predict accurately for all of these use-case.  All that is required is to subscribe the stream. 
 
+{% embed url="https://www.youtube.com/watch?v=E6zgdHkQ-MQ" %}
+
+
+
