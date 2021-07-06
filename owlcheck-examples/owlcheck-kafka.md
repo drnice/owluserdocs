@@ -50,7 +50,7 @@ bin/kafka-console-consumer.sh --bootstrap-server localhost:9092 --topic test --f
       -streamformat csv 
       -kafkaport  9092 
       -kafkabroker localhost
-      -streaminterval 5
+      -streaminterval 60
       -stream -kafka 
       -header  first_name
       -master local
