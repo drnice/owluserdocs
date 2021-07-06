@@ -1,5 +1,15 @@
 # OwlCheck Kafka
 
+### Kafka Requires Zookeeper
+
+Apache Kafka typically requires zookeeper.  This file and cmd can be run from inside /kafka/bin 
+
+```text
+# Start the ZooKeeper service
+# Note: Soon, ZooKeeper will no longer be required by Apache Kafka.
+$ bin/zookeeper-server-start.sh config/zookeeper.properties
+```
+
 ### Start a Kafka Server
 
 Precursor step to Owl \(you likely already have this step completed if you use Kafka\)
@@ -15,6 +25,13 @@ Precursor step to Owl \(you likely already have this step completed if you use K
 ```text
 bin/kafka-topics.sh --create --bootstrap-server localhost:9092 --replication-factor 1 --partitions 1 --topic test
 
+# prefered cmd is below
+bin/kafka-topics.sh --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic test
+```
+
+### Put a msg on "test" Topic
+
+```bash
 bin/kafka-console-producer.sh --broker-list localhost:9092 --topic test
 ```
 
@@ -22,11 +39,25 @@ bin/kafka-console-producer.sh --broker-list localhost:9092 --topic test
 
 Kafka works as a topic so you can have many consumers.  Here is a basic cmdline consumer but we can add Owl as a second consumer.
 
-```text
+```scala
 bin/kafka-console-consumer.sh --bootstrap-server localhost:9092 --topic test --from-beginning
 ```
 
+```scala
+/opt/owl/bin/owlcheck.sh       
+      -kafkatopic test
+      -ds machine1
+      -streamformat csv 
+      -kafkaport  9092 
+      -kafkabroker localhost
+      -streaminterval 5
+      -stream -kafka 
+      -header  first_name
+```
+
 ![](../.gitbook/assets/owl-sensor-streams.png)
+
+![](../.gitbook/assets/screen-shot-2021-07-06-at-9.33.58-am.png)
 
 ### Streams vs Sensors
 
