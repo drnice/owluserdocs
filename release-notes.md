@@ -2,6 +2,30 @@
 
 ## 
 
+## 2021.07   \(**07-09-2021\)**
+
+#### Enhancements
+
+* UX/UX
+  * Full redesign of web user experience and standardization to match Collibra layout
+  * Search any dataset from any page
+* Hoot
+  * Rules Display with \[more\] links to better use the page space
+  * Auditing for changes per scan
+* Explorer
+  * JDBC Filter enablement by just search input
+* Profile
+  * Add more support for data-concepts from UI or future release
+* Behaviors
+  * Down-training per issue type
+  * AR user feedback loop \(pass/fail\) for learning phase
+* Scheduler
+  * Time based cleanup routine
+* Security
+  * SQL View data by role vs just Admin
+* Reports
+  * OTB completeness reports from reports section
+
 ## 2.15.0   \(**05-31-2021\)**
 
 #### Enhancements

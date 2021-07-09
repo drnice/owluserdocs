@@ -2,6 +2,17 @@
 
 By Mapping an AD Group to an Owl role you are granting all users from the selected AD Group, role based access to the selected Owl role as depicted in the steps below. There will be more on creating custom application roles in the RBAC Section of this document.
 
+Application properties set in owl-env.sh can be set to determine which LDAP properties correspond to LDAP Query results. For group mapping you will need the full path \(unique\) as well as the display name. 
+
+For example:
+
+```text
+LDAP_GROUP_RESULT_DN_ATTRIBUTE=distinguishedname
+LDAP_GROUP_RESULT_NAME_ATTRIBUTE=CN
+```
+
+
+
 ![](https://lh4.googleusercontent.com/jrTaHJvax02-T0eoYKWigqTiB6nzcrPZPNRyI6wmg0pwIQ5Y8w9ZSne1GwMEx7Adtj1jdB8koDdcfniYx7cKQcoCjgi5tQ22yhcKvRlU3Xa9kOxA-KrwBfzM1IafIzyE4Bmdm1NX)
 
 1. Click on “ROLE MAPPING”
