@@ -69,3 +69,19 @@ In adaptive mode Owl automatically generates a DQ item score based on the egregi
 
 The score can range from 0-30.  This ties to the percent change and Z-Score.  In cases when the Z-Score ranges from 0.0 - 6.0.
 
+### Change Detection Features Out of the Box
+
+Use Statistical process control measures on all columns and datasets, by checking the boxes on the PROFILE tab in the Explorer view.
+
+| Behavior Feature | Definition |
+| :--- | :--- |
+| Null Range | column acceptable range of null values as a % |
+| Empty Range | column acceptable range of empty values as a % |
+| Type Check | column data type \(String, Int\) or range of mixed types % |
+| Load Time | dataset runtime check for time apart from previous loads |
+| Min Value | column data drift for avg\(min\) values over time |
+| Mean Value | column data drift for avg\(mean\) values over time |
+| Max Value  | column data drift for avg\(max\) values over time |
+| Row Count | dataset range of acceptable rows as absolute value check |
+| Unique Range | column cardinality count as absolute value check |
+
