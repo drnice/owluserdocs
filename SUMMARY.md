@@ -230,6 +230,7 @@
 ## Benchmarks
 
 * [Performance Tests](benchmarks/performance-tests.md)
+* [FAQ](benchmarks/benchmark-faq.md)
 
 ## Migration and Promoting
 
