@@ -4,19 +4,21 @@ When large scale and high concurrency checks are not required, DQ can be install
 
 ![Architecture overview of Full Standalone Installation mode](../.gitbook/assets/screenshot-2021-06-14-at-5.44.53-pm.png)
 
-## Setup instance
+## Setup Tutorial Assumptions
 
-We assume a server running Centos 7 or RHEL 7 is setup and ready to install DQ into the home directory. There is no requirement for DQ to be installed in the home directory, but the DQ Full Installation script may lead to permission denied issue on local Postgres installation. If so, please adjust your directory permission to allow the installation script a write access to the Postgres data folder \(this will be pointed out in the relevant step\).
+We assume that a server running Centos 7 or RHEL 7 is setup and ready to install DQ in the home directory. There is no requirement for DQ to be installed in the home directory, but the DQ Full Installation script may lead to permission-denied issue on local Postgres installation. If so, please adjust your directory permission to allow the installation script a write access to the Postgres data folder.
 
-This guide assumes that you are installing DQ on a brand new compute instance on Google Cloud Platform. Google Cloud SDK setup with proper GCP permission is assumed. If not using GCP, please refer to the _**GOAL**_ ****paragraph for the intended outcome of each step and modify accordingly
+This tutorial assumes that you are installing DQ on a brand new compute instance on Google Cloud Platform. Google Cloud SDK setup with proper GCP permission is assumed. This is optional, as you are free to create Full Standalone Installation setup on any cloud service provider or on-premise.
+
+Please refer to the _**GOAL**_ ****paragraph for the intended outcome of each step and modify accordingly
 
 {% hint style="info" %}
 The full install package supports Centos 7 and RHEL 7. If another OS flavor is required, please follow the basic install process.
 {% endhint %}
 
 ```text
-# Create new GCP Compute Instance named "full-standalone-installation"
-gcloud compute instances create full-standalone-installation \
+# Create new GCP Compute Instance named "install"
+gcloud compute instances create install \
     --image=centos-7-v20210701 \
     --image-project=centos-cloud \
     --machine-type=e2-standard-4
@@ -26,8 +28,11 @@ gcloud compute ssh --zone "us-central1-a" --project "gcp-example-project" "cento
 ```
 
 {% hint style="success" %}
-**GOAL**  
-Access the server where DQ will be installed. Create a new compute instance on cloud provider \(if applicable\)
+**GOAL**
+
+Create a new compute instance on cloud provider \(if applicable\)
+
+Access the server where DQ will be installed. 
 {% endhint %}
 
 ## Download DQ Full Package
@@ -154,13 +159,13 @@ The database named `postgres` is used by default as DQ metadata storage. Changin
 
 The installation process will start the DQ Web Application. This process will handle initializing the Postgres metadata storage schema in Postgres \(under the database named `postgres`\). This process must complete successfully before the DQ Agent can be started. Wait approximately 1 minute for the Postgres metadata storage schema to be populated. If you can access DQ Web using port 9000 using a Web browser, then this means you have successfully installed DQ.
 
-![DQ Web Loin page \(&amp;lt;= v2.15\)](../.gitbook/assets/screenshot-2021-06-14-at-4.02.00-pm.png)
+![DQ Web Loin page](../.gitbook/assets/screenshot-2021-06-14-at-4.02.00-pm.png)
 
 Next, verify that the Spark Cluster has started and is available to run DQ checks. Take note of the Spark Master url \(starting with `spark://...`\). This will be required during DQ Agent configuration.
 
 ![Spark Master Web UI](../.gitbook/assets/screenshot-2021-06-14-at-4.17.30-pm.png)
 
-## Post Install Configuration
+## Set License Key
 
 In order for DQ to run checks on data, the DQ Agent must be configured with a license key. Replace `<license-key>` with a valid license key provided by the DQ Tteam
 
@@ -172,6 +177,8 @@ cd $OWL_BASE/bin
 # > License Accepted new date: <expiration-date>
 ```
 
+## Set DQ Agent Configuration
+
 Next, start the DQ Agent process to enable processing of DQ checks.
 
 ```text
@@ -179,26 +186,41 @@ cd $OWL_BASE/bin
 ./owlmanage.sh start=owlagent
 ```
 
-Once the DQ Agent starts, it needs to be configured in DQ Web in order to successfully submit jobs to the local Spark cluster.
+Once the DQ Agent starts, it needs to be configured in DQ Web in order to successfully submit jobs to the local Spark \(pseudo\) cluster.
 
 Login to DQ Web and navigate to Admin Console.
 
-![](../.gitbook/assets/screenshot-2021-06-14-at-4.46.39-pm.png)
+![](../.gitbook/assets/dq-admin-console-1.png)
 
 From the Admin Console, click on the Remote Agent tile.
 
-![](../.gitbook/assets/screenshot-2021-06-14-at-4.23.27-pm.png)
+![](../.gitbook/assets/dq-admin-console-2.png.png)
 
 In the Agent Configuration dialog box, make sure to configure the following settings:
 
-* Owl Base - This is the location that was provided to the setup command for initial install, followed by /owl. For example, if setup command was "export OWL\_BASE=/home/centos" then the Owl Base Agent configuration should be set to "/home/centos/owl".
-* Spark Master - The Spark Master Url copied from the Spark cluster verification screen.
-* Deploy Mode - Set to Cluster.
-* Default resources - Number of executors, memory per executor, number of cores, and driver memory to be allocated for each DQ job by default.
+* **Base Path**: This is the location that was provided to the setup command for initial install, i.e. `OWL_BASE`. For example, if setup command was "export OWL\_BASE=/home/centos" then the Base Path in the Agent configuration should be set to `/home/centos/`.
+* **Deploy Deployment Mode**: The Spark deployment mode. One of `Client` or `Cluster`
+* **Default Master**: The Spark Master Url copied from the Spark cluster verification screen, `spark://...`
+* **Default Queue**:
+* **Dynamic Spark Allocation**:
+* **Spark Conf Key**:
+* **Spark Conf Value**:
+* **Number of executor\(s\)**:
+* **Executer Memory \(GB\)**:
+* **Number of Core\(s\)**:
+* **Driver Memory \(GB\)**:
+* **Free Form \(Appended\)**:
 
 ![](../.gitbook/assets/screenshot-2021-06-14-at-4.25.09-pm.png)
 
 
+
+Steps to edit DQ Agent \#2
+
+* The new agent has been setup with the default path `/opt/owl` as `$OWL_BASE` path instead of our actual `$OWL_BASE`.  Replace all occurrence of `/opt/owl` with your `$OWL_BASE`
+* Replace **Default Master** value with the Spark URL from step 2
+* Replace **Default Client Mode** to "Cluster"
+* Replace **Number of Executors\(s\)**, **Executor Memory \(GB\)**, **Driver Memory \(GB\)** to a reasonable default \(depending on how large your instance is\)
 
 ## Run Test DQ Check
 
