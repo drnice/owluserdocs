@@ -1,6 +1,6 @@
 # Full Standalone Install
 
-When large scale and high concurrency checks are not required, DQ can be installed and operated entirely on a single host. In this mode, DQ will leverage a **Spark Standalone pseudo cluster** where the master and workers run and use resources from the same server. DQ also requires a Postgres database for storage and Java 8 for running the DQ web application. It is possible to install each of the Spark, Postgres, and Java 8 components separately and install DQ \(see [Basic Install](https://docs.owl-analytics.com/installation/basic-install)\) on top of existing components. However, we offer a full installation package that installs these components in off-line mode and install DQ in one server.
+When large scale and high concurrency checks are not required, DQ can be installed and operated entirely on a single host. In this mode, DQ will leverage a **Spark Standalone pseudo cluster** where the master and workers run and use resources from the same server. DQ also requires a Postgres database for storage and Java 8 for running the DQ web application. It is possible to install each of the Spark, Postgres, and Java 8 components separately and install DQ on top of existing components. However, we offer a full installation package that installs these components in off-line mode and install DQ in one server.
 
 ![Architecture overview of Full Standalone Installation mode](../.gitbook/assets/screenshot-2021-06-14-at-5.44.53-pm.png)
 
@@ -73,7 +73,9 @@ export OWL_METASTORE_PASS=password
 The default username and password for Postgres storage is `postgres`/`password` , as the installation script takes these default values. If you want to change these values, you must install Postgres separately and configure Postgres permissions independently. If so, skip this step in lieu of the next step using external Postgres setup.
 {% endhint %}
 
-`dq-package-full.tar.gz` contains installation packages for Java 8, Postgres 11, and Spark. There is no need to install these components. These components are in `$(pwd)/package` .
+`dq-package-full.tar.gz` contains installation packages for Java 8, Postgres 11, and Spark. There is no need to install these components. These components are in `$(pwd)/package/install-packages` .
+
+![List of off-line installed packages:](../.gitbook/assets/full-package-install-packages.png)
 
 One of the files extracted from the tarball is `setup.sh`. This script installs DQ and the required components. If a component already exist \(e.g. Java 8 is already installed and `$JAVA_HOME` is set\), then that component is not installed \(e.g. Java 8 installation is skipped\). 
 
@@ -119,13 +121,13 @@ please use owl owlmanage utility to configure license key and start owl-agent af
 {% hint style="success" %}
 **GOAL**
 
-Specify `OWL_BASE` path where DQ is installed to and install DQ Web with Postgres and Spark linked to DQ Agent \(all files will be in `$OWL_BASE/owl` sub-directory\). The location of `OWL_BASE` and Postgres are configurable, but we advise you to take the defaults.
+Specify `OWL_BASE` path where DQ is installed to and install DQ Web with Postgres and Spark linked to DQ Agent \(**all files will be in `$OWL_BASE/owl` sub-directory**\). The location of `OWL_BASE` and Postgres are configurable, but we advise you to take the defaults.
 {% endhint %}
 
 ## Install DQ + Spark and use existing Postgres \(advanced\)
 
 {% hint style="warning" %}
-We do not recommend this
+We only recommend this for advanced DQ Installer
 {% endhint %}
 
 If you already installed DQ from the previous step, then skip this step. This is only for those who want to use external Postgres. If you have an existing Postgres installation, then everything in the previous step applies except the Postgres data path prompt and the `setup.sh` command
@@ -157,20 +159,20 @@ The database named `postgres` is used by default as DQ metadata storage. Changin
 
 ## Verify DQ and Spark Installation
 
-The installation process will start the DQ Web Application. This process will handle initializing the Postgres metadata storage schema in Postgres \(under the database named `postgres`\). This process must complete successfully before the DQ Agent can be started. Wait approximately 1 minute for the Postgres metadata storage schema to be populated. If you can access DQ Web using port 9000 using a Web browser, then this means you have successfully installed DQ.
+The installation process will start the DQ Web Application. This process will handle initializing the Postgres metadata storage schema in Postgres \(under the database named `postgres`\). This process must complete successfully before the DQ Agent can be started. Wait approximately 1 minute for the Postgres metadata storage schema to be populated. If you can access DQ Web using `<url-to-dq-web>:9000` using a Web browser, then this means you have successfully installed DQ.
 
-![DQ Web Loin page](../.gitbook/assets/screenshot-2021-06-14-at-4.02.00-pm.png)
+![](../.gitbook/assets/dq-login.png)
 
-Next, verify that the Spark Cluster has started and is available to run DQ checks. Take note of the Spark Master url \(starting with `spark://...`\). This will be required during DQ Agent configuration.
+Next, verify that the Spark Cluster has started and is available to run DQ checks using `<url-to-dq-web>:`8080 Take note of the Spark Master url \(starting with `spark://...`\). This will be required during DQ Agent configuration.
 
 ![Spark Master Web UI](../.gitbook/assets/screenshot-2021-06-14-at-4.17.30-pm.png)
 
 ## Set License Key
 
-In order for DQ to run checks on data, the DQ Agent must be configured with a license key. Replace `<license-key>` with a valid license key provided by the DQ Tteam
+In order for DQ to run checks on data, the DQ Agent must be configured with a license key. Replace `<license-key>` with a valid license key provided by the DQ Team.
 
 ```text
-cd $OWL_BASE/bin
+cd $OWL_BASE/owl/bin
 ./owlmanage.sh setlic=<license-key>
 
 # expected output:
@@ -182,7 +184,7 @@ cd $OWL_BASE/bin
 Next, start the DQ Agent process to enable processing of DQ checks.
 
 ```text
-cd $OWL_BASE/bin
+cd $OWL_BASE/owl/bin
 ./owlmanage.sh start=owlagent
 ```
 
@@ -196,31 +198,22 @@ From the Admin Console, click on the Remote Agent tile.
 
 ![](../.gitbook/assets/dq-admin-console-2.png.png)
 
-In the Agent Configuration dialog box, make sure to configure the following settings:
+The newly created agent should be agent \#2. Click on the pencil icon to edit.
 
-* **Base Path**: This is the location that was provided to the setup command for initial install, i.e. `OWL_BASE`. For example, if setup command was "export OWL\_BASE=/home/centos" then the Base Path in the Agent configuration should be set to `/home/centos/`.
-* **Deploy Deployment Mode**: The Spark deployment mode. One of `Client` or `Cluster`
-* **Default Master**: The Spark Master Url copied from the Spark cluster verification screen, `spark://...`
-* **Default Queue**:
-* **Dynamic Spark Allocation**:
-* **Spark Conf Key**:
-* **Spark Conf Value**:
-* **Number of executor\(s\)**:
-* **Executer Memory \(GB\)**:
-* **Number of Core\(s\)**:
-* **Driver Memory \(GB\)**:
-* **Free Form \(Appended\)**:
+![](../.gitbook/assets/dq-admin-console-3.png)
 
-![](../.gitbook/assets/screenshot-2021-06-14-at-4.25.09-pm.png)
+![DQ Agent with default values](../.gitbook/assets/dq-admin-console-4.png)
 
+Edit the following parameters in DQ Agent \#2. See [Agent Configuration Parameters](https://docs.owl-analytics.com/installation/agent-configuration#agent-configuration-parameters) for details.
 
-
-Steps to edit DQ Agent \#2
-
-* The new agent has been setup with the default path `/opt/owl` as `$OWL_BASE` path instead of our actual `$OWL_BASE`.  Replace all occurrence of `/opt/owl` with your `$OWL_BASE`
+* The new agent has been setup with the default path `/opt/owl` as `$OWL_BASE` path instead of our actual `$OWL_BASE`.  Replace all occurrence of `/opt/owl` with your `$OWL_BASE`in **Base Path**, **Collibra DQ Core JAR**, **Collibra DQ Core Logs**, **Collibra DQ Script**, and **Collibra DQ Web Logs**.
 * Replace **Default Master** value with the Spark URL from step 2
 * Replace **Default Client Mode** to "Cluster"
 * Replace **Number of Executors\(s\)**, **Executor Memory \(GB\)**, **Driver Memory \(GB\)** to a reasonable default \(depending on how large your instance is\)
+
+![DQ Agent with correct $OWL\_BASE path and Spark setup](../.gitbook/assets/dq-admin-console-5.png)
+
+
 
 ## Run Test DQ Check
 

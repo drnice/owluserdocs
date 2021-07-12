@@ -12,6 +12,7 @@
 * [Basic Install](installation/basic-install.md)
 * [Full Standalone Install](installation/full-install.md)
 * [Hadoop Integration](installation/hadoop-integration.md)
+* [Agent Configuration](installation/agent-configuration.md)
 
 ## Cloud Hadoop Deployment
 
