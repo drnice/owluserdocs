@@ -190,21 +190,9 @@ cd $OWL_BASE/owl/bin
 
 Once the DQ Agent starts, it needs to be configured in DQ Web in order to successfully submit jobs to the local Spark \(pseudo\) cluster.
 
-Login to DQ Web and navigate to Admin Console.
+Follow the steps on [How To Configure Agent via UI](https://docs.owl-analytics.com/installation/agent-configuration#how-to-configure-agent-via-ui) page to configure newly created DQ Agent.
 
-![](../.gitbook/assets/dq-admin-console-1.png)
-
-From the Admin Console, click on the Remote Agent tile.
-
-![](../.gitbook/assets/dq-admin-console-2.png.png)
-
-The newly created agent should be agent \#2. Click on the pencil icon to edit.
-
-![](../.gitbook/assets/dq-admin-console-3.png)
-
-![DQ Agent with default values](../.gitbook/assets/dq-admin-console-4.png)
-
-Edit the following parameters in DQ Agent \#2. See [Agent Configuration Parameters](https://docs.owl-analytics.com/installation/agent-configuration#agent-configuration-parameters) for details.
+Edit the following parameters in DQ Agent \#2. See [Agent Configuration Parameters](https://docs.owl-analytics.com/installation/agent-configuration#agent-configuration-parameters) for parameters descriptions.
 
 * The new agent has been setup with the default path `/opt/owl` as `$OWL_BASE` path instead of our actual `$OWL_BASE`.  Replace all occurrence of `/opt/owl` with your `$OWL_BASE`in **Base Path**, **Collibra DQ Core JAR**, **Collibra DQ Core Logs**, **Collibra DQ Script**, and **Collibra DQ Web Logs**.
 * Replace **Default Master** value with the Spark URL from step 2
@@ -215,7 +203,7 @@ Edit the following parameters in DQ Agent \#2. See [Agent Configuration Paramete
 
 
 
-## Run Test DQ Check
+## Create DB Connection for DQ Job
 
 Click on the Connections Tile \(top row, left side\) to navigate to the Connection configuration page.
 
@@ -225,9 +213,7 @@ Click on the Postgres connection template, configure the test connection, and cl
 
 ![](../.gitbook/assets/screenshot-2021-06-14-at-5.02.00-pm.png)
 
-Before proceeding to create the run a test DQ check, the DQ Agent must be given rights to run DQ checks against the new JDBC connection. Navigate back to the Admin Console, and click the "Remote Agent" tile. On the left side of the screen, select the chain link icon next to the agent that was configured during the installation process. Double click the "metastore" connection from the left text area. Click the "Update" button to save the configuration.
-
-![](../.gitbook/assets/screenshot-2021-06-14-at-5.04.25-pm.png)
+Follow the steps on [How To Link DB Connection to Agent via UI](https://docs.owl-analytics.com/installation/agent-configuration#how-to-link-db-connection-to-agent-via-ui) page to configure newly created DQ Agent. 
 
 Click the compass icon in the navigation pane to navigate to the Explorer Page. Click on the "metastore" connection, select the "public" schema, and then select the first table in the resulting list of tables. Once the preview and scope tab comes up, click "Build Model". When the Profile page comes up, click the "Run" button.
 
