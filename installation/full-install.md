@@ -124,7 +124,7 @@ please use owl owlmanage utility to configure license key and start owl-agent af
 Specify `OWL_BASE` path where DQ is installed to and install DQ Web with Postgres and Spark linked to DQ Agent \(**all files will be in `$OWL_BASE/owl` sub-directory**\). The location of `OWL_BASE` and Postgres are configurable, but we advise you to take the defaults.
 {% endhint %}
 
-## Install DQ + Spark and use existing Postgres \(advanced\)
+## _\(alternative\)_ Install DQ + Spark and use existing Postgres \(advanced\)
 
 {% hint style="warning" %}
 We only recommend this for advanced DQ Installer
@@ -186,6 +186,20 @@ Next, start the DQ Agent process to enable processing of DQ checks.
 ```text
 cd $OWL_BASE/owl/bin
 ./owlmanage.sh start=owlagent
+
+# Verify "agent.properties" file is created
+cd $OWL_BASE/owl/config
+```
+
+When the script successfully runs, `$OWL_BASE/owl/config` folder will contain a file called `agent.properties`. This file contains agent id \# of agents installed in this machine. Since this is the first non-default agent installed, the expected agent id is 2. Verify `agent.properties` file is created. Your`agent.properties` is expected to have different timestamp, but you should see `agentid=2`
+
+```text
+cd $OWL_BASE/owl/config
+cat agent.properties
+
+# expected output:
+> #Tue Jul 13 22:26:19 UTC 2021
+> agentid=2
 ```
 
 Once the DQ Agent starts, it needs to be configured in DQ Web in order to successfully submit jobs to the local Spark \(pseudo\) cluster.
@@ -194,24 +208,18 @@ Follow the steps on [How To Configure Agent via UI](https://docs.owl-analytics.c
 
 Edit the following parameters in DQ Agent \#2. See [Agent Configuration Parameters](https://docs.owl-analytics.com/installation/agent-configuration#agent-configuration-parameters) for parameters descriptions.
 
-* The new agent has been setup with the default path `/opt/owl` as `$OWL_BASE` path instead of our actual `$OWL_BASE`.  Replace all occurrence of `/opt/owl` with your `$OWL_BASE`in **Base Path**, **Collibra DQ Core JAR**, **Collibra DQ Core Logs**, **Collibra DQ Script**, and **Collibra DQ Web Logs**.
+* The new agent has been setup with the default path `/opt/owl` as `$OWL_BASE` path instead of our actual `$OWL_BASE`.  Replace all occurrence of `/opt/owl` with your `$OWL_BASE/owl/`in **Base Path**, **Collibra DQ Core JAR**, **Collibra DQ Core Logs**, **Collibra DQ Script**, and **Collibra DQ Web Logs**.
 * Replace **Default Master** value with the Spark URL from step 2
 * Replace **Default Client Mode** to "Cluster"
 * Replace **Number of Executors\(s\)**, **Executor Memory \(GB\)**, **Driver Memory \(GB\)** to a reasonable default \(depending on how large your instance is\)
 
-![DQ Agent with correct $OWL\_BASE path and Spark setup](../.gitbook/assets/dq-admin-console-5.png)
+![Expected final output of edited agent based on this tutorial](../.gitbook/assets/dq-admin-console-5%20%281%29.png)
 
 
 
 ## Create DB Connection for DQ Job
 
-Click on the Connections Tile \(top row, left side\) to navigate to the Connection configuration page.
-
-![](../.gitbook/assets/screenshot-2021-06-14-at-5.00.59-pm.png)
-
-Click on the Postgres connection template, configure the test connection, and click save.
-
-![](../.gitbook/assets/screenshot-2021-06-14-at-5.02.00-pm.png)
+Follow the steps on [How to Add DB Connection via UI](https://docs.owl-analytics.com/installation/agent-configuration#how-to-add-db-connection-via-ui) page to add `metastore` database connection. For demo purposes, we will run a DQ Job against local DQ Metadata Storage. 
 
 Follow the steps on [How To Link DB Connection to Agent via UI](https://docs.owl-analytics.com/installation/agent-configuration#how-to-link-db-connection-to-agent-via-ui) page to configure newly created DQ Agent. 
 

@@ -33,7 +33,7 @@ Organization wants to purge data where the updt\_ts is more than 1 year old
 ```
 export cleaner_retention_enabled=TRUE
 export cleaner_retention_dayss=365
-export cleaner_retention_field.field=”updt_ts” 
+export cleaner_retention_field="updt_ts"
 
 ```
 
