@@ -1,7 +1,7 @@
 The following is a list of drivers certified for production use.
 
 | Connection Type | Driver | Certification |
-| --------------- | ------ | ------------- |
+|:--------------- |:------ |:------------- |
 | Teradata | Native | Production |
 | Oracle | Native | Production |
 | MS SQL Server | Native | Production |
@@ -18,6 +18,24 @@ The following is a list of drivers certified for production use.
 
 The following is a list of drivers which are for test purposes (not certified yet for production usage).
 
+| Connection Type | Driver | Certification |
+|:--------------- |:------ |:------------- |
+| mongoDB | Junity | Preview |
+| MapR Hive?? | MapR Hive Driver | Preview |
+| Redshift | Simba JDBC | Preview |
+| Athena | Simba JDBC | Preview |
+| Presto | Simba | Preview |
+| Bigquery | Simba JDBC for Web / Bigquery Spark Connector in Core | Preview |
+| GCS | Google Cloud SDK for Web / GCS Spark Conenctor in Core | Preview |
+| Solr | Solr's JDBC | Preview |
+| <td>Native | Preview |
+| Cassandra | Native | Preview |
+| <td>MS SQL DW | Preview |
+| Delta Lake | Native | Preview |
+| SAP HANA | Native | Preview |
+| MariaDB | Mysql Driver | Preview |
+
+<!--
 <table>
   <tr><th>Connection Type</th><th>Driver</th><th>Certification</th></tr>
   <tr><td>mongoDB</td><td>Junity</td><td>Preview</td></tr>
@@ -35,4 +53,4 @@ The following is a list of drivers which are for test purposes (not certified ye
   <tr><td>SAP HANA</td><td>Native</td><td>Preview</td></tr>
   <tr><td>MariaDB</td><td>Mysql Driver</td><td>Preview</td></tr>
 </table>
-    
+    -->
