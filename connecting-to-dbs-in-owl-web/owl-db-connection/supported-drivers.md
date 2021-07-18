@@ -34,23 +34,3 @@ The following is a list of drivers which are for test purposes (not certified ye
 | Delta Lake | Native | Preview |
 | SAP HANA | Native | Preview |
 | MariaDB | Mysql Driver | Preview |
-
-<!--
-<table>
-  <tr><th>Connection Type</th><th>Driver</th><th>Certification</th></tr>
-  <tr><td>mongoDB</td><td>Junity</td><td>Preview</td></tr>
-  <tr><td>MapR Hive??</td><td>MapR Hive Driver</td><td>Preview</td></tr>
-  <tr><td>Redshift</td><td>Simba JDBC</td><td>Preview</td></tr>
-  <tr><td>Athena</td><td>Simba JDBC</td><td>Preview</td></tr>
-  <tr><td>Presto</td><td>Simba</td><td>Preview</td></tr>
-  <tr><td>Bigquery</td><td>Simba JDBC for Web / Bigquery Spark Connector in Core</td><td>Preview</td></tr>
-  <tr><td>GCS</td><td>Google Cloud SDK for Web / GCS Spark Conenctor in Core</td><td>Preview</td></tr>
-  <tr><td>Solr</td><td>Solr's JDBC</td><td>Preview</td></tr>
-  <tr><td>Phoenix</td><td>Native</td><td>Preview</td></tr>
-  <tr><td>Cassandra</td><td>Native</td><td>Preview</td></tr>
-  <tr><td>MS SQL DW</td><td>Native</td><td>Preview</td></tr>
-  <tr><td>Delta Lake</td><td>Native</td><td>Preview</td></tr>
-  <tr><td>SAP HANA</td><td>Native</td><td>Preview</td></tr>
-  <tr><td>MariaDB</td><td>Mysql Driver</td><td>Preview</td></tr>
-</table>
-    -->
