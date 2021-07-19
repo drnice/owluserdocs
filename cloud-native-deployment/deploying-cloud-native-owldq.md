@@ -8,6 +8,11 @@ Once the namespace has been created and all of the required secrets added, deplo
 
 Installs Web, Agent, and Metastore. OwlDQ is inaccessible until an Ingress or another type of externally accessible service is added manually.
 
+{% hint style="warning" %}
+All of the following examples will pull containers directly from the Collibra DQ secured container registry. In most cases, InfoSec policies requires that containers are sourced from a private container repository controlled by the local Cloud Ops team. Make sure to to add  
+--set global.image.repo=&lt;/url/of/private-repo&gt; to make sure that only approved containers are used.
+{% endhint %}
+
 ```bash
 helm upgrade --install --namespace <namespace> \
 --set global.version.owl=<owl-version> \
@@ -41,7 +46,7 @@ helm upgrade --install --namespace <namespace> \
 Install with External Service but with SSL enabled.
 
 {% hint style="info" %}
-Make sure that a keystore containing a key is already deployed to the target namespace with a secret name that matches global.web.tls.key.secretName argument \(owldq-ssl-secret by default\). Also, make sure that the Secret's key name matches the global.web.tls.key.store.name argument \(keystore.jks by default\). 
+Make sure that a keystore containing a key is already deployed to the target namespace with a secret name that matches global.web.tls.key.secretName argument \(owldq-ssl-secret by default\). Also, make sure that the Secret's key name matches the global.web.tls.key.store.name argument \(dqkeystore.jks by default\). 
 {% endhint %}
 
 ```bash

@@ -248,6 +248,8 @@ Double click the DQ Connection name to move from left to right. In Fig 5, DB Con
 
 ![Fig 5: Adding DB Connection named &quot;metastore&quot; to the DQ Agent](../.gitbook/assets/screenshot-2021-06-14-at-5.04.25-pm.png)
 
+![Fig 6: How to add all connections to the selected DQ Agent](../.gitbook/assets/dq-agent-config-hint-1.png)
+
 ## Setting up an HA Group <a id="setting-up-an-ha-group"></a>
 
 If you have multiple DQ Agents, then you can establish them as an HA Group. When doing so, make sure both DQ Agents have the same connections established to them. 

@@ -39,7 +39,7 @@ This configuration would typical only be applicable in Cloud Hadoop scenarios \(
 export RESOURCE_MANAGER=<yarn-resoruce-manager-host>
 export NAME_NODE=<namenode>
 
-tee $OWL_HOME/config/hadoop/core-site.xml <<-'EOF'
+echo "
 <configuration>
   <property>
     <name>hadoop.security.authentication</name>
@@ -54,9 +54,9 @@ tee $OWL_HOME/config/hadoop/core-site.xml <<-'EOF'
     <value>hdfs://$NAME_NODE:8020</value>
   </property>
 </configuration>
-EOF
+" >> $OWL_HOME/config/hadoop/core-site.xml
 
-tee $OWL_HOME/config/hadoop/yarn-site.xml <<-'EOF'
+echo "
 <configuration>
   <property>
     <name>yarn.resourcemanager.scheduler.address</name>
@@ -71,7 +71,7 @@ tee $OWL_HOME/config/hadoop/yarn-site.xml <<-'EOF'
     <value>$RESOURCE_MANAGER:8088</value>
   </property>
 </configuration>
-EOF
+" >> $OWL_HOME/config/hadoop/yarn-site.xml
 ```
 
 {% hint style="info" %}
@@ -92,7 +92,7 @@ export NAME_NODE=<namenode>
 export KERBEROS_DOMAIN=<kerberos-domain-on-cluster>
 export HDFS_RPC_PROTECTION=<authentication || privacy || integrity>
 
-tee $OWL_HOME/config/hadoop/core-site.xml <<-'EOF'
+echo "
 <configuration>
   <property>
     <name>hadoop.security.authentication</name>
@@ -107,18 +107,18 @@ tee $OWL_HOME/config/hadoop/core-site.xml <<-'EOF'
     <value>hdfs://$NAME_NODE:8020</value>
   </property>
 </configuration>
-EOF
+" >> $OWL_HOME/config/hadoop/core-site.xml 
 
-tee $OWL_HOME/config/hadoop/hdfs-site.xml <<-'EOF'
+echo "
 <configuration>
   <property>
     <name>hadoop.security.authentication</name>
     <value>HDFS/_HOST@$KERBEROS_DOMAIN</value>
   </property>
 </configuration>
-EOF
+" >> $OWL_HOME/config/hadoop/hdfs-site.xml
 
-tee $OWL_HOME/config/hadoop/yarn-site.xml <<-'EOF'
+echo "
 <configuration>
   <property>
     <name>yarn.resourcemanager.scheduler.address</name>
@@ -133,7 +133,7 @@ tee $OWL_HOME/config/hadoop/yarn-site.xml <<-'EOF'
     <value>$RESOURCE_MANAGER:8090</value>
   </property>
 </configuration>
-EOF
+" >> $OWL_HOME/config/hadoop/yarn-site.xml
 ```
 
 When the target Hadoop cluster is secured by Kerberos, DQ checks require a Kerberos credential. This typically means that the DQ Agent will need to be configured to include a Kerberos keytab with each DQ check. Access the DQ Agent configuration page from the Admin Console and configure the "Freeform Append" setting with the -sparkprinc &lt;spark-submit-principal&gt; -sparkkeytab &lt;path-to-keytab&gt;.
