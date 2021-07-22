@@ -47,3 +47,19 @@ The following table presents the various SQL statements related to table-level a
 
 ![](../.gitbook/assets/screen-shot-2020-08-02-at-2.17.34-pm.png)
 
+### Limiting Collections in the JDBC URL
+
+```text
+jdbc:mongodb://<dbuser>:<password>@datalake0-dza1q.a.query.mongodb.net/<mydatabase>?ssl=true&authSource=admin&rebuildschema=true&tables=orders
+```
+
+There are 3 collections in this mongodb atlas lake.  By adding &tables=orders in the URL params you can see only order collections show up in the explorer.
+
+![](../.gitbook/assets/screen-shot-2021-07-22-at-1.54.04-pm.png)
+
+### 3 Collections in MongoDB Atlas
+
+The total number of collections in mongodb atlas lake.
+
+![](../.gitbook/assets/screen-shot-2021-07-22-at-1.57.29-pm.png)
+
