@@ -94,8 +94,11 @@
 ## Connecting to DBs in Owl Web
 
 * [Owl DB Connection](connecting-to-dbs-in-owl-web/owl-db-connection/README.md)
-  * [Supported Drivers](connecting-to-dbs-in-owl-web/owl-db-connection/supported-drivers.md)
   * [Connecting to CDH 5.16 Hive SSL/TLS/Kerberos Setup](connecting-to-dbs-in-owl-web/owl-db-connection/connecting-to-cdh-5.16-hive-ssl-tls-kerberos-setup.md)
+
+---
+
+* [Supported Drivers](supported-drivers.md)
 
 ## Core Components <a id="dq-visuals"></a>
 
