@@ -34,8 +34,8 @@ Example output.  A hoot is a valid JSON response
 
 ```bash
 ./owlcheck -rd 2019-06-07 -ds hive_table \
--u user -p pass -q "select * from table" \
--c "jdbc:hive2://10.142.1.3:10000/default" \
+-u <user> -p <pass> -q "select * from table" \
+-c "jdbc:hive2://<HOST>:10000/default" \
 -driver org.apache.hive.HiveDriver \
 -lib /opt/owl/drivers/hive/ \
 -master yarn -deploymode client
@@ -49,16 +49,26 @@ For CDH all the drivers are packaged under, HiveJDBC41\_cdhversion.zip
 
 ### Troubleshooting
 
+A common JDBC connection is hive.resultset.use.unique.column.names=false
+
+This can be added directly to the JDBC connection url string or to the driver properties section
+
+![](../.gitbook/assets/image%20%2868%29.png)
+
+
+
+
+
 Test your hive connection via beeline to make sure it is correct before going further. 
 
 ```bash
-beeline -u 'jdbc:hive2://10.142.1.3:10000/default;principal=hive/cdh-instance1.us-east1-b.c.company-hadoop-cdh.internal@CW.COM;useSSL=true' -d org.apache.hive.jdbc.HiveDriver
+beeline -u 'jdbc:hive2://<HOST>:10000/default;principal=hive/cdh-instance1.us-east1-b.c.company-hadoop-cdh.internal@CW.COM;useSSL=true' -d org.apache.hive.jdbc.HiveDriver
 ```
 
 #### Kerberos Example
 
 ```bash
-jdbc:hive2://10.142.1.3:10000/default;principal=hive/cdh-instance1.us-east1-b.c.company-hadoop-cdh.internal@CW.COM;useSSL=true
+jdbc:hive2://<HOST>:10000/default;principal=hive/cdh-instance1.us-east1-b.c.company-hadoop-cdh.internal@CW.COM;useSSL=true
 ```
 
 ### Connecting Owl WebApp to Hive JDBC

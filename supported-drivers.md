@@ -1,3 +1,7 @@
+---
+description: A list of supported data source connection types.
+---
+
 # Supported Drivers
 
 The following is a list of drivers certified for production use.
