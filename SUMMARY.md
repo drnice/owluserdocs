@@ -1,6 +1,6 @@
 # Table of contents
 
-* [OwlDQ](README.md)
+* [Collibra Data Quality](README.md)
 * [Release Notes](release-notes.md)
 * [Our Approach](why-owl.md)
 * [Our Story](our-story.md)
