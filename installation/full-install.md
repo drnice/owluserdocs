@@ -250,3 +250,41 @@ Click the clock icon in the navigation pane to navigate to the Jobs Page. Wait 1
 
 ![](../.gitbook/assets/screenshot-2021-06-14-at-5.27.04-pm.png)
 
+### Helpful Commands
+
+```text
+chmod -R 755 /home/owldq
+```
+
+```text
+ssh-keygen -t rsa -N "" -f ~/.ssh/id_rsa
+cat ~/.ssh/id_rsa.pub >> ~/.ssh/authorized_keys
+```
+
+```text
+chmod 400 ~/Downloads/ssh_pem_key
+```
+
+```text
+sudo chmod 777 /home/owldq/owl/pids/owl-agent.pid
+sudo chmod 777 /home/owldq/owl/pids/owl-web.pid
+```
+
+```text
+hostname -f
+```
+
+```text
+ps -aef|grep owl-web
+ps -aef|grep owl-agent
+ps -aef|grep spark
+ps -aef|grep postgres
+```
+
+```text
+sudo du -ah | sort -hr | head -5
+sudo find /home/centos/spark-3.0.2-bin-hadoop3.2/work/* -mtime +1 -type f -delete
+```
+
+
+
