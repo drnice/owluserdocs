@@ -41,3 +41,11 @@ The following is a list of drivers which are for test purposes \(not certified y
 | SAP HANA | Native | Preview |
 | MariaDB | MySQL Driver | Preview |
 
+| File Type Support |
+| :--- |
+| Parquet |
+| CSV \(and all delimiters\) |
+| JSON |
+| XML |
+| AVRO |
+
