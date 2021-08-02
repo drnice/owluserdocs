@@ -52,6 +52,7 @@
 * [OwlCheck Spark](owlcheck-examples/owlcheck-spark.md)
 * [OwlCheck Databricks](owlcheck-examples/owlcheck-databricks.md)
 * [OwlCheck Cron](owlcheck-examples/owlcheck-cron.md)
+* [OwlCheck Snowflake](owlcheck-examples/owlcheck-snowflake.md)
 * [OwlCheck BigQuery](owlcheck-examples/owlcheck-bigquery.md)
 * [OwlCheck S3](owlcheck-examples/owlcheck-s3.md)
 * [OwlCheck HDFS](owlcheck-examples/owlcheck-hdfs.md)
