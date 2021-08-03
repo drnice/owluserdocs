@@ -229,7 +229,7 @@
 * [Internal Assignment](observation-assignments/internal-assignment.md)
 * [External Assignment](observation-assignments/external-assignment.md)
 * [Business Units](observation-assignments/business-units.md)
-* [APIs](observation-assignments/apis.md)
+* [AssignmentAPI](observation-assignments/assignmentapi.md)
 * [ERD](observation-assignments/erd.md)
 * [FAQ](observation-assignments/faq.md)
 
@@ -248,4 +248,9 @@
 ## Data Retention
 
 * [Time Based Data Retention](data-retention/time-based-data-retention.md)
+
+## REST API
+
+* [APIs](rest-api/apis.md)
+* [Untitled](rest-api/untitled.md)
 
