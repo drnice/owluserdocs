@@ -40,6 +40,7 @@ The following is a list of drivers which are for test purposes \(not certified y
 | Delta Lake | Native | Preview |
 | SAP HANA | Native | Preview |
 | MariaDB | MySQL Driver | Preview |
+| Dremio | Dremio JDBC | Preview |
 
 | File Type Support |
 | :--- |
