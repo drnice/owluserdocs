@@ -26,7 +26,13 @@ To achieve Cloud Native Architecture, OwlDQ is decomposed into several component
 
 ### Containerization
 
-The binaries and instruction sets described in each of the OwlDQ microservices are encompassed within Docker container images. Each of the images is versioned and maintained in a secured cloud container registry repo. In order to initiate an OwlDQ Cloud Native deployment, it is first necessary to obtain credentials to either pull the containers directly or download them to a private container registry. 
+The binaries and instruction sets described in each of the OwlDQ microservices are encompassed within Docker container images. Each of the images is versioned and maintained in a secured cloud container registry repo. In order to initiate an OwlDQ Cloud Native deployment, it is first necessary to obtain credentials to either pull the containers directly or download them to a private container registry.
+
+{% hint style="warning" %}
+Support for Collibra DQ Cloud Native Deployment is limited to deployments using the containers provided from the Collibra container registry.
+
+Reach out to your customer contact for access to pull the Collibra containers.
+{% endhint %}
 
 ### Kubernetes
 
