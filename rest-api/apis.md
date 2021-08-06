@@ -530,3 +530,47 @@ response = requests.get(
 print(response.json())
 ```
 
+This assumes you have created a dataset definition using the UI or from the template. 
+
+## Breaking Down The Sections
+
+### Submit the Job
+
+Send in a dataset name, date and agent to submit the job. This kicks off the engine to go do the work.
+
+```python
+# Run
+dataset = 'API_V3'
+runDate = '2021-08-08'
+agentName = 'owldq-owl-agent-owldq-dev-0'
+
+response = requests.post(
+    url = owl + '/v3/jobs/run?agentName='+agentName+'&dataset='+dataset+'&runDate='+runDate,
+    headers=owl_header
+)
+
+jobId = str(response.json()['jobId'])
+```
+
+### Get the Status
+
+Using the jobId returned from the job submission, you can check the status.  In the example above, there is an interval to wait for the job to complete. You can create your own logic and orchestrate more precisely.
+
+```python
+response = requests.get(
+    url = owl + '/v3/jobs/'+jobId,
+    headers=owl_header
+)
+```
+
+### Get the Results
+
+Using the same jobId returned from the job submission, you can check the results.  You will get a detailed json object with all the capabilities and detections in one payload.  This is where you would decision, based on your organization and process.
+
+```python
+response = requests.get(
+    url = owl + '/v3/jobs/'+jobId,
+    headers=owl_header
+)
+```
+

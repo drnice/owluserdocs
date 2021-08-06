@@ -20,6 +20,7 @@
 
 ## Cloud Native Deployment
 
+* [AKS / EKS / GKE: Kubernetes Deployment](cloud-native-deployment/aks-eks-gke-kubernetes-deployment.md)
 * [Cloud Native OwlDQ](cloud-native-deployment/cloud-native-owldq.md)
 * [Preparing for Cloud Native Deployment](cloud-native-deployment/preparing-for-deployment.md)
 * [Deploying Cloud Native OwlDQ](cloud-native-deployment/deploying-cloud-native-owldq.md)
@@ -95,12 +96,9 @@
 
 ## Connecting to DBs in Owl Web
 
+* [Supported Drivers](connecting-to-dbs-in-owl-web/supported-drivers.md)
 * [Owl DB Connection](connecting-to-dbs-in-owl-web/owl-db-connection/README.md)
   * [Connecting to CDH 5.16 Hive SSL/TLS/Kerberos Setup](connecting-to-dbs-in-owl-web/owl-db-connection/connecting-to-cdh-5.16-hive-ssl-tls-kerberos-setup.md)
-
----
-
-* [Supported Drivers](supported-drivers.md)
 
 ## Core Components <a id="dq-visuals"></a>
 
@@ -252,5 +250,4 @@
 ## REST API
 
 * [APIs](rest-api/apis.md)
-* [Untitled](rest-api/untitled.md)
 

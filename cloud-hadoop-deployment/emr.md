@@ -2,7 +2,7 @@
 
 Running Apache Spark on Kubernetes differs from running this on virtual machine-based Hadoop clusters, which is the current mechanism provided by the existing CloudProc Dataproc service or competitive offerings like Amazon Web Services \(AWS\) Elastic MapReduce \(EMR\) and Microsoft's Azure HDInsight \(HDI\).
 
-Each cloud provider contains unique steps and more detail on enabling agents can be found in the Hadoop Integration section.
+Each cloud provider will have unique steps and configuration options. More detail on enabling agents for this deployment option be found in the [Hadoop Integration](https://docs.owl-analytics.com/installation/hadoop-integration) section.
 
 A detailed guide for EMR is provided below.
 
