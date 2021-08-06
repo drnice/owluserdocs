@@ -12,7 +12,7 @@
 * Collibra DQ V3 REST APIs
   * Additional rest APIs for easier programmatic job initiation, job response status, and job result decisioning \(used in pipelines\). Streamlined documentation and user inputs allow users to choose any language for their orchestration wrapper \(python, c\#, java, etc\). [More info on Collibra DQ Rest APIs](https://docs.owl-analytics.com/rest-api/apis)
 * Patterns
-  * Fix load query when both patterns and lookback are enabled
+  * Fix load query generation issue when WHERE clause is specified
 * Behaviors
   * Fix behavior score calculation after suppressing AR 
   * Fix percent change calculations in behavior AR after retrain
@@ -46,7 +46,7 @@
   * Down-training per issue type
   * AR user feedback loop \(pass/fail\) for learning phase
 * Scheduler
-  * Time based cleanup routine
+  * [Time based cleanup routine](https://docs.owl-analytics.com/data-retention/time-based-data-retention)
 * Security
   * SQL View data by role vs just Admin
 * Reports
