@@ -471,6 +471,16 @@ curl --location --request POST 'http://localhost:9000/auth/signin' \
 
 ## Python Example
 
+Alternatively, you can use the rest endpoints directly. This example shows how it can be done with Python.
+
+1. Create a dataset def 
+   1. using the UI \(Explorer\) or 
+   2. using the dataset-def-api \(https://&lt;ip&gt;/swagger-ui.html\#/dataset-def-api\)
+2. Confirm your Python environment has the appropriate modules and imports 
+3. Fill-in the variables and customize to your preference
+   1. url, user and pass 
+   2. dataset, runDate, and agentName
+
 ```python
 import requests
 import json
@@ -479,9 +489,9 @@ import json
 owl = "https://<url>"
 url = "https://<url>/auth/signin"
 payload = json.dumps({
-  "username": "<user>",
-  "password": "<pass>",
-  "iss": "public"
+  "username": "<user>", # Edit Here 
+  "password": "<pass>", # Edit Here 
+  "iss": "public"       # Edit Here 
 })
 headers = {
   'Content-Type': 'application/json'
@@ -491,9 +501,9 @@ owl_header = {'Authorization': 'Bearer ' + response.json()['token']}
 
 
 # Run
-dataset = 'API_V3'
-runDate = '2021-08-08'
-agentName = 'owldq-owl-agent-owldq-dev-0'
+dataset = '<your_dataset_name>'    # Edit Here 
+runDate = '2021-08-08'             # Edit Here 
+agentName = '<your_agent_name'     # Edit Here  
 
 response = requests.post(
     url = owl + '/v3/jobs/run?agentName='+agentName+'&dataset='+dataset+'&runDate='+runDate,
@@ -531,6 +541,10 @@ print(response.json())
 ```
 
 This assumes you have created a dataset definition using the UI or from the template. 
+
+#### Command Line instead of JSON dataset def
+
+You can run a similar job submission using the cmd line. Please note it is easiest to get the saved command line from the dataset-def-api **/v3/datasetDefs/{dataset}/cmdline** \(with proper escaping\) and passed to the **/v3/jobs/runCmdLine**.
 
 ## Breaking Down The Sections
 
@@ -572,5 +586,46 @@ response = requests.get(
     url = owl + '/v3/jobs/'+jobId,
     headers=owl_header
 )
+```
+
+### Python Example Raw
+
+```python
+import requests
+import json
+
+# Variables
+owl = 'https://<ip_address>'             #Edit 
+user = '<user>'                          #Edit 
+password = '<password>'                  #Edit 
+tenant = 'public'                        #Edit 
+dataset = '<your_dataset_name>'          #Edit 
+runDate = '2021-08-08'                   #Edit 
+agentName = 'your_agent_name'            #Edit 
+
+# Authenticate
+url = owl+'/auth/signin'
+payload = json.dumps({"username": user, "password": password, "iss": tenant })
+headers = {'Content-Type': 'application/json'}
+response = requests.request("POST", url, headers=headers, data=payload, verify=False)
+owl_header = {'Authorization': 'Bearer ' + response.json()['token']}
+
+# Run
+response = requests.post(url = owl + '/v3/jobs/run?agentName='+agentName+'&dataset='+dataset+'&runDate='+runDate, headers=owl_header, verify=False)
+jobId = str(response.json()['jobId'])
+
+# Status
+for stat in range(100):
+    time.sleep(1)
+
+    response = requests.get(url = owl + '/v3/jobs/'+jobId, headers=owl_header, verify=False)
+    status = response.json()['status']
+    
+    if status == 'FINISHED':
+        break
+
+# Results
+response = requests.get(url = owl + '/v3/jobs/'+jobId+'/findings', headers=owl_header,  verify=False)
+
 ```
 
