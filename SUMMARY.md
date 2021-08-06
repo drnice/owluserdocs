@@ -16,7 +16,7 @@
 
 ## Cloud Hadoop Deployment
 
-* [EMR](cloud-hadoop-deployment/emr.md)
+* [EMR / Dataproc / HDI](cloud-hadoop-deployment/emr.md)
 
 ## Cloud Native Deployment
 
