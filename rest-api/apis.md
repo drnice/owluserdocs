@@ -469,3 +469,64 @@ curl --location --request POST 'http://localhost:9000/auth/signin' \
 }'
 ```
 
+## Python Example
+
+```python
+import requests
+import json
+
+# Authenticate
+owl = "https://<url>"
+url = "https://<url>/auth/signin"
+payload = json.dumps({
+  "username": "<user>",
+  "password": "<pass>",
+  "iss": "public"
+})
+headers = {
+  'Content-Type': 'application/json'
+}
+response = requests.request("POST", url, headers=headers, data=payload, verify=False)
+owl_header = {'Authorization': 'Bearer ' + response.json()['token']}
+
+
+# Run
+dataset = 'API_V3'
+runDate = '2021-08-08'
+agentName = 'owldq-owl-agent-owldq-dev-0'
+
+response = requests.post(
+    url = owl + '/v3/jobs/run?agentName='+agentName+'&dataset='+dataset+'&runDate='+runDate,
+    headers=owl_header, 
+    verify=False
+)
+
+jobId = str(response.json()['jobId'])
+
+
+# Status
+for stat in range(100):
+    time.sleep(1)
+
+    response = requests.get(
+        url = owl + '/v3/jobs/'+jobId,
+        headers=owl_header, 
+        verify=False
+    )
+    
+    job = response.json()
+    
+    if job['status'] == 'FINISHED':
+        break
+
+
+# Results
+response = requests.get(
+    url = owl + '/v3/jobs/'+jobId+'/findings',
+    headers=owl_header, 
+    verify=False
+)
+
+print(response.json())
+```
+
