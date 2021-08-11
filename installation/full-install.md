@@ -286,5 +286,10 @@ sudo du -ah | sort -hr | head -5
 sudo find /home/centos/spark-3.0.2-bin-hadoop3.2/work/* -mtime +1 -type f -delete
 ```
 
+```text
+vi ~/.bash_profile
 
+export SPARK_HOME=/opt/owl/spark
+export PATH=$SPARK_HOME/bin:$PATH
+```
 
