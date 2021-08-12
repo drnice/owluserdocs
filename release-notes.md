@@ -1,5 +1,12 @@
 # Release Notes
 
+## 2021.09 \(09-2021\) In progress...
+
+#### New Feature
+
+* Alert
+  * Alert notification page displaying a searchable list of alerts emails sent. 
+
 ## 2021.08 \(**08-2021\)**
 
 #### Enhancements
@@ -16,6 +23,7 @@
 * Behaviors
   * Fix behavior score calculation after suppressing AR 
   * Fix percent change calculations in behavior AR after retrain
+  * Mean Value Drift \[New Feature\]
 * Security
   * Introduce new role of ROLE\_DATA\_GOVERNANCE\_MANAGER with ability to manage \(create / update / delete\) Business Units and Data Concepts. [More info on Collibra DQ Security Roles](https://docs.owl-analytics.com/v/2021.08/security/owl-security/role-based-access-control-rbac)
   * Relaxed field requirements for password manager connections for App ID, Safe, and Password Manager Name
