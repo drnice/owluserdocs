@@ -5,7 +5,7 @@
 #### New Feature
 
 * Alert
-  * Alert notification page displaying a searchable list of alerts emails sent. 
+  * Alert notification page displaying a searchable list of alerts emails sent.  [Email Alerts](alerts/email-alerts.md#example-alert-in-your-inbox)
 
 ## 2021.08 \(**08-2021\)**
 
