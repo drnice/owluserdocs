@@ -27,7 +27,7 @@ opt.linkId = Array("transaction_id", "trans_time")
 | **OUTLIER** | YES | Each outlier will have a link back to the detected record for remediation.  If you apply a limit you will only get the limited amount. Not on categorical. |
 | **DUPE** | YES | Each duplicate or fuzzy match will have a link back to the record for remediation. |
 | **SOURCE** | PARTIAL | Each source record that has a cell value that doesn't match to the target will have a link for remediation.  SOURCE will not have links for row counts and schema as these are not record level findings. |
-| **RULE** | YES | A handful of record examples that did not meet the condition of the RULE will be provided with links. |
+| **RULE** | YES | Break records for Freeform and Simple rule types will be stored \(any records that did not meet the condition of the RULE will be provided with the linkId columns\).  These are stored as delimited strings in the rule\_breaks table along with the dataset, run\_id and rule name.  Please note when using Freeform SQL the linkId columns should be part of the select statement. LinkId columns should be unique identifiers.  |
 | **BEHAVIOR** | NO | This class of data change is when a a section of your data is drifting from its normal tendency there is no 1 record to link. |
 | **SCHEMA** | NO | This class of data change is at a schema/dataset level there are no records to link. |
 | **RECORD** | PARTIAL | In some cases when a record is added or removed it may be available for linking. |

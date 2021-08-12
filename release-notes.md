@@ -23,7 +23,7 @@
 * Behaviors
   * Fix behavior score calculation after suppressing AR 
   * Fix percent change calculations in behavior AR after retrain
-  * Mean Value Drift \[New Feature\]
+  * Mean Value Drift \[New Feature\] [Behaviors](dq-visuals/behaviors.md#using-behavioral-analytics-change-detection)
 * Security
   * Introduce new role of ROLE\_DATA\_GOVERNANCE\_MANAGER with ability to manage \(create / update / delete\) Business Units and Data Concepts. [More info on Collibra DQ Security Roles](https://docs.owl-analytics.com/v/2021.08/security/owl-security/role-based-access-control-rbac)
   * Relaxed field requirements for password manager connections for App ID, Safe, and Password Manager Name
