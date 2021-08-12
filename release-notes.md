@@ -44,7 +44,8 @@ _Please note updated Collibra release name methodology_
 
 #### Enhancements
 
-* Collibra DQ &lt;&gt; Collibra Catalog Integration
+* Collibra Native DQ Connector
+  * No-code, native integration between Collibra DQ and Collibra Catalog
 * UX/UX
   * Full redesign of web user experience and standardization to match Collibra layout
   * Search any dataset from any page
