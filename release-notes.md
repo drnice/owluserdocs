@@ -9,6 +9,8 @@
 
 ## 2021.08 \(**08-2021\)**
 
+_Please note updated Collibra release name methodology_
+
 #### Enhancements
 
 * Explorer
@@ -37,6 +39,8 @@
   * Updated with more distinct icon set
 
 ## 2021.07   \(**07-09-2021\)**
+
+_Please note updated Collibra release name methodology_
 
 #### Enhancements
 
