@@ -1,4 +1,4 @@
-# AssignmentAPI
+# Assignment API
 
 ![](../.gitbook/assets/image-7-.png)
 

@@ -224,7 +224,7 @@
 * [Internal Assignment](observation-assignments/internal-assignment.md)
 * [External Assignment](observation-assignments/external-assignment.md)
 * [Business Units](observation-assignments/business-units.md)
-* [AssignmentAPI](observation-assignments/assignmentapi.md)
+* [Assignment API](observation-assignments/assignmentapi.md)
 * [ERD](observation-assignments/erd.md)
 * [FAQ](observation-assignments/faq.md)
 
