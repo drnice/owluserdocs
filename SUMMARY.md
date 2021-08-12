@@ -188,6 +188,7 @@
 
 ## Reports
 
+* [Completeness Report](reports/completeness-report.md)
 * [Owl Summary Reports](reports/owl-summary-reports.md)
 * [Dataset Report](reports/profile.md)
 * [Coverage Report](reports/coverage-report.md)
