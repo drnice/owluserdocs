@@ -35,5 +35,7 @@ Below is what an alert email that makes it into your inbox will look like.  Alwa
 
 There are also alert notifications in the web UI.  This can be helpful to confirm that the email alerts were sent out and to whom should have received the notifications. 
 
+![](../.gitbook/assets/screen-shot-2021-08-12-at-8.03.07-am.png)
+
 
 
