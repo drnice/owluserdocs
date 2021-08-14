@@ -121,6 +121,10 @@
   * [Bloomberg Data](dq-visuals/pattern-mining/bloomberg-data.md)
 * [Missing Records](dq-visuals/missing-records.md)
 
+## Integration
+
+* [Collibra Native DQ Connector](integration/dq-connector.md)
+
 ## Labeling / Training
 
 * [Item Labeling](labeling-training/item-labeling.md)
