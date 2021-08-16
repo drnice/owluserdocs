@@ -1,4 +1,4 @@
-# OwlCheck MySql
+# DQ Job MySql
 
 ### Video Tutorial \(MySQL\)
 

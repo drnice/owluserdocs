@@ -1,4 +1,4 @@
-# OwlCheck Files
+# DQ Job Files
 
 For example, a large file `transaction_2021-01-01.csv` might contain the following transaction data with two transaction per day spanning all of January.
 
