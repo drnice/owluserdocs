@@ -1,4 +1,4 @@
-# OwlCheck JDBC
+# DQ Job JDBC
 
 Connect to any database via JDBC.
 

@@ -25,7 +25,7 @@ curl -X POST --data '
 
 The most recommended way to run an Owl Check from outside the application is through the rest API detailed on the OwlCheck page using the link below.  The API is called RunTemplate
 
-{% page-ref page="../owlcheck-examples/owlcheck/" %}
+{% page-ref page="../dq-job-examples/owlcheck/" %}
 
 ### Configure Multiple Clusters/Agents Per Tenant
 
