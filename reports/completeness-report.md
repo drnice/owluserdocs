@@ -26,7 +26,5 @@ Data completeness is a large concern because it means the data is missing all to
 
 In many academic settings completeness is defined for cases where you expect the data to be complete.  However in the real world you have too much data and never enough time to document what and when data should be complete.  It is vastly more efficient to use Collibra DQ `Replay` and `Profile` features to generate _statistical process control_ around completeness.  This will alert you to a change in slope, or in other words a drastic change in completeness, which tends to be the exact DQ events you care the most about.
 
-![](https://i.imgur.com/LFvEM2Y.gif)
-
-
+![](../.gitbook/assets/statistical-process-control-for-data-quality-animation-aug-2021.gif)
 
