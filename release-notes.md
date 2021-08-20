@@ -23,6 +23,9 @@
   * UI labels more generic when configuring a connection with password manager script
 * Agent
   * Agent no longer shows as red if services are correctly running
+* Logging
+  * Jobs log retention policy now configurable in Admin Console -&gt; App Config via "JOB\_LOG\_RETENTION\_HR" \(variable must be added along with value\). If not added, default to 72 hours
+  * Platform logs retention policy now configurable in Admin Console -&gt; App Config via "PLATFORM\_LOG\_RETENTION\_HR" \(variable must be added along with value\). If not added, default to 24 hours
 * Jobs
   * Job Template corrupt time portion of ${rd} on last run of replay
   * Refactor job actions column
