@@ -6,6 +6,12 @@
 
 * Alert
   * Alert notification page displaying a searchable list of alerts emails sent.  [Email Alerts](alerts/email-alerts.md#example-alert-in-your-inbox)
+* Connection Templates
+  * Redshift & Solr
+* Bug Fixes
+  * Job Template corrupt time portion of ${rd} on last run of replay
+* Job Page
+  * UI refresh, job chart 
 
 ## 2021.08 \(**08-2021\)**
 
