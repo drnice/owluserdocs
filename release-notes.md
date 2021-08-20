@@ -6,17 +6,16 @@
 
 * Alert
   * Alert notification page displaying a searchable list of alerts emails sent.  [Email Alerts](alerts/email-alerts.md#example-alert-in-your-inbox)
-* Connection Templates
-  * Redshift & Solr
-* Bug Fixes
-  * Job Template corrupt time portion of ${rd} on last run of replay
 * Job Page
-  * UI refresh, job chart 
+  * UI refresh
+  * New chart with successful and failed jobs
 
 #### Enhancements
 
 * Profile
   * When faced with a few errors e.g. 0.005% null, highlight issues more clearly and visibly instead  of the notion of rounding up to 100%
+* Connections
+  * New templates for Redshift and Solr
 * Catalog
   * Completeness report refactor / consolidation to improve performance
 * Security
@@ -25,6 +24,7 @@
 * Agent
   * Agent no longer shows as red if services are correctly running
 * Jobs
+  * Job Template corrupt time portion of ${rd} on last run of replay
   * Refactor job actions column
 * Scorecards
   * Fixed missing search results issue in list view for Patterns type
