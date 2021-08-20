@@ -13,6 +13,24 @@
 * Job Page
   * UI refresh, job chart 
 
+#### Enhancements
+
+* Profile
+  * When faced with a few errors e.g. 0.005% null, highlight issues more clearly and visibly instead  of the notion of rounding up to 100%
+* Catalog
+  * Completeness report refactor / consolidation to improve performance
+* Security
+  * Added property for authentication age to reduce token expiration
+  * UI labels more generic when configuring a connection with password manager script
+* Agent
+  * Agent no longer shows as red if services are correctly running
+* Jobs
+  * Refactor job actions column
+* Scorecards
+  * Fixed missing search results issue in list view for Patterns type
+* Export
+  * Outlier tab in DQ Job page \(hoot page\) displays linkIds and included in the export
+
 ## 2021.08 \(**08-2021\)**
 
 _Please note updated Collibra release name methodology_
